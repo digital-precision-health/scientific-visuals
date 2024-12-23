@@ -579,7 +579,7 @@ export class Network {
       this.stopAnimate();
     }
     // Your data array
-    console.log('transformDataToGraph data.length', data.length)
+    //console.log('transformDataToGraph data.length', data.length)
     if (data.length == 0) {
 
       data = [
@@ -655,11 +655,11 @@ export class Network {
 
         // Check if relationship exists (value === 1)
         if (relationship && (relationship != 0)) {
-          console.log('transformDataToGraph adding edge', subject, object)
+          //console.log('transformDataToGraph adding edge', subject, object)
           // Add edge between Subject and Object
           const edgeKey = `${subject}-${object}`;
           if (!this.graph.hasEdge(edgeKey)) {
-            console.log('edge not exist adddge')
+            //console.log('edge not exist adding edge')
             this.graph.addEdge(subject, object, {
               relationship: 'related', // You can customize this as needed
               type: "line",
@@ -669,7 +669,7 @@ export class Network {
 
             });
           } else {
-            console.log('edge exist adddge')
+            //console.log('edge exist add edge')
           }
         }
       }

@@ -10,9 +10,12 @@ export class Table {
   hot;
   @bindable datachannel;
   @bindable tabid; //
+  @bindable datatype = 'all'; //nodes,edges,all (default: all)
   showtable = true; //triggers showing/hiding table in view
 
   attached() {
+    //default data
+    //TODO read it from URL param
     let data = [
       ['Gene','Type','CEA','CA19_9','Tumor Size','Metabolic Activity','ctDNA','CRP','Bowel MovementPatterns',
         'Ki-67','Cascpase-3','MMP-1','Cell Proliferation'
@@ -29,6 +32,14 @@ export class Table {
       ["CTNNB1", "Cell adhesion signaling pathway", 0.3, 0.2, 0.4, 0.3, 0.3, 0.1, 0, 0.4, -0.2, -0.1, 0.4],
       ["FBXW7", "Tumor suppressor gene", 0.2, 0.1, 0.3, 0.2, 0.2, 0.3, 0.1, 0.3, 0.5, -0.4, 0.3]
     ];
+
+    if (this.datatype == 'nodes') {
+      data = this.getNodesData(data);
+      
+    } else if (this.datatype =='edges') {
+      data = this.getEdgesData(data);
+
+    } 
     //let container = document.getElementById('example');
     //this.hot = new Handsontable(container, {
     let that = this;
@@ -55,6 +66,8 @@ export class Table {
   }
 
   changeContent(row,prop,oldValue,newValue) {
+    //do not do manipulation if the datatype is not all
+    if (this.datatype !== 'all') return
     console.log(`Cell at row ${row}, column ${prop} changed from "${oldValue}" to "${newValue}".`);
     if (row == 0) {
       //change Object
@@ -117,8 +130,32 @@ export class Table {
 
   }
   switchTo2Table() {
-    
+
+  }
+  getNodesData(mydata) {
+    let nodes = [];
+    //go through all rows
+    for (let i =1;i<mydata.length;i++) {
+      let item = [mydata[i][0],mydata[i][1]]
+      nodes.push(item);
+    }
+    //go through first row - get column from 2 to end
+    for (let i =2;i<mydata[0].length;i++){
+      let item = [mydata[0][i]];
+      nodes.push(item);
+    }
+    return nodes
   }
 
-
+  getEdgesData(mydata) {
+    let edges = [];
+    //1. from node, 2. to node, 3. value, ...
+    for (let i =1;i<mydata.length;i++)
+      for (let j=2;j<mydata[i].length;j++){
+        let value = mydata[i][j];
+        let edge = [mydata[i][0],mydata[0][j],value]
+        edges.push(edge);
+    }
+    return edges;
+  }
 }

@@ -1,6 +1,29 @@
-<div id="all">
-    <div class="w3-bar w3-light-grey w3-small">
-        <button class="w3-bar-item w3-button" click.trigger="showHide()"> &#9776;</button>    
+<import from="./tabs"></import>
+<div id="all">    
+    <sv-tabs idlist="nodes,edges,noedtable,view" titlelist="Nodes,Edges,NodesEdges,View"></sv-tabs>
+    <div id="view"></div>        
+    <div id="nodes" style="position:absolute;height:90vh;opacity:90%;z-index:1">
+        <sv-table 
+        component.ref="svNodes" 
+        datachannel="nodes" 
+        datatype="nodes" 
+        tabid="nodes" 
+        ></sv-table>
+    </div>
+    <div id="edges" style="position:absolute;height:90vh;opacity:90%;z-index:1">
+        <sv-table 
+        component.ref="svNodes" 
+        datachannel="edges" 
+        datatype="edges" 
+        tabid="edges" 
+        ></sv-table>
+    </div>
+    <div id="noedtable" style="position:absolute;height:90vh;opacity:90%;z-index:1">
+        <sv-table component.ref="svTable" show.bind ="!hidetable" datachannel="data" tabid="all"></sv-table>
+    </div>
+    <sv-network tabid="visual" datachannel="data" style="width:100vw;height:100vh;position:fixed;top:0;left:0"></sv-network>
+</div>
+<!--
         <div class="w3-dropdown-hover">
             <button class="w3-button">Table</button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index:190">
@@ -19,6 +42,4 @@
             </div>
         </div>
     </div>    
-    <sv-table component.ref="svTable" show.bind ="!hidetable" datachannel="data" tabid="all" style="position:fixed;opacity:90%;z-index:1;"></sv-table>
-    <sv-network tabid="visual" datachannel="data"></sv-network>
-</div>
+-->
