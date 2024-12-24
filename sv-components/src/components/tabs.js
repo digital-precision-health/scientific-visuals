@@ -1,6 +1,6 @@
 import { IEventAggregator, resolve, customElement, bindable} from 'aurelia';
 import '../w3.css';
-import '../w3-theme-teal.css';
+import '../w3-theme-dark-grey.css';
 
   
 @customElement('sv-tabs')

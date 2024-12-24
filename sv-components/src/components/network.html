@@ -2,6 +2,7 @@
     <div class="w3-right w3-above w3-small">    
         <input class="w3-input" ref="searchinput" value.bind="searchValue" placeholder="try searching for a node"/>
         <button class="w3-button w3-grey" click.trigger="layoutOnOff()">layout <span show.bind="animationstarted">on</span><span show.bind="!animationstarted">off</span></button>
+        <button class="w3-button w3-grey" click.trigger="resetLayout()">reset layout</button>
     </div>
     <div ref="container" style="height:80vh;width:100%"></div>
 </div>

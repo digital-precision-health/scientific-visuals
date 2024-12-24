@@ -76245,6 +76245,10 @@ the last node, the show column modification can be applied.`);
             t.changeContent(s, o, a, l);
           });
         }
+      }), this.ea.subscribe("showtab", (i) => {
+        this.tabid === i && (console.log("Table refresh dimension for ", i), this.hot.refreshDimensions(), this.hot.render());
+      }), this.hot.addHook("beforeKeyDown", (i) => {
+        i.keyCode === 45 && !i.shiftKey ? (i.preventDefault(), this.addRow()) : i.keyCode === 45 && i.shiftKey && (i.preventDefault(), this.addColumn());
       });
     }
     changeContent(e, t, i, r) {
@@ -76287,18 +76291,18 @@ the last node, the show column modification can be applied.`);
     showHide() {
       this.showtable = !this.showtable;
     }
-    addRow() {
-      let e = prompt("Subject name", "");
-      if (e) {
-        const t = this.hot.countRows();
-        this.hot.alter("insert_row_below", t), this.hot.setDataAtCell(t, 0, e), this.hot.setDataAtCell(t, 1, "environmental"), this.hot.selectCell(t, 0);
+    addRow(e = "Subject name") {
+      let t = prompt(e, "");
+      if (t) {
+        const i = this.hot.countRows();
+        this.hot.alter("insert_row_below", i), this.hot.setDataAtCell(i, 0, t), this.hot.setDataAtCell(i, 1, "environmental"), this.hot.selectCell(i, 0);
       }
     }
-    addColumn() {
-      let e = prompt("Object name", "");
-      if (e) {
-        const t = this.hot.countCols();
-        this.hot.alter("insert_col_end", t), this.hot.setDataAtCell(0, t, e), this.hot.selectCell(0, t);
+    addColumn(e = "Object name") {
+      let t = prompt(e, "");
+      if (t) {
+        const i = this.hot.countCols();
+        this.hot.alter("insert_col_end", i), this.hot.setDataAtCell(0, i, t), this.hot.selectCell(0, i);
       }
     }
     switchTo1Table() {
@@ -80803,6 +80807,7 @@ the last node, the show column modification can be applied.`);
     <div class="w3-right w3-above w3-small">    
         <input class="w3-input" ref="searchinput" value.bind="searchValue" placeholder="try searching for a node"/>
         <button class="w3-button w3-grey" click.trigger="layoutOnOff()">layout <span show.bind="animationstarted">on</span><span show.bind="!animationstarted">off</span></button>
+        <button class="w3-button w3-grey" click.trigger="resetLayout()">reset layout</button>
     </div>
     <div ref="container" style="height:80vh;width:100%"></div>
 </div>`, Xq = [], Zq = {};
@@ -88495,111 +88500,8 @@ void main() {
     drawingMode: "color",
     correctCentering: !0
   });
-  var ZX;
-  let QX, JX, eZ, tZ, nZ, iZ, rZ;
-  function l8e(n, e, t, i, r, s) {
-    var o, a, l, c, u, h, d, f = Symbol.metadata || Symbol.for("Symbol.metadata"), g = Object.defineProperty, p = Object.create, m = [p(null), p(null)], v = e.length;
-    function y(_, T, I) {
-      return function(x, P) {
-        T && (P = x, x = n);
-        for (var D = 0; D < _.length; D++) P = _[D].apply(x, I ? [P] : []);
-        return I ? P : x;
-      };
-    }
-    function w(_, T, I, x) {
-      if (typeof _ != "function" && (x || _ !== void 0)) throw new TypeError(T + " must " + (I || "be") + " a function" + (x ? "" : " or undefined"));
-      return _;
-    }
-    function R(_, T, I, x, P, D, B, V, z, L, k) {
-      function F(oe) {
-        if (!k(oe)) throw new TypeError("Attempted to access private element on non-instance");
-      }
-      var G = [].concat(T[0]), U = T[3], se = !B, b = P === 1, C = P === 3, S = P === 4, A = P === 2;
-      function H(oe, ae, Fe) {
-        return function(be, Se) {
-          return ae && (Se = be, be = _), Fe && Fe(be), M[oe].call(be, Se);
-        };
-      }
-      if (!se) {
-        var M = {}, $ = [], q = C ? "get" : S || b ? "set" : "value";
-        if (z ? (L || b ? M = { get: S6(function() {
-          return U(this);
-        }, x, "get"), set: function(oe) {
-          T[4](this, oe);
-        } } : M[q] = U, L || S6(M[q], x, A ? "" : q)) : L || (M = Object.getOwnPropertyDescriptor(_, x)), !L && !z) {
-          if ((a = m[+V][x]) && (a ^ P) != 7) throw Error("Decorating two elements with the same name (" + M[q].name + ") is not supported yet");
-          m[+V][x] = P < 3 ? 1 : P;
-        }
-      }
-      for (var Q = _, ce = G.length - 1; ce >= 0; ce -= I ? 2 : 1) {
-        var le = w(G[ce], "A decorator", "be", !0), Me = I ? G[ce - 1] : void 0, Ce = {}, J = { kind: ["field", "accessor", "method", "getter", "setter", "class"][P], name: x, metadata: o, addInitializer: (function(oe, ae) {
-          if (oe.v) throw new TypeError("attempted to call addInitializer after decoration was finished");
-          w(ae, "An initializer", "be", !0), D.push(ae);
-        }).bind(null, Ce) };
-        if (se) a = le.call(Me, Q, J), Ce.v = 1, w(a, "class decorators", "return") && (Q = a);
-        else if (J.static = V, J.private = z, a = J.access = { has: z ? k.bind() : function(oe) {
-          return x in oe;
-        } }, S || (a.get = z ? A ? function(oe) {
-          return F(oe), M.value;
-        } : H("get", 0, F) : function(oe) {
-          return oe[x];
-        }), A || C || (a.set = z ? H("set", 0, F) : function(oe, ae) {
-          oe[x] = ae;
-        }), Q = le.call(Me, b ? { get: M.get, set: M.set } : M[q], J), Ce.v = 1, b) {
-          if (typeof Q == "object" && Q) (a = w(Q.get, "accessor.get")) && (M.get = a), (a = w(Q.set, "accessor.set")) && (M.set = a), (a = w(Q.init, "accessor.init")) && $.unshift(a);
-          else if (Q !== void 0) throw new TypeError("accessor decorators must return an object with get, set, or init properties or undefined");
-        } else w(Q, (L ? "field" : "method") + " decorators", "return") && (L ? $.unshift(Q) : M[q] = Q);
-      }
-      return P < 2 && B.push(y($, V, 1), y(D, V, 0)), L || se || (z ? b ? B.splice(-1, 0, H("get", V), H("set", V)) : B.push(A ? M[q] : w.call.bind(M[q])) : g(_, x, M)), Q;
-    }
-    function E(_) {
-      return g(_, f, { configurable: !0, enumerable: !0, value: o });
-    }
-    return o = p(o ?? null), u = [], h = function(_) {
-      _ && u.push(y(_));
-    }, d = function(_, T) {
-      for (var I = 0; I < t.length; I++) {
-        var x = t[I], P = x[1], D = 7 & P;
-        if ((8 & P) == _ && !D == T) {
-          var B = x[2], V = !!x[3], z = 16 & P;
-          R(_ ? n : n.prototype, x, z, V ? "#" + B : c8e(B), D, D < 2 ? [] : _ ? c = c || [] : l = l || [], u, !!_, V, T, _ && V ? function(L) {
-            return h8e(L) === n;
-          } : r);
-        }
-      }
-    }, d(8, 0), d(0, 0), d(8, 1), d(0, 1), h(l), h(c), a = u, v || E(n), { e: a, get c() {
-      var _ = [];
-      return v && [E(n = R(n, [e], i, n.name, 5, _)), y(_, 1)];
-    } };
-  }
-  function c8e(n) {
-    var e = u8e(n, "string");
-    return typeof e == "symbol" ? e : e + "";
-  }
-  function u8e(n, e) {
-    if (typeof n != "object" || !n) return n;
-    var t = n[Symbol.toPrimitive];
-    if (t !== void 0) {
-      var i = t.call(n, e || "default");
-      if (typeof i != "object") return i;
-      throw new TypeError("@@toPrimitive must return a primitive value.");
-    }
-    return (e === "string" ? String : Number)(n);
-  }
-  function S6(n, e, t) {
-    typeof e == "symbol" && (e = (e = e.description) ? "[" + e + "]" : "");
-    try {
-      Object.defineProperty(n, "name", { configurable: !0, value: t ? t + " " + e : e });
-    } catch {
-    }
-    return n;
-  }
-  function h8e(n) {
-    if (Object(n) !== n) throw TypeError("right-hand side of 'in' should be an object, got " + (n !== null ? typeof n : "null"));
-    return n;
-  }
-  const _6 = "#000000";
-  class d8e {
+  const S6 = "#000000";
+  class l8e {
     constructor() {
       this.typeColorMap = {}, this.currentIndex = 0;
     }
@@ -88684,8 +88586,115 @@ void main() {
       return this.hslToRgb(i, r, s);
     }
   }
-  function f8e(n, e, t, i, r, s) {
+  function c8e(n, e, t, i, r, s) {
     n.beginPath(), n.moveTo(e + s, t), n.lineTo(e + i - s, t), n.quadraticCurveTo(e + i, t, e + i, t + s), n.lineTo(e + i, t + r - s), n.quadraticCurveTo(e + i, t + r, e + i - s, t + r), n.lineTo(e + s, t + r), n.quadraticCurveTo(e, t + r, e, t + r - s), n.lineTo(e, t + s), n.quadraticCurveTo(e, t, e + s, t), n.closePath();
+  }
+  function dA(n, e) {
+    const t = parseFloat(n);
+    return !isNaN(t) && t >= -1 && t <= 1 ? Math.abs(t) * e : e;
+  }
+  var ZX;
+  let QX, JX, eZ, tZ, nZ, iZ, rZ;
+  function u8e(n, e, t, i, r, s) {
+    var o, a, l, c, u, h, d, f = Symbol.metadata || Symbol.for("Symbol.metadata"), g = Object.defineProperty, p = Object.create, m = [p(null), p(null)], v = e.length;
+    function y(_, T, I) {
+      return function(x, P) {
+        T && (P = x, x = n);
+        for (var D = 0; D < _.length; D++) P = _[D].apply(x, I ? [P] : []);
+        return I ? P : x;
+      };
+    }
+    function w(_, T, I, x) {
+      if (typeof _ != "function" && (x || _ !== void 0)) throw new TypeError(T + " must " + (I || "be") + " a function" + (x ? "" : " or undefined"));
+      return _;
+    }
+    function R(_, T, I, x, P, D, B, V, z, L, k) {
+      function F(oe) {
+        if (!k(oe)) throw new TypeError("Attempted to access private element on non-instance");
+      }
+      var G = [].concat(T[0]), U = T[3], se = !B, b = P === 1, C = P === 3, S = P === 4, A = P === 2;
+      function H(oe, ae, Fe) {
+        return function(be, Se) {
+          return ae && (Se = be, be = _), Fe && Fe(be), M[oe].call(be, Se);
+        };
+      }
+      if (!se) {
+        var M = {}, $ = [], q = C ? "get" : S || b ? "set" : "value";
+        if (z ? (L || b ? M = { get: _6(function() {
+          return U(this);
+        }, x, "get"), set: function(oe) {
+          T[4](this, oe);
+        } } : M[q] = U, L || _6(M[q], x, A ? "" : q)) : L || (M = Object.getOwnPropertyDescriptor(_, x)), !L && !z) {
+          if ((a = m[+V][x]) && (a ^ P) != 7) throw Error("Decorating two elements with the same name (" + M[q].name + ") is not supported yet");
+          m[+V][x] = P < 3 ? 1 : P;
+        }
+      }
+      for (var Q = _, ce = G.length - 1; ce >= 0; ce -= I ? 2 : 1) {
+        var le = w(G[ce], "A decorator", "be", !0), Me = I ? G[ce - 1] : void 0, Ce = {}, J = { kind: ["field", "accessor", "method", "getter", "setter", "class"][P], name: x, metadata: o, addInitializer: (function(oe, ae) {
+          if (oe.v) throw new TypeError("attempted to call addInitializer after decoration was finished");
+          w(ae, "An initializer", "be", !0), D.push(ae);
+        }).bind(null, Ce) };
+        if (se) a = le.call(Me, Q, J), Ce.v = 1, w(a, "class decorators", "return") && (Q = a);
+        else if (J.static = V, J.private = z, a = J.access = { has: z ? k.bind() : function(oe) {
+          return x in oe;
+        } }, S || (a.get = z ? A ? function(oe) {
+          return F(oe), M.value;
+        } : H("get", 0, F) : function(oe) {
+          return oe[x];
+        }), A || C || (a.set = z ? H("set", 0, F) : function(oe, ae) {
+          oe[x] = ae;
+        }), Q = le.call(Me, b ? { get: M.get, set: M.set } : M[q], J), Ce.v = 1, b) {
+          if (typeof Q == "object" && Q) (a = w(Q.get, "accessor.get")) && (M.get = a), (a = w(Q.set, "accessor.set")) && (M.set = a), (a = w(Q.init, "accessor.init")) && $.unshift(a);
+          else if (Q !== void 0) throw new TypeError("accessor decorators must return an object with get, set, or init properties or undefined");
+        } else w(Q, (L ? "field" : "method") + " decorators", "return") && (L ? $.unshift(Q) : M[q] = Q);
+      }
+      return P < 2 && B.push(y($, V, 1), y(D, V, 0)), L || se || (z ? b ? B.splice(-1, 0, H("get", V), H("set", V)) : B.push(A ? M[q] : w.call.bind(M[q])) : g(_, x, M)), Q;
+    }
+    function E(_) {
+      return g(_, f, { configurable: !0, enumerable: !0, value: o });
+    }
+    return o = p(o ?? null), u = [], h = function(_) {
+      _ && u.push(y(_));
+    }, d = function(_, T) {
+      for (var I = 0; I < t.length; I++) {
+        var x = t[I], P = x[1], D = 7 & P;
+        if ((8 & P) == _ && !D == T) {
+          var B = x[2], V = !!x[3], z = 16 & P;
+          R(_ ? n : n.prototype, x, z, V ? "#" + B : h8e(B), D, D < 2 ? [] : _ ? c = c || [] : l = l || [], u, !!_, V, T, _ && V ? function(L) {
+            return f8e(L) === n;
+          } : r);
+        }
+      }
+    }, d(8, 0), d(0, 0), d(8, 1), d(0, 1), h(l), h(c), a = u, v || E(n), { e: a, get c() {
+      var _ = [];
+      return v && [E(n = R(n, [e], i, n.name, 5, _)), y(_, 1)];
+    } };
+  }
+  function h8e(n) {
+    var e = d8e(n, "string");
+    return typeof e == "symbol" ? e : e + "";
+  }
+  function d8e(n, e) {
+    if (typeof n != "object" || !n) return n;
+    var t = n[Symbol.toPrimitive];
+    if (t !== void 0) {
+      var i = t.call(n, e || "default");
+      if (typeof i != "object") return i;
+      throw new TypeError("@@toPrimitive must return a primitive value.");
+    }
+    return (e === "string" ? String : Number)(n);
+  }
+  function _6(n, e, t) {
+    typeof e == "symbol" && (e = (e = e.description) ? "[" + e + "]" : "");
+    try {
+      Object.defineProperty(n, "name", { configurable: !0, value: t ? t + " " + e : e });
+    } catch {
+    }
+    return n;
+  }
+  function f8e(n) {
+    if (Object(n) !== n) throw TypeError("right-hand side of 'in' should be an object, got " + (n !== null ? typeof n : "null"));
+    return n;
   }
   let sZ;
   class g8e {
@@ -88698,7 +88707,7 @@ void main() {
       console.log("searchValue changed", e, t), this.setSearchQuery(e);
     }
     attached() {
-      this.typeColorMap = new d8e(), this.ea.subscribe("showtab", (e) => {
+      this.typeColorMap = new l8e(), this.ea.subscribe("showtab", (e) => {
         this.tabid === this.showtabid && (this.layout ? this.startAnimate() : (console.warn("empty layout"), this.renderer = new p6(this.graph, this.container, {
           // We don't have to declare edgeProgramClasses here, because we only use the default ones ("line" and "arrow")
           nodeProgramClasses: {
@@ -88821,7 +88830,7 @@ void main() {
         const d = c ? e.measureText(c).width : 0;
         e.font = `${o} ${a}px ${s}`;
         const f = u ? e.measureText(u).width : 0, g = Math.max(h, d, f), p = Math.round(t.x), m = Math.round(t.y), v = Math.round(g + r / 2 + t.size + 3), y = Math.round(r / 2 + 4), w = c ? Math.round(a / 2 + 9) : 0, R = Math.round(a / 2 + 9);
-        f8e(e, p, m - w - 12, v, R + y + w + 12, 5), e.closePath(), e.fill(), e.shadowOffsetX = 0, e.shadowOffsetY = 0, e.shadowBlur = 0, e.fillStyle = _6, e.font = `${o} ${r}px ${s}`, e.fillText(l, t.x + t.size + 3, t.y + r / 3), c && (e.fillStyle = _6, e.font = `${o} ${a}px ${s}`, e.fillText(c, t.x + t.size + 3, t.y - 2 * r / 3 - 2)), e.fillStyle = t.color, e.font = `${o} ${a}px ${s}`, e.fillText(u, t.x + t.size + 3, t.y + r / 3 + 3 + a);
+        c8e(e, p, m - w - 12, v, R + y + w + 12, 5), e.closePath(), e.fill(), e.shadowOffsetX = 0, e.shadowOffsetY = 0, e.shadowBlur = 0, e.fillStyle = S6, e.font = `${o} ${r}px ${s}`, e.fillText(l, t.x + t.size + 3, t.y + r / 3), c && (e.fillStyle = S6, e.font = `${o} ${a}px ${s}`, e.fillText(c, t.x + t.size + 3, t.y - 2 * r / 3 - 2)), e.fillStyle = t.color, e.font = `${o} ${a}px ${s}`, e.fillText(u, t.x + t.size + 3, t.y + r / 3 + 3 + a);
       }), this.renderer.setSetting("nodeReducer", (e, t) => {
         const i = {
           ...t
@@ -88914,20 +88923,24 @@ void main() {
     startAnimate() {
       this.animationstarted && this.layout.start();
     }
+    //set x,y points to circle
+    resetLayout() {
+      const e = this.graph.nodes(), t = e.length;
+      e.forEach((i, r) => {
+        const s = r * 2 * Math.PI / t;
+        this.graph.setNodeAttribute(i, "x", 100 * Math.cos(s)), this.graph.setNodeAttribute(i, "y", 100 * Math.sin(s));
+      });
+    }
   }
   ZX = g8e;
   ({
     e: [JX, eZ, tZ, nZ, iZ, rZ],
     c: [sZ, QX]
-  } = l8e(ZX, [mf({
+  } = u8e(ZX, [mf({
     ...B6e,
     name: "sv-network"
   })], [[Qr, 0, "tabid"], [Qr, 0, "datachannel"], [Qr, 0, "searchValue"]]));
   QX();
-  function dA(n, e) {
-    const t = parseFloat(n);
-    return !isNaN(t) && t >= -1 && t <= 1 ? Math.abs(t) * e : e;
-  }
   const oZ = "tabs", iO = `    <div class="w3-bar" if.bind="!vertical">
         <button class.bind="inactiveclass" style="width:145px">&nbsp;</button>
         <button repeat.for="id of ids" class.bind="id.cls" click.trigger="open(id)">\${id.title}</button>
@@ -89142,30 +89155,16 @@ void main() {
         ></sv-table>
     </div>
     <div id="noedtable" style="position:absolute;height:90vh;opacity:90%;z-index:1">
-        <sv-table component.ref="svTable" show.bind ="!hidetable" datachannel="data" tabid="all"></sv-table>
+        <sv-table 
+        component.ref="svTable"         
+        datachannel="data" 
+        tabid="noedtable"></sv-table>
     </div>
-    <sv-network tabid="visual" datachannel="data" style="width:100vw;height:100vh;position:fixed;top:0;left:0"></sv-network>
+    <sv-network 
+      tabid="visual" 
+      datachannel="data" 
+      style="width:100vw;height:100vh;position:fixed;top:0;left:0"></sv-network>
 </div>
-<!--
-        <div class="w3-dropdown-hover">
-            <button class="w3-button">Table</button>
-            <div class="w3-dropdown-content w3-bar-block w3-card-4" style="z-index:190">
-                <button class="w3-bar-item w3-button" click.trigger="addRow()">+ Add row (subject)</button>
-                <button class="w3-bar-item w3-button" click.trigger="addColumn()">+ Add column (object)</button>                
-                <button click.trigger='switchTo1Table()' class="w3-bar-item w3-button w3-ripple">1 table (subject,object,predicate)</button>
-                <button click.trigger='switchTo2Table()' class="w3-bar-item w3-button w3-ripple">2 tables (nodes, edges)</button>
-                <button class="w3-bar-item w3-button" click.trigger="submit()">Refresh</button>
-                <button class="w3-bar-item w3-button" click.trigger="showHideTable()">show/hide table</button>    
-            </div>
-        </div>
-        <div class="w3-dropdown-hover">
-            <button class="w3-button">Network</button>
-            <div class="w3-dropdown-content w3-bar-block w3-card-4"  style="z-index:190">
-                <button class="w3-bar-item w3-button" click.trigger="colorEdges()">colorEdges</button>  
-            </div>
-        </div>
-    </div>    
--->
 `, SZ = [S8e], _Z = {};
   let gA;
   function _8e(n) {
