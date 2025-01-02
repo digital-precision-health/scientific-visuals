@@ -76283,6 +76283,22 @@ the last node, the show column modification can be applied.`);
             value: r
           });
         }
+      else if (this.datatype === "nodes")
+        console.log(`Add node.Cell at row ${e}, column ${t} changed from "${i}" to "${r}".`), (t == 0 || oldvalue) && (console.log("publishing"), this.ea.publish(this.datachannel, {
+          type: "changeNode",
+          old: i,
+          value: r
+        }));
+      else if (this.datatype === "edges" && (console.log(`Add edge.Cell at row ${e}, column ${t} changed from "${i}" to "${r}".`), t == 1 || oldvalue)) {
+        const s = this.hot.getDataAtCell(e, 0), o = this.hot.getDataAtCell(e, t);
+        this.ea.publish(this.datachannel, {
+          type: "changeEdge",
+          subject: s,
+          object: o,
+          old: i,
+          value: r
+        });
+      }
     }
     submit() {
       let e = this.hot.getData();
@@ -76294,8 +76310,9 @@ the last node, the show column modification can be applied.`);
     addRow(e = "Subject name") {
       let t = prompt(e, "");
       if (t) {
-        const i = this.hot.countRows();
-        this.hot.alter("insert_row_below", i), this.hot.setDataAtCell(i, 0, t), this.hot.setDataAtCell(i, 1, "environmental"), this.hot.selectCell(i, 0);
+        let i = t.split(",");
+        const r = this.hot.countRows();
+        this.hot.alter("insert_row_below", r), this.hot.setDataAtCell(r, 0, i[0]), this.hot.setDataAtCell(r, 1, i.length > 1 ? i[1] : ""), this.hot.selectCell(r, 0);
       }
     }
     addColumn(e = "Object name") {
@@ -88771,7 +88788,7 @@ void main() {
     }
     renameNode(e, t) {
       if (!e) {
-        this.changeNodeType(t, "default");
+        console.log("oldname is null create Node"), this.changeNodeType(t, "default");
         return;
       }
       if (!this.graph.hasNode(e)) {
@@ -89141,15 +89158,15 @@ void main() {
     <div id="nodes" style="position:absolute;height:90vh;opacity:90%;z-index:1">
         <sv-table 
         component.ref="svNodes" 
-        datachannel="nodes" 
+        datachannel="data" 
         datatype="nodes" 
         tabid="nodes" 
         ></sv-table>
     </div>
     <div id="edges" style="position:absolute;height:90vh;opacity:90%;z-index:1">
         <sv-table 
-        component.ref="svNodes" 
-        datachannel="edges" 
+        component.ref="svEdges" 
+        datachannel="data" 
         datatype="edges" 
         tabid="edges" 
         ></sv-table>
@@ -89285,14 +89302,13 @@ void main() {
   let xZ;
   class A8e {
     constructor() {
-      this.hidetable = !1, this.svTable = void 0;
+      this.hidetable = !1, this.svTable = void 0, this.svEdges = void 0, this.svNodes = void 0;
     }
     showHide() {
     }
     showHideTable() {
       this.hidetable = !this.hidetable;
     }
-    //: any; // Replace 'any' with the actual type of sv-table's viewmodel if available
     /**
      * Method triggered by the button to add a row.
      * Delegates the call to the sv-table component's addRow() method.

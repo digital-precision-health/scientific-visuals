@@ -161,7 +161,7 @@ export class Network {
 
   renameNode(oldName, newName) {
     if (!oldName) {
-      //oldname is null create Node
+      console.log('oldname is null create Node')
       this.changeNodeType(newName, 'default');
       return;
     }

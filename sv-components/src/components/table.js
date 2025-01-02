@@ -93,26 +93,42 @@ export class Table {
   }
 
   changeContent(row, prop, oldValue, newValue) {
-    //do not do manipulation if the datatype is not all
-    if (this.datatype !== 'all') return
-    console.log(`Cell at row ${row}, column ${prop} changed from "${oldValue}" to "${newValue}".`);
-    if (row == 0) {
-      //change Object
-      this.ea.publish(this.datachannel, { 'type': 'changeNode', 'old': oldValue, 'value': newValue })
-    } else {
-      if (prop == 0) {
-        //change Subject
+    //do manipulation if the datatype is all
+    if (this.datatype === 'all') {
+      console.log(`Cell at row ${row}, column ${prop} changed from "${oldValue}" to "${newValue}".`);
+      if (row == 0) {
+        //change Object
         this.ea.publish(this.datachannel, { 'type': 'changeNode', 'old': oldValue, 'value': newValue })
-      } else if (prop == 1) {
-        //change Subject type  
-        const nodeName = this.hot.getDataAtCell(row, 0);
-        this.ea.publish(this.datachannel, { 'type': 'changeType', 'node': nodeName, 'old': oldValue, 'value': newValue })
       } else {
-        //change relationship
-        const subjectName = this.hot.getDataAtCell(row, 0);
-        const objectName = this.hot.getDataAtCell(0, prop);
-        this.ea.publish(this.datachannel, { 'type': 'changeEdge', 'subject': subjectName, 'object': objectName, 'old': oldValue, 'value': newValue })
+        if (prop == 0) {
+          //change Subject
+          this.ea.publish(this.datachannel, { 'type': 'changeNode', 'old': oldValue, 'value': newValue })
+        } else if (prop == 1) {
+          //change Subject type  
+          const nodeName = this.hot.getDataAtCell(row, 0);
+          this.ea.publish(this.datachannel, { 'type': 'changeType', 'node': nodeName, 'old': oldValue, 'value': newValue })
+        } else {
+          //change relationship
+          const subjectName = this.hot.getDataAtCell(row, 0);
+          const objectName = this.hot.getDataAtCell(0, prop);
+          this.ea.publish(this.datachannel, { 'type': 'changeEdge', 'subject': subjectName, 'object': objectName, 'old': oldValue, 'value': newValue })
+        }
       }
+    } else if (this.datatype ==='nodes') {
+      console.log(`Add node.Cell at row ${row}, column ${prop} changed from "${oldValue}" to "${newValue}".`);
+        //add node
+        if (prop == 0 || oldvalue) {
+          console.log('publishing')
+          this.ea.publish(this.datachannel, { 'type': 'changeNode', 'old': oldValue, 'value': newValue })
+        }
+    } else if (this.datatype ==='edges') {
+      console.log(`Add edge.Cell at row ${row}, column ${prop} changed from "${oldValue}" to "${newValue}".`);
+        //add edge 
+        if (prop == 1 || oldvalue){
+          const subjectName = this.hot.getDataAtCell(row, 0);
+          const objectName = this.hot.getDataAtCell(row, prop);
+          this.ea.publish(this.datachannel, { 'type': 'changeEdge', 'subject': subjectName, 'object': objectName, 'old': oldValue, 'value': newValue })
+        }
     }
 
   }
@@ -126,17 +142,18 @@ export class Table {
     this.showtable = !this.showtable;
   }
 
-  addRow(promptquestion='Subject name') {
-    let name = prompt(promptquestion, '');
-    if (name) {
+  addRow(promptquestion = 'Subject name') {
+    let rawname = prompt(promptquestion, '');
+    if (rawname) {
+      let items = rawname.split(',');
       const newRowIndex = this.hot.countRows()
       this.hot.alter('insert_row_below', newRowIndex)
-      this.hot.setDataAtCell(newRowIndex, 0, name);
-      this.hot.setDataAtCell(newRowIndex, 1, 'environmental');
+      this.hot.setDataAtCell(newRowIndex, 0, items[0]);
+      this.hot.setDataAtCell(newRowIndex, 1, items.length>1?items[1]:'');
       this.hot.selectCell(newRowIndex, 0);
     }
   }
-  addColumn(promptquestion='Object name') {
+  addColumn(promptquestion = 'Object name') {
     let name = prompt(promptquestion, '');
     if (name) {
       // 1. Determine the index where the new column will be inserted (end of the table)

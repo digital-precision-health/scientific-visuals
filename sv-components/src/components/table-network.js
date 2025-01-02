@@ -14,6 +14,8 @@ export class TableNetwork {
     }
 
     svTable;//: any; // Replace 'any' with the actual type of sv-table's viewmodel if available
+    svEdges;
+    svNodes;
 
     /**
      * Method triggered by the button to add a row.
