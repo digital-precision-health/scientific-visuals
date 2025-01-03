@@ -89459,9 +89459,9 @@ void main() {
   hh.define("sv-chartjs-scatter", k8);
   hh.define("sv-table", pE);
   hh.define("sv-geochart", Xq);
+  hh.define("sv-table-filtered", NZ);
   hh.define("sv-network", aZ);
   hh.define("sv-table-network", fZ);
   hh.define("sv-tabs", AZ);
-  hh.define("sv-tablew-filtered", NZ);
 });
 export default U8e();

@@ -26,7 +26,7 @@ registry.define('sv-chartjs', Chartjs);
 registry.define('sv-chartjs-scatter', ChartjsScatter);
 registry.define('sv-table', Table);
 registry.define('sv-geochart', ChartjsGeo);
+registry.define('sv-table-filtered', TableFiltered);
 registry.define('sv-network', Network);
 registry.define('sv-table-network', TableNetwork);
 registry.define('sv-tabs', Tabs);
-registry.define('sv-tablew-filtered', TableFiltered);
