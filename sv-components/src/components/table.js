@@ -12,11 +12,12 @@ export class Table {
   @bindable tabid; //
   @bindable datatype = 'all'; //nodes,edges,all (default: all)
   showtable = true; //triggers showing/hiding table in view
+  data =[]
 
   attached() {
     //default data
     //TODO read it from URL param
-    let data = [
+    this.data = [
       ['Gene', 'Type', 'CEA', 'CA19_9', 'Tumor Size', 'Metabolic Activity', 'ctDNA', 'CRP', 'Bowel MovementPatterns',
         'Ki-67', 'Cascpase-3', 'MMP-1', 'Cell Proliferation'
       ],
@@ -34,17 +35,17 @@ export class Table {
     ];
 
     if (this.datatype == 'nodes') {
-      data = this.getNodesData(data);
+      this.data = this.getNodesData(this.data);
 
     } else if (this.datatype == 'edges') {
-      data = this.getEdgesData(data);
+      this.data = this.getEdgesData(this.data);
 
     }
     //let container = document.getElementById('example');
     //this.hot = new Handsontable(container, {
     let that = this;
     this.hot = new Handsontable(this.mytable, {
-      data: data,
+      data: this.data,
       rowHeaders: true,
       colHeaders: true,
       autoWrapRow: true,

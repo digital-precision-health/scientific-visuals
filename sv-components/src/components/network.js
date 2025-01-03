@@ -147,7 +147,7 @@ export class Network {
 
       this.graph.addNode(nodeId, {
         label: nodeId,
-        size: 5,
+        size: 15,
         color: mycolor, // Default color for objects without a type
         // type: 'object' // Optional: Define type as 'object'
         x: 100 * Math.cos(angle),

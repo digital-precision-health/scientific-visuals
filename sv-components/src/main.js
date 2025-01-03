@@ -7,6 +7,7 @@ import { Table } from './components/table';
 import {Network} from './components/network';
 import {Tabs} from './components/tabs';
 import {TableNetwork} from './components/table-network';
+import {TableFiltered} from './components/table-filtered';
 
 Aurelia
 .register(Chartjs)
@@ -16,5 +17,6 @@ Aurelia
 .register(Network)
 .register(Tabs)
 .register(TableNetwork)
+.register(TableFiltered)
   .app(MyApp)
   .start();

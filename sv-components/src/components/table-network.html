@@ -1,31 +1,13 @@
-<import from="./tabs"></import>
-<div id="all">    
-    <sv-tabs idlist="nodes,edges,noedtable,view" titlelist="Nodes,Edges,NodesEdges,View" style="position:relative;z-index:1;"></sv-tabs>
-    <div id="view"></div>        
-    <div id="nodes" style="position:absolute;height:90vh;opacity:90%;z-index:1">
-        <sv-table 
-        component.ref="svNodes" 
-        datachannel="data" 
-        datatype="nodes" 
-        tabid="nodes" 
-        ></sv-table>
-    </div>
-    <div id="edges" style="position:absolute;height:90vh;opacity:90%;z-index:1">
-        <sv-table 
-        component.ref="svEdges" 
-        datachannel="data" 
-        datatype="edges" 
-        tabid="edges" 
-        ></sv-table>
-    </div>
-    <div id="noedtable" style="position:absolute;height:90vh;opacity:90%;z-index:1">
-        <sv-table 
-        component.ref="svTable"         
-        datachannel="data" 
-        tabid="noedtable"></sv-table>
-    </div>
-    <sv-network 
-      tabid="visual" 
-      datachannel="data" 
-      style="width:100vw;height:100vh;position:fixed;top:0;left:0"></sv-network>
+<sv-tabs idlist="nodes,edges,noedtable,view" titlelist="Nodes,Edges,NodesEdges,View"
+    style="position:relative;z-index:1;"></sv-tabs>
+<div id="view"></div>
+<div id="nodes" style="position:absolute;height:90vh;opacity:90%;z-index:1">
+    <sv-table component.ref="svNodes" datachannel="data" datatype="nodes" tabid="nodes"></sv-table>
 </div>
+<div id="edges" style="position:absolute;height:90vh;opacity:90%;z-index:1">
+    <sv-table-filtered component.ref="svEdges" datachannel="data" datatype="edges" tabid="edges"></sv-table-filtered>
+</div>
+<div id="noedtable" style="position:absolute;height:90vh;opacity:90%;z-index:1">
+    <sv-table component.ref="svTable" datachannel="data" tabid="noedtable"></sv-table>
+</div>
+<sv-network tabid="visual" datachannel="data" style="width:100vw;height:100vh;position:fixed;top:0;left:0"></sv-network>
