@@ -2,11 +2,19 @@ import { IEventAggregator, resolve, customElement, bindable } from 'aurelia';
 //import { Handsontable } from 'handsontable';
 import Handsontable from "handsontable";
 //import handsontablecss from 'handsontable/dist/handsontable.full.css';
+import '../w3.css';
 
-@customElement('sv-table-network')
+@customElement(
+  'sv-table-network'
+  //shadowOptions: { mode: 'open' } // Enable shadow DOM
+)
 export class TableNetwork {
     //showtable=true;
     hidetable = false;
+
+    attached(){
+      console.log('table-network attached()')
+    }
     showHide(){
     }
     showHideTable(){

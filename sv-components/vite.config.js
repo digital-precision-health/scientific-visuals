@@ -14,6 +14,7 @@ export default defineConfig({
   plugins: [
     aurelia({
       useDev: true,
+      //defaultShadowOptions: { mode: 'open' },
     }),
     babel(),
     nodePolyfills(),

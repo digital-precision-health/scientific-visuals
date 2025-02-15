@@ -1,0 +1,979 @@
+{
+    "biomarkers": {
+        "rMiMhX_T": {
+            "name": "Biomarkers for CTCs",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Biomarkers for CTCs",
+                "type": "Epigenetic markers",
+                "description": "DNA methylation profiles of circulating tumor cells (CTCs) in colorectal cancer.",
+                "findings": "The study identified specific DNA methylation patterns that distinguish CTCs from primary tumors and normal blood cells. These biomarkers could be used for early detection, monitoring disease progression, and guiding treatment decisions.",
+                "notes": "Data is publicly available at the Gene Expression Omnibus (GEO) repository with the Accession Number GSE220096.",
+                "knowledge": [
+                    {
+                        "predicate": "distinguish",
+                        "object": "CTCs from primary tumors and normal blood cells"
+                    },
+                    {
+                        "predicate": "could be used for",
+                        "object": "early detection, monitoring disease progression, and guiding treatment decisions"
+                    }
+                ]
+            }
+        },
+        "mBxRZv6S": {
+            "name": "Biomarkers related to Wnt signaling pathway",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Biomarkers related to Wnt signaling pathway",
+                "type": "Gene expression and DNA methylation markers",
+                "description": "Genes involved in the Wnt signaling pathway that are differentially methylated in CTCs.",
+                "findings": "The study found specific genes in the Wnt signaling pathway with altered DNA methylation patterns in CTCs, which may contribute to their metastatic potential.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "found",
+                        "object": "specific genes in the Wnt signaling pathway with altered DNA methylation patterns"
+                    },
+                    {
+                        "predicate": "may contribute to",
+                        "object": "their metastatic potential"
+                    }
+                ]
+            }
+        },
+        "x9TmVPOt": {
+            "name": "Biomarkers for cell adhesion and migration",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Biomarkers for cell adhesion and migration",
+                "type": "Gene expression and DNA methylation markers",
+                "description": "Genes involved in cell adhesion and migration that are differentially methylated in CTCs.",
+                "findings": "The study identified genes related to cell adhesion and migration with altered DNA methylation patterns in CTCs, which may play a role in their ability to form metastases.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "identified",
+                        "object": "genes related to cell adhesion and migration with altered DNA methylation patterns"
+                    },
+                    {
+                        "predicate": "may play a role in",
+                        "object": "their ability to form metastases"
+                    }
+                ]
+            }
+        },
+        "zyCiTSyC": {
+            "name": "Biomarkers for inflammation and immune response",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Biomarkers for inflammation and immune response",
+                "type": "Gene expression and DNA methylation markers",
+                "description": "Genes involved in inflammation and immune response that are differentially methylated in CTCs.",
+                "findings": "The study found genes associated with inflammation and immune response with altered DNA methylation patterns in CTCs, which may affect their interaction with the tumor microenvironment.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "found",
+                        "object": "genes associated with inflammation and immune response with altered DNA methylation patterns"
+                    },
+                    {
+                        "predicate": "may affect",
+                        "object": "their interaction with the tumor microenvironment"
+                    }
+                ]
+            }
+        },
+        "EXmipozz": {
+            "name": "glycoprotein NMR signals",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "glycoprotein NMR signals",
+                "type": "NMR signal",
+                "description": "Nuclear Magnetic Resonance (NMR) signals from glycosylated acute phase proteins in human serum.",
+                "findings": "NMR can identify a range of glycosylated acute phase proteins from one single measurement, providing information on glycan structures. This method is non-destructive and not dependent on the type of glycosylation.",
+                "notes": "NMR has an advantage over nephelometry in that it specifically observes glycosylated acute phase proteins and is not affected by variations in glycan structures.",
+                "knowledge": [
+                    {
+                        "predicate": "identifies",
+                        "object": "glycoprotein NMR signals"
+                    },
+                    {
+                        "predicate": "provides information on",
+                        "object": "glycan structures"
+                    },
+                    {
+                        "predicate": "is non-destructive for",
+                        "object": "glycoprotein NMR signals"
+                    },
+                    {
+                        "predicate": "is not dependent on the type of glycosylation for",
+                        "object": "glycoprotein NMR signals"
+                    }
+                ]
+            }
+        },
+        "JRmedRfg": {
+            "name": "acute phase proteins",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "acute phase proteins",
+                "type": "protein",
+                "description": "Proteins that are produced by the liver in response to inflammation.",
+                "findings": "NMR can identify a range of glycosylated acute phase proteins from one single measurement. The method is non-destructive and not dependent on the type of glycosylation, providing information on glycan structures.",
+                "notes": "Nephelometric methods may yield erroneous results when glycan structures interfere with antibody binding, whereas NMR does not have this limitation.",
+                "knowledge": [
+                    {
+                        "predicate": "produced by",
+                        "object": "acute phase proteins"
+                    },
+                    {
+                        "predicate": "identifies a range of glycosylated",
+                        "object": "acute phase proteins"
+                    },
+                    {
+                        "predicate": "provides information on glycan structures for",
+                        "object": "acute phase proteins"
+                    },
+                    {
+                        "predicate": "is non-destructive for",
+                        "object": "acute phase proteins"
+                    },
+                    {
+                        "predicate": "is not dependent on the type of glycosylation for",
+                        "object": "acute phase proteins"
+                    }
+                ]
+            }
+        },
+        "h1ZbUTGf": {
+            "name": "glycan structures",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "glycan structures",
+                "type": "glycan",
+                "description": "Structures attached to proteins that can vary in composition and affect protein function.",
+                "findings": "NMR provides information on glycan structures, which is not possible with nephelometric methods. Variations in glycan structures can interfere with antibody binding in nephelometry but do not affect NMR results.",
+                "notes": "Glycan structures are important for the specific identification and quantification of acute phase proteins.",
+                "knowledge": [
+                    {
+                        "predicate": "provides information on",
+                        "object": "glycan structures"
+                    },
+                    {
+                        "predicate": "variations in can interfere with antibody binding in",
+                        "object": "glycan structures"
+                    },
+                    {
+                        "predicate": "does not affect results for",
+                        "object": "glycan structures"
+                    }
+                ]
+            }
+        },
+        "-Q5UkKZ-": {
+            "name": "nephelometry",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "nephelometry",
+                "type": "diagnostic method",
+                "description": "A diagnostic method used to measure the concentration of proteins in a sample by detecting light scattering.",
+                "findings": "Nephelometric methods are sensitive to glycosylation and may yield erroneous results when glycan structures interfere with antibody binding. NMR, on the other hand, is not affected by these limitations.",
+                "notes": "Nephelometry is currently the diagnostic gold-standard for measuring acute phase proteins but has limitations in detecting variations in glycan structures.",
+                "knowledge": [
+                    {
+                        "predicate": "is sensitive to",
+                        "object": "nephelometry"
+                    },
+                    {
+                        "predicate": "may yield erroneous results when glycan structures interfere with antibody binding for",
+                        "object": "nephelometry"
+                    },
+                    {
+                        "predicate": "is affected by variations in glycan structures for",
+                        "object": "nephelometry"
+                    }
+                ]
+            }
+        },
+        "y3_XVgcK": {
+            "name": "miR-126",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "miR-126",
+                "type": "microRNA",
+                "description": "A microRNA involved in regulating different carcinogenic physiological behaviors, including tumor progression and angiogenesis.",
+                "findings": "miR-126 has shown robust predictive results for early diagnosis and prognosis of CRC stages.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "has shown robust predictive results for",
+                        "object": "early diagnosis and prognosis of CRC stages"
+                    }
+                ]
+            }
+        },
+        "wGxzmz2a": {
+            "name": "miR-1290",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "miR-1290",
+                "type": "microRNA",
+                "description": "A microRNA involved in regulating different carcinogenic physiological behaviors, including tumor progression and angiogenesis.",
+                "findings": "miR-1290 has shown robust predictive results for early diagnosis and prognosis of CRC stages.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "has shown robust predictive results for",
+                        "object": "early diagnosis and prognosis of CRC stages"
+                    }
+                ]
+            }
+        },
+        "ZXZnaX-b": {
+            "name": "miR-23a",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "miR-23a",
+                "type": "microRNA",
+                "description": "A microRNA involved in regulating different carcinogenic physiological behaviors, including tumor progression and angiogenesis.",
+                "findings": "miR-23a has shown robust predictive results for early diagnosis and prognosis of CRC stages.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "has shown robust predictive results for",
+                        "object": "early diagnosis and prognosis of CRC stages"
+                    }
+                ]
+            }
+        },
+        "7_ksrb4A": {
+            "name": "miR-940",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "miR-940",
+                "type": "microRNA",
+                "description": "A microRNA involved in regulating different carcinogenic physiological behaviors, including tumor progression and angiogenesis.",
+                "findings": "miR-940 has shown robust predictive results for early diagnosis and prognosis of CRC stages.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "has shown robust predictive results for",
+                        "object": "early diagnosis and prognosis of CRC stages"
+                    }
+                ]
+            }
+        },
+        "yVzs73PN": {
+            "name": "MSI-H",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "MSI-H",
+                "type": "Molecular Biomarker",
+                "description": "Microsatellite instability-high status in colorectal cancer.",
+                "findings": "The MSI status confers substantial improvements in clinical outcomes and decreased toxicities through ICI, offering patients long-term survival or near curative results.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "confers",
+                        "object": "substantial improvements in clinical outcomes"
+                    },
+                    {
+                        "predicate": "decreases",
+                        "object": "toxicities through ICI"
+                    },
+                    {
+                        "predicate": "offers",
+                        "object": "patients long-term survival or near curative results"
+                    }
+                ]
+            }
+        },
+        "ye6bFTpi": {
+            "name": "RAS",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "RAS",
+                "type": "Molecular Biomarker",
+                "description": "RAS gene mutations in colorectal cancer.",
+                "findings": "The predictive capacity of RAS has necessitated a molecular-targeted approach in CRC.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "necessitates",
+                        "object": "a molecular-targeted approach in CRC"
+                    }
+                ]
+            }
+        },
+        "EWSgxXme": {
+            "name": "BRAF V600E",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "BRAF V600E",
+                "type": "Molecular Biomarker",
+                "description": "Specific BRAF mutation (V600E) in colorectal cancer.",
+                "findings": "BRAF V600E had a negative prognostic value but is now predictive of the response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "had",
+                        "object": "a negative prognostic value"
+                    },
+                    {
+                        "predicate": "is now predictive of",
+                        "object": "the response to combined targeted BRAF/EGFR inhibition"
+                    },
+                    {
+                        "predicate": "doubling",
+                        "object": "survival over standard treatments"
+                    }
+                ]
+            }
+        },
+        "1qEB26yt": {
+            "name": "MSS (Microsatellite Stable)",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "MSS (Microsatellite Stable)",
+                "type": "Molecular Biomarker",
+                "description": "Microsatellite stable status in colorectal cancer.",
+                "findings": "The article does not explicitly mention findings about MSS, but it is implied as the opposite of MSI-H.",
+                "notes": "Implied biomarker from context.",
+                "knowledge": [
+                    {
+                        "predicate": "is",
+                        "object": "the opposite of MSI-H"
+                    }
+                ]
+            }
+        },
+        "sc-u9Sf9": {
+            "name": "HLA (Human Leukocyte Antigen)",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "HLA (Human Leukocyte Antigen)",
+                "type": "Molecular Biomarker",
+                "description": "HLA expression in colorectal cancer.",
+                "findings": "The article does not explicitly mention findings about HLA, but it is implied as part of the immune response and ICI efficacy.",
+                "notes": "Implied biomarker from context.",
+                "knowledge": [
+                    {
+                        "predicate": "is",
+                        "object": "part of the immune response and ICI efficacy"
+                    }
+                ]
+            }
+        },
+        "3Cnp0X4p": {
+            "name": "MUC16 (CA125)",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "MUC16 (CA125)",
+                "type": "Molecular Biomarker",
+                "description": "MUC16 expression in colorectal cancer.",
+                "findings": "The article does not explicitly mention findings about MUC16, but it is implied as a potential biomarker for immune response and ICI efficacy.",
+                "notes": "Implied biomarker from context.",
+                "knowledge": [
+                    {
+                        "predicate": "is",
+                        "object": "a potential biomarker for immune response and ICI efficacy"
+                    }
+                ]
+            }
+        },
+        "ezpCWaxA": {
+            "name": "KRAS",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "KRAS",
+                "type": "Molecular Biomarker",
+                "description": "KRAS gene mutations in colorectal cancer.",
+                "findings": "Oncogenic KRAS reprograms cellular metabolism, limiting processes that contribute to glutathione synthesis and making KRAS-mutant tumors more susceptible to ferroptosis induction as a potential clinical strategy.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "reprograms",
+                        "object": "cellular metabolism"
+                    },
+                    {
+                        "predicate": "limits processes that contribute to",
+                        "object": "glutathione synthesis"
+                    },
+                    {
+                        "predicate": "makes",
+                        "object": "KRAS-mutant tumors more susceptible to ferroptosis induction"
+                    }
+                ]
+            }
+        },
+        "77D3fPXJ": {
+            "name": "Ferroptosis-related genes",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Ferroptosis-related genes",
+                "type": "Molecular Biomarker",
+                "description": "Genes related to the process of ferroptosis in colorectal cancer.",
+                "findings": "Altered expression of ferroptosis-related genes can affect the susceptibility of colorectal cancer cells to ferroptosis, which is a potential therapeutic target.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "affects",
+                        "object": "the susceptibility of colorectal cancer cells to ferroptosis"
+                    },
+                    {
+                        "predicate": "is a",
+                        "object": "potential therapeutic target"
+                    }
+                ]
+            }
+        },
+        "Th1EcGQ7": {
+            "name": "DAPI",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "DAPI",
+                "type": "Nucleic acid stain",
+                "description": "4',6-diamidino-2-phenylindole; a fluorescent stain that binds to DNA and is used for nuclear staining in fluorescence microscopy.",
+                "findings": "Used to stain nuclei in high-magnification images of samples after the live/dead assay and immunofluorescence staining.",
+                "notes": "DAPI was used as part of the imaging protocol to visualize cell nuclei, indicating the presence or absence of cells.",
+                "knowledge": [
+                    {
+                        "predicate": "stains",
+                        "object": "nuclei"
+                    }
+                ]
+            }
+        },
+        "EX-NONdd": {
+            "name": "P < 0.05",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "P < 0.05",
+                "type": "Statistical significance threshold",
+                "description": "A commonly used threshold to determine statistical significance in hypothesis testing.",
+                "findings": "Used as the threshold for determining statistical significance in both the Mann-Whitney test and one-way ANOVA.",
+                "notes": "This threshold was critical for interpreting the results of various statistical tests conducted in the study.",
+                "knowledge": [
+                    {
+                        "predicate": "determines",
+                        "object": "statistical significance"
+                    }
+                ]
+            }
+        },
+        "XI8iw4oa": {
+            "name": "DAPI (1:100 in PBS)",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "DAPI (1:100 in PBS)",
+                "type": "Nucleic acid stain solution",
+                "description": "A dilution of DAPI in phosphate-buffered saline used for staining cell nuclei.",
+                "findings": "Applied to samples after the live/dead assay and immunofluorescence staining, followed by a 10-minute incubation at room temperature.",
+                "notes": "The specific concentration and application method were detailed, ensuring consistent nuclear staining.",
+                "knowledge": [
+                    {
+                        "predicate": "applied to",
+                        "object": "samples"
+                    },
+                    {
+                        "predicate": "incubated with",
+                        "object": "cells for 10 minutes at room temperature"
+                    }
+                ]
+            }
+        },
+        "qnkoPhbG": {
+            "name": "DAPI (Invitrogen)",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "DAPI (Invitrogen)",
+                "type": "Nucleic acid stain product",
+                "description": "A commercial DAPI solution provided by Invitrogen for nuclear staining.",
+                "findings": "Used in the study to stain nuclei in high-magnification images of samples.",
+                "notes": "The brand and product were specified, ensuring reproducibility of the staining protocol.",
+                "knowledge": [
+                    {
+                        "predicate": "used for",
+                        "object": "nuclear staining"
+                    }
+                ]
+            }
+        },
+        "Umgg7x_v": {
+            "name": "live/dead assay",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "live/dead assay",
+                "type": "Cell viability assay",
+                "description": "A method to determine the proportion of live and dead cells in a sample.",
+                "findings": "Used to assess cell viability, followed by imaging with DAPI for nuclear staining.",
+                "notes": "The live/dead assay was a critical step in evaluating the impact of the treatments on cell survival.",
+                "knowledge": [
+                    {
+                        "predicate": "assesses",
+                        "object": "cell viability"
+                    }
+                ]
+            }
+        },
+        "l6YP6gCN": {
+            "name": "Mann-Whitney test",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Mann-Whitney test",
+                "type": "Nonparametric statistical test",
+                "description": "A nonparametric test used to compare two independent groups.",
+                "findings": "Used to compare two groups in the study, with a significance threshold of P < 0.05.",
+                "notes": "This test was chosen for comparing groups where data did not meet parametric assumptions.",
+                "knowledge": [
+                    {
+                        "predicate": "compares",
+                        "object": "two independent groups"
+                    }
+                ]
+            }
+        },
+        "oIwTX_pt": {
+            "name": "one-way ANOVA",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "one-way ANOVA",
+                "type": "Parametric statistical test",
+                "description": "A parametric test used to compare means across more than two groups.",
+                "findings": "Used for multiple comparisons in the study, with a significance threshold of P < 0.05.",
+                "notes": "This test was chosen for comparing multiple groups where data met parametric assumptions.",
+                "knowledge": [
+                    {
+                        "predicate": "compares",
+                        "object": "means across more than two groups"
+                    }
+                ]
+            }
+        },
+        "TnkjdIFk": {
+            "name": "Guanylate Cyclase-C",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Guanylate Cyclase-C",
+                "type": "Protein",
+                "description": "A protein involved in cellular signaling pathways that can be used as a biomarker for certain cancers, including colorectal cancer.",
+                "findings": "The article mentions the use of guanylate cyclase-C immunohistochemistry data to support the study. It is also mentioned that 15 out of 20 patients (75%) had tumors positive for guanylate cyclase-C expression.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "used in",
+                        "object": "Guanylate Cyclase-C immunohistochemistry"
+                    },
+                    {
+                        "predicate": "positive for",
+                        "object": "15 out of 20 patients (75%)"
+                    }
+                ]
+            }
+        },
+        "Y5iuoL8M": {
+            "name": "hCRISPRs",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "hCRISPRs",
+                "type": "Biomarker",
+                "description": "Human CRISPR RNAs (hCRISPRs) are short RNA molecules that can be detected in human samples.",
+                "findings": "hCRISPRs were identified and validated as potential biomarkers for transcriptional activity. They were detected using various technologies including RT-qPCR, SHERLOCK, and DETECTR.",
+                "notes": "hCRISPRs are related to CRISPR-Cas systems and can be used for diagnostic purposes.",
+                "knowledge": [
+                    {
+                        "predicate": "were identified as potential biomarkers",
+                        "object": "hCRISPRs"
+                    },
+                    {
+                        "predicate": "were validated using RT-qPCR",
+                        "object": "hCRISPRs"
+                    },
+                    {
+                        "predicate": "can be detected using SHERLOCK and DETECTR technologies",
+                        "object": "hCRISPRs"
+                    }
+                ]
+            }
+        },
+        "83bvos04": {
+            "name": "acetone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "acetone",
+                "type": "VOC (Volatile Organic Compound)",
+                "description": "A chemical compound with a fruity odor that can be present in exhaled breath.",
+                "findings": "Acetone concentration changes during activities such as exercising or fasting, making it less reliable as a biomarker. It is also influenced by exogenous factors like physical activity and smoking.",
+                "notes": "While acetone has been considered for use as a cancer biomarker, its reliability is affected by various external factors.",
+                "knowledge": [
+                    {
+                        "predicate": "changes during",
+                        "object": "exercising or fasting"
+                    },
+                    {
+                        "predicate": "is influenced by",
+                        "object": "physical activity and smoking"
+                    }
+                ]
+            }
+        },
+        "lWhwpeU-": {
+            "name": "4-heptanone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "4-heptanone",
+                "type": "VOC (Volatile Organic Compound)",
+                "description": "A chemical compound that has been detected in exhaled breath.",
+                "findings": "The origin of 4-heptanone is unclear, and it is not recommended for use as a biomarker due to this uncertainty.",
+                "notes": "Further research on the origins of 4-heptanone is needed to determine its potential as a biomarker.",
+                "knowledge": [
+                    {
+                        "predicate": "origin of",
+                        "object": "is unclear"
+                    },
+                    {
+                        "predicate": "not recommended for use as",
+                        "object": "biomarker"
+                    }
+                ]
+            }
+        },
+        "o1uzwRKr": {
+            "name": "acetone (as a cancer biomarker)",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "acetone (as a cancer biomarker)",
+                "type": "VOC (Volatile Organic Compound)",
+                "description": "A chemical compound with a fruity odor that has been considered for use as a cancer biomarker.",
+                "findings": "Acetone cannot itself represent an appropriate biomarker due to changes in concentration during activities like exercising or fasting.",
+                "notes": "While acetone is of interest, its reliability as a biomarker is limited by external factors.",
+                "knowledge": [
+                    {
+                        "predicate": "cannot represent",
+                        "object": "appropriate biomarker"
+                    },
+                    {
+                        "predicate": "concentration changes during",
+                        "object": "exercising or fasting"
+                    }
+                ]
+            }
+        },
+        "L_XB42GC": {
+            "name": "Microbiome composition",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Microbiome composition",
+                "type": "Bacterial community",
+                "description": "The overall composition of bacteria in the gut microbiome.",
+                "findings": "The article discusses how the composition of the gut microbiome is a significant biomarker for colorectal cancer (CRC). SHapley Additive exPlanations (SHAP) values were used to identify key bacterial taxa that contribute to the discrimination between CRC patients and healthy controls.",
+                "notes": "The study highlights the importance of specific bacterial taxa in distinguishing CRC cases from healthy individuals.",
+                "knowledge": [
+                    {
+                        "predicate": "contributes to",
+                        "object": "discrimination between CRC patients and healthy controls"
+                    },
+                    {
+                        "predicate": "is a significant biomarker for",
+                        "object": "colorectal cancer (CRC)"
+                    }
+                ]
+            }
+        },
+        "zaW8sK8u": {
+            "name": "Fusobacterium nucleatum",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Fusobacterium nucleatum",
+                "type": "Bacterial species",
+                "description": "A bacterial species commonly found in the oral cavity and associated with colorectal cancer.",
+                "findings": "The article mentions that Fusobacterium nucleatum is significantly enriched in CRC patients compared to healthy controls, as identified through SHAP values.",
+                "notes": "Fusobacterium nucleatum has been previously linked to CRC in other studies.",
+                "knowledge": [
+                    {
+                        "predicate": "is significantly enriched in",
+                        "object": "CRC patients compared to healthy controls"
+                    },
+                    {
+                        "predicate": "is identified through",
+                        "object": "SHAP values"
+                    }
+                ]
+            }
+        },
+        "1kpdHHQK": {
+            "name": "Prevotella copri",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Prevotella copri",
+                "type": "Bacterial species",
+                "description": "A bacterial species that is part of the gut microbiome and has been associated with various diseases.",
+                "findings": "The article reports that Prevotella copri is another key biomarker identified in CRC patients, showing a significant presence through SHAP analysis.",
+                "notes": "Prevotella copri's role in CRC is supported by its presence in the microbiome of CRC patients.",
+                "knowledge": [
+                    {
+                        "predicate": "is another key biomarker identified in",
+                        "object": "CRC patients"
+                    },
+                    {
+                        "predicate": "shows a significant presence through",
+                        "object": "SHAP analysis"
+                    }
+                ]
+            }
+        },
+        "N1CEyEeK": {
+            "name": "Bacteroides fragilis",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Bacteroides fragilis",
+                "type": "Bacterial species",
+                "description": "A common gut bacterium that has been linked to various gastrointestinal diseases.",
+                "findings": "The article highlights Bacteroides fragilis as a biomarker in CRC, with increased abundance observed in CRC patients compared to healthy controls using SHAP values.",
+                "notes": "Bacteroides fragilis is known for its role in gut health and disease.",
+                "knowledge": [
+                    {
+                        "predicate": "has increased abundance observed in",
+                        "object": "CRC patients compared to healthy controls"
+                    },
+                    {
+                        "predicate": "is highlighted as a biomarker in",
+                        "object": "CRC"
+                    }
+                ]
+            }
+        },
+        "me9qvul3": {
+            "name": "Acetone",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Acetone",
+                "type": "VOC (volatile organic compound)",
+                "description": "A ketone and a secondary product of lipid peroxidation. It is a good predictor for ketosis and forms under metabolic conditions associated with a high oxidation rate of fatty acids.",
+                "findings": "Acetone was found to be elevated in the exhaled breath of CRC patients compared to controls, suggesting it may be a biomarker for oxidative stress or altered metabolism in cancer.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "elevated in",
+                        "object": "exhaled breath of CRC patients"
+                    },
+                    {
+                        "predicate": "predictor for",
+                        "object": "ketosis"
+                    }
+                ]
+            }
+        },
+        "YeB9HRT9": {
+            "name": "Alcohols",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Alcohols",
+                "type": "VOC (volatile organic compound)",
+                "description": "Originates from food and alcohol beverages, as well as the metabolism of hydrocarbons by cytochrome p450 enzymes.",
+                "findings": "The levels of alcohols were not explicitly mentioned in the article, but they are part of the VOCs that can be detected in exhaled breath and may vary in CRC patients due to different metabolic processes.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "originates from",
+                        "object": "food and alcohol beverages"
+                    },
+                    {
+                        "predicate": "derived from",
+                        "object": "metabolism of hydrocarbons by cytochrome p450 enzymes"
+                    }
+                ]
+            }
+        },
+        "7XrC81pQ": {
+            "name": "Hydrocarbons",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Hydrocarbons",
+                "type": "VOC (volatile organic compound)",
+                "description": "Emission is affected by oxidative stress, which is the balance between formation and scavenging of reactive oxygen species (ROS) and free radicals in the body. Unmetabolized hydrocarbons are excreted in the breath due to their low solubility in blood.",
+                "findings": "Hydrocarbons were found to be part of the VOCs detected in exhaled breath, and their levels may vary in CRC patients due to oxidative stress.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "affected by",
+                        "object": "oxidative stress"
+                    },
+                    {
+                        "predicate": "excreted in",
+                        "object": "breath due to low solubility in blood"
+                    }
+                ]
+            }
+        },
+        "Na2UoHPg": {
+            "name": "Esters",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "Esters",
+                "type": "VOC (volatile organic compound)",
+                "description": "Can be found in large amounts in natural sources such as fats, fatty oils, waxes, and fruit ethers.",
+                "findings": "The levels of esters were not explicitly mentioned in the article, but they are part of the VOCs that can be detected in exhaled breath and may vary in CRC patients due to different metabolic processes.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "predicate": "found in",
+                        "object": "large amounts in natural sources such as fats, fatty oils, waxes, and fruit ethers"
+                    }
+                ]
+            }
+        },
+        "cWWrz2DL": {
+            "name": "T-antigen",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "T-antigen",
+                "type": "Glycan",
+                "description": "An immature glycan associated with cancer and often found in more aggressive lesions.",
+                "findings": "Stools from more aggressive lesions may exhibit abnormal immature glycan signatures not seen in healthy tissues. The T-antigen was identified as a potential biomarker for non-invasive CRC screening.",
+                "notes": "The exploratory nature of this study may limit the robustness of the results. Future efforts should involve screening larger patient cohorts.",
+                "knowledge": [
+                    {
+                        "predicate": "is associated with",
+                        "object": "cancer"
+                    },
+                    {
+                        "predicate": "may exhibit abnormal signatures in",
+                        "object": "stools from more aggressive lesions"
+                    },
+                    {
+                        "predicate": "was identified as a potential biomarker for",
+                        "object": "non-invasive CRC screening"
+                    }
+                ]
+            }
+        },
+        "BO9G_VkQ": {
+            "name": "PNA-enriched glycoproteins",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "qwen2.5:72b/KVUjX",
+            "details": {
+                "name": "PNA-enriched glycoproteins",
+                "type": "Glycoprotein",
+                "description": "Glycoproteins enriched using PNA ( Peanut Agglutinin ) from the stool samples, potentially associated with cancer and dysplasia.",
+                "findings": "Several molecular targets shared by more aggressive non-cancerous lesions and cancer were identified. These glycoproteins hold promise for future pre-clinical assessment.",
+                "notes": "The study characterizes the stool glycoproteome and identifies potential biomarkers that may be useful in non-invasive CRC screening.",
+                "knowledge": [
+                    {
+                        "predicate": "were identified as molecular targets shared by",
+                        "object": "more aggressive non-cancerous lesions and cancer"
+                    },
+                    {
+                        "predicate": "hold promise for",
+                        "object": "future pre-clinical assessment"
+                    }
+                ]
+            }
+        }
+    },
+    "documents": {
+        "10.1038/s41598-023-42037-w": {
+            "doi": "10.1038/s41598-023-42037-w",
+            "short_citation": "(Bao-Caamano;2023)",
+            "long_citation": "Bao-Caamano, et al., Epigenomic analysis reveals a unique DNA methylation program of metastasis-competent circulating tumor cells in colorectal cancer, , 2023"
+        },
+        "10.1002/anie.202306154": {
+            "doi": "10.1002/anie.202306154",
+            "short_citation": "(Saraei;2019)",
+            "long_citation": "Saraei, et al., Towards a Precise NMR Quantification of Acute Phase Inflammation Proteins from Human Serum, , 2019"
+        },
+        "10.3390/cancers13184640": {
+            "doi": "10.3390/cancers13184640",
+            "short_citation": "(Dur\u00e1n-Vin;2021-09-16)",
+            "long_citation": "Dur\u00e1n-Vin, et al., CRISPR/Cas13-Based Platforms for a Potential Next-Generation Diagnosis of Colorectal Cancer through Exosomes Micro-RNA Detection: A Review, , 2021-09-16"
+        },
+        "10.3390/cancers16162796": {
+            "doi": "10.3390/cancers16162796",
+            "short_citation": "(Ashouri;2024-08-08)",
+            "long_citation": "Ashouri, et al., Exploring Predictive and Prognostic Biomarkers in Colorectal Cancer: A Comprehensive Review, , 2024-08-08"
+        },
+        "10.1126/sciadv.aaw1317": {
+            "doi": "10.1126/sciadv.aaw1317",
+            "short_citation": "(Carvalho;2024-12-04)",
+            "long_citation": "Carvalho, et al., Colorectal tumor-on-a-chip system: A 3D tool for precision onco-nanomedicine, , 2024-12-04"
+        },
+        "10.1001/jamaoncol.2024.3891": {
+            "doi": "10.1001/jamaoncol.2024.3891",
+            "short_citation": "(Chen;2024-09-19)",
+            "long_citation": "Chen, et al., Chimeric Antigen Receptor T Cells Targeting CD19 and GCC in Metastatic Colorectal Cancer A Nonrandomized Clinical Trial, , 2024-09-19"
+        },
+        "10.1038/s42003-022-03249-4": {
+            "doi": "10.1038/s42003-022-03249-4",
+            "short_citation": "(Van Riet;1989)",
+            "long_citation": "Van Riet, et al., CRISPRs in the human genome are differentially expressed between malignant and normal adjacent to tumor tissue, , 1989"
+        },
+        "10.3390/ijms24010129": {
+            "doi": "10.3390/ijms24010129",
+            "short_citation": "(Chen;2022-12-21)",
+            "long_citation": "Chen, et al., Diagnosis by Volatile Organic Compounds in Exhaled Breath from Patients with Gastric and Colorectal Cancers, , 2022-12-21"
+        },
+        "10.1111/j.2517-6161.1982.tb01195.x": {
+            "doi": "10.1111/j.2517-6161.1982.tb01195.x",
+            "short_citation": "(D'elia;1982)",
+            "long_citation": "D'elia, et al., Explainable artificial intelligence for microbiome data analysis in colorectal cancer biomarker identification, , 1982"
+        },
+        "10.1002/ijc.29701": {
+            "doi": "10.1002/ijc.29701",
+            "short_citation": "(Amal;2015)",
+            "long_citation": "Amal, et al., Breath testing as potential colorectal cancer screening tool, , 2015"
+        },
+        "10.3390/ijms25073722": {
+            "doi": "10.3390/ijms25073722",
+            "short_citation": "(Kuppen;2024-03-27)",
+            "long_citation": "Kuppen, et al., Stool Glycoproteomics Signatures of Pre-Cancerous Lesions and Colorectal Cancer, , 2024-03-27"
+        }
+    },
+    "lang_info": {
+        "qwen2.5:72b/KVUjX": {
+            "llm_tag": "qwen2.5:72b",
+            "prompt_template": "[BEGIN ARTICLE]:<content></content>\n[END ARTICLE]\n\n[INSTRUCTIONS]\nGenerate list of biomarkers that are topic of the article and for each such biomarker extract name, description, type, findings explicitly mentioned in the article, list of knowledge that consist of 'predicate' about the finding from findings and 'object' which biomarker is subject and related via 'predicate'.\nReturn the response in strict JSON format with the following structure:\n\n[\n  { \"name\": \"biomarker name\",\"type\":\"biomarker type\",\"description\":\"biomarker description\",\"findings\":\"findings about biomarker in article\",\"notes\":\"additional notes important to biomarker\", \"knowledge\":[{'predicate':'some predicate from findings of biomarker','object':'object that relates via predicate to the biomarker' }],\n  { \"name\": \"biomarker2 name\",\"type\":\"biomarker2 type\",\"description\":\"biomarker2 description\",\"findings\":\"findings about biomarker2 in article\",\"notes\":\"additional notes important to biomarker2\", \"knowledge\":[{'predicate':'some predicate from findings of  biomarker2','object':'object that relates via predicate to the biomarker2' }] }\n] \n\nEnsure there is no additional explanation, only return valid JSON.\n"
+        }
+    }
+}
