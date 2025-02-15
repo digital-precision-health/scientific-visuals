@@ -1,1134 +1,1323 @@
 {
     "biomarkers": {
-        "dxNHth_B": {
-            "name": "FZD6",
+        "REXQ5kwA": {
+            "name": "FBN1",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "FZD6",
-                "type": "gene",
-                "description": "frizzled class receptor 6",
-                "findings": "hypermethylated in CTCs",
-                "notes": "potential biomarker for colorectal cancer",
+                "name": "FBN1",
+                "type": "DNA methylation biomarker",
+                "description": "Fibrillin 1 gene associated with colorectal cancer (CRC)",
+                "findings": "Shows differential methylation in CRC cases compared to controls",
+                "notes": "Identified through DNA methylation analysis using EPIC arrays",
                 "knowledge": [
                     {
-                        "predicate": "is hypermethylated in",
-                        "object": "CTCs"
-                    },
-                    {
-                        "predicate": "is potential biomarker for",
-                        "object": "colorectal cancer"
+                        "predicate": "shows differential methylation",
+                        "object": "FBN1"
                     }
                 ]
             }
         },
-        "MERa1d8r": {
-            "name": "LEF1",
+        "eaGQVHyu": {
+            "name": "RBP4",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "LEF1",
-                "type": "gene",
-                "description": "lymphoid enhancer binding factor 1",
-                "findings": "hypomethylated in CTCs",
-                "notes": "potential biomarker for colorectal cancer",
+                "name": "RBP4",
+                "type": "DNA methylation biomarker",
+                "description": "Retinol-binding protein 4 gene associated with CRC",
+                "findings": "Exhibits differential methylation patterns in CRC cases",
+                "notes": "Part of a panel of methylation markers for CRC detection",
                 "knowledge": [
                     {
-                        "predicate": "is hypomethylated in",
-                        "object": "CTCs"
-                    },
-                    {
-                        "predicate": "is potential biomarker for",
-                        "object": "colorectal cancer"
+                        "predicate": "exhibits differential methylation patterns",
+                        "object": "RBP4"
                     }
                 ]
             }
         },
-        "K-bXzsql": {
-            "name": "WNT5A",
+        "G7dLuKPO": {
+            "name": "C7orf10",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "WNT5A",
-                "type": "gene",
-                "description": "wingless-type MMTV integration site family member 5A",
-                "findings": "hypermethylated in CTCs",
-                "notes": "potential biomarker for colorectal cancer",
+                "name": "C7orf10",
+                "type": "DNA methylation biomarker",
+                "description": "Chromosome 7 open reading frame 10 gene linked to CRC",
+                "findings": "Demonstrates significant methylation changes in CRC",
+                "notes": "Potential marker for early detection of CRC",
                 "knowledge": [
                     {
-                        "predicate": "is hypermethylated in",
-                        "object": "CTCs"
-                    },
-                    {
-                        "predicate": "is potential biomarker for",
-                        "object": "colorectal cancer"
+                        "predicate": "demonstrates significant methylation changes",
+                        "object": "C7orf10"
                     }
                 ]
             }
         },
-        "arguM7wE": {
-            "name": "FZD7",
+        "t18aZX5d": {
+            "name": "TFPI2",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "FZD7",
-                "type": "gene",
-                "description": "frizzled class receptor 7",
-                "findings": "hypermethylated in CTCs",
-                "notes": "potential biomarker for colorectal cancer",
+                "name": "TFPI2",
+                "type": "DNA methylation biomarker",
+                "description": "Tissue factor pathway inhibitor 2 gene associated with CRC",
+                "findings": "Shows altered methylation in colorectal cancer tissues",
+                "notes": "Correlates with clinical outcomes in CRC patients",
                 "knowledge": [
                     {
-                        "predicate": "is hypermethylated in",
-                        "object": "CTCs"
-                    },
-                    {
-                        "predicate": "is potential biomarker for",
-                        "object": "colorectal cancer"
+                        "predicate": "shows altered methylation",
+                        "object": "TFPI2"
                     }
                 ]
             }
         },
-        "CWpzrYDr": {
-            "name": "LEF1, FZD6 and WNT5A",
+        "BieyNlk3": {
+            "name": "EPO",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "LEF1, FZD6 and WNT5A",
-                "type": "gene panel",
-                "description": "combination of LEF1, FZD6 and WNT5A genes",
-                "findings": "potential biomarkers for colorectal cancer",
-                "notes": "identified through DNA methylation analysis",
+                "name": "EPO",
+                "type": "DNA methylation biomarker",
+                "description": "Erythropoietin gene linked to CRC progression",
+                "findings": "Exhibits hypermethylation in CRC cases",
+                "notes": "Potential therapeutic target for CRC treatment",
                 "knowledge": [
                     {
-                        "predicate": "are potential biomarkers for",
-                        "object": "colorectal cancer"
-                    },
-                    {
-                        "predicate": "were identified through",
-                        "object": "DNA methylation analysis"
+                        "predicate": "exhibits hypermethylation",
+                        "object": "EPO"
                     }
                 ]
             }
         },
-        "OovtsSRK": {
-            "name": "Alpha-1-acid glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+        "O0fc9zAZ": {
+            "name": "SLC6A20",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Alpha-1-acid glycoprotein",
+                "name": "SLC6A20",
+                "type": "DNA methylation biomarker",
+                "description": "Solute carrier family 6 member A20 gene associated with CRC",
+                "findings": "Displays differential methylation in CRC cases compared to controls",
+                "notes": "May play a role in CRC pathogenesis",
+                "knowledge": [
+                    {
+                        "predicate": "displays differential methylation",
+                        "object": "SLC6A20"
+                    }
+                ]
+            }
+        },
+        "iFrwtSxR": {
+            "name": "IRF1",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "IRF1",
+                "type": "DNA methylation biomarker",
+                "description": "Interferon regulatory factor 1 gene linked to CRC",
+                "findings": "Shows significant methylation changes in CRC cases",
+                "notes": "Involved in immune response and tumor suppression",
+                "knowledge": [
+                    {
+                        "predicate": "shows significant methylation changes",
+                        "object": "IRF1"
+                    }
+                ]
+            }
+        },
+        "r-Px28_w": {
+            "name": "Immunoglobulin G (IgG)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Immunoglobulin G (IgG)",
                 "type": "glycoprotein",
-                "description": "a protein that increases in response to inflammation",
-                "findings": "increased in inflammatory conditions",
-                "notes": "",
+                "description": "A type of antibody with specific glycosylation patterns.",
+                "findings": "Increased levels in certain inflammatory conditions.",
+                "notes": "Commonly studied for its role in immune responses and inflammation.",
                 "knowledge": [
                     {
-                        "predicate": "increases in response to",
-                        "object": "inflammation"
+                        "predicate": "increased in",
+                        "object": "inflammatory conditions"
                     }
                 ]
             }
         },
-        "7rR1VttX": {
-            "name": "Haptoglobin",
+        "43dBH509": {
+            "name": "Immunoglobulin A (IgA)",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Haptoglobin",
+                "name": "Immunoglobulin A (IgA)",
                 "type": "glycoprotein",
-                "description": "a protein that binds to hemoglobin",
-                "findings": "decreased in inflammatory conditions",
-                "notes": "",
+                "description": "Another class of antibody with distinct glycosylation.",
+                "findings": "Varies in abundance and response compared to IgG.",
+                "notes": "Important in mucosal immunity.",
                 "knowledge": [
                     {
-                        "predicate": "binds to",
-                        "object": "hemoglobin"
-                    },
-                    {
-                        "predicate": "decreases in response to",
-                        "object": "inflammation"
+                        "predicate": "varies in",
+                        "object": "abundance"
                     }
                 ]
             }
         },
-        "OAonEfeG": {
-            "name": "Ceruloplasmin",
+        "yTUePfdR": {
+            "name": "Immunoglobulin M (IgM)",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Ceruloplasmin",
+                "name": "Immunoglobulin M (IgM)",
                 "type": "glycoprotein",
-                "description": "a protein that carries copper in the blood",
-                "findings": "increased in inflammatory conditions",
-                "notes": "",
+                "description": "First antibody produced in response to an infection.",
+                "findings": "Associated with a specific glycoform linked to certain diseases.",
+                "notes": "Largest antibody, often indicative of recent infection.",
                 "knowledge": [
                     {
-                        "predicate": "carries",
-                        "object": "copper"
-                    },
-                    {
-                        "predicate": "increases in response to",
-                        "object": "inflammation"
+                        "predicate": "linked to",
+                        "object": "diseases"
                     }
                 ]
             }
         },
-        "lrmDx9bb": {
-            "name": "Fibrinogen",
+        "UITiAXxs": {
+            "name": "Haptoglobin (Hp)",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Fibrinogen",
+                "name": "Haptoglobin (Hp)",
+                "type": "acute-phase protein",
+                "description": "Binds free hemoglobin to prevent oxidative damage.",
+                "findings": "Exists in two isoforms, Hp1 and Hp2, which are associated with different disease states.",
+                "notes": "Used as a marker for hemolysis and inflammation.",
+                "knowledge": [
+                    {
+                        "predicate": "associated with",
+                        "object": "disease states"
+                    }
+                ]
+            }
+        },
+        "6GQo62B9": {
+            "name": "Transferrin (Tf)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Transferrin (Tf)",
                 "type": "glycoprotein",
-                "description": "a protein that helps blood clot",
-                "findings": "increased in inflammatory conditions",
-                "notes": "",
+                "description": "Involved in iron transport and homeostasis.",
+                "findings": "Shows specific glycan structures that are altered in chronic inflammation.",
+                "notes": "Important for understanding iron metabolism disorders.",
                 "knowledge": [
                     {
-                        "predicate": "helps",
-                        "object": "blood clotting"
-                    },
+                        "predicate": "altered in",
+                        "object": "chronic inflammation"
+                    }
+                ]
+            }
+        },
+        "M5LUajuH": {
+            "name": "Ceruloplasmin (Cp)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Ceruloplasmin (Cp)",
+                "type": "ferroxidase enzyme",
+                "description": "Involved in iron metabolism and antioxidant defense.",
+                "findings": "Specific glycosylation patterns are associated with inflammatory conditions.",
+                "notes": "Elevated levels are seen in acute-phase responses.",
+                "knowledge": [
                     {
-                        "predicate": "increases in response to",
+                        "predicate": "associated with",
+                        "object": "inflammatory conditions"
+                    }
+                ]
+            }
+        },
+        "-Wia-Af3": {
+            "name": "Alpha-2 macroglobulin (A2M)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Alpha-2 macroglobulin (A2M)",
+                "type": "protease inhibitor and cytokine transporter",
+                "description": "A large plasma protein involved in immune regulation.",
+                "findings": "Identified as a potential biomarker due to its glycosylation changes in inflammation.",
+                "notes": "Plays a role in chronic inflammatory diseases.",
+                "knowledge": [
+                    {
+                        "predicate": "changes in",
                         "object": "inflammation"
                     }
                 ]
             }
         },
-        "UJ288b2w": {
-            "name": "Glycosylated acute phase proteins",
+        "0P46sg2C": {
+            "name": "Fetuin-A",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Glycosylated acute phase proteins",
-                "type": "proteins",
-                "description": "proteins that increase in response to inflammation and have glycan structures",
-                "findings": "identified by NMR spectroscopy, correlated with classical diagnostic methods",
-                "notes": "",
-                "knowledge": [
-                    {
-                        "predicate": "increase in response to",
-                        "object": "inflammation"
-                    },
-                    {
-                        "predicate": "have",
-                        "object": "glycan structures"
-                    },
-                    {
-                        "predicate": "identified by",
-                        "object": "NMR spectroscopy"
-                    }
-                ]
-            }
-        },
-        "pahME314": {
-            "name": "Alpha-1-antitrypsin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Alpha-1-antitrypsin",
+                "name": "Fetuin-A",
                 "type": "glycoprotein",
-                "description": "a protein that protects the lungs from damage",
-                "findings": "increased in inflammatory conditions",
-                "notes": "",
+                "description": "Inhibits calcification and regulates insulin activity.",
+                "findings": "Levels are altered in certain inflammatory and metabolic conditions.",
+                "notes": "Associated with cardiovascular diseases.",
                 "knowledge": [
                     {
-                        "predicate": "protects",
-                        "object": "lungs"
-                    },
-                    {
-                        "predicate": "increases in response to",
-                        "object": "inflammation"
+                        "predicate": "altered in",
+                        "object": "inflammatory and metabolic conditions"
                     }
                 ]
             }
         },
-        "ZrofRfxe": {
+        "PN5rJ5Jr": {
+            "name": "Albumin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Albumin",
+                "type": "plasma protein",
+                "description": "Most abundant plasma protein, not a glycoprotein.",
+                "findings": "Levels decrease in chronic inflammatory states due to capillary leakage.",
+                "notes": "Common marker for nutritional status and liver function.",
+                "knowledge": [
+                    {
+                        "predicate": "decrease in",
+                        "object": "chronic inflammation"
+                    }
+                ]
+            }
+        },
+        "PAi1eEaO": {
+            "name": "C-reactive protein (CRP)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "C-reactive protein (CRP)",
+                "type": "acute-phase reactant",
+                "description": "Produced in response to inflammation.",
+                "findings": "Levels increase significantly during bacterial infections and inflammatory conditions.",
+                "notes": "Commonly used as a clinical marker for infection and inflammation.",
+                "knowledge": [
+                    {
+                        "predicate": "increase in",
+                        "object": "bacterial infections"
+                    }
+                ]
+            }
+        },
+        "nzefFjV1": {
+            "name": "Serum Amyloid A (SAA)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Serum Amyloid A (SAA)",
+                "type": "acute-phase protein",
+                "description": "Increases rapidly in response to inflammation.",
+                "findings": "Levels are elevated in chronic inflammatory conditions.",
+                "notes": "Associated with amyloidosis and various infections.",
+                "knowledge": [
+                    {
+                        "predicate": "elevated in",
+                        "object": "chronic inflammation"
+                    }
+                ]
+            }
+        },
+        "2L6SQsPx": {
+            "name": "Amyloid A",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Amyloid A",
+                "type": "protein precursor to amyloid fibrils",
+                "description": "Associated with chronic inflammatory conditions and certain cancers.",
+                "findings": "Linked to disease states through specific glycosylation patterns.",
+                "notes": "Implicated in the pathogenesis of amyloidosis.",
+                "knowledge": [
+                    {
+                        "predicate": "linked to",
+                        "object": "disease states"
+                    }
+                ]
+            }
+        },
+        "zxPfLT9I": {
+            "name": "Lipoproteins (e.g., LDL, HDL)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Lipoproteins (e.g., LDL, HDL)",
+                "type": "lipid transport proteins",
+                "description": "Responsible for cholesterol and lipid transport.",
+                "findings": "Show altered glycosylation patterns in metabolic disorders.",
+                "notes": "Associated with cardiovascular diseases.",
+                "knowledge": [
+                    {
+                        "predicate": "altered in",
+                        "object": "metabolic disorders"
+                    }
+                ]
+            }
+        },
+        "Ydbi7ycM": {
             "name": "miR-126",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "miR-126",
-                "type": "miRNA",
-                "description": "microRNA",
-                "findings": "has shown to date the best predictive data for early CRC stages",
-                "notes": "part of CEx-miRNAs panel for early CRC diagnosis and prognosis",
+                "type": "microRNA (miRNA)",
+                "description": "A microRNA expressed in colorectal cancer exosomes (CEx) with potential as a diagnostic and prognostic biomarker.",
+                "findings": "Reported as a potential biomarker for early CRC diagnosis and prognosis with robust predictive results.",
+                "notes": "Part of a proposed CEx-miRNAs panel for minimally invasive CRC detection.",
                 "knowledge": [
                     {
-                        "predicate": "has predictive value",
-                        "object": "early CRC stages"
+                        "predicate": "reported as a potential biomarker",
+                        "object": "miR-126"
                     },
                     {
-                        "predicate": "is part of",
-                        "object": "CEx-miRNAs panel"
+                        "predicate": "showed robust predictive results",
+                        "object": "miR-126"
                     }
                 ]
             }
         },
-        "kKByObnU": {
+        "iHOuGilg": {
             "name": "miR-1290",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "miR-1290",
-                "type": "miRNA",
-                "description": "microRNA",
-                "findings": "has shown to date the best predictive data for early CRC stages",
-                "notes": "part of CEx-miRNAs panel for early CRC diagnosis and prognosis",
+                "type": "microRNA (miRNA)",
+                "description": "A microRNA associated with colorectal cancer exosomes and tumor progression.",
+                "findings": "Identified as a potential biomarker for early CRC diagnosis and prognosis with strong predictive data.",
+                "notes": "Included in the proposed panel of CEx-miRNAs for early CRC detection.",
                 "knowledge": [
                     {
-                        "predicate": "has predictive value",
-                        "object": "early CRC stages"
+                        "predicate": "identified as a potential biomarker",
+                        "object": "miR-1290"
                     },
                     {
-                        "predicate": "is part of",
-                        "object": "CEx-miRNAs panel"
+                        "predicate": "showed strong predictive data",
+                        "object": "miR-1290"
                     }
                 ]
             }
         },
-        "x8mPf-yX": {
+        "T_92-2zV": {
             "name": "miR-23a",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "miR-23a",
-                "type": "miRNA",
-                "description": "microRNA",
-                "findings": "has shown predictive data for early CRC stages",
-                "notes": "part of CEx-miRNAs panel for early CRC diagnosis and prognosis",
+                "type": "microRNA (miRNA)",
+                "description": "A microRNA linked to colorectal cancer progression and metastasis.",
+                "findings": "Associated with tumor progression and angiogenesis in CRC.",
+                "notes": "Part of the proposed panel for CEx-miRNAs-based early CRC detection.",
                 "knowledge": [
                     {
-                        "predicate": "has predictive value",
-                        "object": "early CRC stages"
+                        "predicate": "associated with tumor progression",
+                        "object": "miR-23a"
                     },
                     {
-                        "predicate": "is part of",
-                        "object": "CEx-miRNAs panel"
+                        "predicate": "linked to angiogenesis in CRC",
+                        "object": "miR-23a"
                     }
                 ]
             }
         },
-        "G0WNFShi": {
+        "XU9l9wlC": {
             "name": "miR-940",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "miR-940",
-                "type": "miRNA",
-                "description": "microRNA",
-                "findings": "has shown predictive data for early CRC stages",
-                "notes": "part of CEx-miRNAs panel for early CRC diagnosis and prognosis",
+                "type": "microRNA (miRNA)",
+                "description": "A microRNA found in colorectal cancer exosomes with diagnostic potential.",
+                "findings": "Associated with CRC pathogenesis and proposed as a non-invasive biomarker.",
+                "notes": "Included in the panel of CEx-miRNAs for early CRC detection.",
                 "knowledge": [
                     {
-                        "predicate": "has predictive value",
-                        "object": "early CRC stages"
+                        "predicate": "associated with CRC pathogenesis",
+                        "object": "miR-940"
                     },
                     {
-                        "predicate": "is part of",
-                        "object": "CEx-miRNAs panel"
+                        "predicate": "proposed as a non-invasive biomarker",
+                        "object": "miR-940"
                     }
                 ]
             }
         },
-        "TzKx6RE5": {
+        "Jzl-MUqX": {
             "name": "MSI-H",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "MSI-H",
-                "type": "genetic biomarker",
-                "description": "Microsatellite instability-high",
-                "findings": "Confers substantial improvements in clinical outcomes and decreased toxicities through ICI, offering patients long-term survival or near curative results",
-                "notes": "Predictive of response to immunotherapy",
+                "type": "Microsatellite Instability Status",
+                "description": "A condition where there is a failure of the DNA mismatch repair system, leading to genomic instability.",
+                "findings": " MSI-H status is predictive of response to immune checkpoint inhibitors (ICIs) and confers improved clinical outcomes with reduced toxicities.",
+                "notes": "Identified as a key biomarker for immunotherapy in colorectal cancer.",
                 "knowledge": [
                     {
-                        "predicate": "confers improvement",
-                        "object": "clinical outcomes"
+                        "predicate": "predictive of response",
+                        "object": "immune checkpoint inhibitors (ICIs)"
                     },
                     {
-                        "predicate": "decreases",
-                        "object": "toxicities"
+                        "predicate": "confers improved clinical outcomes with reduced toxicities",
+                        "object": "patients"
                     }
                 ]
             }
         },
-        "8dIwAGky": {
-            "name": "RAS",
+        "yI5r_NUw": {
+            "name": "BRAF V600E mutation",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "RAS",
-                "type": "genetic biomarker",
-                "description": "Rat sarcoma virus oncogene",
-                "findings": "Necessitates a molecular-targeted approach in CRC",
-                "notes": "None",
+                "name": "BRAF V600E mutation",
+                "type": "Gene Mutation",
+                "description": "A specific mutation in the BRAF gene, known to be oncogenic.",
+                "findings": "BRAF V600E mutation is a negative prognostic marker but predicts response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments.",
+                "notes": "Commonly found in colorectal cancers with poor prognosis if untreated appropriately.",
                 "knowledge": [
                     {
-                        "predicate": "necessitates",
-                        "object": "molecular-targeted approach"
-                    }
-                ]
-            }
-        },
-        "_bDVGSmd": {
-            "name": "BRAF V600E",
-            "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "BRAF V600E",
-                "type": "genetic biomarker",
-                "description": "BRAF V600E mutation",
-                "findings": "Had a negative prognostic value but is now predictive of the response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments",
-                "notes": "Predictive of response to targeted therapy",
-                "knowledge": [
-                    {
-                        "predicate": "predicts",
-                        "object": "response to targeted therapy"
+                        "predicate": "negative prognostic value",
+                        "object": "patients"
                     },
                     {
-                        "predicate": "doubles",
-                        "object": "survival"
+                        "predicate": "predicts response to combined targeted BRAF/EGFR inhibition",
+                        "object": "targeted therapy"
                     }
                 ]
             }
         },
-        "q3mHKAll": {
-            "name": "KRAS",
+        "ybfBEAgf": {
+            "name": "RAS mutation",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "KRAS",
-                "type": "genetic biomarker",
-                "description": "Kirsten rat sarcoma virus oncogene",
-                "findings": "Reprograms cellular metabolism, limiting ferroptosis-related processes and making KRAS-mutant tumors more susceptible to ferroptosis induction as a potential clinical strategy",
-                "notes": "None",
+                "name": "RAS mutation",
+                "type": "Gene Mutation",
+                "description": "Mutations in the RAS gene family are associated with resistance to certain therapies.",
+                "findings": "RAS mutations are predictive of resistance to anti-EGFR therapies.",
+                "notes": "Commonly used as a marker to guide treatment decisions in colorectal cancer.",
                 "knowledge": [
                     {
-                        "predicate": "reprograms",
-                        "object": "cellular metabolism"
-                    },
-                    {
-                        "predicate": "makes susceptible",
-                        "object": "ferroptosis induction"
+                        "predicate": "predictive of resistance",
+                        "object": "anti-EGFR therapies"
                     }
                 ]
             }
         },
-        "mKXegDS-": {
-            "name": "Ferroptosis-related genes",
+        "Or8Jzu-0": {
+            "name": "HLA-A*03 allele",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Ferroptosis-related genes",
-                "type": "genetic biomarker",
-                "description": "Genes involved in ferroptosis regulation",
-                "findings": "Altered expression predicts OS and the immune response",
-                "notes": "None",
+                "name": "HLA-A*03 allele",
+                "type": "Human Leukocyte Antigen Allele",
+                "description": "A specific allele of the HLA-A gene, which plays a role in immune recognition.",
+                "findings": "HLA-A*03 allele may predict clinical benefit with nivolumab and ipilimumab combination therapy.",
+                "notes": "Emerging as a potential predictive marker for immunotherapy responses.",
                 "knowledge": [
                     {
-                        "predicate": "predicts",
-                        "object": "OS"
-                    },
-                    {
-                        "predicate": "predicts",
-                        "object": "immune response"
+                        "predicate": "may predict clinical benefit",
+                        "object": "nivolumab and ipilimumab combination therapy"
                     }
                 ]
             }
         },
-        "Rqs0cjc1": {
-            "name": "Glutamine metabolism genes",
+        "_QFeeTYV": {
+            "name": "HER2 amplification",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Glutamine metabolism genes",
-                "type": "genetic biomarker",
-                "description": "Genes involved in glutamine metabolism regulation",
-                "findings": "Regulates ferroptosis by contributing to the synthesis of glutathione (GSH) and through the process of glutaminolysis",
-                "notes": "None",
+                "name": "HER2 amplification",
+                "type": "Gene Amplification",
+                "description": "An increase in the number of HER2 gene copies, often associated with cancer progression.",
+                "findings": "HER2 amplification is a potential target for anti-HER2 therapies.",
+                "notes": "Less common but relevant in certain colorectal cancer cases.",
                 "knowledge": [
                     {
-                        "predicate": "regulates",
+                        "predicate": "potential target",
+                        "object": "anti-HER2 therapies"
+                    }
+                ]
+            }
+        },
+        "3lzVLq-K": {
+            "name": "HLA-B*15 and HLA-B*35 alleles",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "HLA-B*15 and HLA-B*35 alleles",
+                "type": "Human Leukocyte Antigen Alleles",
+                "description": "Specific alleles of the HLA-B gene associated with immune responses.",
+                "findings": "HLA-B*15 and HLA-B*35 alleles are associated with improved overall survival in patients treated with nivolumab and ipilimumab combination therapy.",
+                "notes": "Emerging biomarkers for immunotherapy response prediction.",
+                "knowledge": [
+                    {
+                        "predicate": "associated with improved overall survival",
+                        "object": "nivolumab and ipilimumab combination therapy"
+                    }
+                ]
+            }
+        },
+        "5LiJJST2": {
+            "name": "KRAS mutation",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "KRAS mutation",
+                "type": "Gene Mutation",
+                "description": "A mutation in the KRAS gene, commonly implicated in cancer.",
+                "findings": "KRAS mutations are associated with susceptibility to ferroptosis and may serve as a predictive marker for therapies targeting this pathway.",
+                "notes": "Frequently mutated in colorectal cancers; potential role in novel therapeutic approaches.",
+                "knowledge": [
+                    {
+                        "predicate": "associated with susceptibility",
                         "object": "ferroptosis"
-                    },
-                    {
-                        "predicate": "contributes",
-                        "object": "glutathione synthesis"
                     }
                 ]
             }
         },
-        "4tSqXOvH": {
-            "name": "Caspase-3",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+        "7mbQb49v": {
+            "name": "MMR/MSI",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Caspase-3",
-                "type": "protein",
-                "description": "enzyme playing essential role in programmed cell death",
-                "findings": "not explicitly mentioned in the article",
-                "notes": "important for apoptosis",
-                "knowledge": []
-            }
-        },
-        "Xk72LGlx": {
-            "name": "Rab25",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Rab25",
-                "type": "protein",
-                "description": "small GTPase involved in regulating membrane trafficking",
-                "findings": "not explicitly mentioned in the article",
-                "notes": "associated with cancer progression",
-                "knowledge": []
-            }
-        },
-        "h8UFFlpJ": {
-            "name": "Ki67",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Ki67",
-                "type": "protein",
-                "description": "nuclear protein that is expressed in all active phases of the cell cycle",
-                "findings": "not explicitly mentioned in the article",
-                "notes": "marker for cell proliferation",
-                "knowledge": []
-            }
-        },
-        "4SDwVx7_": {
-            "name": "Cytokeratin 18",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Cytokeratin 18",
-                "type": "protein",
-                "description": "intermediate filament protein",
-                "findings": "not explicitly mentioned in the article",
-                "notes": "used as a marker for simple epithelial cells",
-                "knowledge": []
-            }
-        },
-        "Er2S3hOJ": {
-            "name": "CD44",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "CD44",
-                "type": "transmembrane glycoprotein",
-                "description": "cell surface receptor involved in cell-cell and cell-matrix interactions",
-                "findings": "not explicitly mentioned in the article",
-                "notes": "marker for cancer stem cells",
-                "knowledge": []
-            }
-        },
-        "yQslDGuJ": {
-            "name": "RAS",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "RAS",
-                "type": "gene",
-                "description": "family of related proteins that are expressed in all animal cell lineages",
-                "findings": "not explicitly mentioned in the article",
-                "notes": "commonly mutated in cancer",
-                "knowledge": []
-            }
-        },
-        "0s59BBdA": {
-            "name": "p53",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "p53",
-                "type": "tumor suppressor protein",
-                "description": "critical regulator of cell division and apoptosis",
-                "findings": "not explicitly mentioned in the article",
-                "notes": "often mutated in human cancers",
-                "knowledge": []
-            }
-        },
-        "onN9I9ou": {
-            "name": "Filamentous actin",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Filamentous actin",
-                "type": "cytoskeletal component",
-                "description": "key structural element of the cytoskeleton",
-                "findings": "used as a marker for high-affinity filamentous actin probe phalloidin conjugated with Alexa Fluor 594",
-                "notes": "",
+                "name": "MMR/MSI",
+                "type": "Mismatch Repair/Microsatellite Instability Status",
+                "description": "A condition where there is a failure of the DNA mismatch repair system, leading to genomic instability.",
+                "findings": "MMR/MSI status is predictive of response to immunotherapy and other targeted therapies in colorectal cancer.",
+                "notes": "Closely related to MSI-H status; often used interchangeably in clinical contexts.",
                 "knowledge": [
                     {
-                        "predicate": "used as a marker for",
-                        "object": "high-affinity filamentous actin probe phalloidin"
+                        "predicate": "predictive of response",
+                        "object": "immunotherapy"
                     }
                 ]
             }
         },
-        "SEqvw1kL": {
-            "name": "DAPI",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "DAPI",
-                "type": "nucleic acid stain",
-                "description": "fluorescent dye that binds to DNA",
-                "findings": "used for staining in the article",
-                "notes": "",
-                "knowledge": [
-                    {
-                        "predicate": "used for",
-                        "object": "staining"
-                    }
-                ]
-            }
-        },
-        "shLSalEs": {
-            "name": "Phalloidin",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Phalloidin",
-                "type": "cytoskeletal probe",
-                "description": "high-affinity probe for filamentous actin",
-                "findings": "conjugated with Alexa Fluor 594 and used in the article",
-                "notes": "",
-                "knowledge": [
-                    {
-                        "predicate": "conjugated with",
-                        "object": "Alexa Fluor 594"
-                    }
-                ]
-            }
-        },
-        "wYVtVUKn": {
+        "GSoTGG8o": {
             "name": "Ki-67",
             "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "Ki-67",
-                "type": "protein",
-                "description": "nuclear protein that is expressed in all active phases of the cell cycle",
-                "findings": "not explicitly mentioned in the article as a finding but method of analysis includes it",
-                "notes": "marker for cell proliferation",
-                "knowledge": []
-            }
-        },
-        "GblUBr8I": {
-            "name": "Guanylate Cyclase-C",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Guanylate Cyclase-C",
-                "type": "Protein",
-                "description": "An enzyme that plays a role in cellular signaling",
-                "findings": "Immunohistochemistry data was performed and interpreted for Guanylate Cyclase-C",
-                "notes": "Related to the chimeric antigen receptor",
+                "type": "Proliferation marker",
+                "description": "A nuclear protein that is expressed in all active phases of the cell cycle (G1, S, G2, and mitosis), but not in resting cells (G0). It is commonly used as a marker for cell proliferation.",
+                "findings": "Overexpression of Ki-67 has been associated with worse clinical outcomes in various cancers, including breast cancer.",
+                "notes": "Ki-67 expression levels are often assessed via immunohistochemistry in tumor samples to determine the growth fraction of cells.",
                 "knowledge": [
                     {
-                        "predicate": "was performed",
-                        "object": "immunohistochemistry data"
+                        "predicate": "is a proliferation marker",
+                        "object": "Ki-67"
                     },
                     {
-                        "predicate": "plays a role in",
-                        "object": "cellular signaling"
+                        "predicate": "overexpression is associated with worse clinical outcomes",
+                        "object": "breast cancer"
                     }
                 ]
             }
         },
-        "H2mILCU6": {
-            "name": "CD19",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+        "CzgYy270": {
+            "name": "HER2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "CD19",
-                "type": "Cell Surface Protein",
-                "description": "A protein expressed on the surface of B cells",
-                "findings": "Not explicitly mentioned in the article",
-                "notes": "Commonly targeted by chimeric antigen receptors",
-                "knowledge": []
+                "name": "HER2",
+                "type": "Receptor tyrosine kinase",
+                "description": "Human epidermal growth factor receptor 2 (HER2) is a gene that can play a role in the development of breast cancer. When overexpressed, it is associated with aggressive tumor behavior.",
+                "findings": "Amplification or overexpression of HER2 is found in approximately 20% of early-stage breast cancers and is associated with increased tumor aggressiveness and reduced survival rates if untreated.",
+                "notes": "HER2 status is determined through immunohistochemistry (IHC) or fluorescence in situ hybridization (FISH). HER2-positive cancers are eligible for targeted therapies such as trastuzumab.",
+                "knowledge": [
+                    {
+                        "predicate": "is a receptor tyrosine kinase",
+                        "object": "HER2"
+                    },
+                    {
+                        "predicate": "overexpression is associated with aggressive tumor behavior",
+                        "object": "breast cancer"
+                    }
+                ]
             }
         },
-        "YFJEJ5ki": {
-            "name": "IFN-\u03b3",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+        "gbImgwnj": {
+            "name": "p53",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "IFN-\u03b3",
-                "type": "Cytokine",
-                "description": "A protein that plays a role in immune responses",
-                "findings": "Not explicitly mentioned in the article",
-                "notes": "Commonly associated with T cell activity",
-                "knowledge": []
+                "name": "p53",
+                "type": "Tumor suppressor protein",
+                "description": "The p53 gene produces a protein that plays a crucial role in regulating the cell cycle, preventing cells with damaged DNA from dividing. Mutations in p53 can lead to uncontrolled cell growth and cancer.",
+                "findings": "Mutations in the p53 gene are found in approximately 50% of human cancers, including colorectal, breast, and lung cancers. These mutations often correlate with poor prognosis and increased metastatic potential.",
+                "notes": "p53 mutations can lead to loss of normal tumor suppressor function, resulting in unchecked cell proliferation.",
+                "knowledge": [
+                    {
+                        "predicate": "is a tumor suppressor protein",
+                        "object": "p53"
+                    },
+                    {
+                        "predicate": "mutations are associated with poor prognosis",
+                        "object": "colorectal cancer"
+                    }
+                ]
             }
         },
-        "TOhIigE9": {
-            "name": "IL-2",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+        "eHJ8YL49": {
+            "name": "ER (Estrogen Receptor)",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "IL-2",
-                "type": "Cytokine",
-                "description": "A protein that plays a role in immune responses",
-                "findings": "Not explicitly mentioned in the article",
-                "notes": "Commonly associated with T cell proliferation",
-                "knowledge": []
+                "name": "ER (Estrogen Receptor)",
+                "type": "Steroid hormone receptor",
+                "description": "The estrogen receptor (ER) is a protein that binds to the hormone estrogen. In breast cancer, ER positivity indicates that cancer cells may respond to endocrine therapies.",
+                "findings": "Approximately 70-80% of breast cancers are ER-positive, meaning they express high levels of the ER protein. ER-positive tumors tend to grow slower and are more likely to respond to hormone therapy.",
+                "notes": "ER status is determined through immunohistochemistry (IHC). Positive ER status is associated with improved survival rates when treated with endocrine therapies such as tamoxifen or aromatase inhibitors.",
+                "knowledge": [
+                    {
+                        "predicate": "is a steroid hormone receptor",
+                        "object": "ER"
+                    },
+                    {
+                        "predicate": "positivity indicates potential response to endocrine therapies",
+                        "object": "breast cancer"
+                    }
+                ]
             }
         },
-        "jVVnfFKr": {
-            "name": "PD-1",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+        "Qjua7Sm_": {
+            "name": "PR (Progesterone Receptor)",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "PD-1",
-                "type": "Cell Surface Protein",
-                "description": "A protein that plays a role in immune checkpoint regulation",
-                "findings": "Not explicitly mentioned in the article",
-                "notes": "Commonly targeted by immunotherapies",
-                "knowledge": []
+                "name": "PR (Progesterone Receptor)",
+                "type": "Steroid hormone receptor",
+                "description": "The progesterone receptor (PR) is a protein that binds to the hormone progesterone. In breast cancer, PR positivity often indicates a favorable prognosis and responsiveness to hormone therapies.",
+                "findings": "PR-positive breast cancers are more likely to respond to endocrine therapies. The presence of PR often correlates with ER positivity, as both receptors are regulated by estrogen.",
+                "notes": "PR status is also determined through immunohistochemistry (IHC). Positive PR status is generally associated with better clinical outcomes in breast cancer patients.",
+                "knowledge": [
+                    {
+                        "predicate": "is a steroid hormone receptor",
+                        "object": "PR"
+                    },
+                    {
+                        "predicate": "positivity indicates favorable prognosis",
+                        "object": "breast cancer"
+                    }
+                ]
             }
         },
-        "O9J0B-l7": {
-            "name": "CD3",
+        "fMdEwTrT": {
+            "name": "guanylate cyclase-C (GUCY2C)",
             "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "CD3",
-                "type": "Cell Surface Protein",
-                "description": "A protein that plays a role in T cell signaling",
-                "findings": "Not explicitly mentioned in the article",
-                "notes": "Commonly associated with T cell activation",
-                "knowledge": []
+                "name": "guanylate cyclase-C (GUCY2C)",
+                "type": "protein biomarker",
+                "description": "A protein expressed in colorectal cancer cells but not in normal tissues.",
+                "findings": "Expression of GUCY2C is associated with metastatic colorectal cancer and serves as a target for chimeric antigen receptor (CAR) T-cell therapy. High expression levels may correlate with better treatment outcomes.",
+                "notes": "GUCY2C immunohistochemistry was used to confirm its expression in tumor tissues.",
+                "knowledge": [
+                    {
+                        "predicate": "is expressed in",
+                        "object": "colorectal cancer cells"
+                    },
+                    {
+                        "predicate": "serves as a target for",
+                        "object": "CAR T-cell therapy"
+                    },
+                    {
+                        "predicate": "expression levels may correlate with",
+                        "object": "better treatment outcomes"
+                    }
+                ]
             }
         },
-        "LAmQy1K9": {
-            "name": "CD4",
+        "2EGEM5wO": {
+            "name": "GUCY2C immunohistochemistry",
             "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "CD4",
-                "type": "Cell Surface Protein",
-                "description": "A protein that plays a role in immune responses",
-                "findings": "Not explicitly mentioned in the article",
-                "notes": "Commonly associated with helper T cells",
-                "knowledge": []
+                "name": "GUCY2C immunohistochemistry",
+                "type": "assay biomarker",
+                "description": "A method to detect the expression of GUCY2C protein in tissues.",
+                "findings": "Used to confirm GUCY2C expression in tumor tissues, aiding in patient selection for targeted therapies.",
+                "notes": "This assay helps identify patients who may benefit from GUCY2C-targeted treatments.",
+                "knowledge": [
+                    {
+                        "predicate": "is used to detect",
+                        "object": "GUCY2C protein expression"
+                    },
+                    {
+                        "predicate": "aids in",
+                        "object": "patient selection for targeted therapies"
+                    }
+                ]
             }
         },
-        "MAdkE7qS": {
-            "name": "CD8",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "CD8",
-                "type": "Cell Surface Protein",
-                "description": "A protein that plays a role in immune responses",
-                "findings": "Not explicitly mentioned in the article",
-                "notes": "Commonly associated with cytotoxic T cells",
-                "knowledge": []
-            }
-        },
-        "vV7lcAlE": {
+        "LZbjQsPr": {
             "name": "hCRISPRs",
             "doc_id": "10.1038/s42003-022-03249-4",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "hCRISPRs",
-                "type": "genetic biomarker",
-                "description": "human CRISPR-Cas systems",
-                "findings": "detected and validated in transcription and diagnostics",
-                "notes": "related to CRISPR-Cas-related patents",
+                "type": "Endogenous CRISPR-Cas systems",
+                "description": "Human CRISPR sequences (hCRISPRs) are endogenous CRISPR-Cas systems found in the human genome.",
+                "findings": "hCRISPRs can be used as biosensors for SARS-CoV-2 detection. They are more stable and abundant compared to exogenous CRISPR systems, making them suitable for diagnostic applications.",
+                "notes": "hCRISPRs were tested using SHERLOCK and DETECTR technologies.",
                 "knowledge": [
                     {
-                        "predicate": "detected",
-                        "object": "hCRISPRs"
+                        "predicate": "used with SHERLOCK technology",
+                        "object": "SARS-CoV-2 detection"
                     },
                     {
-                        "predicate": "validated",
-                        "object": "hCRISPRs"
-                    },
-                    {
-                        "predicate": "related to",
-                        "object": "CRISPR-Cas-related patents"
+                        "predicate": "tested using DETECTR technology",
+                        "object": "diagnostic applications"
                     }
                 ]
             }
         },
-        "x0Tv8MU2": {
-            "name": "MiTranscriptome",
+        "4m2oE7eE": {
+            "name": "CRISPR-Cas systems",
             "doc_id": "10.1038/s42003-022-03249-4",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "MiTranscriptome",
-                "type": "transcriptomic biomarker",
-                "description": "dataset of transcriptome profiles",
-                "findings": "analyzed and organized",
-                "notes": "provided by Y.S.N. and A.M.C.",
+                "name": "CRISPR-Cas systems",
+                "type": "Biosensor",
+                "description": "CRISPR-Cas systems are being explored for their potential as biosensors in diagnostics.",
+                "findings": "Endogenous CRISPR-Cas systems like hCRISPRs show promise for detecting pathogens such as SARS-CoV-2 due to their stability and abundance.",
+                "notes": "hCRISPRs are a subset of CRISPR-Cas systems found in the human genome.",
                 "knowledge": [
                     {
-                        "predicate": "analyzed",
-                        "object": "MiTranscriptome"
+                        "predicate": "show promise for detecting",
+                        "object": "SARS-CoV-2"
                     },
                     {
-                        "predicate": "organized",
-                        "object": "MiTranscriptome"
-                    },
-                    {
-                        "predicate": "provided by",
-                        "object": "Y.S.N. and A.M.C."
+                        "predicate": "due to their stability and abundance",
+                        "object": "pathogen detection"
                     }
                 ]
             }
         },
-        "3znWofZm": {
-            "name": "NGS-ProToCol",
-            "doc_id": "10.1038/s42003-022-03249-4",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "NGS-ProToCol",
-                "type": "genomic biomarker",
-                "description": "next-generation sequencing dataset",
-                "findings": "sequenced, analyzed, and provided",
-                "notes": "related to RT-qPCR analyses",
-                "knowledge": [
-                    {
-                        "predicate": "sequenced",
-                        "object": "NGS-ProToCol"
-                    },
-                    {
-                        "predicate": "analyzed",
-                        "object": "NGS-ProToCol"
-                    },
-                    {
-                        "predicate": "provided",
-                        "object": "NGS-ProToCol"
-                    },
-                    {
-                        "predicate": "related to",
-                        "object": "RT-qPCR analyses"
-                    }
-                ]
-            }
-        },
-        "1dkExzyA": {
-            "name": "SHERLOCK",
-            "doc_id": "10.1038/s42003-022-03249-4",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "SHERLOCK",
-                "type": "diagnostic biomarker",
-                "description": "CRISPR-Cas-based diagnostic technology",
-                "findings": "tested, optimized, and run",
-                "notes": "used for detecting hCRISPRs",
-                "knowledge": [
-                    {
-                        "predicate": "tested",
-                        "object": "SHERLOCK"
-                    },
-                    {
-                        "predicate": "optimized",
-                        "object": "SHERLOCK"
-                    },
-                    {
-                        "predicate": "run",
-                        "object": "SHERLOCK"
-                    },
-                    {
-                        "predicate": "used for detecting",
-                        "object": "hCRISPRs"
-                    }
-                ]
-            }
-        },
-        "4A3IifbG": {
-            "name": "DETECTR",
-            "doc_id": "10.1038/s42003-022-03249-4",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "DETECTR",
-                "type": "diagnostic biomarker",
-                "description": "CRISPR-Cas-based diagnostic technology",
-                "findings": "tested, optimized, and run",
-                "notes": "used for detecting hCRISPRs",
-                "knowledge": [
-                    {
-                        "predicate": "tested",
-                        "object": "DETECTR"
-                    },
-                    {
-                        "predicate": "optimized",
-                        "object": "DETECTR"
-                    },
-                    {
-                        "predicate": "run",
-                        "object": "DETECTR"
-                    },
-                    {
-                        "predicate": "used for detecting",
-                        "object": "hCRISPRs"
-                    }
-                ]
-            }
-        },
-        "p1-gkaSJ": {
+        "dSTX7n9z": {
             "name": "Acetone",
             "doc_id": "10.3390/ijms24010129",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "Acetone",
-                "type": "Aldehyde",
-                "description": "A chemical compound with an abnormal fruity odor",
-                "findings": "Might be considered an adequate cancer biomarker, but the concentration in breath changes during activities such as exercising or fasting",
-                "notes": "Not recommended for use as a biomarker due to varying concentrations",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A compound with an abnormal fruity odor, potentially used as a biomarker for cancer.",
+                "findings": "Acetone concentration in breath changes during activities such as exercising or fasting, limiting its reliability as a standalone biomarker. It is considered an adequate cancer biomarker but not appropriate due to variability.",
+                "notes": "Acetone levels are influenced by physical activities and metabolic states.",
                 "knowledge": [
                     {
-                        "predicate": "has varying concentrations",
-                        "object": "Acetone"
+                        "predicate": "is a potential biomarker for",
+                        "object": "cancer"
                     },
                     {
-                        "predicate": "is affected by physical activity",
-                        "object": "Acetone"
+                        "predicate": "has concentration variations during",
+                        "object": "exercising or fasting"
                     }
                 ]
             }
         },
-        "L1zU-fVS": {
+        "9iP8Qgnh": {
             "name": "4-Heptanone",
             "doc_id": "10.3390/ijms24010129",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "4-Heptanone",
-                "type": "Ketone",
-                "description": "A chemical compound with unclear origins",
-                "findings": "Not recommended for use as a biomarker due to unclear origins",
-                "notes": "Further research is needed to understand the origins of 4-Heptanone",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A compound with unclear origins, limiting its use as a biomarker.",
+                "findings": "The origin of 4-heptanone is unclear, making it unsuitable as a reliable biomarker for cancer.",
+                "notes": "Its unclear origins limit its utility in cancer diagnostics.",
                 "knowledge": [
                     {
-                        "predicate": "has unclear origins",
-                        "object": "4-Heptanone"
+                        "predicate": "origin is",
+                        "object": "unclear"
                     },
                     {
-                        "predicate": "is not recommended as a biomarker",
-                        "object": "4-Heptanone"
+                        "predicate": "is not recommended as a biomarker due to",
+                        "object": "unclear origins"
                     }
                 ]
             }
         },
-        "qsfXD45h": {
-            "name": "Aldehydes and Ketones",
+        "5ab9h0JR": {
+            "name": "Ethanol",
             "doc_id": "10.3390/ijms24010129",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Aldehydes and Ketones",
-                "type": "VOCs",
-                "description": "Chemical compounds that can be used to detect gastric and colorectal cancer",
-                "findings": "Contain invaluable information about the biochemical metabolization of cancer cells",
-                "notes": "Further research is needed to understand the relationship between aldehydes, ketones, and cancer",
+                "name": "Ethanol",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A common VOC potentially linked to cancer metabolism.",
+                "findings": "Ethanol is mentioned as a VOC related to cancer metabolism but no specific findings are detailed in the article.",
+                "notes": "Limited information provided on its role in cancer diagnostics.",
                 "knowledge": [
                     {
-                        "predicate": "contain information about cancer cell metabolism",
-                        "object": "Aldehydes and Ketones"
+                        "predicate": "is related to",
+                        "object": "cancer metabolism"
+                    }
+                ]
+            }
+        },
+        "WPQiC9cL": {
+            "name": "Methanol",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Methanol",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC potentially associated with cancer metabolism.",
+                "findings": "Methanol is mentioned as a VOC related to cancer metabolism but no specific findings are detailed in the article.",
+                "notes": "Limited information provided on its role in cancer diagnostics.",
+                "knowledge": [
+                    {
+                        "predicate": "is related to",
+                        "object": "cancer metabolism"
+                    }
+                ]
+            }
+        },
+        "JuAE9BiN": {
+            "name": "Formaldehyde",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Formaldehyde",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC potentially linked to cancer metabolism.",
+                "findings": "Formaldehyde is mentioned as a VOC related to cancer metabolism but no specific findings are detailed in the article.",
+                "notes": "Limited information provided on its role in cancer diagnostics.",
+                "knowledge": [
+                    {
+                        "predicate": "is related to",
+                        "object": "cancer metabolism"
+                    }
+                ]
+            }
+        },
+        "7pTWcOf8": {
+            "name": "Acetaldehyde",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Acetaldehyde",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC potentially associated with cancer metabolism.",
+                "findings": "Acetaldehyde is mentioned as a VOC related to cancer metabolism but no specific findings are detailed in the article.",
+                "notes": "Limited information provided on its role in cancer diagnostics.",
+                "knowledge": [
+                    {
+                        "predicate": "is related to",
+                        "object": "cancer metabolism"
+                    }
+                ]
+            }
+        },
+        "NgbAhP1h": {
+            "name": "Propanal",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Propanal",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC with higher concentrations in gastric cancer patients.",
+                "findings": "Propanal has higher concentrations in the breath of gastric cancer patients compared to healthy individuals.",
+                "notes": "May be a specific marker for gastric cancer.",
+                "knowledge": [
+                    {
+                        "predicate": "has higher concentrations in",
+                        "object": "gastric cancer patients"
+                    }
+                ]
+            }
+        },
+        "BLvF5Hp8": {
+            "name": "Pentanal",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Pentanal",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC with higher concentrations in gastric cancer patients.",
+                "findings": "Pentanal has higher concentrations in the breath of gastric cancer patients compared to healthy individuals.",
+                "notes": "May be a specific marker for gastric cancer.",
+                "knowledge": [
+                    {
+                        "predicate": "has higher concentrations in",
+                        "object": "gastric cancer patients"
+                    }
+                ]
+            }
+        },
+        "MPwQtUrY": {
+            "name": "Hexanal",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Hexanal",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC linked to lipid peroxidation, elevated in colorectal cancer.",
+                "findings": "Hexanal is associated with lipid peroxidation and has been found in higher concentrations in colorectal cancer patients.",
+                "notes": "May be a marker for colorectal cancer.",
+                "knowledge": [
+                    {
+                        "predicate": "is linked to",
+                        "object": "lipid peroxidation"
                     },
                     {
-                        "predicate": "can be used for early cancer detection",
-                        "object": "Aldehydes and Ketones"
-                    }
-                ]
-            }
-        },
-        "JdiybzU3": {
-            "name": "Age",
-            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Age",
-                "type": "Demographic Biomarker",
-                "description": "The age of an individual",
-                "findings": "associated with colorectal cancer risk",
-                "notes": "advanced age is a risk factor for colorectal cancer",
-                "knowledge": [
-                    {
-                        "predicate": "is associated with",
-                        "object": "colorectal cancer risk"
-                    }
-                ]
-            }
-        },
-        "JX82e-Fv": {
-            "name": "Microbiome composition",
-            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
-            "details": {
-                "name": "Microbiome composition",
-                "type": "Microbiological Biomarker",
-                "description": "The balance of microorganisms in the gut",
-                "findings": "altered in colorectal cancer patients",
-                "notes": "dysbiosis is a characteristic of colorectal cancer",
-                "knowledge": [
-                    {
-                        "predicate": "is altered in",
+                        "predicate": "has higher concentrations in",
                         "object": "colorectal cancer patients"
                     }
                 ]
             }
         },
-        "bpiaOry2": {
-            "name": "Tumor biomarkers",
-            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+        "k_636IXh": {
+            "name": "Heptanal",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "Tumor biomarkers",
-                "type": "Molecular Biomarker",
-                "description": "Molecules associated with tumor growth and progression",
-                "findings": "can be used for early detection and diagnosis of colorectal cancer",
-                "notes": "e.g. CEA, CA 19-9",
+                "name": "Heptanal",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC linked to lipid peroxidation, elevated in colorectal cancer.",
+                "findings": "Heptanal is associated with lipid peroxidation and has been found in higher concentrations in colorectal cancer patients.",
+                "notes": "May be a marker for colorectal cancer.",
                 "knowledge": [
                     {
-                        "predicate": "can be used for",
-                        "object": "early detection and diagnosis of colorectal cancer"
+                        "predicate": "is linked to",
+                        "object": "lipid peroxidation"
+                    },
+                    {
+                        "predicate": "has higher concentrations in",
+                        "object": "colorectal cancer patients"
                     }
                 ]
             }
         },
-        "ZcOaBMJu": {
+        "S9GMyI7y": {
+            "name": "1-Penten-3-one",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "1-Penten-3-one",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A VOC potentially associated with both gastric and colorectal cancers.",
+                "findings": "1-Penten-3-one is found in the breath of both gastric and colorectal cancer patients but is not specific to these cancers alone.",
+                "notes": "May be a general marker for various cancers but lacks specificity.",
+                "knowledge": [
+                    {
+                        "predicate": "is found in",
+                        "object": "gastric and colorectal cancer patients"
+                    },
+                    {
+                        "predicate": "lacks specificity for",
+                        "object": "cancer diagnosis"
+                    }
+                ]
+            }
+        },
+        "0ltG9MQD": {
+            "name": "Faecalibacterium",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Faecalibacterium",
+                "type": "microbial genus",
+                "description": "A genus of bacteria known for its role in gut health and inflammation reduction.",
+                "findings": "Significantly reduced abundance in colorectal cancer (CRC) patients compared to healthy controls, suggesting a protective role against CRC.",
+                "notes": "Faecalibacterium is a key butyrate-producing bacterium, which has anti-inflammatory properties.",
+                "knowledge": [
+                    {
+                        "predicate": "is significantly reduced in CRC",
+                        "object": "Faecalibacterium"
+                    },
+                    {
+                        "predicate": "plays a protective role against CRC",
+                        "object": "Faecalibacterium"
+                    }
+                ]
+            }
+        },
+        "Q5D0kkny": {
+            "name": "Fusobacterium",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Fusobacterium",
+                "type": "microbial genus",
+                "description": "A genus of bacteria associated with various infections and inflammatory conditions.",
+                "findings": "Significantly higher abundance in CRC patients compared to healthy controls, suggesting a potential role in CRC development or progression.",
+                "notes": "Fusobacterium is known for its pro-inflammatory properties and has been implicated in colorectal carcinogenesis.",
+                "knowledge": [
+                    {
+                        "predicate": "is significantly higher in CRC",
+                        "object": "Fusobacterium"
+                    },
+                    {
+                        "predicate": "may contribute to CRC development or progression",
+                        "object": "Fusobacterium"
+                    }
+                ]
+            }
+        },
+        "RZ0uh9V7": {
+            "name": "Roseburia",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Roseburia",
+                "type": "microbial genus",
+                "description": "A genus of bacteria known for producing butyrate, a short-chain fatty acid with anti-inflammatory properties.",
+                "findings": "Significantly reduced abundance in CRC patients compared to healthy controls, suggesting a protective role against CRC.",
+                "notes": "Roseburia is a key butyrate-producing bacterium, which has anti-inflammatory properties.",
+                "knowledge": [
+                    {
+                        "predicate": "is significantly reduced in CRC",
+                        "object": "Roseburia"
+                    },
+                    {
+                        "predicate": "plays a protective role against CRC",
+                        "object": "Roseburia"
+                    }
+                ]
+            }
+        },
+        "uuLxKhe8": {
+            "name": "Parabacteroides",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Parabacteroides",
+                "type": "microbial genus",
+                "description": "A genus of bacteria commonly found in the human gut microbiota.",
+                "findings": "Significantly reduced abundance in CRC patients compared to healthy controls, suggesting a potential protective role against CRC.",
+                "notes": "Parabacteroides is associated with gut health and may play a role in maintaining the balance of the gut microbiota.",
+                "knowledge": [
+                    {
+                        "predicate": "is significantly reduced in CRC",
+                        "object": "Parabacteroides"
+                    },
+                    {
+                        "predicate": "may have a protective role against CRC",
+                        "object": "Parabacteroides"
+                    }
+                ]
+            }
+        },
+        "WqLn3GBP": {
+            "name": "Bifidobacterium",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Bifidobacterium",
+                "type": "microbial genus",
+                "description": "A genus of bacteria known for its probiotic properties and role in gut health.",
+                "findings": "Significantly reduced abundance in CRC patients compared to healthy controls, suggesting a potential protective role against CRC.",
+                "notes": "Bifidobacterium is associated with gut health and may play a role in maintaining the balance of the gut microbiota.",
+                "knowledge": [
+                    {
+                        "predicate": "is significantly reduced in CRC",
+                        "object": "Bifidobacterium"
+                    },
+                    {
+                        "predicate": "may have a protective role against CRC",
+                        "object": "Bifidobacterium"
+                    }
+                ]
+            }
+        },
+        "n4wS4SDO": {
+            "name": "Blautia",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Blautia",
+                "type": "microbial genus",
+                "description": "A genus of bacteria commonly found in the human gut microbiota.",
+                "findings": "Significantly reduced abundance in CRC patients compared to healthy controls, suggesting a potential protective role against CRC.",
+                "notes": "Blautia is associated with gut health and may play a role in maintaining the balance of the gut microbiota.",
+                "knowledge": [
+                    {
+                        "predicate": "is significantly reduced in CRC",
+                        "object": "Blautia"
+                    },
+                    {
+                        "predicate": "may have a protective role against CRC",
+                        "object": "Blautia"
+                    }
+                ]
+            }
+        },
+        "QOU7Iikg": {
             "name": "Acetone",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "Acetone",
-                "type": "ketone",
-                "description": "a secondary product of lipid peroxidation and a good predictor for ketosis",
-                "findings": "related to the ketones family and is a good predictor for ketosis, since these compounds are formed under metabolic conditions associated with a high oxidation rate of fatty acids",
-                "notes": "",
+                "type": "Ketone",
+                "description": "A secondary product of lipid peroxidation, often associated with metabolic conditions involving high oxidation rates of fatty acids.",
+                "findings": "Elevated levels in CRC patients' breath samples, identified via GC-MS analysis.",
+                "notes": "Commonly associated with ketosis but also linked to oxidative stress in cancer contexts.",
                 "knowledge": [
                     {
-                        "predicate": "is related to",
-                        "object": "ketones family"
-                    },
-                    {
-                        "predicate": "is a good predictor for",
-                        "object": "ketosis"
+                        "predicate": "elevated in CRC patients",
+                        "object": "Acetone"
                     }
                 ]
             }
         },
-        "-x8x0ET8": {
+        "366cL3J0": {
             "name": "Alkenes",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "Alkenes",
-                "type": "hydrocarbon",
-                "description": "",
-                "findings": "the emission of hydrocarbons is affected by oxidative stress which is the overall balance between formation and scavenging of reactive oxygen species (ROS) and free radicals in the body",
-                "notes": "",
+                "type": "Hydrocarbons",
+                "description": "Unsaturated hydrocarbons with at least one double bond, often produced as byproducts of oxidative stress.",
+                "findings": "Detected in breath samples of CRC patients; linked to oxidative stress mechanisms.",
+                "notes": "Common biomarkers for oxidative stress-related conditions.",
                 "knowledge": [
                     {
-                        "predicate": "is affected by",
-                        "object": "oxidative stress"
+                        "predicate": "linked to oxidative stress",
+                        "object": "Alkenes"
                     }
                 ]
             }
         },
-        "YaWDoWGj": {
+        "4iIcODEi": {
             "name": "Alcohols",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "Alcohols",
-                "type": "compound",
-                "description": "",
-                "findings": "mostly originate from food and alcohol beverages; they are also derived from the metabolism of hydrocarbons by cytochrome p450 enzymes",
-                "notes": "",
+                "type": "Oxygen-containing organic compounds",
+                "description": "Primarily derived from food, alcohol beverages, or metabolism of hydrocarbons by cytochrome p450 enzymes.",
+                "findings": "Present in breath samples, potentially indicating metabolic activity related to CRC.",
+                "notes": "Can originate from dietary sources or metabolic processes.",
                 "knowledge": [
                     {
-                        "predicate": "originate from",
-                        "object": "food and alcohol beverages"
-                    },
-                    {
-                        "predicate": "are derived from",
-                        "object": "metabolism of hydrocarbons"
+                        "predicate": "derived from food and alcohol metabolism",
+                        "object": "Alcohols"
                     }
                 ]
             }
         },
-        "stmb1T-i": {
+        "aKIHtrqz": {
+            "name": "Ketones",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Ketones",
+                "type": "Organic compounds with a carbonyl group",
+                "description": "Include acetone, which is associated with lipid peroxidation and oxidative stress.",
+                "findings": "Elevated levels of ketones like acetone found in CRC patients' breath samples.",
+                "notes": "Ketones are often markers of metabolic states such as ketosis.",
+                "knowledge": [
+                    {
+                        "predicate": "elevated in CRC patients",
+                        "object": "Ketones"
+                    }
+                ]
+            }
+        },
+        "qAPTAqKt": {
             "name": "Esters",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "Esters",
-                "type": "compound",
-                "description": "",
-                "findings": "can be found in large amounts in natural sources such as fats and fatty oils, waxes, and fruit ethers",
-                "notes": "",
+                "type": "Organic compounds with a carbonyl group",
+                "description": "Commonly found in natural sources like fats, oils, and waxes; also present in breath samples.",
+                "findings": "Detected in CRC patients' breath samples via GC-MS analysis.",
+                "notes": "Their role in CRC is less clear but may relate to metabolic byproducts.",
                 "knowledge": [
                     {
-                        "predicate": "can be found in",
-                        "object": "natural sources"
+                        "predicate": "detected in CRC patients",
+                        "object": "Esters"
                     }
                 ]
             }
         },
-        "N_NlXVt6": {
-            "name": "4-methyl-1-pentene",
+        "TO187V5F": {
+            "name": "Hydrocarbons",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "4-methyl-1-pentene",
-                "type": "VOC",
-                "description": "",
-                "findings": "identified in the exhaled air with the GC-MS method, but not explained its biological relevance",
-                "notes": "not explicitly mentioned, but can be inferred from context",
+                "name": "Hydrocarbons",
+                "type": "Organic compounds consisting of hydrogen and carbon",
+                "description": "Produced as byproducts of oxidative stress, with alkenes being a specific subset.",
+                "findings": "Altered levels in CRC patients' breath samples linked to oxidative stress mechanisms.",
+                "notes": "Hydrocarbons like alkanes and alkenes are markers of oxidative processes.",
                 "knowledge": [
                     {
-                        "predicate": "was identified by",
-                        "object": "GC-MS method"
+                        "predicate": "linked to oxidative stress",
+                        "object": "Hydrocarbons"
                     }
                 ]
             }
         },
-        "u3ABTgcB": {
+        "GW_kDZTp": {
+            "name": "Reactive Oxygen Species (ROS)",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
+            "details": {
+                "name": "Reactive Oxygen Species (ROS)",
+                "type": "Highly reactive molecules containing oxygen",
+                "description": "Key players in oxidative stress, leading to lipid peroxidation and hydrocarbon emissions.",
+                "findings": "Elevated ROS levels contribute to CRC pathogenesis and biomarker production.",
+                "notes": "ROS are central to oxidative damage and are implicated in various cancers.",
+                "knowledge": [
+                    {
+                        "predicate": "contribute to CRC pathogenesis",
+                        "object": "Reactive Oxygen Species (ROS)"
+                    }
+                ]
+            }
+        },
+        "sUFG-5gE": {
             "name": "T-antigen",
             "doc_id": "10.3390/ijms25073722",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
                 "name": "T-antigen",
-                "type": "glycan",
-                "description": "a cancer-associated glycan",
-                "findings": "abnormal immature glycan signatures not seen in healthy tissues, laying the foundation for future exploitation in non-invasive cancer diagnostics",
-                "notes": "potential biomarker for non-invasive CRC screening",
+                "type": "glycoproteome/glycan",
+                "description": "The T-antigen is an immature glycan signature found in stools, associated with abnormal glycosylation patterns.",
+                "findings": "Stools from more aggressive lesions may exhibit abnormal immature glycan signatures not seen in healthy tissues. The T-antigen (core 1 glycans) is identified as a potential biomarker for non-invasive CRC screening.",
+                "notes": "The T-antigen is specifically mentioned as part of core 1 glycans, which are associated with these abnormal signatures.",
                 "knowledge": [
                     {
-                        "predicate": "exhibited by",
-                        "object": "stools from more aggressive lesions"
+                        "predicate": "exhibit abnormal immature glycan signatures",
+                        "object": "T-antigen"
                     },
                     {
-                        "predicate": "not seen in",
-                        "object": "healthy tissues"
+                        "predicate": "identified as a potential biomarker for non-invasive CRC screening",
+                        "object": "T-antigen"
                     }
                 ]
             }
         },
-        "oZ8I2PEz": {
-            "name": "T-expressing glycoproteoforms",
+        "zmEGWIho": {
+            "name": "stool glycoproteome",
             "doc_id": "10.3390/ijms25073722",
-            "llm_id": "llama3.3:70b-instruct-q8_0/KVUjX",
+            "llm_id": "deepseek-r1:70b-llama-distill-q8_0/KVUjX",
             "details": {
-                "name": "T-expressing glycoproteoforms",
-                "type": "glycoprotein",
-                "description": "molecular targets shared by more aggressive non-cancerous lesions and cancer",
-                "findings": "hold promise for future pre-clinical assessment",
-                "notes": "require screening in larger patient cohorts",
+                "name": "stool glycoproteome",
+                "type": "glycoproteome",
+                "description": "The stool glycoproteome refers to the characterization of proteins and their glycan modifications found in stools.",
+                "findings": "This work provides a characterization of the stool glycoproteome, identifying several molecular targets shared by more aggressive non-cancerous lesions and cancer.",
+                "notes": "The study emphasizes the potential of these biomarkers for future pre-clinical assessment.",
                 "knowledge": [
                     {
-                        "predicate": "shared by",
-                        "object": "more aggressive non-cancerous lesions and cancer"
+                        "predicate": "characterization of proteins and their glycan modifications found in stools",
+                        "object": "stool glycoproteome"
                     },
                     {
-                        "predicate": "hold promise for",
-                        "object": "future pre-clinical assessment"
+                        "predicate": "identifying several molecular targets shared by more aggressive non-cancerous lesions and cancer",
+                        "object": "stool glycoproteome"
                     }
                 ]
             }
@@ -1192,8 +1381,8 @@
         }
     },
     "lang_info": {
-        "llama3.3:70b-instruct-q8_0/KVUjX": {
-            "llm_tag": "llama3.3:70b-instruct-q8_0",
+        "deepseek-r1:70b-llama-distill-q8_0/KVUjX": {
+            "llm_tag": "deepseek-r1:70b-llama-distill-q8_0",
             "prompt_template": "[BEGIN ARTICLE]:<content></content>\n[END ARTICLE]\n\n[INSTRUCTIONS]\nGenerate list of biomarkers that are topic of the article and for each such biomarker extract name, description, type, findings explicitly mentioned in the article, list of knowledge that consist of 'predicate' about the finding from findings and 'object' which biomarker is subject and related via 'predicate'.\nReturn the response in strict JSON format with the following structure:\n\n[\n  { \"name\": \"biomarker name\",\"type\":\"biomarker type\",\"description\":\"biomarker description\",\"findings\":\"findings about biomarker in article\",\"notes\":\"additional notes important to biomarker\", \"knowledge\":[{'predicate':'some predicate from findings of biomarker','object':'object that relates via predicate to the biomarker' }],\n  { \"name\": \"biomarker2 name\",\"type\":\"biomarker2 type\",\"description\":\"biomarker2 description\",\"findings\":\"findings about biomarker2 in article\",\"notes\":\"additional notes important to biomarker2\", \"knowledge\":[{'predicate':'some predicate from findings of  biomarker2','object':'object that relates via predicate to the biomarker2' }] }\n] \n\nEnsure there is no additional explanation, only return valid JSON.\n"
         }
     }
