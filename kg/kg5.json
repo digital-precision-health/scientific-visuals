@@ -1,0 +1,925 @@
+{
+    "biomarkers": {
+        "yzMsueP8": {
+            "name": "DNA methylation",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "DNA methylation",
+                "type": "Epigenetic Biomarker",
+                "description": "A type of epigenetic modification that involves the addition of a methyl group to DNA, often occurring at cytosine-phosphate-guanine (CpG) sites.",
+                "findings": "Metastatic colorectal cancer (CRC) patients have a unique DNA methylation profile in their circulating tumor cells (CTCs) compared to primary CRC patients and healthy donors, with specific CpG sites showing differential methylation patterns.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "DNA methylation",
+                        "predicate": "is differentially altered in",
+                        "object": "metastatic colorectal cancer (CRC) patients"
+                    },
+                    {
+                        "subject": "DNA methylation",
+                        "predicate": "is measured using",
+                        "object": "EPIC array"
+                    }
+                ]
+            }
+        },
+        "ji6vnHTo": {
+            "name": "Haptoglobin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Haptoglobin",
+                "type": "Protein",
+                "description": "A protein that binds to free hemoglobin in the bloodstream.",
+                "findings": "Haptoglobin levels were found to be elevated in COVID-19 patients compared to healthy controls.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Haptoglobin",
+                        "predicate": "is elevated in",
+                        "object": "COVID-19 patients"
+                    }
+                ]
+            }
+        },
+        "23QlTbL2": {
+            "name": "C-reactive protein (CRP)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "C-reactive protein (CRP)",
+                "type": "Protein",
+                "description": "A protein produced by the liver in response to inflammation.",
+                "findings": "CRP levels were significantly higher in severe COVID-19 cases compared to mild cases.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "C-reactive protein (CRP)",
+                        "predicate": "is significantly higher in",
+                        "object": "severe COVID-19 cases"
+                    }
+                ]
+            }
+        },
+        "Y6Q45_RM": {
+            "name": "Interleukin-6 (IL-6)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Interleukin-6 (IL-6)",
+                "type": "Cytokine",
+                "description": "A cytokine involved in inflammation and the maturation of B cells.",
+                "findings": "IL-6 levels were correlated with disease severity in COVID-19 patients.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Interleukin-6 (IL-6)",
+                        "predicate": "is correlated with",
+                        "object": "disease severity in COVID-19 patients"
+                    }
+                ]
+            }
+        },
+        "fziyanrT": {
+            "name": "Ferritin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Ferritin",
+                "type": "Protein",
+                "description": "A protein that stores iron and releases it in a controlled fashion.",
+                "findings": "Elevated ferritin levels were observed in COVID-19 patients with poor outcomes.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Ferritin",
+                        "predicate": "is elevated in",
+                        "object": "COVID-19 patients with poor outcomes"
+                    }
+                ]
+            }
+        },
+        "LKbFYMMv": {
+            "name": "D-dimer",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "D-dimer",
+                "type": "Protein",
+                "description": "A fibrin degradation product, a small protein fragment present in the blood after a blood clot is degraded by fibrinolysis.",
+                "findings": "High D-dimer levels were associated with increased mortality in COVID-19 patients.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "D-dimer",
+                        "predicate": "is associated with",
+                        "object": "increased mortality in COVID-19 patients"
+                    }
+                ]
+            }
+        },
+        "9qAslUPo": {
+            "name": "miR-126",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "miR-126",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule that regulates gene expression.",
+                "findings": "miR-126 has shown robust predictive results for early CRC stages diagnosis and prognosis.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-126",
+                        "predicate": "has shown",
+                        "object": "robust predictive results for early CRC stages"
+                    },
+                    {
+                        "subject": "miR-126",
+                        "predicate": "is included in",
+                        "object": "CEx-miRNAs panel"
+                    }
+                ]
+            }
+        },
+        "ePQ-dcXS": {
+            "name": "miR-1290",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "miR-1290",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule that regulates gene expression.",
+                "findings": "miR-1290 has shown robust predictive results for early CRC stages diagnosis and prognosis.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-1290",
+                        "predicate": "has shown",
+                        "object": "robust predictive results for early CRC stages"
+                    },
+                    {
+                        "subject": "miR-1290",
+                        "predicate": "is included in",
+                        "object": "CEx-miRNAs panel"
+                    }
+                ]
+            }
+        },
+        "kRG-rbcj": {
+            "name": "miR-23a",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "miR-23a",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule that regulates gene expression.",
+                "findings": "miR-23a has shown robust predictive results for early CRC stages diagnosis and prognosis.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-23a",
+                        "predicate": "has shown",
+                        "object": "robust predictive results for early CRC stages"
+                    },
+                    {
+                        "subject": "miR-23a",
+                        "predicate": "is included in",
+                        "object": "CEx-miRNAs panel"
+                    }
+                ]
+            }
+        },
+        "5CfCTFGK": {
+            "name": "miR-940",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "miR-940",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule that regulates gene expression.",
+                "findings": "miR-940 has shown robust predictive results for early CRC stages diagnosis and prognosis.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-940",
+                        "predicate": "has shown",
+                        "object": "robust predictive results for early CRC stages"
+                    },
+                    {
+                        "subject": "miR-940",
+                        "predicate": "is included in",
+                        "object": "CEx-miRNAs panel"
+                    }
+                ]
+            }
+        },
+        "7vIEiEV3": {
+            "name": "CExs-miRNA",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "CExs-miRNA",
+                "type": "biomarker",
+                "description": "Circulating exosomal microRNA, a type of small non-coding RNA molecule found in exosomes.",
+                "findings": "CExs-miRNA has been reported as a potential biomarker with robust predictive results for CRC diagnosis and prognosis.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "CExs-miRNA",
+                        "predicate": "has been reported as",
+                        "object": "potential biomarker"
+                    },
+                    {
+                        "subject": "CExs-miRNA",
+                        "predicate": "shows",
+                        "object": "robust predictive results for CRC diagnosis and prognosis"
+                    }
+                ]
+            }
+        },
+        "EZvGq4F8": {
+            "name": "MSI-H",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "MSI-H",
+                "type": "Microsatellite Instability Status",
+                "description": "A genetic marker indicating a high level of microsatellite instability.",
+                "findings": "MSI-H status confers substantial improvements in clinical outcomes and decreased toxicities through Immune Checkpoint Inhibitors (ICI).",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "MSI-H",
+                        "predicate": "confers",
+                        "object": "substantial improvements in clinical outcomes"
+                    },
+                    {
+                        "subject": "MSI-H",
+                        "predicate": "decreases",
+                        "object": "toxicities through ICI"
+                    }
+                ]
+            }
+        },
+        "5eqWQ1gz": {
+            "name": "RAS",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "RAS",
+                "type": "Gene Mutation",
+                "description": "A family of genes that include KRAS, NRAS, and HRAS, often mutated in various cancers.",
+                "findings": "RAS mutations necessitate a molecular-targeted approach in CRC treatment.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "RAS",
+                        "predicate": "necessitates",
+                        "object": "a molecular-targeted approach"
+                    }
+                ]
+            }
+        },
+        "ogNS1nIn": {
+            "name": "BRAF V600E",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "BRAF V600E",
+                "type": "Gene Mutation",
+                "description": "A specific mutation in the BRAF gene that is associated with poor prognosis in CRC.",
+                "findings": "BRAF V600E had a negative prognostic value but is now predictive of response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "BRAF V600E",
+                        "predicate": "had",
+                        "object": "a negative prognostic value"
+                    },
+                    {
+                        "subject": "BRAF V600E",
+                        "predicate": "is predictive of",
+                        "object": "response to combined targeted BRAF/EGFR inhibition"
+                    }
+                ]
+            }
+        },
+        "MnHj01g2": {
+            "name": "MSI",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "MSI",
+                "type": "Microsatellite Instability Status",
+                "description": "A genetic marker indicating the level of microsatellite instability.",
+                "findings": "The MSI status confers substantial improvements in clinical outcomes and decreased toxicities through ICI, offering patients long-term survival or near curative results.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "MSI",
+                        "predicate": "confers",
+                        "object": "substantial improvements in clinical outcomes"
+                    },
+                    {
+                        "subject": "MSI",
+                        "predicate": "decreases",
+                        "object": "toxicities through ICI"
+                    }
+                ]
+            }
+        },
+        "2MQwKaFT": {
+            "name": "Dihydropyrimidine Dehydrogenase (DPYD)",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Dihydropyrimidine Dehydrogenase (DPYD)",
+                "type": "Enzyme",
+                "description": "An enzyme involved in the metabolism of fluoropyrimidines, which are commonly used chemotherapeutic agents.",
+                "findings": "DPYD variants can cause severe toxicity and even death in patients treated with fluoropyrimidines.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "DPYD",
+                        "predicate": "causes",
+                        "object": "severe toxicity and even death"
+                    }
+                ]
+            }
+        },
+        "TOn3PrF6": {
+            "name": "BRAF",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "BRAF",
+                "type": "Gene Mutation",
+                "description": "A gene that, when mutated (especially V600E), is associated with poor prognosis in CRC.",
+                "findings": "BRAF V600E had a negative prognostic value but is now predictive of the response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "BRAF",
+                        "predicate": "had",
+                        "object": "a negative prognostic value"
+                    },
+                    {
+                        "subject": "BRAF",
+                        "predicate": "is predictive of",
+                        "object": "response to combined targeted BRAF/EGFR inhibition"
+                    }
+                ]
+            }
+        },
+        "SD2uxLsR": {
+            "name": "Caspase-3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Caspase-3",
+                "type": "Protein",
+                "description": "A key effector caspase in the apoptosis pathway.",
+                "findings": "The article mentions the use of Caspase-3 as a biomarker but does not provide specific findings.",
+                "notes": "",
+                "knowledge": []
+            }
+        },
+        "OlBKN9Zo": {
+            "name": "Ki67",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Ki67",
+                "type": "Protein",
+                "description": "A marker of cell proliferation.",
+                "findings": "The article mentions the use of Ki67 as a biomarker but does not provide specific findings.",
+                "notes": "",
+                "knowledge": []
+            }
+        },
+        "c-Ysnhm5": {
+            "name": "Ribonucleotide Reductase M2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Ribonucleotide Reductase M2",
+                "type": "Enzyme",
+                "description": "An enzyme involved in DNA synthesis and repair.",
+                "findings": "The article mentions the use of Ribonucleotide Reductase M2 as a biomarker but does not provide specific findings.",
+                "notes": "",
+                "knowledge": []
+            }
+        },
+        "ILiHCtrr": {
+            "name": "guanylate cyclase-C",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "guanylate cyclase-C",
+                "type": "protein",
+                "description": "A protein biomarker used in immunohistochemistry.",
+                "findings": "Guanylate cyclase-C immunohistochemistry data was performed and interpreted by Guangjian Ma of Innovative Cellular Therapeutics Co.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "guanylate cyclase-C",
+                        "predicate": "was analyzed by",
+                        "object": "Guangjian Ma"
+                    }
+                ]
+            }
+        },
+        "lHoPMCYG": {
+            "name": "hCRISPRs",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "hCRISPRs",
+                "type": "Genetic marker",
+                "description": "Human CRISPR sequences involved in transcription and diagnostics.",
+                "findings": "The article discusses the detection and validation of hCRISPRs in transcription and diagnostics, involving computational analyses and technologies like SHERLOCK and DETECTR.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "hCRISPRs",
+                        "predicate": "are detected and validated using",
+                        "object": "computational analyses"
+                    },
+                    {
+                        "subject": "hCRISPRs",
+                        "predicate": "are involved in",
+                        "object": "transcription and diagnostics"
+                    },
+                    {
+                        "subject": "hCRISPRs",
+                        "predicate": "are studied with technologies including",
+                        "object": "SHERLOCK and DETECTR"
+                    }
+                ]
+            }
+        },
+        "7WQD05eH": {
+            "name": "Acetone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Acetone",
+                "type": "Ketone",
+                "description": "A ketone that can be detected in exhaled breath.",
+                "findings": "Acetone levels change during activities such as exercising or fasting, making it an unreliable cancer biomarker despite its fruity odor.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Acetone",
+                        "predicate": "changes",
+                        "object": "during activities such as exercising or fasting"
+                    },
+                    {
+                        "subject": "Acetone",
+                        "predicate": "is not recommended for use",
+                        "object": "as a biomarker"
+                    }
+                ]
+            }
+        },
+        "6wTIguZm": {
+            "name": "2-Propanol",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "2-Propanol",
+                "type": "Alcohol",
+                "description": "An alcohol that can be detected in exhaled breath.",
+                "findings": "2-Propanol is mentioned as a VOC but its origin and specific role as a biomarker are unclear.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "2-Propanol",
+                        "predicate": "is mentioned",
+                        "object": "as a VOC"
+                    },
+                    {
+                        "subject": "2-Propanol",
+                        "predicate": "has an unclear origin",
+                        "object": ""
+                    }
+                ]
+            }
+        },
+        "UfKgKIex": {
+            "name": "Hexanal",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Hexanal",
+                "type": "Aldehyde",
+                "description": "An aldehyde that can be detected in exhaled breath.",
+                "findings": "Hexanal is mentioned as a VOC but its origin and specific role as a biomarker are unclear.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Hexanal",
+                        "predicate": "is mentioned",
+                        "object": "as a VOC"
+                    },
+                    {
+                        "subject": "Hexanal",
+                        "predicate": "has an unclear origin",
+                        "object": ""
+                    }
+                ]
+            }
+        },
+        "pVeKVVni": {
+            "name": "Acetaldehyde",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Acetaldehyde",
+                "type": "Aldehyde",
+                "description": "An aldehyde that can be detected in exhaled breath.",
+                "findings": "Acetaldehyde is mentioned as a VOC but its origin and specific role as a biomarker are unclear.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Acetaldehyde",
+                        "predicate": "is mentioned",
+                        "object": "as a VOC"
+                    },
+                    {
+                        "subject": "Acetaldehyde",
+                        "predicate": "has an unclear origin",
+                        "object": ""
+                    }
+                ]
+            }
+        },
+        "guJUg-39": {
+            "name": "4-Heptanone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "4-Heptanone",
+                "type": "Ketone",
+                "description": "A ketone that can be detected in exhaled breath.",
+                "findings": "The origin of 4-Heptanone is unclear, making it not recommended for use as a biomarker.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "4-Heptanone",
+                        "predicate": "has an unclear origin",
+                        "object": ""
+                    },
+                    {
+                        "subject": "4-Heptanone",
+                        "predicate": "is not recommended for use",
+                        "object": "as a biomarker"
+                    }
+                ]
+            }
+        },
+        "7qPSTtmJ": {
+            "name": "Hexanoic acid",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Hexanoic acid",
+                "type": "Carboxylic Acid",
+                "description": "A carboxylic acid that can be detected in exhaled breath.",
+                "findings": "Hexanoic acid is mentioned as a VOC but its origin and specific role as a biomarker are unclear.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Hexanoic acid",
+                        "predicate": "is mentioned",
+                        "object": "as a VOC"
+                    },
+                    {
+                        "subject": "Hexanoic acid",
+                        "predicate": "has an unclear origin",
+                        "object": ""
+                    }
+                ]
+            }
+        },
+        "N57WKGoW": {
+            "name": "VOCs",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "VOCs",
+                "type": "Volatile Organic Compounds",
+                "description": "A group of carbon-based chemicals that easily evaporate at room temperature.",
+                "findings": "VOCs can be used as biomarkers for GI cancer, but their origins are often unclear and further research is needed.",
+                "notes": "Exogenous factors like physical activities and smoking can change the pattern of VOCs.",
+                "knowledge": [
+                    {
+                        "subject": "VOCs",
+                        "predicate": "can be used",
+                        "object": "as biomarkers for GI cancer"
+                    },
+                    {
+                        "subject": "VOCs",
+                        "predicate": "have often unclear origins",
+                        "object": ""
+                    },
+                    {
+                        "subject": "VOCs",
+                        "predicate": "are affected by",
+                        "object": "exogenous factors like physical activities and smoking"
+                    }
+                ]
+            }
+        },
+        "wycky8VL": {
+            "name": "Microbiome Data",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Microbiome Data",
+                "type": "Biological Biomarker",
+                "description": "Microbial community data used to differentiate between healthy and diseased states.",
+                "findings": "Microbiome data analysis using XAI identified significant bacterial taxa associated with CRC.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Microbiome Data",
+                        "predicate": "is analyzed by",
+                        "object": "XAI techniques"
+                    },
+                    {
+                        "subject": "Microbiome Data",
+                        "predicate": "identifies",
+                        "object": "significant bacterial taxa associated with CRC"
+                    }
+                ]
+            }
+        },
+        "tXzOp_Po": {
+            "name": "Volatile Organic Compounds (VOCs)",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Volatile Organic Compounds (VOCs)",
+                "type": "biochemical marker",
+                "description": "Biochemical compounds released in human breath due to various metabolic processes.",
+                "findings": "The study identified different VOCs in the breath of CRC patients compared to previous studies, which may be attributed to differences in mass-spectrometry devices, sample collection processes, and geographical variations.",
+                "notes": "Further chemical analysis is needed to correlate biochemical pathways with the results.",
+                "knowledge": [
+                    {
+                        "subject": "VOCs",
+                        "predicate": "are released due to",
+                        "object": "various metabolic processes"
+                    },
+                    {
+                        "subject": "VOCs",
+                        "predicate": "were identified differently in",
+                        "object": "CRC patients compared to previous studies"
+                    }
+                ]
+            }
+        },
+        "Bi0bQiIm": {
+            "name": "Alkenes",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Alkenes",
+                "type": "biochemical marker",
+                "description": "A type of hydrocarbon that is released due to oxidative stress.",
+                "findings": "The main mechanism affecting the emission of alkenes is oxidative stress, which involves the balance between formation and scavenging of reactive oxygen species (ROS) and free radicals in the body.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Alkenes",
+                        "predicate": "are affected by",
+                        "object": "oxidative stress"
+                    },
+                    {
+                        "subject": "Alkenes",
+                        "predicate": "involve the balance of",
+                        "object": "reactive oxygen species and free radicals"
+                    }
+                ]
+            }
+        },
+        "3CyudNG2": {
+            "name": "Alcohols",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Alcohols",
+                "type": "biochemical marker",
+                "description": "Compounds that originate from food, alcohol beverages, and the metabolism of hydrocarbons by cytochrome p450 enzymes.",
+                "findings": "Alcohols in breath are derived from food, alcoholic beverages, and the metabolism of hydrocarbons by cytochrome p450 enzymes.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Alcohols",
+                        "predicate": "originate from",
+                        "object": "food and alcohol beverages"
+                    },
+                    {
+                        "subject": "Alcohols",
+                        "predicate": "are derived from",
+                        "object": "metabolism of hydrocarbons by cytochrome p450 enzymes"
+                    }
+                ]
+            }
+        },
+        "VDFA6Fou": {
+            "name": "Ketones",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Ketones",
+                "type": "biochemical marker",
+                "description": "Compounds related to lipid peroxidation and are good predictors for ketosis.",
+                "findings": "Acetone, a type of ketone, is a secondary product of lipid peroxidation and is formed under metabolic conditions associated with a high oxidation rate of fatty acids.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Ketones",
+                        "predicate": "are related to",
+                        "object": "lipid peroxidation"
+                    },
+                    {
+                        "subject": "Acetone (a ketone)",
+                        "predicate": "is formed under",
+                        "object": "high oxidation rate of fatty acids"
+                    }
+                ]
+            }
+        },
+        "ECOnFdi0": {
+            "name": "Esters",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "Esters",
+                "type": "biochemical marker",
+                "description": "Compounds found in natural sources such as fats, oils, waxes, and fruit ethers.",
+                "findings": "Esters can be found in large amounts in various natural sources including fats, oils, waxes, and fruit ethers.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Esters",
+                        "predicate": "are found in",
+                        "object": "natural sources such as fats, oils, waxes, and fruit ethers"
+                    }
+                ]
+            }
+        },
+        "_WypBMDg": {
+            "name": "T-antigen",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "T-antigen",
+                "type": "Glycan Biomarker",
+                "description": "A cancer-associated glycan found in stool samples.",
+                "findings": "Stools from more aggressive lesions may exhibit abnormal immature T-antigen signatures not seen in healthy tissues.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "T-antigen",
+                        "predicate": "is exhibited by",
+                        "object": "aggressive lesions"
+                    },
+                    {
+                        "subject": "T-antigen",
+                        "predicate": "is not seen in",
+                        "object": "healthy tissues"
+                    }
+                ]
+            }
+        },
+        "lksduSfO": {
+            "name": "FIT (Fecal Immunochemical Test)",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "FIT (Fecal Immunochemical Test)",
+                "type": "Diagnostic Tool",
+                "description": "A non-invasive test used for colorectal cancer screening.",
+                "findings": "The analysis of patients with negative FIT results is required to fully disclose the potential of T-antigen and T-expressing glycoproteoforms for non-invasive CRC screening.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "FIT",
+                        "predicate": "is required to fully disclose the potential of",
+                        "object": "T-antigen and T-expressing glycoproteoforms for non-invasive CRC screening"
+                    }
+                ]
+            }
+        },
+        "lX-TdRYV": {
+            "name": "T-expressing glycoproteoforms",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "T-expressing glycoproteoforms",
+                "type": "Glycan Biomarker",
+                "description": "Glycoproteins expressing the T-antigen found in stool samples.",
+                "findings": "Future efforts should involve screening larger patient cohorts for both the T-antigen and T-expressing glycoproteoforms, ideally in multicenter settings.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "T-expressing glycoproteoforms",
+                        "predicate": "should be screened in larger patient cohorts",
+                        "object": ""
+                    }
+                ]
+            }
+        },
+        "fXmbNnvv": {
+            "name": "CRC Glycocode",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "mistral-large/e_MJe",
+            "details": {
+                "name": "CRC Glycocode",
+                "type": "Glycan Biomarker",
+                "description": "The glycosylation patterns associated with colorectal cancer.",
+                "findings": "This work showcases the unexplored potential of the CRC glycocode for non-invasive disease detection, providing a framework for addressing other potential relevant alterations in glycosylation in this context.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "CRC Glycocode",
+                        "predicate": "has unexplored potential for",
+                        "object": "non-invasive disease detection"
+                    },
+                    {
+                        "subject": "CRC Glycocode",
+                        "predicate": "provides a framework for addressing",
+                        "object": "other potential relevant alterations in glycosylation"
+                    }
+                ]
+            }
+        }
+    },
+    "documents": {
+        "10.1038/s41598-023-42037-w": {
+            "doi": "10.1038/s41598-023-42037-w",
+            "short_citation": "(Bao-Caamano;2023)",
+            "long_citation": "Bao-Caamano, et al., Epigenomic analysis reveals a unique DNA methylation program of metastasis-competent circulating tumor cells in colorectal cancer, , 2023"
+        },
+        "10.1002/anie.202306154": {
+            "doi": "10.1002/anie.202306154",
+            "short_citation": "(Saraei;2019)",
+            "long_citation": "Saraei, et al., Towards a Precise NMR Quantification of Acute Phase Inflammation Proteins from Human Serum, , 2019"
+        },
+        "10.3390/cancers13184640": {
+            "doi": "10.3390/cancers13184640",
+            "short_citation": "(Dur\u00e1n-Vin;2021-09-16)",
+            "long_citation": "Dur\u00e1n-Vin, et al., CRISPR/Cas13-Based Platforms for a Potential Next-Generation Diagnosis of Colorectal Cancer through Exosomes Micro-RNA Detection: A Review, , 2021-09-16"
+        },
+        "10.3390/cancers16162796": {
+            "doi": "10.3390/cancers16162796",
+            "short_citation": "(Ashouri;2024-08-08)",
+            "long_citation": "Ashouri, et al., Exploring Predictive and Prognostic Biomarkers in Colorectal Cancer: A Comprehensive Review, , 2024-08-08"
+        },
+        "10.1126/sciadv.aaw1317": {
+            "doi": "10.1126/sciadv.aaw1317",
+            "short_citation": "(Carvalho;2024-12-04)",
+            "long_citation": "Carvalho, et al., Colorectal tumor-on-a-chip system: A 3D tool for precision onco-nanomedicine, , 2024-12-04"
+        },
+        "10.1001/jamaoncol.2024.3891": {
+            "doi": "10.1001/jamaoncol.2024.3891",
+            "short_citation": "(Chen;2024-09-19)",
+            "long_citation": "Chen, et al., Chimeric Antigen Receptor T Cells Targeting CD19 and GCC in Metastatic Colorectal Cancer A Nonrandomized Clinical Trial, , 2024-09-19"
+        },
+        "10.1038/s42003-022-03249-4": {
+            "doi": "10.1038/s42003-022-03249-4",
+            "short_citation": "(Van Riet;1989)",
+            "long_citation": "Van Riet, et al., CRISPRs in the human genome are differentially expressed between malignant and normal adjacent to tumor tissue, , 1989"
+        },
+        "10.3390/ijms24010129": {
+            "doi": "10.3390/ijms24010129",
+            "short_citation": "(Chen;2022-12-21)",
+            "long_citation": "Chen, et al., Diagnosis by Volatile Organic Compounds in Exhaled Breath from Patients with Gastric and Colorectal Cancers, , 2022-12-21"
+        },
+        "10.1111/j.2517-6161.1982.tb01195.x": {
+            "doi": "10.1111/j.2517-6161.1982.tb01195.x",
+            "short_citation": "(D'elia;1982)",
+            "long_citation": "D'elia, et al., Explainable artificial intelligence for microbiome data analysis in colorectal cancer biomarker identification, , 1982"
+        },
+        "10.1002/ijc.29701": {
+            "doi": "10.1002/ijc.29701",
+            "short_citation": "(Amal;2015)",
+            "long_citation": "Amal, et al., Breath testing as potential colorectal cancer screening tool, , 2015"
+        },
+        "10.3390/ijms25073722": {
+            "doi": "10.3390/ijms25073722",
+            "short_citation": "(Kuppen;2024-03-27)",
+            "long_citation": "Kuppen, et al., Stool Glycoproteomics Signatures of Pre-Cancerous Lesions and Colorectal Cancer, , 2024-03-27"
+        }
+    },
+    "lang_info": {
+        "mistral-large/e_MJe": {
+            "llm_tag": "mistral-large",
+            "prompt_template": "[BEGIN ARTICLE]:<content></content>\n[END ARTICLE]\n\n[INSTRUCTIONS]\nGenerate list of biomarkers that are topic of the article and for each such biomarker extract name, description, type, findings explicitly mentioned in the article, and list of knowledge.\nThe list of knowledge that are from finding and that can be expressed in terms: \"subject\" which is the biomarker, \"predicate\" which is some verb optionally with some adverb and \"object\".\nReturn the response in strict JSON format with the following structure:\n\n[\n  { \"name\": \"biomarker name\",\"type\":\"biomarker type\",\"description\":\"biomarker description\",\"findings\":\"brief findings about biomarker in article as one sentence\",\"notes\":\"additional notes important to biomarker or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker name\",\"predicate\":\"some predicate from findings of biomarker\",\"object\":\"object that relates via predicate to the biomarker\" }],\n  { \"name\": \"biomarker2 name\",\"type\":\"biomarker2 type\",\"description\":\"biomarker2 description\",\"findings\":\"brief findings about biomarker2 in article as one sentence\",\"notes\":\"additional notes important to biomarker2 or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker2 name\",\"predicate\":\"some predicate from findings of  biomarker2\",\"object\":\"object that relates via predicate to the biomarker2\" }] }\n] \n\nEnsure there is no additional explanation, only return valid JSON.\n"
+        }
+    }
+}
