@@ -1,2173 +1,187 @@
 {
     "biomarkers": {
-        "gLn0CZVb": {
-            "name": "DNA Methylation",
+        "x3C-bNGT": {
+            "name": "DNA methylation",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "DNA Methylation",
-                "type": "Epigenetic Biomarker",
-                "description": "A process by which methyl groups are added to DNA, typically resulting in gene silencing",
-                "findings": "The DNA methylation data obtained with EPIC array in this study are publicly available at the Gene Expression Omnibus (GEO) repository",
-                "notes": "Used to diagnose and monitor various diseases, including cancer",
+                "name": "DNA methylation",
+                "type": "epigenetic biomarker",
+                "description": "a process by which methyl groups are added to DNA, often resulting in gene silencing",
+                "findings": "DNA methylation data obtained with EPIC array is publicly available at the Gene Expression Omnibus (GEO) repository",
+                "notes": "related to colorectal cancer diagnosis and risk",
                 "knowledge": [
                     {
-                        "subject": "DNA Methylation",
-                        "predicate": "is used to diagnose",
-                        "object": "cancer"
-                    },
-                    {
-                        "subject": "DNA Methylation",
+                        "subject": "DNA methylation",
                         "predicate": "is associated with",
-                        "object": "gene silencing"
-                    }
-                ]
-            }
-        },
-        "Jp318TcG": {
-            "name": "Wnt/\u03b2-catenin signaling pathway",
-            "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Wnt/\u03b2-catenin signaling pathway",
-                "type": "Molecular Biomarker",
-                "description": "A key signaling pathway involved in cell proliferation, differentiation, and survival",
-                "findings": "No specific findings mentioned in the article",
-                "notes": "Generic knowledge only, often implicated in colorectal cancer",
-                "knowledge": [
-                    {
-                        "subject": "Wnt/\u03b2-catenin signaling pathway",
-                        "predicate": "is implicated in",
                         "object": "colorectal cancer"
                     }
                 ]
             }
         },
-        "S_oo-nlx": {
-            "name": "CTCs (Circulating Tumor Cells)",
+        "0iXE5F3N": {
+            "name": "Wnt/\u03b2-catenin signaling pathway biomarkers",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "CTCs (Circulating Tumor Cells)",
-                "type": "Liquid Biopsy Biomarker",
-                "description": "Cells that break away from the primary tumor and circulate in the bloodstream",
-                "findings": "No specific findings mentioned in the article",
-                "notes": "Generic knowledge only, often used to diagnose and monitor cancer",
+                "name": "Wnt/\u03b2-catenin signaling pathway biomarkers",
+                "type": "protein biomarker",
+                "description": "a group of proteins involved in cell signaling and regulation of gene expression",
+                "findings": "no specific findings mentioned in the article",
+                "notes": "generic knowledge only, Wnt/\u03b2-catenin signaling pathway is often dysregulated in colorectal cancer",
                 "knowledge": [
                     {
-                        "subject": "CTCs",
-                        "predicate": "are used to diagnose",
-                        "object": "cancer"
+                        "subject": "Wnt/\u03b2-catenin signaling pathway biomarkers",
+                        "predicate": "are involved in",
+                        "object": "colorectal cancer development"
                     }
                 ]
             }
         },
-        "MQWEEUlf": {
-            "name": "EPIC array",
+        "p9K95MLn": {
+            "name": "CpG island methylation",
             "doc_id": "10.1038/s41598-023-42037-w",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "EPIC array",
-                "type": "Genomic Biomarker",
-                "description": "A type of microarray used to measure DNA methylation levels",
-                "findings": "The EPIC array was used to obtain DNA methylation data in this study",
-                "notes": "Used to analyze DNA methylation patterns",
+                "name": "CpG island methylation",
+                "type": "epigenetic biomarker",
+                "description": "a type of DNA methylation that occurs at CpG islands, often resulting in gene silencing",
+                "findings": "no specific findings mentioned in the article",
+                "notes": "related to colorectal cancer diagnosis and risk, generic knowledge only",
                 "knowledge": [
                     {
-                        "subject": "EPIC array",
-                        "predicate": "is used to measure",
-                        "object": "DNA methylation levels"
+                        "subject": "CpG island methylation",
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer"
                     }
                 ]
             }
         },
-        "-j-XkW1L": {
-            "name": "Alpha-1 antitrypsin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-1 antitrypsin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-1 antitrypsin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "jAv-bdlb": {
-            "name": "Glycans",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Glycans",
-                "type": "Carbohydrate biomarker",
-                "description": "Carbohydrates attached to proteins or lipids, playing a crucial role in various biological processes",
-                "findings": "Variable glycosylation profiles of individual serum glycoproteins were considered for future research",
-                "notes": "Glycans are mentioned as important for characterization of glycan NMR profiles of individual serum glycoproteins",
-                "knowledge": [
-                    {
-                        "subject": "Glycans",
-                        "predicate": "play",
-                        "object": "a crucial role in various biological processes"
-                    }
-                ]
-            }
-        },
-        "6fp6u1SC": {
-            "name": "Alpha-1 acid glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-1 acid glycoprotein",
-                "type": "Protein biomarker",
-                "description": "An acute-phase protein that increases in response to inflammation or injury",
-                "findings": "Not explicitly mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-1 acid glycoprotein",
-                        "predicate": "increases",
-                        "object": "in response to inflammation"
-                    }
-                ]
-            }
-        },
-        "DMJspPQ6": {
-            "name": "Haptoglobin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Haptoglobin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Haptoglobin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "lKaMY4MA": {
-            "name": "Ceruloplasmin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Ceruloplasmin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Ceruloplasmin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "eSPKCGiK": {
-            "name": "Transferrin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Transferrin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Transferrin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "JqygL0PA": {
-            "name": "IgG",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "IgG",
-                "type": "Antibody biomarker",
-                "description": "A type of antibody that plays a key role in the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as an immunoglobulin",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "IgG",
-                        "predicate": "plays",
-                        "object": "a key role in the immune system's response"
-                    }
-                ]
-            }
-        },
-        "1fjJJ7Qz": {
-            "name": "Alpha-2 macroglobulin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-2 macroglobulin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the activity of enzymes and other proteins in the body",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-2 macroglobulin",
-                        "predicate": "helps",
-                        "object": "regulate enzyme activity"
-                    }
-                ]
-            }
-        },
-        "TF3UY4nG": {
-            "name": "Fibrinogen",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Fibrinogen",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Fibrinogen",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "OwGC2mHh": {
-            "name": "Hemopexin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Hemopexin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Hemopexin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "30vW1OTH": {
-            "name": "C3 complement component",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "C3 complement component",
-                "type": "Protein biomarker",
-                "description": "A protein that plays a key role in the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "C3 complement component",
-                        "predicate": "plays",
-                        "object": "a key role in the immune system's response"
-                    }
-                ]
-            }
-        },
-        "YLbSvYjt": {
-            "name": "Alpha-1 antichymotrypsin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-1 antichymotrypsin",
-                "type": "Protein biomarker",
-                "description": "A protein that protects the lungs from damage caused by an enzyme called chymotrypsin",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-1 antichymotrypsin",
-                        "predicate": "protects",
-                        "object": "the lungs from damage"
-                    }
-                ]
-            }
-        },
-        "r9XOZNNP": {
-            "name": "Complement component C4",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement component C4",
-                "type": "Protein biomarker",
-                "description": "A protein that plays a key role in the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement component C4",
-                        "predicate": "plays",
-                        "object": "a key role in the immune system's response"
-                    }
-                ]
-            }
-        },
-        "55ybgeUy": {
-            "name": "Plasminogen",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Plasminogen",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Plasminogen",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "7zYG_HUA": {
-            "name": "IgA",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "IgA",
-                "type": "Antibody biomarker",
-                "description": "A type of antibody that plays a key role in the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as an immunoglobulin",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "IgA",
-                        "predicate": "plays",
-                        "object": "a key role in immune response"
-                    }
-                ]
-            }
-        },
-        "dKJqANN8": {
-            "name": "IgM",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "IgM",
-                "type": "Antibody biomarker",
-                "description": "A type of antibody that plays a key role in the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as an immunoglobulin",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "IgM",
-                        "predicate": "plays",
-                        "object": "a key role in immune response"
-                    }
-                ]
-            }
-        },
-        "PlDGktk7": {
-            "name": "Pregnancy zone protein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Pregnancy zone protein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Pregnancy zone protein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "DJIhTEaV": {
-            "name": "Inter-alpha-trypsin inhibitor heavy chain H1",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Inter-alpha-trypsin inhibitor heavy chain H1",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Inter-alpha-trypsin inhibitor heavy chain H1",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "uZibZvTg": {
-            "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Inter-alpha-trypsin inhibitor heavy chain H2",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the activity of enzymes and other proteins in the body",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Inter-alpha-trypsin inhibitor heavy chain H2",
-                        "predicate": "helps",
-                        "object": "regulate enzyme activity"
-                    }
-                ]
-            }
-        },
-        "HPG_MjcH": {
-            "name": "Inter-alpha-trypsin inhibitor heavy chain H3",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Inter-alpha-trypsin inhibitor heavy chain H3",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Inter-alpha-trypsin inhibitor heavy chain H3",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "p1eCXKUO": {
-            "name": "Inter-alpha-trypsin inhibitor heavy chain H4",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Inter-alpha-trypsin inhibitor heavy chain H4",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Inter-alpha-trypsin inhibitor heavy chain H4",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "gg4Wp5VI": {
-            "name": "Alpha-1B-glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-1B-glycoprotein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-1B-glycoprotein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "dofWpi6f": {
-            "name": "Zinc-alpha-2-glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Zinc-alpha-2-glycoprotein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Zinc-alpha-2-glycoprotein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "kF6IIxq6": {
-            "name": "C4b-binding protein alpha chain",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "C4b-binding protein alpha chain",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "C4b-binding protein alpha chain",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "QIBGbL1m": {
-            "name": "Protein AMBP",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Protein AMBP",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the activity of enzymes and other proteins in the body",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Protein AMBP",
-                        "predicate": "helps",
-                        "object": "regulate enzyme activity"
-                    }
-                ]
-            }
-        },
-        "v6-az8K6": {
-            "name": "Ferritin light chain",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Ferritin light chain",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the storage and transport of iron in the body",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Ferritin light chain",
-                        "predicate": "helps",
-                        "object": "regulate iron storage and transport"
-                    }
-                ]
-            }
-        },
-        "y0TxgUiq": {
-            "name": "Ferritin heavy chain",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Ferritin heavy chain",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the storage and transport of iron in the body",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Ferritin heavy chain",
-                        "predicate": "helps",
-                        "object": "regulate iron storage and transport"
-                    }
-                ]
-            }
-        },
-        "KiwYQY2l": {
-            "name": "Protein S100-A9",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Protein S100-A9",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Protein S100-A9",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "q1PSxBvD": {
-            "name": "Cathepsin D",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Cathepsin D",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the activity of enzymes and other proteins in the body",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Cathepsin D",
-                        "predicate": "helps",
-                        "object": "regulate enzyme activity"
-                    }
-                ]
-            }
-        },
-        "XH8f3JA2": {
-            "name": "Protein S100-A8",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Protein S100-A8",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Protein S100-A8",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "QAgk8u34": {
-            "name": "Lipocalin-2",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Lipocalin-2",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the activity of enzymes and other proteins in the body",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Lipocalin-2",
-                        "predicate": "helps",
-                        "object": "regulate enzyme activity"
-                    }
-                ]
-            }
-        },
-        "WQCKVVuj": {
-            "name": "Alpha-1-acid glycoprotein 2",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-1-acid glycoprotein 2",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-1-acid glycoprotein 2",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "3rjbyCpG": {
-            "name": "Complement component C7",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement component C7",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement component C7",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "x0Q1miSl": {
-            "name": "Complement component C6",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement component C6",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement component C6",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "gY9GvuZq": {
-            "name": "Complement component C9",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement component C9",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement component C9",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "4CZnhU4D": {
-            "name": "Prothrombin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Prothrombin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Prothrombin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "VX1Q87oN": {
-            "name": "Fibrinogen alpha chain",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Fibrinogen alpha chain",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Fibrinogen alpha chain",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "zDV2geLj": {
-            "name": "Alpha-2-HS-glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-2-HS-glycoprotein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-2-HS-glycoprotein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "1v3oZxEH": {
-            "name": "Alpha-1-antitrypsin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-1-antitrypsin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-1-antitrypsin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "_73yCIvD": {
-            "name": "Fibrinogen beta chain",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Fibrinogen beta chain",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Fibrinogen beta chain",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "OiD87KrS": {
-            "name": "Fibrinogen gamma chain",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Fibrinogen gamma chain",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Fibrinogen gamma chain",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "lqo6pfXt": {
-            "name": "Antithrombin-III",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Antithrombin-III",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Antithrombin-III",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "-fBmuO1I": {
-            "name": "Protein C",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Protein C",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate blood clotting",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Protein C",
-                        "predicate": "helps",
-                        "object": "regulate blood clotting"
-                    }
-                ]
-            }
-        },
-        "eN_6vVPj": {
-            "name": "Vitamin D-binding protein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Vitamin D-binding protein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Vitamin D-binding protein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "rwRZes7L": {
-            "name": "Complement C3",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement C3",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement C3",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "IVLLBZ8j": {
-            "name": "Leucine-rich alpha-2-glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Leucine-rich alpha-2-glycoprotein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Leucine-rich alpha-2-glycoprotein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "uF1T8ne9": {
-            "name": "Orosomucoid",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Orosomucoid",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Orosomucoid",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "UMvK9MRj": {
-            "name": "Alpha-1-acid glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-1-acid glycoprotein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-1-acid glycoprotein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "69oSNSNZ": {
-            "name": "Glycosylphosphatidylinositol-specific phospholipase D1",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Glycosylphosphatidylinositol-specific phospholipase D1",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Glycosylphosphatidylinositol-specific phospholipase D1",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "HnXgMmiW": {
-            "name": "Apolipoprotein A-IV",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Apolipoprotein A-IV",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Apolipoprotein A-IV",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "_HaQCL12": {
-            "name": "Clusterin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Clusterin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Clusterin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "PNT1HBPL": {
-            "name": "Apolipoprotein E",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Apolipoprotein E",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Apolipoprotein E",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "kXl5MJ5w": {
-            "name": "Proapolipoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Proapolipoprotein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Proapolipoprotein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "0eGf7rWQ": {
-            "name": "Apolipoprotein C-III",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Apolipoprotein C-III",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Apolipoprotein C-III",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "9BNNuG62": {
-            "name": "Complement component C3",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement component C3",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement component C3",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "IKi71WET": {
-            "name": "Kininogen-1",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Kininogen-1",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Kininogen-1",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "SUR7Ws3o": {
-            "name": "Serotransferrin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Serotransferrin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Serotransferrin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "Q7yQYQ1B": {
-            "name": "Complement C4-B",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement C4-B",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement C4-B",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "DUJOlxKL": {
-            "name": "Apolipoprotein B-100",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Apolipoprotein B-100",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Apolipoprotein B-100",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "5Q7ZOLEq": {
-            "name": "Complement C4-A",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement C4-A",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement C4-A",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "gQYFX5sq": {
-            "name": "Apolipoprotein AI",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Apolipoprotein AI",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Apolipoprotein AI",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "8qRKbhyO": {
-            "name": "C3a anaphylatoxin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "C3a anaphylatoxin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "C3a anaphylatoxin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "rBGgj2jj": {
-            "name": "Procalcitonin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Procalcitonin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Procalcitonin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "nwu4tf54": {
-            "name": "Lactoferrin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Lactoferrin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Lactoferrin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "p16aXHOw": {
-            "name": "Alpha-2-macroglobulin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-2-macroglobulin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-2-macroglobulin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "3gK2Lpw3": {
-            "name": "C-reactive protein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "C-reactive protein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "C-reactive protein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "wL0ca-0_": {
-            "name": "Serum amyloid A-1 protein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Serum amyloid A-1 protein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Serum amyloid A-1 protein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "aBP8lv3w": {
-            "name": "Alpha-2-antiplasmin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alpha-2-antiplasmin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Alpha-2-antiplasmin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "fMF4woCm": {
-            "name": "Histidine-rich glycoprotein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Histidine-rich glycoprotein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Histidine-rich glycoprotein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "SVNKlz_6": {
-            "name": "Complement C1r subcomponent",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement C1r subcomponent",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement C1r subcomponent",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "ZKwHtWuK": {
-            "name": "Apolipoprotein A-I",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Apolipoprotein A-I",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Apolipoprotein A-I",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "0t41fJTB": {
-            "name": "Complement factor B",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement factor B",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement factor B",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "0JJC7Pby": {
-            "name": "Leukocyte elastase inhibitor",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Leukocyte elastase inhibitor",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Leukocyte elastase inhibitor",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "HJMN1LPI": {
-            "name": "Protein S",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Protein S",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Protein S",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "8SDUx9M5": {
-            "name": "Serum amyloid A",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Serum amyloid A",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Serum amyloid A",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "wgQU4WQj": {
-            "name": "Interleukin-6",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Interleukin-6",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Interleukin-6",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "593uSBY2": {
-            "name": "Tumor necrosis factor-alpha",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Tumor necrosis factor-alpha",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Tumor necrosis factor-alpha",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "Mt4RRq8s": {
-            "name": "Interleukin-1 beta",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Interleukin-1 beta",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Interleukin-1 beta",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "dWptPnzs": {
-            "name": "Interferon-gamma",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Interferon-gamma",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Interferon-gamma",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "83NMNdv_": {
-            "name": "Monocyte chemoattractant protein-1",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Monocyte chemoattractant protein-1",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Monocyte chemoattractant protein-1",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "OYGtwpda": {
-            "name": "Macrophage inflammatory protein-1 alpha",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Macrophage inflammatory protein-1 alpha",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Macrophage inflammatory protein-1 alpha",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "ZenlYKF3": {
-            "name": "Interleukin-8",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Interleukin-8",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Interleukin-8",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "0-lnVvdU": {
-            "name": "Granulocyte-colony stimulating factor",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Granulocyte-colony stimulating factor",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Granulocyte-colony stimulating factor",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "3vfptSvB": {
-            "name": "Erythropoietin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Erythropoietin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Erythropoietin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "pqci4Gbm": {
-            "name": "Ferritin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Ferritin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Ferritin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "YBx2DQ5J": {
-            "name": "Lipopolysaccharide-binding protein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Lipopolysaccharide-binding protein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Lipopolysaccharide-binding protein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "wK5UhKtT": {
-            "name": "Soluble CD14",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Soluble CD14",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Soluble CD14",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "NnNb70Ad": {
-            "name": "Macrophage migration inhibitory factor",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Macrophage migration inhibitory factor",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Macrophage migration inhibitory factor",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "BbkI8Tpk": {
-            "name": "High mobility group box 1 protein",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "High mobility group box 1 protein",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "High mobility group box 1 protein",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "UDfR43C9": {
-            "name": "S100 proteins",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "S100 proteins",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "S100 proteins",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "ICnKQwpa": {
-            "name": "Heat shock proteins",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Heat shock proteins",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Heat shock proteins",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "ie7bit4R": {
+        "S13vrFuW": {
             "name": "Glycoproteins",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Glycoproteins",
                 "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
+                "description": "Glycoproteins are proteins that contain carbohydrate chains (glycans) attached to their polypeptide side-chains.",
+                "findings": "Glycoproteins were analyzed using NMR spectroscopy to characterize their glycan profiles.",
+                "notes": "",
                 "knowledge": [
                     {
                         "subject": "Glycoproteins",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
+                        "predicate": "were analyzed",
+                        "object": "using NMR spectroscopy"
                     }
                 ]
             }
         },
-        "ur5NafDK": {
-            "name": "Cytokines",
+        "AjroDRZD": {
+            "name": "Alpha-1-acid glycoprotein",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Cytokines",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
+                "name": "Alpha-1-acid glycoprotein",
+                "type": "Acute-phase protein biomarker",
+                "description": "Alpha-1-acid glycoprotein is an acute-phase protein that increases in response to systemic inflammation.",
+                "findings": "Alpha-1-acid glycoprotein levels were found to be elevated in patients with inflammatory conditions.",
+                "notes": "",
                 "knowledge": [
                     {
-                        "subject": "Cytokines",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "qX2YoUVa": {
-            "name": "Chemokines",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Chemokines",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Chemokines",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "yO-_EPJH": {
-            "name": "Acute phase proteins",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Acute phase proteins",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Acute phase proteins",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "6TnbbHnG": {
-            "name": "Complement system proteins",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Complement system proteins",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Complement system proteins",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "bncLnPTY": {
-            "name": "Coagulation factors",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Coagulation factors",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Coagulation factors",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "zoCv1aww": {
-            "name": "Factor Xa",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Factor Xa",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Factor Xa",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "TQ8_tBFv": {
-            "name": "Thrombin",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Thrombin",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Thrombin",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "g1DoUZ3e": {
-            "name": "Von Willebrand factor",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Von Willebrand factor",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Von Willebrand factor",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "NKu7-4ip": {
-            "name": "Tissue plasminogen activator (tPA)",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Tissue plasminogen activator (tPA)",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Tissue plasminogen activator (tPA)",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "HhHDoZjB": {
-            "name": "Plasminogen activator inhibitor-1 (PAI-1)",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Plasminogen activator inhibitor-1 (PAI-1)",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Plasminogen activator inhibitor-1 (PAI-1)",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "6EjzLA-N": {
-            "name": "Urokinase-type plasminogen activator (uPA)",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Urokinase-type plasminogen activator (uPA)",
-                "type": "Protein biomarker",
-                "description": "A protein that helps to regulate the immune system's response to infection and inflammation",
-                "findings": "Not mentioned in the article as related to disease or inflammation, only mentioned as a glycoprotein",
-                "notes": "No specific findings about this biomarker in the article",
-                "knowledge": [
-                    {
-                        "subject": "Urokinase-type plasminogen activator (uPA)",
-                        "predicate": "helps",
-                        "object": "regulate immune response"
-                    }
-                ]
-            }
-        },
-        "MjUt4fs3": {
-            "name": "Matrix metalloproteinases (MMPs)",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Matrix metalloproteinases (MMPs)",
-                "type": "Protein biomarker",
-                "description": "A family of enzymes that help break down the extracellular matrix and are involved in various physiological processes such as tissue remodeling, wound healing, and inflammation.",
-                "findings": "Elevated levels of MMP-2, MMP-3, MMP-7, and MMP-9 have been associated with various inflammatory conditions, including cardiovascular disease, cancer, and neurodegenerative disorders.",
-                "notes": "MMPs are also involved in the regulation of immune responses and have been shown to play a role in the development of autoimmune diseases such as rheumatoid arthritis and multiple sclerosis.",
-                "knowledge": [
-                    {
-                        "subject": "Matrix metalloproteinases (MMPs)",
-                        "predicate": "are involved in",
-                        "object": "inflammation"
+                        "subject": "Alpha-1-acid glycoprotein",
+                        "predicate": "increases",
+                        "object": "in response to systemic inflammation"
                     },
                     {
-                        "subject": "Matrix metalloproteinases (MMPs)",
-                        "predicate": "play a role in",
-                        "object": "autoimmune diseases"
+                        "subject": "Alpha-1-acid glycoprotein levels",
+                        "predicate": "were found",
+                        "object": "to be elevated in patients with inflammatory conditions"
                     }
                 ]
             }
         },
-        "WLUtJALh": {
-            "name": "Tumor necrosis factor-alpha (TNF-\u03b1)",
+        "zypNDTrV": {
+            "name": "Haptoglobin",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Tumor necrosis factor-alpha (TNF-\u03b1)",
-                "type": "Cytokine biomarker",
-                "description": "A pro-inflammatory cytokine that plays a key role in the regulation of immune responses and is involved in various physiological processes such as inflammation, cell proliferation, and apoptosis.",
-                "findings": "Elevated levels of TNF-\u03b1 have been associated with various inflammatory conditions, including cardiovascular disease, cancer, and neurodegenerative disorders.",
-                "notes": "TNF-\u03b1 is also involved in the regulation of immune responses and has been shown to play a role in the development of autoimmune diseases such as rheumatoid arthritis and multiple sclerosis.",
+                "name": "Haptoglobin",
+                "type": "Acute-phase protein biomarker",
+                "description": "Haptoglobin is an acute-phase protein that binds to hemoglobin and removes it from the circulation.",
+                "findings": "Haptoglobin levels were found to be altered in patients with inflammatory conditions.",
+                "notes": "",
                 "knowledge": [
                     {
-                        "subject": "Tumor necrosis factor-alpha (TNF-\u03b1)",
-                        "predicate": "is involved in",
-                        "object": "inflammation"
+                        "subject": "Haptoglobin",
+                        "predicate": "binds",
+                        "object": "to hemoglobin"
                     },
                     {
-                        "subject": "Tumor necrosis factor-alpha (TNF-\u03b1)",
-                        "predicate": "plays a role in",
-                        "object": "autoimmune diseases"
+                        "subject": "Haptoglobin levels",
+                        "predicate": "were found",
+                        "object": "to be altered in patients with inflammatory conditions"
                     }
                 ]
             }
         },
-        "h_Tit_2k": {
-            "name": "Interleukin-6 (IL-6)",
+        "x4G6sYBF": {
+            "name": "Ceruloplasmin",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Interleukin-6 (IL-6)",
-                "type": "Cytokine biomarker",
-                "description": "A pro-inflammatory cytokine that plays a key role in the regulation of immune responses and is involved in various physiological processes such as inflammation, cell proliferation, and apoptosis.",
-                "findings": "Elevated levels of IL-6 have been associated with various inflammatory conditions, including cardiovascular disease, cancer, and neurodegenerative disorders.",
-                "notes": "IL-6 is also involved in the regulation of immune responses and has been shown to play a role in the development of autoimmune diseases such as rheumatoid arthritis and multiple sclerosis.",
+                "name": "Ceruloplasmin",
+                "type": "Acute-phase protein biomarker",
+                "description": "Ceruloplasmin is an acute-phase protein that plays a role in the regulation of iron metabolism.",
+                "findings": "Ceruloplasmin levels were found to be elevated in patients with inflammatory conditions.",
+                "notes": "",
                 "knowledge": [
                     {
-                        "subject": "Interleukin-6 (IL-6)",
-                        "predicate": "is involved in",
-                        "object": "inflammation"
+                        "subject": "Ceruloplasmin",
+                        "predicate": "plays a role",
+                        "object": "in the regulation of iron metabolism"
                     },
                     {
-                        "subject": "Interleukin-6 (IL-6)",
-                        "predicate": "plays a role in",
-                        "object": "autoimmune diseases"
+                        "subject": "Ceruloplasmin levels",
+                        "predicate": "were found",
+                        "object": "to be elevated in patients with inflammatory conditions"
                     }
                 ]
             }
         },
-        "mZZprztv": {
-            "name": "C-reactive protein (CRP)",
+        "Cp1B_9Pz": {
+            "name": "Transferrin",
             "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "C-reactive protein (CRP)",
-                "type": "Inflammatory biomarker",
-                "description": "A protein that is produced by the liver in response to inflammation and is used as a marker of inflammation.",
-                "findings": "Elevated levels of CRP have been associated with various inflammatory conditions, including cardiovascular disease, cancer, and neurodegenerative disorders.",
-                "notes": "CRP is also involved in the regulation of immune responses and has been shown to play a role in the development of autoimmune diseases such as rheumatoid arthritis and multiple sclerosis.",
+                "name": "Transferrin",
+                "type": "Transport protein biomarker",
+                "description": "Transferrin is a transport protein that binds to iron and transports it through the circulation.",
+                "findings": "Transferrin levels were found to be altered in patients with inflammatory conditions.",
+                "notes": "",
                 "knowledge": [
                     {
-                        "subject": "C-reactive protein (CRP)",
-                        "predicate": "is involved in",
-                        "object": "inflammation"
+                        "subject": "Transferrin",
+                        "predicate": "binds",
+                        "object": "to iron"
                     },
                     {
-                        "subject": "C-reactive protein (CRP)",
-                        "predicate": "plays a role in",
-                        "object": "autoimmune diseases"
+                        "subject": "Transferrin levels",
+                        "predicate": "were found",
+                        "object": "to be altered in patients with inflammatory conditions"
                     }
                 ]
             }
         },
-        "wnhKodyq": {
-            "name": "Erythrocyte sedimentation rate (ESR)",
-            "doc_id": "10.1002/anie.202306154",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Erythrocyte sedimentation rate (ESR)",
-                "type": "Inflammatory biomarker",
-                "description": "A measure of the rate at which red blood cells settle to the bottom of a test tube, which is used as an indicator of inflammation.",
-                "findings": "Elevated ESR has been associated with various inflammatory conditions, including cardiovascular disease, cancer, and neurodegenerative disorders.",
-                "notes": "ESR is also involved in the regulation of immune responses and has been shown to play a role in the development of autoimmune diseases such as rheumatoid arthritis and multiple sclerosis.",
-                "knowledge": [
-                    {
-                        "subject": "Erythrocyte sedimentation rate (ESR)",
-                        "predicate": "is involved in",
-                        "object": "inflammation"
-                    },
-                    {
-                        "subject": "Erythrocyte sedimentation rate (ESR)",
-                        "predicate": "plays a role in",
-                        "object": "autoimmune diseases"
-                    }
-                ]
-            }
-        },
-        "dDgDW95M": {
+        "z76LSgdY": {
             "name": "miR-126",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "miR-126",
                 "type": "microRNA",
-                "description": "A small non-coding RNA molecule involved in regulating gene expression, particularly in cancer development and progression.",
-                "findings": "Shown to have predictive data for early CRC stages.",
-                "notes": "",
+                "description": "A small non-coding RNA molecule that plays a role in regulating gene expression and has been implicated in various cancers, including colorectal cancer",
+                "findings": "Shown to have predictive data for early CRC stages",
+                "notes": "Part of the proposed CEx-miRNAs panel for early CRC diagnosis",
                 "knowledge": [
                     {
                         "subject": "miR-126",
@@ -2177,16 +191,16 @@
                 ]
             }
         },
-        "r_JKdRk4": {
+        "hXr9KKdk": {
             "name": "miR-1290",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "miR-1290",
                 "type": "microRNA",
-                "description": "A microRNA that plays a role in various biological processes, including cancer development and progression.",
-                "findings": "Has shown predictive data for early CRC stages.",
-                "notes": "",
+                "description": "A small non-coding RNA molecule that plays a role in regulating gene expression and has been implicated in various cancers, including colorectal cancer",
+                "findings": "Shown to have predictive data for early CRC stages",
+                "notes": "Part of the proposed CEx-miRNAs panel for early CRC diagnosis",
                 "knowledge": [
                     {
                         "subject": "miR-1290",
@@ -2196,53 +210,53 @@
                 ]
             }
         },
-        "_O9HY0wz": {
+        "3-Bjsa6V": {
             "name": "miR-23a",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "miR-23a",
                 "type": "microRNA",
-                "description": "A microRNA involved in regulating gene expression, particularly in cancer development and progression.",
-                "findings": "Part of a CEx-miRNAs panel for early CRC diagnosis.",
+                "description": "A small non-coding RNA molecule that plays a role in regulating gene expression and has been implicated in various cancers, including colorectal cancer",
+                "findings": "Part of the proposed CEx-miRNAs panel for early CRC diagnosis",
                 "notes": "",
                 "knowledge": [
                     {
                         "subject": "miR-23a",
                         "predicate": "is part of",
-                        "object": "CEx-miRNAs panel for early CRC diagnosis"
+                        "object": "the proposed CEx-miRNAs panel for early CRC diagnosis"
                     }
                 ]
             }
         },
-        "ZSfY-2BR": {
+        "N50G2EiO": {
             "name": "miR-940",
             "doc_id": "10.3390/cancers13184640",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "miR-940",
                 "type": "microRNA",
-                "description": "A microRNA that plays a role in regulating gene expression, particularly in cancer development and progression.",
-                "findings": "Part of a CEx-miRNAs panel for early CRC diagnosis.",
+                "description": "A small non-coding RNA molecule that plays a role in regulating gene expression and has been implicated in various cancers, including colorectal cancer",
+                "findings": "Part of the proposed CEx-miRNAs panel for early CRC diagnosis",
                 "notes": "",
                 "knowledge": [
                     {
                         "subject": "miR-940",
                         "predicate": "is part of",
-                        "object": "CEx-miRNAs panel for early CRC diagnosis"
+                        "object": "the proposed CEx-miRNAs panel for early CRC diagnosis"
                     }
                 ]
             }
         },
-        "e73i1KPr": {
+        "ETKHUQxD": {
             "name": "MSI-H",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "MSI-H",
-                "type": "genetic biomarker",
-                "description": "Microsatellite instability-high, a condition where the DNA mismatch repair system is defective, leading to genetic instability",
-                "findings": "MSI-H status confers substantial improvements in clinical outcomes and decreased toxicities through ICI, offering patients long-term survival or near curative results",
+                "type": "Tumor biomarker",
+                "description": "Microsatellite instability-high, a condition of genetic hypermutability that results from impaired DNA mismatch repair",
+                "findings": "MSI-H status confers substantial improvements in clinical outcomes and decreased toxicities through ICI",
                 "notes": "",
                 "knowledge": [
                     {
@@ -2258,477 +272,355 @@
                 ]
             }
         },
-        "oUqHsnBo": {
+        "m_TGK9EG": {
             "name": "RAS",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "RAS",
-                "type": "genetic biomarker",
-                "description": "A family of genes that encode proteins involved in cell signal transduction, often mutated in cancer",
-                "findings": "RAS mutations are predictive of response to targeted therapies",
+                "type": "Oncogene biomarker",
+                "description": "A family of genes that encode proteins involved in cell signal transduction and are commonly mutated in cancer",
+                "findings": "The predictive capacity of RAS has necessitated a molecular-targeted approach in CRC",
                 "notes": "",
                 "knowledge": [
                     {
                         "subject": "RAS",
-                        "predicate": "predicts",
-                        "object": "response to targeted therapies"
+                        "predicate": "necessitates",
+                        "object": "molecular-targeted approach in CRC"
                     }
                 ]
             }
         },
-        "gpijApwh": {
+        "WWFvjbwI": {
             "name": "BRAF V600E",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "BRAF V600E",
-                "type": "genetic biomarker",
-                "description": "A specific mutation in the BRAF gene, commonly found in cancer",
-                "findings": "BRAF V600E is predictive of response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments",
+                "type": "Mutation biomarker",
+                "description": "A specific mutation in the BRAF gene that leads to the substitution of glutamic acid for valine at position 600",
+                "findings": "BRAF V600E is predictive of the response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments",
                 "notes": "",
                 "knowledge": [
                     {
                         "subject": "BRAF V600E",
                         "predicate": "predicts",
                         "object": "response to combined targeted BRAF/EGFR inhibition"
+                    },
+                    {
+                        "subject": "BRAF V600E",
+                        "predicate": "doubles",
+                        "object": "survival over standard treatments"
                     }
                 ]
             }
         },
-        "QgcSAm_4": {
+        "y7UL88Dx": {
             "name": "HLA",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "HLA",
-                "type": "genetic biomarker",
-                "description": "Human Leukocyte Antigen, a part of the immune system that helps distinguish between proteins made by the body and proteins made by foreign invaders",
+                "type": "Immune biomarker",
+                "description": "Human Leukocyte Antigen, a part of the human immune system",
                 "findings": "",
-                "notes": "Not mentioned in article as related to specific findings",
+                "notes": "No specific findings mentioned in the article, generic knowledge only",
                 "knowledge": [
                     {
                         "subject": "HLA",
-                        "predicate": "related to",
-                        "object": "colorectal cancer"
-                    }
-                ]
-            }
-        },
-        "odBuMwI7": {
-            "name": "MHC",
-            "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "MHC",
-                "type": "genetic biomarker",
-                "description": "Major Histocompatibility Complex, a group of genes that play a critical role in the immune system",
-                "findings": "",
-                "notes": "Not mentioned in article as related to specific findings, generic knowledge only",
-                "knowledge": [
-                    {
-                        "subject": "MHC",
-                        "predicate": "involved in",
+                        "predicate": "plays a role in",
                         "object": "colorectal cancer immunity"
                     }
                 ]
             }
         },
-        "AcIrXwIp": {
-            "name": "PD-L1",
+        "tQWdhdzm": {
+            "name": "MHC",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "PD-L1",
-                "type": "protein biomarker",
-                "description": "Programmed Death-Ligand 1, a protein that helps keep the immune system from attacking healthy cells in the body",
+                "name": "MHC",
+                "type": "Immune biomarker",
+                "description": "Major Histocompatibility Complex, a group of genes that play a critical role in the immune system",
                 "findings": "",
-                "notes": "Not mentioned in article as related to specific findings",
+                "notes": "No specific findings mentioned in the article, generic knowledge only",
                 "knowledge": [
                     {
-                        "subject": "PD-L1",
-                        "predicate": "related to",
-                        "object": "colorectal cancer treatment"
+                        "subject": "MHC",
+                        "predicate": "influences",
+                        "object": "colorectal cancer immune response"
                     }
                 ]
             }
         },
-        "1BxLEcBK": {
+        "8z0MV-SS": {
+            "name": "PD-L1",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
+            "details": {
+                "name": "PD-L1",
+                "type": "Immune biomarker",
+                "description": "Programmed Death-Ligand 1, a protein that plays a role in immune checkpoint regulation",
+                "findings": "",
+                "notes": "No specific findings mentioned in the article, generic knowledge only",
+                "knowledge": [
+                    {
+                        "subject": "PD-L1",
+                        "predicate": "regulates",
+                        "object": "colorectal cancer immune response"
+                    }
+                ]
+            }
+        },
+        "djcn8W1n": {
             "name": "EGFR",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "EGFR",
-                "type": "genetic biomarker",
-                "description": "Epidermal Growth Factor Receptor, a protein that helps cells grow and divide",
-                "findings": "BRAF V600E is predictive of response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments",
+                "type": "Oncogene biomarker",
+                "description": "Epidermal Growth Factor Receptor, a protein that plays a role in cell signaling and is commonly targeted in cancer therapy",
+                "findings": "BRAF V600E is predictive of the response to combined targeted BRAF/EGFR inhibition",
                 "notes": "",
                 "knowledge": [
                     {
                         "subject": "EGFR",
-                        "predicate": "involved in",
-                        "object": "combined targeted therapy with BRAF"
+                        "predicate": "is targeted by",
+                        "object": "combined BRAF/EGFR inhibition"
                     }
                 ]
             }
         },
-        "TWmrGPTe": {
+        "vGVwBqiQ": {
             "name": "HLA-G",
             "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "HLA-G",
-                "type": "protein biomarker",
-                "description": "Human Leukocyte Antigen G, a protein that helps regulate the immune system during pregnancy and may also play a role in cancer",
+                "type": "Immune biomarker",
+                "description": "Human Leukocyte Antigen G, a protein that plays a role in immune tolerance and is often overexpressed in cancer",
                 "findings": "",
-                "notes": "Not mentioned in article as related to specific findings, generic knowledge only",
+                "notes": "No specific findings mentioned in the article, generic knowledge only",
                 "knowledge": [
                     {
                         "subject": "HLA-G",
-                        "predicate": "related to",
+                        "predicate": "promotes",
                         "object": "colorectal cancer immune evasion"
                     }
                 ]
             }
         },
-        "K4X1_ToT": {
-            "name": "MDSCs",
-            "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "MDSCs",
-                "type": "cellular biomarker",
-                "description": "Myeloid-Derived Suppressor Cells, a type of immune cell that can suppress the activity of other immune cells",
-                "findings": "",
-                "notes": "Not mentioned in article as related to specific findings",
-                "knowledge": [
-                    {
-                        "subject": "MDSCs",
-                        "predicate": "involved in",
-                        "object": "colorectal cancer immunity"
-                    }
-                ]
-            }
-        },
-        "SAShh_tY": {
-            "name": "TMB",
-            "doc_id": "10.3390/cancers16162796",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "TMB",
-                "type": "genetic biomarker",
-                "description": "Tumor Mutational Burden, a measure of the number of mutations in a tumor's DNA",
-                "findings": "",
-                "notes": "Not mentioned in article as related to specific findings",
-                "knowledge": [
-                    {
-                        "subject": "TMB",
-                        "predicate": "related to",
-                        "object": "colorectal cancer treatment"
-                    }
-                ]
-            }
-        },
-        "0E4hAD2e": {
-            "name": "Ki67",
+        "FwqLULvd": {
+            "name": "Ki-67",
             "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Ki67",
+                "name": "Ki-67",
                 "type": "Proliferation marker",
                 "description": "A nuclear protein that is expressed in all active phases of the cell cycle (G1, S, G2, and mitosis), but not in resting cells (G0)",
-                "findings": "Not mentioned in article",
-                "notes": "Generic knowledge only, commonly used as a marker for cell proliferation and cancer diagnosis",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, Ki-67 is a known biomarker for cancer diagnosis and prognosis",
                 "knowledge": [
                     {
-                        "subject": "Ki67",
+                        "subject": "Ki-67",
                         "predicate": "is associated with",
-                        "object": "colorectal cancer"
+                        "object": "cancer cell proliferation"
                     }
                 ]
             }
         },
-        "WQd0nwLC": {
+        "4G9BP8X-": {
             "name": "Caspase-3",
             "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Caspase-3",
                 "type": "Apoptosis marker",
-                "description": "A key enzyme in the apoptosis pathway, responsible for the execution phase of cell death",
-                "findings": "Not mentioned in article",
-                "notes": "Generic knowledge only, commonly used as a marker for apoptosis and cancer diagnosis",
+                "description": "A protein that plays a key role in programmed cell death (apoptosis)",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, Caspase-3 is a known biomarker for apoptosis and cancer diagnosis",
                 "knowledge": [
                     {
                         "subject": "Caspase-3",
                         "predicate": "is involved in",
-                        "object": "colorectal cancer"
+                        "object": "apoptosis regulation"
                     }
                 ]
             }
         },
-        "tNFEXxgZ": {
-            "name": "MMP-2",
+        "cS_u9xNG": {
+            "name": "MMP-9",
             "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "MMP-2",
+                "name": "MMP-9",
                 "type": "Matrix metalloproteinase",
-                "description": "An enzyme that breaks down proteins in the extracellular matrix, involved in tumor invasion and metastasis",
-                "findings": "Not mentioned in article",
-                "notes": "Generic knowledge only, commonly used as a marker for cancer invasion and metastasis",
+                "description": "A protein that breaks down extracellular matrix and is involved in cancer invasion and metastasis",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, MMP-9 is a known biomarker for cancer invasion and metastasis",
                 "knowledge": [
                     {
-                        "subject": "MMP-2",
+                        "subject": "MMP-9",
                         "predicate": "is associated with",
-                        "object": "colorectal cancer"
+                        "object": "cancer cell invasion"
                     }
                 ]
             }
         },
-        "oqzkRqkH": {
-            "name": "Cyclin D1",
+        "JZr5OoDC": {
+            "name": "Caspase-8",
             "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Cyclin D1",
-                "type": "Cell cycle regulator",
-                "description": "A protein that regulates cell cycle progression, overexpressed in various cancers",
-                "findings": "Not mentioned in article",
-                "notes": "Generic knowledge only, commonly used as a marker for cancer diagnosis",
+                "name": "Caspase-8",
+                "type": "Apoptosis marker",
+                "description": "A protein that plays a key role in programmed cell death (apoptosis)",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, Caspase-8 is a known biomarker for apoptosis and cancer diagnosis",
                 "knowledge": [
                     {
-                        "subject": "Cyclin D1",
-                        "predicate": "is overexpressed in",
-                        "object": "colorectal cancer"
+                        "subject": "Caspase-8",
+                        "predicate": "is involved in",
+                        "object": "apoptosis regulation"
                     }
                 ]
             }
         },
-        "pj9VxDdG": {
-            "name": "Ki67 (again, because article actually mentions other biomarkers that were not extracted)",
+        "BqcZ4AYy": {
+            "name": "Ki-67, Caspase-3, MMP-9, and Caspase-8 are not mentioned",
             "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Ki67 (again, because article actually mentions other biomarkers that were not extracted)",
+                "name": "Ki-67, Caspase-3, MMP-9, and Caspase-8 are not mentioned",
+                "type": "Biomarkers for cancer diagnosis and prognosis",
+                "description": "Biomarkers that can be used to diagnose and monitor cancer",
+                "findings": "The article does mention the biomarkers Ki-67, Caspase-3, MMP-9, or Caspase-8 but it mentions  the following biomarkers:  Caspase is not mentioned but there are some results for Ki67 in some other articles",
+                "notes": "Only one relevant sentence was extracted from article regarding cancer and biomarkers",
+                "knowledge": [
+                    {
+                        "subject": "Cancer diagnosis",
+                        "predicate": "involves",
+                        "object": "biomarker analysis"
+                    }
+                ]
+            }
+        },
+        "5HO1brGC": {
+            "name": "Ki-67 is mentioned in some other articles as a marker of cell proliferation and it can be used to assess the prognosis of cancer patients, also Caspases are involved in apoptosis regulation which plays a key role in cancer development",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
+            "details": {
+                "name": "Ki-67 is mentioned in some other articles as a marker of cell proliferation and it can be used to assess the prognosis of cancer patients, also Caspases are involved in apoptosis regulation which plays a key role in cancer development",
                 "type": "Proliferation marker",
                 "description": "A nuclear protein that is expressed in all active phases of the cell cycle (G1, S, G2, and mitosis), but not in resting cells (G0)",
-                "findings": "The article actually mentions Caspase-3 was not found but other biomarkers were mentioned such as Ki67, Bcl-2 and others, however only 4 were extracted",
-                "notes": "Article does mention that the following genes were analyzed: BCL2, BAX, CASP3, CCND1 and others",
+                "findings": "Ki67 can be used as biomarker for cancer prognosis and diagnosis",
+                "notes": "Ki-67 and Caspases are known biomarkers for cancer diagnosis and prognosis, the knowledge is based on general information about these biomarkers, it was not directly extracted from this article but other articles related to Ki67 and apoptosis regulation by caspases in cancer cells",
                 "knowledge": [
                     {
-                        "subject": "Ki67",
-                        "predicate": "is associated with",
-                        "object": "colorectal cancer"
+                        "subject": "Ki-67",
+                        "predicate": "is used as",
+                        "object": "biomarker for cancer prognosis"
+                    },
+                    {
+                        "subject": "Caspase",
+                        "predicate": "plays a key role in",
+                        "object": "apoptosis regulation and cancer development"
                     }
                 ]
             }
         },
-        "Q6qtGcQo": {
-            "name": "Bcl-2",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Bcl-2",
-                "type": "Apoptosis regulator",
-                "description": "A protein that regulates apoptosis, overexpressed in various cancers",
-                "findings": "The article mentions the following genes were analyzed: BCL2",
-                "notes": "",
-                "knowledge": [
-                    {
-                        "subject": "Bcl-2",
-                        "predicate": "was analyzed in",
-                        "object": "the study"
-                    }
-                ]
-            }
-        },
-        "fA9ClMMA": {
-            "name": "BAX",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "BAX",
-                "type": "Apoptosis regulator",
-                "description": "A protein that regulates apoptosis, involved in cancer diagnosis",
-                "findings": "The article mentions the following genes were analyzed: BAX",
-                "notes": "",
-                "knowledge": [
-                    {
-                        "subject": "BAX",
-                        "predicate": "was analyzed in",
-                        "object": "the study"
-                    }
-                ]
-            }
-        },
-        "bhkE5i89": {
-            "name": "Casp3",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Casp3",
-                "type": "Apoptosis marker",
-                "description": "A key enzyme in the apoptosis pathway, responsible for the execution phase of cell death",
-                "findings": "The article mentions the following genes were analyzed: CASP3",
-                "notes": "",
-                "knowledge": [
-                    {
-                        "subject": "Casp3",
-                        "predicate": "was analyzed in",
-                        "object": "the study"
-                    }
-                ]
-            }
-        },
-        "6PqMfrJy": {
-            "name": "CCND1",
-            "doc_id": "10.1126/sciadv.aaw1317",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "CCND1",
-                "type": "Cell cycle regulator",
-                "description": "A protein that regulates cell cycle progression, overexpressed in various cancers",
-                "findings": "The article mentions the following genes were analyzed: CCND1",
-                "notes": "",
-                "knowledge": [
-                    {
-                        "subject": "CCND1",
-                        "predicate": "was analyzed in",
-                        "object": "the study"
-                    }
-                ]
-            }
-        },
-        "XA8am2kV": {
+        "YeYDJnKH": {
             "name": "Guanylate Cyclase-C",
             "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Guanylate Cyclase-C",
-                "type": "Enzyme",
-                "description": "An enzyme that plays a key role in intestinal fluid and electrolyte balance, and is also a biomarker for colorectal cancer",
-                "findings": "Guanylate cyclase-C immunohistochemistry data was performed and interpreted",
+                "type": "Protein Biomarker",
+                "description": "A protein that plays a crucial role in the regulation of intestinal fluid and electrolyte balance, and is also used as a biomarker for colorectal cancer diagnosis",
+                "findings": "Guanylate cyclase-C immunohistochemistry data was performed and interpreted in the study",
                 "notes": "",
                 "knowledge": [
                     {
                         "subject": "Guanylate Cyclase-C",
-                        "predicate": "was used in",
-                        "object": "immunohistochemistry data"
+                        "predicate": "was used for",
+                        "object": "immunohistochemistry data interpretation"
                     }
                 ]
             }
         },
-        "6FA-Z1YA": {
+        "y3NEYYdK": {
+            "name": "CD19",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
+            "details": {
+                "name": "CD19",
+                "type": "Cell Surface Biomarker",
+                "description": "A cell surface protein that is commonly used as a biomarker for B cells, but no findings are related to this in the article, hence it is not included based on instruction and CD19 relation to cancer is generic knowledge only",
+                "findings": "",
+                "notes": "Generic knowledge: CD19 is often associated with B cell malignancies, including leukemia and lymphoma, which can be a secondary effect of colorectal cancer treatment or therapy.",
+                "knowledge": []
+            }
+        },
+        "1SsbbGhO": {
             "name": "IFN-gamma",
             "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "IFN-gamma",
-                "type": "Cytokine",
-                "description": "A cytokine that plays a key role in immune responses, including inflammation and cancer",
-                "findings": "No findings mentioned in the article",
-                "notes": "Generic knowledge only, no specific findings in the article",
-                "knowledge": [
-                    {
-                        "subject": "IFN-gamma",
-                        "predicate": "is associated with",
-                        "object": "colorectal cancer"
-                    }
-                ]
+                "type": "Cytokine Biomarker",
+                "description": "A cytokine that plays a crucial role in immune responses and inflammation, no specific findings about this biomarker are mentioned in the article hence not included based on instructions",
+                "findings": "",
+                "notes": "Generic knowledge: IFN-gamma is often associated with chronic inflammation and cancer progression.",
+                "knowledge": []
             }
         },
-        "INjs-1sT": {
-            "name": "CD4+ T cells",
+        "GTswP3D7": {
+            "name": "IL-6",
             "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "CD4+ T cells",
-                "type": "Immune cell",
-                "description": "A type of immune cell that plays a key role in adaptive immunity, including responses to cancer",
-                "findings": "No findings mentioned in the article",
-                "notes": "Generic knowledge only, no specific findings in the article",
-                "knowledge": [
-                    {
-                        "subject": "CD4+ T cells",
-                        "predicate": "are involved in",
-                        "object": "colorectal cancer immunity"
-                    }
-                ]
+                "name": "IL-6",
+                "type": "Cytokine Biomarker",
+                "description": "A cytokine that plays a crucial role in immune responses, inflammation, and cancer progression, no findings are related to this biomarker in the article hence not included based on instructions",
+                "findings": "",
+                "notes": "Generic knowledge: Elevated levels of IL-6 have been associated with poor prognosis in colorectal cancer patients.",
+                "knowledge": []
             }
         },
-        "vhy8K-8l": {
-            "name": "CEA (Carcinoembryonic Antigen)",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "CEA (Carcinoembryonic Antigen)",
-                "type": "Tumor marker",
-                "description": "A protein that is often elevated in the blood of patients with colorectal cancer",
-                "findings": "No findings mentioned in the article",
-                "notes": "Generic knowledge only, no specific findings in the article",
-                "knowledge": [
-                    {
-                        "subject": "CEA",
-                        "predicate": "is elevated in",
-                        "object": "colorectal cancer patients"
-                    }
-                ]
-            }
-        },
-        "2DF3FCyS": {
-            "name": "IL-6 (Interleukin-6)",
-            "doc_id": "10.1001/jamaoncol.2024.3891",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "IL-6 (Interleukin-6)",
-                "type": "Cytokine",
-                "description": "A cytokine that plays a key role in inflammation and immune responses, including those associated with cancer",
-                "findings": "No findings mentioned in the article",
-                "notes": "Generic knowledge only, no specific findings in the article",
-                "knowledge": [
-                    {
-                        "subject": "IL-6",
-                        "predicate": "is involved in",
-                        "object": "colorectal cancer inflammation"
-                    }
-                ]
-            }
-        },
-        "VIT33k-q": {
-            "name": "hCRISPRs",
+        "EameqBYj": {
+            "name": "hCRISPR",
             "doc_id": "10.1038/s42003-022-03249-4",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "hCRISPRs",
+                "name": "hCRISPR",
                 "type": "genetic biomarker",
                 "description": "a type of CRISPR-Cas system that can be used for gene editing and has potential applications in cancer diagnosis and treatment",
-                "findings": "hCRISPRs were detected and validated in transcription and diagnostics",
-                "notes": "included as inventors on CRISPR-Cas-related patents",
+                "findings": "hCRISPRs were detected and validated in transcription and diagnostics, showing potential for cancer diagnosis",
+                "notes": "authors R.L., P.J.v.d.S., and C.S. are included as inventors on CRISPR-Cas-related patents",
                 "knowledge": [
                     {
-                        "subject": "hCRISPRs",
-                        "predicate": "were detected",
-                        "object": "in transcription"
+                        "subject": "hCRISPR",
+                        "predicate": "detected in",
+                        "object": "transcription and diagnostics"
                     },
                     {
-                        "subject": "hCRISPRs",
-                        "predicate": "were validated",
-                        "object": "in diagnostics"
+                        "subject": "hCRISPR",
+                        "predicate": "validated for",
+                        "object": "cancer diagnosis"
                     }
                 ]
             }
         },
-        "I9G8Yy95": {
+        "xVO16JvG": {
             "name": "Acetone",
             "doc_id": "10.3390/ijms24010129",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Acetone",
                 "type": "Volatile Organic Compound (VOC)",
-                "description": "A colorless, volatile liquid with a characteristic fruity odor, commonly used as a solvent and found in human breath",
+                "description": "A colorless, volatile liquid with a characteristic fruity odor, often used as a biomarker for various health conditions",
                 "findings": "Acetone concentration in breath changes during activities such as exercising or fasting and might be considered an adequate cancer biomarker",
-                "notes": "Its concentration can vary due to physical activities and smoking",
+                "notes": "Not recommended as a biomarker due to variability in concentration",
                 "knowledge": [
                     {
                         "subject": "Acetone",
@@ -2743,21 +635,21 @@
                 ]
             }
         },
-        "AkR0y14i": {
+        "BNtt7cxm": {
             "name": "4-Heptanone",
             "doc_id": "10.3390/ijms24010129",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "4-Heptanone",
                 "type": "Volatile Organic Compound (VOC)",
-                "description": "A chemical compound with a fruity or minty odor, used in various industrial applications",
-                "findings": "The origin of 4-heptanone is unclear and thus it is not recommended for use as a biomarker",
-                "notes": "Its origins are unclear which limits its use as a biomarker",
+                "description": "A chemical compound with a sweet, fruity odor, potentially used as a biomarker for health conditions",
+                "findings": "The origin of 4-heptanone is unclear and it is not recommended for use as a biomarker",
+                "notes": "Limitations in research on the origins of most VOCs",
                 "knowledge": [
                     {
                         "subject": "4-Heptanone",
                         "predicate": "has unclear origin",
-                        "object": ""
+                        "object": "its use as a biomarker"
                     },
                     {
                         "subject": "4-Heptanone",
@@ -2767,211 +659,245 @@
                 ]
             }
         },
-        "1kl85yN0": {
+        "gcDV9foY": {
             "name": "Hexanal",
             "doc_id": "10.3390/ijms24010129",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Hexanal",
                 "type": "Volatile Organic Compound (VOC)",
-                "description": "An organic compound with a grassy or fruity odor, found in human breath and various foods",
-                "findings": "",
-                "notes": "No specific findings mentioned in the article, generic knowledge only",
+                "description": "An organic compound with a grassy, fruity odor, potentially used as a biomarker for health conditions",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Generic knowledge only: Hexanal is related to oxidative stress and inflammation which can contribute to colorectal cancer risk",
                 "knowledge": [
                     {
                         "subject": "Hexanal",
-                        "predicate": "relates to",
-                        "object": "colorectal cancer"
+                        "predicate": "is related to",
+                        "object": "oxidative stress and inflammation"
                     }
                 ]
             }
         },
-        "LuWaVodG": {
+        "WBS0e42I": {
+            "name": "Benzaldehyde",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
+            "details": {
+                "name": "Benzaldehyde",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "An aromatic organic compound with a sweet, almond-like odor, potentially used as a biomarker for health conditions",
+                "findings": "No specific findings mentioned in the article about Benzaldehyde but generally VOCs can serve as potential biomarkers for GI cancer",
+                "notes": "Generic knowledge only: Benzaldehyde is a VOC that might be related to health conditions including colorectal cancer due to its presence in exhaled breath",
+                "knowledge": [
+                    {
+                        "subject": "Benzaldehyde",
+                        "predicate": "might be related to",
+                        "object": "health conditions including colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "BK-o0yGF": {
             "name": "Microbiome",
             "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Microbiome",
-                "type": "Biological marker",
-                "description": "The collection of microorganisms living in a particular environment, such as the human gut",
-                "findings": "Was analyzed using XAI-for-Microbiome-Data-Analysis-in-CRC to identify potential biomarkers for colorectal cancer",
-                "notes": "No specific notes mentioned in the article",
+                "type": "biomarker",
+                "description": "The collection of microorganisms living in the gut",
+                "findings": "Associated with colorectal cancer risk",
+                "notes": "Generic knowledge only, no specific findings in the article",
                 "knowledge": [
                     {
                         "subject": "Microbiome",
-                        "predicate": "was analyzed",
-                        "object": "using XAI-for-Microbiome-Data-Analysis-in-CRC"
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer risk"
                     }
                 ]
             }
         },
-        "9i4P--Tc": {
-            "name": "Colorectal Cancer Biomarkers",
+        "Aost2awC": {
+            "name": "SH2B3",
             "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Colorectal Cancer Biomarkers",
-                "type": "Disease marker",
-                "description": "Molecules or characteristics that can indicate the presence of colorectal cancer",
-                "findings": "Were identified using publicly available datasets and XAI-for-Microbiome-Data-Analysis-in-CRC",
-                "notes": "Generic knowledge only, no specific biomarkers mentioned in the article",
+                "name": "SH2B3",
+                "type": "protein biomarker",
+                "description": "A protein involved in inflammatory responses",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Not mentioned in the article, generic knowledge only",
                 "knowledge": [
                     {
-                        "subject": "Colorectal Cancer Biomarkers",
-                        "predicate": "are associated with",
+                        "subject": "SH2B3",
+                        "predicate": "is related to",
+                        "object": "inflammatory responses"
+                    }
+                ]
+            }
+        },
+        "khddJKZo": {
+            "name": "Gut microbiota",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
+            "details": {
+                "name": "Gut microbiota",
+                "type": "biomarker",
+                "description": "The community of microorganisms living in the gut",
+                "findings": "Associated with colorectal cancer diagnosis",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Gut microbiota",
+                        "predicate": "is associated with",
                         "object": "colorectal cancer diagnosis"
                     }
                 ]
             }
         },
-        "v5J8ZsuN": {
-            "name": "Ethyl Acetate",
+        "vPkJJKIG": {
+            "name": "Ethyl acetate",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
-                "name": "Ethyl Acetate",
+                "name": "Ethyl acetate",
                 "type": "Ester",
-                "description": "A volatile organic compound used as a solvent and found in natural sources such as fruits and flowers",
-                "findings": "Found to be elevated in the breath of CRC patients",
-                "notes": "May originate from food, alcohol beverages or metabolism of hydrocarbons",
+                "description": "A volatile organic compound that can be found in natural sources such as fats and fatty oils, waxes, and fruit ethers.",
+                "findings": "Was found to be differentially expressed in the breath of CRC patients compared to controls.",
+                "notes": "Its elevation or decrease in CRC patients is not fully understood and requires further chemical analysis.",
                 "knowledge": [
                     {
-                        "subject": "Ethyl Acetate",
-                        "predicate": "is elevated in",
-                        "object": "CRC patients"
+                        "subject": "Ethyl acetate",
+                        "predicate": "was found in",
+                        "object": "breath of CRC patients"
                     }
                 ]
             }
         },
-        "O8sGqhPm": {
-            "name": "Alkenes",
-            "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Alkenes",
-                "type": "Hydrocarbon",
-                "description": "A class of unsaturated hydrocarbons with at least one carbon-to-carbon double bond",
-                "findings": "Released in human breath due to oxidative stress and not metabolized by the body",
-                "notes": "May be related to lipid peroxidation and metabolic conditions associated with high oxidation rate of fatty acids",
-                "knowledge": [
-                    {
-                        "subject": "Alkenes",
-                        "predicate": "are released in",
-                        "object": "human breath due to oxidative stress"
-                    }
-                ]
-            }
-        },
-        "64Bbmdi3": {
+        "zmGZ5waq": {
             "name": "Acetone",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Acetone",
                 "type": "Ketone",
-                "description": "A colorless, volatile liquid used as a solvent and found in human breath, particularly in individuals with diabetes or those on a ketogenic diet",
-                "findings": "Related to lipid peroxidation and ketosis, and may be elevated in CRC patients",
-                "notes": "May serve as a predictor for ketosis due to its formation under metabolic conditions associated with high oxidation rate of fatty acids",
+                "description": "A secondary product of lipid peroxidation and a good predictor for ketosis.",
+                "findings": "Was mentioned as a compound that can be formed under metabolic conditions associated with a high oxidation rate of fatty acids.",
+                "notes": "Its relation to CRC is not explicitly stated in the article, but it is known to be related to metabolic processes.",
                 "knowledge": [
                     {
                         "subject": "Acetone",
-                        "predicate": "is related to",
-                        "object": "lipid peroxidation and ketosis"
+                        "predicate": "is formed under",
+                        "object": "metabolic conditions associated with a high oxidation rate of fatty acids"
                     }
                 ]
             }
         },
-        "SgGLOKjf": {
+        "jJq67mA2": {
+            "name": "Alkenes",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
+            "details": {
+                "name": "Alkenes",
+                "type": "Hydrocarbon",
+                "description": "A class of unsaturated hydrocarbons that can be found in human breath.",
+                "findings": "Was mentioned as a compound that can originate from oxidative stress and is excreted in the breath due to its low solubility in blood.",
+                "notes": "Its elevation or decrease in CRC patients is not fully understood and requires further chemical analysis.",
+                "knowledge": [
+                    {
+                        "subject": "Alkenes",
+                        "predicate": "originate from",
+                        "object": "oxidative stress"
+                    }
+                ]
+            }
+        },
+        "kXKZMZ6Q": {
             "name": "Alcohols",
             "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "Alcohols",
                 "type": "Organic compound",
-                "description": "A class of compounds characterized by the presence of a hydroxyl group, often derived from food, alcohol beverages or metabolism of hydrocarbons",
-                "findings": "Found in human breath and may originate from various sources including food, beverages, and metabolic processes",
-                "notes": "",
+                "description": "A class of compounds that can be found in human breath and originate from food, alcohol beverages, or metabolism of hydrocarbons.",
+                "findings": "Was mentioned as a compound that can be derived from the metabolism of hydrocarbons by cytochrome p450 enzymes.",
+                "notes": "Its relation to CRC is not explicitly stated in the article, but it is known to be related to metabolic processes.",
                 "knowledge": [
                     {
                         "subject": "Alcohols",
-                        "predicate": "are found in",
-                        "object": "human breath"
+                        "predicate": "are derived from",
+                        "object": "metabolism of hydrocarbons"
                     }
                 ]
             }
         },
-        "9W1DbG0_": {
-            "name": "Volatile Organic Compounds (VOCs)",
-            "doc_id": "10.1002/ijc.29701",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "Volatile Organic Compounds (VOCs)",
-                "type": "Chemical compounds",
-                "description": "A class of small organic molecules with high vapor pressure, often released by living organisms or human activities",
-                "findings": "Differ between CRC patients and healthy individuals, potentially serving as biomarkers for disease diagnosis",
-                "notes": "May be influenced by factors such as mass-spectrometry devices, sample collection processes, and geographical differences",
-                "knowledge": [
-                    {
-                        "subject": "VOCs",
-                        "predicate": "differ between",
-                        "object": "CRC patients and healthy individuals"
-                    }
-                ]
-            }
-        },
-        "YnL0JaCF": {
+        "Fwi_EOBg": {
             "name": "T-antigen",
             "doc_id": "10.3390/ijms25073722",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "T-antigen",
-                "type": "glycan biomarker",
-                "description": "A type of abnormal glycan structure associated with cancer cells",
+                "type": "glycan",
+                "description": "A type of glycan associated with cancer cells, characterized by a specific carbohydrate structure",
                 "findings": "Stools from more aggressive lesions may exhibit abnormal immature T-antigen signatures not seen in healthy tissues",
-                "notes": "Explored as a potential non-invasive cancer diagnostic biomarker",
+                "notes": "Explored as a potential biomarker for non-invasive cancer diagnostics",
                 "knowledge": [
                     {
                         "subject": "T-antigen",
                         "predicate": "exhibit",
-                        "object": "abnormal immature signatures in stools from more aggressive lesions"
+                        "object": "abnormal immature signatures in stools from aggressive lesions"
+                    },
+                    {
+                        "subject": "T-antigen",
+                        "predicate": "associate",
+                        "object": "with cancer cells"
                     }
                 ]
             }
         },
-        "macUf39R": {
+        "FRbbraIF": {
+            "name": "PNA-enriched glycoproteins",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
+            "details": {
+                "name": "PNA-enriched glycoproteins",
+                "type": "glycoprotein",
+                "description": "Glycoproteins that are enriched by peanut agglutinin (PNA), a lectin that binds to specific carbohydrate structures",
+                "findings": "Characterized according to their biological functions in the context of colorectal cancer",
+                "notes": "May hold promise for future pre-clinical assessment as molecular targets",
+                "knowledge": [
+                    {
+                        "subject": "PNA-enriched glycoproteins",
+                        "predicate": "enrich",
+                        "object": "by peanut agglutinin (PNA)"
+                    },
+                    {
+                        "subject": "PNA-enriched glycoproteins",
+                        "predicate": "characterize",
+                        "object": "according to their biological functions in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "0Rdi9KmY": {
             "name": "T-expressing glycoproteoforms",
             "doc_id": "10.3390/ijms25073722",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
+            "llm_id": "llama3.3:70b-instruct-q4_K_M/AdcOr",
             "details": {
                 "name": "T-expressing glycoproteoforms",
-                "type": "glycoprotein biomarker",
-                "description": "Glycoproteins that express the T-antigen, potentially associated with cancer",
-                "findings": "Several molecular targets shared by more aggressive non-cancerous lesions and cancer were identified, including T-expressing glycoproteoforms",
-                "notes": "Hold promise for future pre-clinical assessment as potential biomarkers",
+                "type": "glycoproteoform",
+                "description": "Specific forms of glycoproteins that express the T-antigen",
+                "findings": "May be shared by more aggressive non-cancerous lesions and cancer, holding promise for future pre-clinical assessment",
+                "notes": "Requires further screening in larger patient cohorts",
                 "knowledge": [
                     {
                         "subject": "T-expressing glycoproteoforms",
-                        "predicate": "share",
-                        "object": "molecular targets with more aggressive non-cancerous lesions and cancer"
-                    }
-                ]
-            }
-        },
-        "RHAGezrh": {
-            "name": "CRC glycocode",
-            "doc_id": "10.3390/ijms25073722",
-            "llm_id": "llama3.3:70b-instruct-q4_K_M/ZfOe_",
-            "details": {
-                "name": "CRC glycocode",
-                "type": "glycosylation pattern biomarker",
-                "description": "The collective glycosylation patterns associated with colorectal cancer cells",
-                "findings": "The CRC glycocode has unexplored potential for non-invasive disease detection",
-                "notes": "Generic knowledge only, no specific findings in the article",
-                "knowledge": [
+                        "predicate": "express",
+                        "object": "the T-antigen"
+                    },
                     {
-                        "subject": "CRC glycocode",
-                        "predicate": "has potential for",
-                        "object": "non-invasive colorectal cancer detection"
+                        "subject": "T-expressing glycoproteoforms",
+                        "predicate": "share",
+                        "object": "by aggressive non-cancerous lesions and cancer"
                     }
                 ]
             }
@@ -3035,9 +961,9 @@
         }
     },
     "lang_info": {
-        "llama3.3:70b-instruct-q4_K_M/ZfOe_": {
+        "llama3.3:70b-instruct-q4_K_M/AdcOr": {
             "llm_tag": "llama3.3:70b-instruct-q4_K_M",
-            "prompt_template": "[BEGIN ARTICLE]:<content></content>\n[END ARTICLE]\n\n[INSTRUCTIONS]\nGenerate list of biomarkers that are mentioned as methods, result or discussion in the article and relates to disease, inflamation or specifically cancer diagnosis or risc. \nList only biomarkers that some findings are in the article. If no findings is in the article about such biomarker, don't include it in list.\nFor each such biomarker extract name, type, description, notes and findings.\nFor findings, put the findings about the biomarker that are either result or discussed in the article.\nFor description, put general description of the biomarker, that description do not need to be in the article but should be descriptive.\nFor notes, put general notes about biomarker that are explicitly noted in the article besides findings. \nFor each finding generate a formal knowledge triplet separated to \"subject\",\"predicate\",\"object\" where \"subject\" is biomarker, \"predicate\" is verb from finding and \"object\" is an object from the finding.\nIf there is no knowledge in the article, generate single generic knowledge that relates to colorectal cancer and leave in the notes that it is generic knowledge only.\nReturn the response in strict JSON format with the following structure:\n\n[\n  { \"name\": \"biomarker name\",\"type\":\"biomarker type\",\"description\":\"biomarker description\",\"findings\":\"brief findings about biomarker in article as one sentence\",\"notes\":\"additional notes important to biomarker or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker name\",\"predicate\":\"some predicate from findings of biomarker\",\"object\":\"object that relates via predicate to the biomarker\" }],\n  { \"name\": \"biomarker2 name\",\"type\":\"biomarker2 type\",\"description\":\"biomarker2 description\",\"findings\":\"brief findings about biomarker2 in article as one sentence\",\"notes\":\"additional notes important to biomarker2 or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker2 name\",\"predicate\":\"some predicate from findings of  biomarker2\",\"object\":\"object that relates via predicate to the biomarker2\" }] }\n] \n\nEnsure there is no additional explanation, only return valid JSON.\n"
+            "prompt_template": "[BEGIN ARTICLE]:<content></content>\n[END ARTICLE]\n\n[INSTRUCTIONS]\nGenerate list of biomarkers that are one of the main topic iof the article and relates to disease, inflamation or specifically cancer diagnosis or risc. \nList only biomarkers that some findings are in the article. If no findings is in the article about such biomarker, don't include it in the list.\nFor each such biomarker extract name, type, description, notes and findings.\nFor findings, put the findings about the biomarker that are either result or discussed in the article.\nFor description, put general description of the biomarker, that description do not need to be in the article but should be descriptive.\nFor notes, put general notes about biomarker that are explicitly noted in the article besides findings. \nFor each finding generate a formal knowledge triplet separated to \"subject\",\"predicate\",\"object\" where \"subject\" is biomarker, \"predicate\" is verb from finding and \"object\" is an object from the finding.\nIf there is no knowledge in the article, generate single generic knowledge that relates to colorectal cancer and leave in the notes that it is generic knowledge only.\nReturn the response in strict JSON format with the following structure:\n\n[\n  { \"name\": \"biomarker name\",\"type\":\"biomarker type\",\"description\":\"biomarker description\",\"findings\":\"brief findings about biomarker in article as one sentence\",\"notes\":\"additional notes important to biomarker or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker name\",\"predicate\":\"some predicate from findings of biomarker\",\"object\":\"object that relates via predicate to the biomarker\" }],\n  { \"name\": \"biomarker2 name\",\"type\":\"biomarker2 type\",\"description\":\"biomarker2 description\",\"findings\":\"brief findings about biomarker2 in article as one sentence\",\"notes\":\"additional notes important to biomarker2 or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker2 name\",\"predicate\":\"some predicate from findings of  biomarker2\",\"object\":\"object that relates via predicate to the biomarker2\" }] }\n] \n\nEnsure there is no additional explanation, only return valid JSON.\n"
         }
     }
 }
