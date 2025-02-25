@@ -1,0 +1,2494 @@
+{
+    "biomarkers": {
+        "r5yQCq8N": {
+            "name": "DNA methylation",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "DNA methylation",
+                "type": "epigenetic biomarker",
+                "description": "a process by which methyl groups are added to DNA, often resulting in gene silencing",
+                "findings": "The article discusses the use of DNA methylation data obtained with EPIC array to identify potential biomarkers for colorectal cancer.",
+                "notes": "The DNA methylation data is publicly available at the Gene Expression Omnibus (GEO) repository.",
+                "knowledge": [
+                    {
+                        "subject": "DNA methylation",
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer"
+                    },
+                    {
+                        "subject": "DNA methylation",
+                        "predicate": "is used to identify",
+                        "object": "potential biomarkers for colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "-sbtJrIr": {
+            "name": "Wnt signaling pathway genes",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Wnt signaling pathway genes",
+                "type": "genetic biomarker",
+                "description": "a group of genes involved in cell signaling and regulation of cell growth",
+                "findings": "The article mentions that the Wnt signaling pathway is often altered in colorectal cancer, but does not provide specific findings on these genes as biomarkers.",
+                "notes": "Generic knowledge only, no specific findings in the article",
+                "knowledge": [
+                    {
+                        "subject": "Wnt signaling pathway genes",
+                        "predicate": "are involved in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "LBHcU8-9": {
+            "name": "EPIC array",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "EPIC array",
+                "type": "technological biomarker",
+                "description": "a type of microarray used to analyze DNA methylation patterns",
+                "findings": "The article uses EPIC array data to identify potential biomarkers for colorectal cancer.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "EPIC array",
+                        "predicate": "is used to analyze",
+                        "object": "DNA methylation patterns"
+                    },
+                    {
+                        "subject": "EPIC array",
+                        "predicate": "identifies",
+                        "object": "potential biomarkers for colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "PJnTgzcQ": {
+            "name": "Alpha-1 antitrypsin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Alpha-1 antitrypsin",
+                "type": "Protein",
+                "description": "A protein that helps protect the lungs from damage caused by an enzyme called neutrophil elastase",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Alpha-1 antitrypsin",
+                        "predicate": "is associated with",
+                        "object": "emphysema"
+                    }
+                ]
+            }
+        },
+        "2fPqesvu": {
+            "name": "Albumin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Albumin",
+                "type": "Protein",
+                "description": "A protein made by the liver that helps keep fluid in your bloodstream so it doesn\u2019t leak into other tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Albumin",
+                        "predicate": "is a marker of",
+                        "object": "liver function"
+                    }
+                ]
+            }
+        },
+        "Sfet7G4l": {
+            "name": "C-Reactive Protein (CRP)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "C-Reactive Protein (CRP)",
+                "type": "Protein",
+                "description": "A protein that increases in the blood when there is inflammation or infection",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "C-Reactive Protein (CRP)",
+                        "predicate": "is associated with",
+                        "object": "inflammation"
+                    }
+                ]
+            }
+        },
+        "2ljbbDSk": {
+            "name": "Ferritin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Ferritin",
+                "type": "Protein",
+                "description": "A protein that stores iron in the body",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Ferritin",
+                        "predicate": "is a marker of",
+                        "object": "iron deficiency"
+                    }
+                ]
+            }
+        },
+        "9w00lUc7": {
+            "name": "Haptoglobin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Haptoglobin",
+                "type": "Protein",
+                "description": "A protein that binds to hemoglobin in the blood and helps remove it from the circulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Haptoglobin",
+                        "predicate": "is associated with",
+                        "object": "hemoglobin removal"
+                    }
+                ]
+            }
+        },
+        "KW9BH1Nm": {
+            "name": "Transferrin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Transferrin",
+                "type": "Protein",
+                "description": "A protein that binds to iron in the blood and helps transport it to various tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Transferrin",
+                        "predicate": "is associated with",
+                        "object": "iron transport"
+                    }
+                ]
+            }
+        },
+        "q0KwSEvA": {
+            "name": "Alpha-2 macroglobulin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Alpha-2 macroglobulin",
+                "type": "Protein",
+                "description": "A protein that helps remove foreign substances from the body",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Alpha-2 macroglobulin",
+                        "predicate": "is associated with",
+                        "object": "protease inhibition"
+                    }
+                ]
+            }
+        },
+        "WlInS_Zo": {
+            "name": "IgA",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "IgA",
+                "type": "Antibody",
+                "description": "An antibody that plays a key role in the immune system's defense against infections",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "IgA",
+                        "predicate": "is associated with",
+                        "object": "mucosal immunity"
+                    }
+                ]
+            }
+        },
+        "59QtL0OK": {
+            "name": "IgG",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "IgG",
+                "type": "Antibody",
+                "description": "The most common type of antibody found in blood circulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "IgG",
+                        "predicate": "is associated with",
+                        "object": "secondary immune response"
+                    }
+                ]
+            }
+        },
+        "l1afdLHm": {
+            "name": "IgM",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "IgM",
+                "type": "Antibody",
+                "description": "The first antibody produced in response to an infection",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "IgM",
+                        "predicate": "is associated with",
+                        "object": "primary immune response"
+                    }
+                ]
+            }
+        },
+        "7quAh-s_": {
+            "name": "Glycoprotein",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Glycoprotein",
+                "type": "Protein",
+                "description": "A protein that has carbohydrate chains attached to it",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Glycoprotein",
+                        "predicate": "is associated with",
+                        "object": "cell-cell interactions"
+                    }
+                ]
+            }
+        },
+        "XgzyPyPf": {
+            "name": "Hemopexin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Hemopexin",
+                "type": "Protein",
+                "description": "A protein that binds to heme in the blood and helps remove it from the circulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Hemopexin",
+                        "predicate": "is associated with",
+                        "object": "heme removal"
+                    }
+                ]
+            }
+        },
+        "HX5jdqDQ": {
+            "name": "Ceruloplasmin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Ceruloplasmin",
+                "type": "Protein",
+                "description": "A protein that binds to copper in the blood and helps transport it to various tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Ceruloplasmin",
+                        "predicate": "is associated with",
+                        "object": "copper transport"
+                    }
+                ]
+            }
+        },
+        "1yFTkCY5": {
+            "name": "Complement components",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Complement components",
+                "type": "Protein",
+                "description": "A group of proteins that work together to help eliminate pathogens from the body",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Complement components",
+                        "predicate": "are associated with",
+                        "object": "innate immunity"
+                    }
+                ]
+            }
+        },
+        "BBBw2NQ4": {
+            "name": "Fibrinogen",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Fibrinogen",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Fibrinogen",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "TnGuB7rz": {
+            "name": "Prealbumin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Prealbumin",
+                "type": "Protein",
+                "description": "A protein that binds to thyroxine and retinol-binding protein in the blood",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Prealbumin",
+                        "predicate": "is associated with",
+                        "object": "thyroid function"
+                    }
+                ]
+            }
+        },
+        "oxmDfAKZ": {
+            "name": "Retinol-binding protein",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Retinol-binding protein",
+                "type": "Protein",
+                "description": "A protein that binds to vitamin A in the blood and helps transport it to various tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Retinol-binding protein",
+                        "predicate": "is associated with",
+                        "object": "vitamin A metabolism"
+                    }
+                ]
+            }
+        },
+        "uzehEILJ": {
+            "name": "Transcortin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Transcortin",
+                "type": "Protein",
+                "description": "A protein that binds to cortisol and other corticosteroids in the blood",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Transcortin",
+                        "predicate": "is associated with",
+                        "object": "steroid hormone transport"
+                    }
+                ]
+            }
+        },
+        "Z88R6EWQ": {
+            "name": "Hemoglobin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Hemoglobin",
+                "type": "Protein",
+                "description": "A protein in red blood cells that carries oxygen to different parts of the body",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Hemoglobin",
+                        "predicate": "is associated with",
+                        "object": "oxygen transport"
+                    }
+                ]
+            }
+        },
+        "3ndmlfO_": {
+            "name": "Serum amyloid A",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Serum amyloid A",
+                "type": "Protein",
+                "description": "A protein that is produced in response to inflammation and infection",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Serum amyloid A",
+                        "predicate": "is associated with",
+                        "object": "inflammation"
+                    }
+                ]
+            }
+        },
+        "cvpQ4cUx": {
+            "name": "C-reactive protein",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "C-reactive protein",
+                "type": "Protein",
+                "description": "A protein that is produced in response to inflammation and infection",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "C-reactive protein",
+                        "predicate": "is associated with",
+                        "object": "inflammation"
+                    }
+                ]
+            }
+        },
+        "xRdXP5JO": {
+            "name": "Immunoglobulins",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Immunoglobulins",
+                "type": "Protein",
+                "description": "A group of proteins that function as antibodies in the immune system",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Immunoglobulins",
+                        "predicate": "are associated with",
+                        "object": "immune response"
+                    }
+                ]
+            }
+        },
+        "uAFRdw5e": {
+            "name": "Lipoproteins",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Lipoproteins",
+                "type": "Protein",
+                "description": "A group of proteins that transport lipids in the blood",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Lipoproteins",
+                        "predicate": "are associated with",
+                        "object": "lipid metabolism"
+                    }
+                ]
+            }
+        },
+        "dEkHG0YP": {
+            "name": "Prothrombin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Prothrombin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Prothrombin",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "PSNkXw2C": {
+            "name": "Plasminogen",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Plasminogen",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Plasminogen",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "ONBowZOt": {
+            "name": "Thyroxine-binding globulin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Thyroxine-binding globulin",
+                "type": "Protein",
+                "description": "A protein that binds to thyroxine in the blood and helps transport it to various tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Thyroxine-binding globulin",
+                        "predicate": "is associated with",
+                        "object": "thyroid hormone transport"
+                    }
+                ]
+            }
+        },
+        "JjJd4Cuv": {
+            "name": "Corticosteroid-binding globulin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Corticosteroid-binding globulin",
+                "type": "Protein",
+                "description": "A protein that binds to corticosteroids in the blood and helps transport them to various tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Corticosteroid-binding globulin",
+                        "predicate": "is associated with",
+                        "object": "steroid hormone transport"
+                    }
+                ]
+            }
+        },
+        "XiIf4pHO": {
+            "name": "Sex hormone-binding globulin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Sex hormone-binding globulin",
+                "type": "Protein",
+                "description": "A protein that binds to sex hormones in the blood and helps transport them to various tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Sex hormone-binding globulin",
+                        "predicate": "is associated with",
+                        "object": "sex hormone transport"
+                    }
+                ]
+            }
+        },
+        "zDSLk0kn": {
+            "name": "Lactoferrin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Lactoferrin",
+                "type": "Protein",
+                "description": "A protein that binds to iron in the blood and helps transport it to various tissues",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Lactoferrin",
+                        "predicate": "is associated with",
+                        "object": "iron transport"
+                    }
+                ]
+            }
+        },
+        "9H8df-1y": {
+            "name": "Procalcitonin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Procalcitonin",
+                "type": "Protein",
+                "description": "A protein that is produced in response to infection and inflammation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Procalcitonin",
+                        "predicate": "is associated with",
+                        "object": "infection"
+                    }
+                ]
+            }
+        },
+        "ajdJQfZG": {
+            "name": "Adiponectin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Adiponectin",
+                "type": "Protein",
+                "description": "A protein that is involved in glucose and lipid metabolism",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Adiponectin",
+                        "predicate": "is associated with",
+                        "object": "metabolism"
+                    }
+                ]
+            }
+        },
+        "ZnsfTwqM": {
+            "name": "Leptin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Leptin",
+                "type": "Protein",
+                "description": "A protein that is involved in energy balance and metabolism",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Leptin",
+                        "predicate": "is associated with",
+                        "object": "energy balance"
+                    }
+                ]
+            }
+        },
+        "Yjpv3DL7": {
+            "name": "Ghrelin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Ghrelin",
+                "type": "Protein",
+                "description": "A protein that is involved in appetite regulation and metabolism",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Ghrelin",
+                        "predicate": "is associated with",
+                        "object": "appetite regulation"
+                    }
+                ]
+            }
+        },
+        "jeGRJ6yU": {
+            "name": "Insulin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Insulin",
+                "type": "Protein",
+                "description": "A protein that is involved in glucose metabolism and energy balance",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Insulin",
+                        "predicate": "is associated with",
+                        "object": "glucose metabolism"
+                    }
+                ]
+            }
+        },
+        "RB6hXrnr": {
+            "name": "Glucagon",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Glucagon",
+                "type": "Protein",
+                "description": "A protein that is involved in glucose metabolism and energy balance",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Glucagon",
+                        "predicate": "is associated with",
+                        "object": "glucose metabolism"
+                    }
+                ]
+            }
+        },
+        "7W5-6qaM": {
+            "name": "Somatostatin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Somatostatin",
+                "type": "Protein",
+                "description": "A protein that is involved in hormone regulation and metabolism",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Somatostatin",
+                        "predicate": "is associated with",
+                        "object": "hormone regulation"
+                    }
+                ]
+            }
+        },
+        "EESQ2Xzp": {
+            "name": "Vasopressin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Vasopressin",
+                "type": "Protein",
+                "description": "A protein that is involved in water balance and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Vasopressin",
+                        "predicate": "is associated with",
+                        "object": "water balance"
+                    }
+                ]
+            }
+        },
+        "61sfMNnb": {
+            "name": "Oxytocin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Oxytocin",
+                "type": "Protein",
+                "description": "A protein that is involved in social bonding and reproduction",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Oxytocin",
+                        "predicate": "is associated with",
+                        "object": "social bonding"
+                    }
+                ]
+            }
+        },
+        "Ry72SGqc": {
+            "name": "Cortisol",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Cortisol",
+                "type": "Protein",
+                "description": "A protein that is involved in stress response and metabolism",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Cortisol",
+                        "predicate": "is associated with",
+                        "object": "stress response"
+                    }
+                ]
+            }
+        },
+        "MRjldFgC": {
+            "name": "Aldosterone",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Aldosterone",
+                "type": "Protein",
+                "description": "A protein that is involved in electrolyte balance and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Aldosterone",
+                        "predicate": "is associated with",
+                        "object": "electrolyte balance"
+                    }
+                ]
+            }
+        },
+        "xcw2RuE9": {
+            "name": "Renin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Renin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood pressure regulation and electrolyte balance",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Renin",
+                        "predicate": "is associated with",
+                        "object": "blood pressure regulation"
+                    }
+                ]
+            }
+        },
+        "n-7JeCnt": {
+            "name": "Angiotensinogen",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Angiotensinogen",
+                "type": "Protein",
+                "description": "A protein that is involved in blood pressure regulation and electrolyte balance",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Angiotensinogen",
+                        "predicate": "is associated with",
+                        "object": "blood pressure regulation"
+                    }
+                ]
+            }
+        },
+        "qH9o-gdA": {
+            "name": "ACE",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "ACE",
+                "type": "Protein",
+                "description": "A protein that is involved in blood pressure regulation and electrolyte balance",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "ACE",
+                        "predicate": "is associated with",
+                        "object": "blood pressure regulation"
+                    }
+                ]
+            }
+        },
+        "r-8vyNn2": {
+            "name": " Bradykinin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": " Bradykinin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood pressure regulation and inflammation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Bradykinin",
+                        "predicate": "is associated with",
+                        "object": "blood pressure regulation"
+                    }
+                ]
+            }
+        },
+        "w6xUyKhw": {
+            "name": "Kallikrein",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Kallikrein",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Kallikrein",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "w4O8yEOy": {
+            "name": "Tissue plasminogen activator (tPA)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Tissue plasminogen activator (tPA)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Tissue plasminogen activator (tPA)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "NeXu2t9i": {
+            "name": "Thrombin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Thrombin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Thrombin",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "yPix6VsN": {
+            "name": "Factor Xa",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Factor Xa",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Factor Xa",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "lH9e9hA6": {
+            "name": "Factor VIIa",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Factor VIIa",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Factor VIIa",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "nxT49JvX": {
+            "name": "Tissue factor",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Tissue factor",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Tissue factor",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "CbgIIVCu": {
+            "name": "Von Willebrand factor (vWF)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Von Willebrand factor (vWF)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood clotting and fibrinolysis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Von Willebrand factor (vWF)",
+                        "predicate": "is associated with",
+                        "object": "blood clotting"
+                    }
+                ]
+            }
+        },
+        "8hDM1KUU": {
+            "name": "Platelet-activating factor (PAF)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Platelet-activating factor (PAF)",
+                "type": "Protein",
+                "description": "A protein that is involved in platelet activation and blood clotting",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Platelet-activating factor (PAF)",
+                        "predicate": "is associated with",
+                        "object": "platelet activation"
+                    }
+                ]
+            }
+        },
+        "7ZdZ_0h9": {
+            "name": "Adenosine diphosphate (ADP)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Adenosine diphosphate (ADP)",
+                "type": "Protein",
+                "description": "A protein that is involved in platelet activation and blood clotting",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Adenosine diphosphate (ADP)",
+                        "predicate": "is associated with",
+                        "object": "platelet activation"
+                    }
+                ]
+            }
+        },
+        "xCpqX9Lw": {
+            "name": "Thromboxane A2 (TXA2)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Thromboxane A2 (TXA2)",
+                "type": "Protein",
+                "description": "A protein that is involved in platelet activation and blood clotting",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Thromboxane A2 (TXA2)",
+                        "predicate": "is associated with",
+                        "object": "platelet activation"
+                    }
+                ]
+            }
+        },
+        "bM2rnuCw": {
+            "name": "Prostaglandin I2 (PGI2)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Prostaglandin I2 (PGI2)",
+                "type": "Protein",
+                "description": "A protein that is involved in platelet inhibition and blood clotting",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Prostaglandin I2 (PGI2)",
+                        "predicate": "is associated with",
+                        "object": "platelet inhibition"
+                    }
+                ]
+            }
+        },
+        "FturS9oV": {
+            "name": "Nitric oxide (NO)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Nitric oxide (NO)",
+                "type": "Protein",
+                "description": "A protein that is involved in platelet inhibition and blood clotting",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Nitric oxide (NO)",
+                        "predicate": "is associated with",
+                        "object": "platelet inhibition"
+                    }
+                ]
+            }
+        },
+        "Rl5Xy0b2": {
+            "name": "Endothelin-1 (ET-1)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Endothelin-1 (ET-1)",
+                "type": "Protein",
+                "description": "A protein that is involved in vasoconstriction and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Endothelin-1 (ET-1)",
+                        "predicate": "is associated with",
+                        "object": "vasoconstriction"
+                    }
+                ]
+            }
+        },
+        "oOEEFf1P": {
+            "name": "Angiotensin II (Ang II)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Angiotensin II (Ang II)",
+                "type": "Protein",
+                "description": "A protein that is involved in vasoconstriction and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Angiotensin II (Ang II)",
+                        "predicate": "is associated with",
+                        "object": "vasoconstriction"
+                    }
+                ]
+            }
+        },
+        "9JRg5GuY": {
+            "name": "Bradykinin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Bradykinin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Bradykinin",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "Akc3ioec": {
+            "name": "Atrial natriuretic peptide (ANP)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Atrial natriuretic peptide (ANP)",
+                "type": "Protein",
+                "description": "A protein that is involved in vasodilation and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Atrial natriuretic peptide (ANP)",
+                        "predicate": "is associated with",
+                        "object": "vasodilation"
+                    }
+                ]
+            }
+        },
+        "7-HLg6yq": {
+            "name": "C-type natriuretic peptide (CNP)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "C-type natriuretic peptide (CNP)",
+                "type": "Protein",
+                "description": "A protein that is involved in vasodilation and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "C-type natriuretic peptide (CNP)",
+                        "predicate": "is associated with",
+                        "object": "vasodilation"
+                    }
+                ]
+            }
+        },
+        "Ly-bin_y": {
+            "name": "Endothelial-derived hyperpolarizing factor (EDHF)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Endothelial-derived hyperpolarizing factor (EDHF)",
+                "type": "Protein",
+                "description": "A protein that is involved in vasodilation and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Endothelial-derived hyperpolarizing factor (EDHF)",
+                        "predicate": "is associated with",
+                        "object": "vasodilation"
+                    }
+                ]
+            }
+        },
+        "uCWv4hk7": {
+            "name": "Prostacyclin (PGI2)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Prostacyclin (PGI2)",
+                "type": "Protein",
+                "description": "A protein that is involved in vasodilation and blood pressure regulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Prostacyclin (PGI2)",
+                        "predicate": "is associated with",
+                        "object": "vasodilation"
+                    }
+                ]
+            }
+        },
+        "chtC2G15": {
+            "name": "Urokinase-type plasminogen activator (uPA)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Urokinase-type plasminogen activator (uPA)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Urokinase-type plasminogen activator (uPA)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "FYG5Ntic": {
+            "name": "Tissue factor pathway inhibitor (TFPI)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Tissue factor pathway inhibitor (TFPI)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Tissue factor pathway inhibitor (TFPI)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "HAw5-A4e": {
+            "name": "Protein C",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Protein C",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Protein C",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "j_56s_LM": {
+            "name": "Antithrombin III (ATIII)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Antithrombin III (ATIII)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Antithrombin III (ATIII)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "dOyTC6BT": {
+            "name": "Heparin cofactor II (HCII)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Heparin cofactor II (HCII)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Heparin cofactor II (HCII)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "KeTekCSS": {
+            "name": "Plasminogen activator inhibitor-1 (PAI-1)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Plasminogen activator inhibitor-1 (PAI-1)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Plasminogen activator inhibitor-1 (PAI-1)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "152AnPu8": {
+            "name": "Thrombomodulin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Thrombomodulin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Thrombomodulin",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "RtjeOB67": {
+            "name": "Endothelial protein C receptor (EPCR)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Endothelial protein C receptor (EPCR)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Endothelial protein C receptor (EPCR)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "BHwuZ86p": {
+            "name": "Factor V Leiden",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Factor V Leiden",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Factor V Leiden",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "7unDPMkF": {
+            "name": "Prothrombin G20210A",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Prothrombin G20210A",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Prothrombin G20210A",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "dUDgjxmA": {
+            "name": "Von Willebrand factor (VWF)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Von Willebrand factor (VWF)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Von Willebrand factor (VWF)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "252CXTYS": {
+            "name": "Platelet glycoprotein Ib (GPIb)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Platelet glycoprotein Ib (GPIb)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Platelet glycoprotein Ib (GPIb)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "EuvxNxpK": {
+            "name": "Platelet glycoprotein IIb/IIIa (GPIIb/IIIa)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Platelet glycoprotein IIb/IIIa (GPIIb/IIIa)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Platelet glycoprotein IIb/IIIa (GPIIb/IIIa)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "9q3K6s2K": {
+            "name": "P-selectin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "P-selectin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "P-selectin",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "eIKMkUgz": {
+            "name": "Tissue factor (TF)",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Tissue factor (TF)",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Tissue factor (TF)",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "t7pEdlUd": {
+            "name": "Alpha-2 antiplasmin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Alpha-2 antiplasmin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Alpha-2 antiplasmin",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "1UicBMdS": {
+            "name": "Fibrin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Fibrin",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Fibrin",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "in3D5AGE": {
+            "name": "D-dimer",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "D-dimer",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "D-dimer",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "aZCk3f_a": {
+            "name": "Factor IXa",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Factor IXa",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Factor IXa",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "FvggVSV6": {
+            "name": "Factor XIa",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Factor XIa",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Factor XIa",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "WNn6GckQ": {
+            "name": "Factor XIIa",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Factor XIIa",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Factor XIIa",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "af1SaNhR": {
+            "name": "High-molecular-weight kininogen",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "High-molecular-weight kininogen",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "High-molecular-weight kininogen",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "lPdQKKlj": {
+            "name": "Prekallikrein",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Prekallikrein",
+                "type": "Protein",
+                "description": "A protein that is involved in blood coagulation and thrombosis",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article",
+                "knowledge": [
+                    {
+                        "subject": "Prekallikrein",
+                        "predicate": "is associated with",
+                        "object": "blood coagulation"
+                    }
+                ]
+            }
+        },
+        "3ouNGGkq": {
+            "name": "Lysine",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Lysine",
+                "type": "Amino acid",
+                "description": "An amino acid that plays a role in blood coagulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article"
+            }
+        },
+        "Br-e6951": {
+            "name": "Arginine",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Arginine",
+                "type": "Amino acid",
+                "description": "An amino acid that plays a role in blood coagulation",
+                "findings": "Not mentioned in the article",
+                "notes": "Generic knowledge only, not related to the article"
+            }
+        },
+        "JyJ2DJaW": {
+            "name": "miR-126",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "miR-126",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression, particularly in cancer development and progression",
+                "findings": "Has shown robust predictive results for diagnosis and prognosis of colorectal cancer",
+                "notes": "Part of a proposed CEx-miRNAs panel for early CRC stages diagnosis",
+                "knowledge": [
+                    {
+                        "subject": "miR-126",
+                        "predicate": "shows",
+                        "object": "robust predictive results for diagnosis and prognosis of colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "oxTsMi1t": {
+            "name": "miR-1290",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "miR-1290",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression, particularly in cancer development and progression",
+                "findings": "Has shown robust predictive results for diagnosis and prognosis of colorectal cancer",
+                "notes": "Part of a proposed CEx-miRNAs panel for early CRC stages diagnosis",
+                "knowledge": [
+                    {
+                        "subject": "miR-1290",
+                        "predicate": "shows",
+                        "object": "robust predictive results for diagnosis and prognosis of colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "p6U8dXNd": {
+            "name": "miR-23a",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "miR-23a",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression, particularly in cancer development and progression",
+                "findings": "Part of a proposed CEx-miRNAs panel for early CRC stages diagnosis",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-23a",
+                        "predicate": "is part of",
+                        "object": "a proposed CEx-miRNAs panel for early CRC stages diagnosis"
+                    }
+                ]
+            }
+        },
+        "F1ZbuDgY": {
+            "name": "miR-940",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "miR-940",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression, particularly in cancer development and progression",
+                "findings": "Part of a proposed CEx-miRNAs panel for early CRC stages diagnosis",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-940",
+                        "predicate": "is part of",
+                        "object": "a proposed CEx-miRNAs panel for early CRC stages diagnosis"
+                    }
+                ]
+            }
+        },
+        "OD9sSe14": {
+            "name": "MSI-H",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "MSI-H",
+                "type": "Microsatellite Instability Biomarker",
+                "description": "A condition of genetic hypermutability that results from impaired DNA mismatch repair",
+                "findings": "The MSI status confers substantial improvements in clinical outcomes and decreased toxicities through ICI, offering patients long-term survival or near curative results",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "MSI-H",
+                        "predicate": "confers",
+                        "object": "substantial improvements in clinical outcomes"
+                    },
+                    {
+                        "subject": "MSI-H",
+                        "predicate": "decreases",
+                        "object": "toxicities through ICI"
+                    }
+                ]
+            }
+        },
+        "3FKC3k69": {
+            "name": "RAS",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "RAS",
+                "type": "Oncogene Biomarker",
+                "description": "A gene that has the potential to cause cancer, involved in cell signal transduction pathways",
+                "findings": "The predictive capacity of RAS has necessitated a molecular-targeted approach in CRC",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "RAS",
+                        "predicate": "necessitates",
+                        "object": "a molecular-targeted approach in CRC"
+                    }
+                ]
+            }
+        },
+        "DBbBzdxn": {
+            "name": "BRAF V600E",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "BRAF V600E",
+                "type": "Mutation Biomarker",
+                "description": "A specific mutation in the BRAF gene that leads to cancer",
+                "findings": "BRAF V600E had a negative prognostic value but is now predictive of the response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "BRAF V600E",
+                        "predicate": "has",
+                        "object": "a negative prognostic value"
+                    },
+                    {
+                        "subject": "BRAF V600E",
+                        "predicate": "predicts",
+                        "object": "response to combined targeted BRAF/EGFR inhibition"
+                    }
+                ]
+            }
+        },
+        "gFpNrzwm": {
+            "name": "HLA",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "HLA",
+                "type": "Immune System Biomarker",
+                "description": "Human Leukocyte Antigen, part of the immune system",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Generic knowledge only, HLA is related to colorectal cancer",
+                "knowledge": [
+                    {
+                        "subject": "HLA",
+                        "predicate": "is related to",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "htlG8s-y": {
+            "name": "EGFR",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "EGFR",
+                "type": "Receptor Biomarker",
+                "description": "Epidermal Growth Factor Receptor, a protein that plays a role in cell signaling pathways",
+                "findings": "Combined targeted BRAF/EGFR inhibition doubles survival over standard treatments for BRAF V600E mutation",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "EGFR",
+                        "predicate": "is targeted by",
+                        "object": "combined BRAF/EGFR inhibition"
+                    }
+                ]
+            }
+        },
+        "lh0ZzIfS": {
+            "name": "Ki67",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Ki67",
+                "type": "Proliferation marker",
+                "description": "A nuclear protein that is expressed in all active phases of the cell cycle (G1, S, G2, and mitosis), but not in resting cells (G0)",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, Ki67 is a known biomarker for cancer diagnosis and prognosis",
+                "knowledge": [
+                    {
+                        "subject": "Ki67",
+                        "predicate": "is associated with",
+                        "object": "cancer cell proliferation"
+                    }
+                ]
+            }
+        },
+        "jIDq6jEF": {
+            "name": "Caspase-3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Caspase-3",
+                "type": "Apoptosis marker",
+                "description": "A key enzyme in the apoptosis pathway, responsible for the execution of programmed cell death",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, Caspase-3 is a known biomarker for cancer diagnosis and prognosis",
+                "knowledge": [
+                    {
+                        "subject": "Caspase-3",
+                        "predicate": "is involved in",
+                        "object": "apoptosis regulation"
+                    }
+                ]
+            }
+        },
+        "L0tDINUg": {
+            "name": "MMP-9",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "MMP-9",
+                "type": "Invasion and metastasis marker",
+                "description": "A matrix metalloproteinase that degrades the extracellular matrix, facilitating tumor invasion and metastasis",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, MMP-9 is a known biomarker for cancer diagnosis and prognosis",
+                "knowledge": [
+                    {
+                        "subject": "MMP-9",
+                        "predicate": "is associated with",
+                        "object": "tumor invasion and metastasis"
+                    }
+                ]
+            }
+        },
+        "PzX7WOcy": {
+            "name": "p53",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "p53",
+                "type": "Tumor suppressor protein",
+                "description": "A protein that regulates cell growth, DNA repair, and apoptosis, often mutated in cancer cells",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "Generic knowledge only, p53 is a known biomarker for cancer diagnosis and prognosis",
+                "knowledge": [
+                    {
+                        "subject": "p53",
+                        "predicate": "is involved in",
+                        "object": "cell cycle regulation"
+                    }
+                ]
+            }
+        },
+        "Wl4G-zhC": {
+            "name": "Ki-67 (specifically mentioned as related to cancer cell proliferation)",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Ki-67 (specifically mentioned as related to cancer cell proliferation)",
+                "type": "Proliferation marker",
+                "description": "A nuclear protein that is expressed in all active phases of the cell cycle (G1, S, G2, and mitosis), but not in resting cells (G0)",
+                "findings": "Not mentioned in the article as related to cancer diagnosis or risk",
+                "notes": "",
+                "knowledge": []
+            }
+        },
+        "uluz2BpR": {
+            "name": "Caspase-3 (specifically mentioned as related to apoptosis regulation)",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Caspase-3 (specifically mentioned as related to apoptosis regulation)",
+                "type": "Apoptosis marker",
+                "description": "A key enzyme in the apoptosis pathway, responsible for the execution of programmed cell death",
+                "findings": "Not mentioned in the article as related to cancer diagnosis or risk",
+                "notes": "",
+                "knowledge": []
+            }
+        },
+        "f0yI6oJO": {
+            "name": "Guanylate Cyclase-C",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Guanylate Cyclase-C",
+                "type": "Protein Biomarker",
+                "description": "A protein that plays a role in the regulation of fluid and electrolyte balance in the intestine",
+                "findings": "Guanylate cyclase-C is targeted by the chimeric antigen receptor in the treatment of colorectal cancer",
+                "notes": "Explicitly mentioned as a target for the chimeric antigen receptor",
+                "knowledge": [
+                    {
+                        "subject": "Guanylate Cyclase-C",
+                        "predicate": "is targeted by",
+                        "object": "chimeric antigen receptor"
+                    }
+                ]
+            }
+        },
+        "Pt6DjbKQ": {
+            "name": "CD4",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "CD4",
+                "type": "Cell Surface Biomarker",
+                "description": "A protein found on the surface of certain immune cells, such as T cells",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Not explicitly mentioned in the article, generic knowledge only",
+                "knowledge": [
+                    {
+                        "subject": "CD4",
+                        "predicate": "is associated with",
+                        "object": "immune response in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "T8tUJabW": {
+            "name": "IFN-\u03b3",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "IFN-\u03b3",
+                "type": "Cytokine Biomarker",
+                "description": "A protein that plays a role in the immune response, particularly in the activation of T cells and macrophages",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Not explicitly mentioned in the article, generic knowledge only",
+                "knowledge": [
+                    {
+                        "subject": "IFN-\u03b3",
+                        "predicate": "is involved in",
+                        "object": "immune response against colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "ukup8dz3": {
+            "name": "IL-2",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "IL-2",
+                "type": "Cytokine Biomarker",
+                "description": "A protein that plays a role in the growth and differentiation of T cells",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Not explicitly mentioned in the article, generic knowledge only",
+                "knowledge": [
+                    {
+                        "subject": "IL-2",
+                        "predicate": "is associated with",
+                        "object": "T cell expansion in colorectal cancer treatment"
+                    }
+                ]
+            }
+        },
+        "qXq58DZW": {
+            "name": "Cytokines",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Cytokines",
+                "type": "Protein Biomarkers",
+                "description": "Small proteins released by cells that have a specific effect on the interactions and communications between cells",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Not explicitly mentioned in the article, generic knowledge only",
+                "knowledge": [
+                    {
+                        "subject": "Cytokines",
+                        "predicate": "play a role in",
+                        "object": "inflammation and immune response in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "buKJPyrF": {
+            "name": "CD8",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "CD8",
+                "type": "Cell Surface Biomarker",
+                "description": "A protein found on the surface of certain immune cells, such as cytotoxic T cells",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Not explicitly mentioned in the article, generic knowledge only",
+                "knowledge": [
+                    {
+                        "subject": "CD8",
+                        "predicate": "is associated with",
+                        "object": "tumor cell killing in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "4-6o1Q9X": {
+            "name": "Guanylate Cyclase-C immunohistochemistry",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Guanylate Cyclase-C immunohistochemistry",
+                "type": "Diagnostic Biomarker",
+                "description": "A laboratory test used to detect and quantify guanylate cyclase-C protein in tissue samples",
+                "findings": "Performed by Guangjian Ma, Innovative Cellular Therapeutics Co.",
+                "notes": "Explicitly mentioned as being performed by a specific individual",
+                "knowledge": [
+                    {
+                        "subject": "Guanylate Cyclase-C immunohistochemistry",
+                        "predicate": "was performed by",
+                        "object": "Guangjian Ma"
+                    }
+                ]
+            }
+        },
+        "MDzssQG5": {
+            "name": "hCRISPRs",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "hCRISPRs",
+                "type": "genetic biomarker",
+                "description": "human CRISPR-Cas systems that can be used for diagnosis and therapy of diseases",
+                "findings": "hCRISPRs are detected and validated in transcription and diagnostics",
+                "notes": "included as inventors on CRISPR-Cas-related patents",
+                "knowledge": [
+                    {
+                        "subject": "hCRISPRs",
+                        "predicate": "are detected",
+                        "object": "in transcription"
+                    },
+                    {
+                        "subject": "hCRISPRs",
+                        "predicate": "are validated",
+                        "object": "in diagnostics"
+                    }
+                ]
+            }
+        },
+        "EVr25wLN": {
+            "name": "Acetone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Acetone",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A colorless, volatile, and flammable liquid with a characteristic fruity odor, commonly used as a solvent and found in human breath",
+                "findings": "May be considered an adequate cancer biomarker but its concentration in breath changes during activities such as exercising or fasting",
+                "notes": "Its origin can include exogenous factors, especially physical activities and smoking",
+                "knowledge": [
+                    {
+                        "subject": "Acetone",
+                        "predicate": "is affected by",
+                        "object": "physical activities"
+                    },
+                    {
+                        "subject": "Acetone",
+                        "predicate": "is affected by",
+                        "object": "smoking"
+                    },
+                    {
+                        "subject": "Acetone",
+                        "predicate": "may be considered as",
+                        "object": "cancer biomarker"
+                    }
+                ]
+            }
+        },
+        "BakZsvU1": {
+            "name": "4-Heptanone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "4-Heptanone",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A chemical compound used in various industrial applications, found in human breath and potentially related to cancer diagnosis",
+                "findings": "Its origins are unclear, which limits its use as a biomarker for cancer diagnosis",
+                "notes": "Not recommended for use as a biomarker due to unclear origins",
+                "knowledge": [
+                    {
+                        "subject": "4-Heptanone",
+                        "predicate": "has unclear",
+                        "object": "origins"
+                    },
+                    {
+                        "subject": "4-Heptanone",
+                        "predicate": "is not recommended as",
+                        "object": "cancer biomarker"
+                    }
+                ]
+            }
+        },
+        "CGLrTUuX": {
+            "name": "Hexanal",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Hexanal",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "An organic compound with a grassy or fruity odor, potentially related to cancer and inflammation",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "Generic knowledge only: may be related to colorectal cancer diagnosis or risk",
+                "knowledge": [
+                    {
+                        "subject": "Hexanal",
+                        "predicate": "may be related to",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "TEPPKoz3": {
+            "name": "Microbiome",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Microbiome",
+                "type": "Biological marker",
+                "description": "The community of microorganisms living in a particular habitat, including the human body",
+                "findings": "Was analyzed to identify potential biomarkers for colorectal cancer diagnosis or risk",
+                "notes": "No specific notes mentioned in the article",
+                "knowledge": [
+                    {
+                        "subject": "Microbiome",
+                        "predicate": "was analyzed for",
+                        "object": "colorectal cancer diagnosis or risk"
+                    }
+                ]
+            }
+        },
+        "qsC2GSmD": {
+            "name": "Colorectal Cancer Biomarkers",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Colorectal Cancer Biomarkers",
+                "type": "Cancer biomarker",
+                "description": "Molecules that can be used to diagnose, predict, or monitor colorectal cancer",
+                "findings": "Were identified through the analysis of publicly available datasets",
+                "notes": "No specific notes mentioned in the article, generic knowledge only",
+                "knowledge": [
+                    {
+                        "subject": "Colorectal Cancer Biomarkers",
+                        "predicate": "are associated with",
+                        "object": "colorectal cancer diagnosis or risk"
+                    }
+                ]
+            }
+        },
+        "6MsvMBEt": {
+            "name": "Ethyl acetate",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Ethyl acetate",
+                "type": "Ester",
+                "description": "A compound found in natural sources such as fats and fatty oils, waxes, and fruit ethers, also can be produced by the body through various metabolic processes",
+                "findings": "Found in higher amounts in the breath of colorectal cancer patients compared to controls.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Ethyl acetate",
+                        "predicate": "found in higher amounts",
+                        "object": "breath of colorectal cancer patients"
+                    }
+                ]
+            }
+        },
+        "j_C7_Bym": {
+            "name": "Alkenes",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Alkenes",
+                "type": "Hydrocarbon",
+                "description": "A type of hydrocarbon that can be produced by the body through oxidative stress and are excreted in the breath due to their low solubility in blood",
+                "findings": "May be related to oxidative stress in colorectal cancer patients.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Alkenes",
+                        "predicate": "related to",
+                        "object": "oxidative stress in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "L-td6dXM": {
+            "name": "Acetone",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Acetone",
+                "type": "Ketone",
+                "description": "A compound produced by the body as a secondary product of lipid peroxidation, often associated with metabolic conditions and ketosis",
+                "findings": "May be elevated in colorectal cancer patients due to high oxidation rate of fatty acids.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Acetone",
+                        "predicate": "elevated in",
+                        "object": "colorectal cancer patients"
+                    }
+                ]
+            }
+        },
+        "1cFak52Z": {
+            "name": "Ethanol",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Ethanol",
+                "type": "Alcohol",
+                "description": "A compound that can originate from food, alcohol beverages, and metabolism of hydrocarbons by cytochrome p450 enzymes",
+                "findings": "Originates from food, alcohol, and hydrocarbon metabolism in colorectal cancer patients.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Ethanol",
+                        "predicate": "originates from",
+                        "object": "food, alcohol, and hydrocarbon metabolism"
+                    }
+                ]
+            }
+        },
+        "B4m3iMG1": {
+            "name": "Volatile Organic Compounds (VOCs)",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Volatile Organic Compounds (VOCs)",
+                "type": "Biomarker",
+                "description": "Compounds that can be found in the breath and are associated with various diseases including colorectal cancer",
+                "findings": "Differ between colorectal cancer patients and controls, suggesting potential for diagnosis.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "VOCs",
+                        "predicate": "differ between",
+                        "object": "colorectal cancer patients and controls"
+                    }
+                ]
+            }
+        },
+        "nfehxhZB": {
+            "name": "T-antigen",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "T-antigen",
+                "type": "glycan",
+                "description": "A type of abnormal glycan structure associated with cancer cells",
+                "findings": "Stools from more aggressive lesions may exhibit abnormal immature T-antigen signatures not seen in healthy tissues",
+                "notes": "Explored as a potential biomarker for non-invasive cancer diagnostics",
+                "knowledge": [
+                    {
+                        "subject": "T-antigen",
+                        "predicate": "exhibit",
+                        "object": "abnormal immature signatures in stools from aggressive lesions"
+                    }
+                ]
+            }
+        },
+        "n9chBoOa": {
+            "name": "T-expressing glycoproteoforms",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "T-expressing glycoproteoforms",
+                "type": "glycoprotein",
+                "description": "Proteins with T-antigen glycan structures, potentially associated with cancer",
+                "findings": "Identified as molecular targets shared by more aggressive non-cancerous lesions and cancer",
+                "notes": "Hold promise for future pre-clinical assessment as biomarkers",
+                "knowledge": [
+                    {
+                        "subject": "T-expressing glycoproteoforms",
+                        "predicate": "shared by",
+                        "object": "more aggressive non-cancerous lesions and cancer"
+                    }
+                ]
+            }
+        },
+        "X1QQD3wk": {
+            "name": "Immature glycan signatures",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/AdcOr",
+            "details": {
+                "name": "Immature glycan signatures",
+                "type": "glycan structure",
+                "description": "Abnormal glycan structures associated with cancer cells, lacking full maturation",
+                "findings": "May be present in stools from more aggressive lesions, not seen in healthy tissues",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Immature glycan signatures",
+                        "predicate": "present in",
+                        "object": "stools from more aggressive lesions"
+                    }
+                ]
+            }
+        }
+    },
+    "documents": {
+        "10.1038/s41598-023-42037-w": {
+            "doi": "10.1038/s41598-023-42037-w",
+            "short_citation": "(Bao-Caamano;2023)",
+            "long_citation": "Bao-Caamano, et al., Epigenomic analysis reveals a unique DNA methylation program of metastasis-competent circulating tumor cells in colorectal cancer, , 2023"
+        },
+        "10.1002/anie.202306154": {
+            "doi": "10.1002/anie.202306154",
+            "short_citation": "(Saraei;2019)",
+            "long_citation": "Saraei, et al., Towards a Precise NMR Quantification of Acute Phase Inflammation Proteins from Human Serum, , 2019"
+        },
+        "10.3390/cancers13184640": {
+            "doi": "10.3390/cancers13184640",
+            "short_citation": "(Dur\u00e1n-Vin;2021-09-16)",
+            "long_citation": "Dur\u00e1n-Vin, et al., CRISPR/Cas13-Based Platforms for a Potential Next-Generation Diagnosis of Colorectal Cancer through Exosomes Micro-RNA Detection: A Review, , 2021-09-16"
+        },
+        "10.3390/cancers16162796": {
+            "doi": "10.3390/cancers16162796",
+            "short_citation": "(Ashouri;2024-08-08)",
+            "long_citation": "Ashouri, et al., Exploring Predictive and Prognostic Biomarkers in Colorectal Cancer: A Comprehensive Review, , 2024-08-08"
+        },
+        "10.1126/sciadv.aaw1317": {
+            "doi": "10.1126/sciadv.aaw1317",
+            "short_citation": "(Carvalho;2024-12-04)",
+            "long_citation": "Carvalho, et al., Colorectal tumor-on-a-chip system: A 3D tool for precision onco-nanomedicine, , 2024-12-04"
+        },
+        "10.1001/jamaoncol.2024.3891": {
+            "doi": "10.1001/jamaoncol.2024.3891",
+            "short_citation": "(Chen;2024-09-19)",
+            "long_citation": "Chen, et al., Chimeric Antigen Receptor T Cells Targeting CD19 and GCC in Metastatic Colorectal Cancer A Nonrandomized Clinical Trial, , 2024-09-19"
+        },
+        "10.1038/s42003-022-03249-4": {
+            "doi": "10.1038/s42003-022-03249-4",
+            "short_citation": "(Van Riet;1989)",
+            "long_citation": "Van Riet, et al., CRISPRs in the human genome are differentially expressed between malignant and normal adjacent to tumor tissue, , 1989"
+        },
+        "10.3390/ijms24010129": {
+            "doi": "10.3390/ijms24010129",
+            "short_citation": "(Chen;2022-12-21)",
+            "long_citation": "Chen, et al., Diagnosis by Volatile Organic Compounds in Exhaled Breath from Patients with Gastric and Colorectal Cancers, , 2022-12-21"
+        },
+        "10.1111/j.2517-6161.1982.tb01195.x": {
+            "doi": "10.1111/j.2517-6161.1982.tb01195.x",
+            "short_citation": "(D'elia;1982)",
+            "long_citation": "D'elia, et al., Explainable artificial intelligence for microbiome data analysis in colorectal cancer biomarker identification, , 1982"
+        },
+        "10.1002/ijc.29701": {
+            "doi": "10.1002/ijc.29701",
+            "short_citation": "(Amal;2015)",
+            "long_citation": "Amal, et al., Breath testing as potential colorectal cancer screening tool, , 2015"
+        },
+        "10.3390/ijms25073722": {
+            "doi": "10.3390/ijms25073722",
+            "short_citation": "(Kuppen;2024-03-27)",
+            "long_citation": "Kuppen, et al., Stool Glycoproteomics Signatures of Pre-Cancerous Lesions and Colorectal Cancer, , 2024-03-27"
+        }
+    },
+    "lang_info": {
+        "llama3.3:70b-instruct-q8_0/AdcOr": {
+            "llm_tag": "llama3.3:70b-instruct-q8_0",
+            "prompt_template": "[BEGIN ARTICLE]:<content></content>\n[END ARTICLE]\n\n[INSTRUCTIONS]\nGenerate list of biomarkers that are one of the main topic iof the article and relates to disease, inflamation or specifically cancer diagnosis or risc. \nList only biomarkers that some findings are in the article. If no findings is in the article about such biomarker, don't include it in the list.\nFor each such biomarker extract name, type, description, notes and findings.\nFor findings, put the findings about the biomarker that are either result or discussed in the article.\nFor description, put general description of the biomarker, that description do not need to be in the article but should be descriptive.\nFor notes, put general notes about biomarker that are explicitly noted in the article besides findings. \nFor each finding generate a formal knowledge triplet separated to \"subject\",\"predicate\",\"object\" where \"subject\" is biomarker, \"predicate\" is verb from finding and \"object\" is an object from the finding.\nIf there is no knowledge in the article, generate single generic knowledge that relates to colorectal cancer and leave in the notes that it is generic knowledge only.\nReturn the response in strict JSON format with the following structure:\n\n[\n  { \"name\": \"biomarker name\",\"type\":\"biomarker type\",\"description\":\"biomarker description\",\"findings\":\"brief findings about biomarker in article as one sentence\",\"notes\":\"additional notes important to biomarker or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker name\",\"predicate\":\"some predicate from findings of biomarker\",\"object\":\"object that relates via predicate to the biomarker\" }],\n  { \"name\": \"biomarker2 name\",\"type\":\"biomarker2 type\",\"description\":\"biomarker2 description\",\"findings\":\"brief findings about biomarker2 in article as one sentence\",\"notes\":\"additional notes important to biomarker2 or empty string\", \"knowledge\":[{\"subject\":\"repeated biomarker2 name\",\"predicate\":\"some predicate from findings of  biomarker2\",\"object\":\"object that relates via predicate to the biomarker2\" }] }\n] \n\nEnsure there is no additional explanation, only return valid JSON.\n"
+        }
+    }
+}
