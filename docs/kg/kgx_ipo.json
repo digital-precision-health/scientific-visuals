@@ -1,0 +1,523 @@
+{
+    "knowledge": {
+        "eCEZWI8o": {
+            "name": "The TNM stage and grade of the tumor, as well as the presence of carcinoma in situ, are associated with an increased risk of recurrence after BCG treatment, with patients having a 90% probability of successful treatment and 75% chance of recurrence.",
+            "doc_id": "10.1111/bju.12844",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "The TNM stage",
+                    "predicate": "is associated with",
+                    "object": "increased risk of recurrence"
+                },
+                {
+                    "subject": "grade of the tumor",
+                    "predicate": "is associated with",
+                    "object": "increased risk of recurrence"
+                },
+                {
+                    "subject": "presence of carcinoma in situ",
+                    "predicate": "is associated with",
+                    "object": "increased risk of recurrence"
+                }
+            ],
+            "entities": {
+                "tumor": "CANCER",
+                "carcinoma": "CANCER",
+                "patients": "ORGANISM"
+            }
+        },
+        "8GxZaMTf": {
+            "name": "The CCR5-D32 genotype is not associated with the risk of recurrence after BCG treatment, whereas the TNF-\u03b1 -308G/A polymorphism is associated with an increased risk of recurrence.",
+            "doc_id": "10.1111/bju.12844",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CCR5-D32 genotype",
+                    "predicate": "is associated with",
+                    "object": "no risk of recurrence"
+                },
+                {
+                    "subject": "TNF-\u03b1 -308G/A polymorphism",
+                    "predicate": "is associated with",
+                    "object": "increased risk of recurrence"
+                },
+                {
+                    "subject": "TNF-\u03b1 -308G/A polymorphism",
+                    "predicate": "relates",
+                    "object": "CCR5-D32 genotype"
+                },
+                {
+                    "subject": "TNF-\u03b1 -308G/A polymorphism",
+                    "predicate": "relates",
+                    "object": "CCR5-D32"
+                },
+                {
+                    "subject": "CCR5-D32 genotype",
+                    "predicate": "relates",
+                    "object": "CCR5-D32"
+                }
+            ],
+            "entities": {
+                "CCR5-D32": "GENE_OR_GENE_PRODUCT",
+                "TNF-\u03b1": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "roixGOgd": {
+            "name": "Patients carrying the IL-1B-511T allele have a lower risk of recurrence after BCG treatment compared to those carrying the C allele.",
+            "doc_id": "10.1111/bju.12844",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Patients",
+                    "predicate": "carry",
+                    "object": "IL-1B-511T allele"
+                },
+                {
+                    "subject": "Patients",
+                    "predicate": "have",
+                    "object": "lower risk of recurrence"
+                },
+                {
+                    "subject": "IL-1B-511T allele",
+                    "predicate": "associated with",
+                    "object": "lower risk of recurrence"
+                },
+                {
+                    "subject": "BCG treatment",
+                    "predicate": "given to",
+                    "object": "Patients"
+                },
+                {
+                    "subject": "C allele",
+                    "predicate": "carried by",
+                    "object": "Patients"
+                },
+                {
+                    "subject": "IL-1B-511T allele",
+                    "predicate": "compared to",
+                    "object": "C allele"
+                }
+            ],
+            "entities": {
+                "Patients": "ORGANISM",
+                "C": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "pW9zAuSV": {
+            "name": "Hypoxia induces an increase in sialyl-Tn (STn) expression in bladder cancer cells, with 78.5% of T24 cells expressing STn under hypoxic conditions, compared to 23.1% under normoxic conditions.",
+            "doc_id": "10.18632/oncotarget.1626",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Hypoxia",
+                    "predicate": "induces",
+                    "object": "increase in sialyl-Tn (STn) expression"
+                },
+                {
+                    "subject": "sialyl-Tn (STn) expression",
+                    "predicate": "increases in",
+                    "object": "bladder cancer cells"
+                },
+                {
+                    "subject": "T24 cells",
+                    "predicate": "express",
+                    "object": "sialyl-Tn (STn)"
+                },
+                {
+                    "subject": "Hypoxic conditions",
+                    "predicate": "increases expression of",
+                    "object": "sialyl-Tn (STn) in T24 cells"
+                },
+                {
+                    "subject": "Normoxic conditions",
+                    "predicate": "decreases expression of",
+                    "object": "sialyl-Tn (STn) in T24 cells"
+                },
+                {
+                    "subject": "increase in sialyl-Tn (STn) expression",
+                    "predicate": "relates",
+                    "object": "sialyl-Tn (STn) expression"
+                },
+                {
+                    "subject": "sialyl-Tn (STn)",
+                    "predicate": "relates",
+                    "object": "sialyl-Tn (STn) expression"
+                }
+            ],
+            "entities": {
+                "sialyl-Tn": "GENE_OR_GENE_PRODUCT",
+                "STn": "GENE_OR_GENE_PRODUCT",
+                "bladder cancer cells": "CELL",
+                "T24 cells": "CELL"
+            }
+        },
+        "6MofGCE4": {
+            "name": "The expression of ST6GalNAc-I, the enzyme responsible for STn synthesis, is also increased in bladder cancer tissues, with a significant correlation between ST6GalNAc-I expression and tumor stage, grade, and vascular invasion.",
+            "doc_id": "10.18632/oncotarget.1626",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "ST6GalNAc-I",
+                    "predicate": "is responsible for",
+                    "object": "STn synthesis"
+                },
+                {
+                    "subject": "ST6GalNAc-I",
+                    "predicate": "is increased in",
+                    "object": "bladder cancer tissues"
+                },
+                {
+                    "subject": "ST6GalNAc-I expression",
+                    "predicate": "has correlation with",
+                    "object": "tumor stage"
+                },
+                {
+                    "subject": "ST6GalNAc-I expression",
+                    "predicate": "has correlation with",
+                    "object": "grade"
+                },
+                {
+                    "subject": "ST6GalNAc-I expression",
+                    "predicate": "has correlation with",
+                    "object": "vascular invasion"
+                },
+                {
+                    "subject": "bladder cancer tissues",
+                    "predicate": "relates",
+                    "object": "bladder cancer"
+                },
+                {
+                    "subject": "ST6GalNAc-I",
+                    "predicate": "relates",
+                    "object": "STn"
+                }
+            ],
+            "entities": {
+                "ST6GalNAc-I": "GENE_OR_GENE_PRODUCT",
+                "STn": "GENE_OR_GENE_PRODUCT",
+                "bladder cancer": "CANCER",
+                "tumor": "CANCER",
+                "vascular": "MULTI_TISSUE_STRUCTURE"
+            }
+        },
+        "DINDpjc5": {
+            "name": "The presence of STn in bladder cancer cells is associated with increased cell migration and invasion capabilities, with STn-positive cells exhibiting a 2.5-fold increase in migration and a 3.2-fold increase in invasion compared to STn-negative cells.",
+            "doc_id": "10.18632/oncotarget.1626",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "STn",
+                    "predicate": "is associated with",
+                    "object": "increased cell migration"
+                },
+                {
+                    "subject": "STn",
+                    "predicate": "is associated with",
+                    "object": "increased invasion capabilities"
+                },
+                {
+                    "subject": "STn-positive cells",
+                    "predicate": "exhibit",
+                    "object": "2.5-fold increase in migration"
+                },
+                {
+                    "subject": "STn-positive cells",
+                    "predicate": "exhibit",
+                    "object": "3.2-fold increase in invasion"
+                },
+                {
+                    "subject": "STn-positive cells",
+                    "predicate": "compared to",
+                    "object": "STn-negative cells"
+                },
+                {
+                    "subject": "2.5-fold increase in migration",
+                    "predicate": "relates",
+                    "object": "3.2-fold increase in invasion"
+                }
+            ],
+            "entities": {
+                "STn": "GENE_OR_GENE_PRODUCT",
+                "bladder cancer cells": "CELL",
+                "cell": "CELL",
+                "STn-positive cells": "CELL",
+                "cells": "CELL"
+            }
+        },
+        "b5q5iXQz": {
+            "name": "CD44, a cluster of differentiation 44, plays a crucial role in cancer, with its various isoforms, such as CD44s and CD44v, exhibiting different functions in tumor progression and metastasis.",
+            "doc_id": "10.1186/s12014-018-9198-9",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CD44",
+                    "predicate": "plays role in",
+                    "object": "cancer"
+                },
+                {
+                    "subject": "CD44s",
+                    "predicate": "exhibits function in",
+                    "object": "tumor progression"
+                },
+                {
+                    "subject": "CD44v",
+                    "predicate": "exhibits function in",
+                    "object": "metastasis"
+                },
+                {
+                    "subject": "CD44s",
+                    "predicate": "is isoform of",
+                    "object": "CD44"
+                },
+                {
+                    "subject": "CD44v",
+                    "predicate": "is isoform of",
+                    "object": "CD44"
+                },
+                {
+                    "subject": "CD44s",
+                    "predicate": "relates",
+                    "object": "CD44v"
+                }
+            ],
+            "entities": {
+                "CD44": "GENE_OR_GENE_PRODUCT",
+                "cancer": "CANCER",
+                "CD44s": "GENE_OR_GENE_PRODUCT",
+                "CD44v": "GENE_OR_GENE_PRODUCT",
+                "tumor": "CANCER"
+            }
+        },
+        "mgztgcbF": {
+            "name": "The glycosylation pattern of CD44, particularly the presence of HCELL, hematopoietic cell E-/L-selectin ligand, is essential for its function in cancer cells, influencing their ability to migrate and invade surrounding tissues.",
+            "doc_id": "10.1186/s12014-018-9198-9",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CD44",
+                    "predicate": "has_glycosylation_pattern",
+                    "object": "HCELL"
+                },
+                {
+                    "subject": "HCELL",
+                    "predicate": "is_ligand_for",
+                    "object": "E-/L-selectin"
+                },
+                {
+                    "subject": "CD44",
+                    "predicate": "influences_ability_to",
+                    "object": "migrate"
+                },
+                {
+                    "subject": "CD44",
+                    "predicate": "influences_ability_to",
+                    "object": "invade"
+                },
+                {
+                    "subject": "CD44",
+                    "predicate": "functions_in",
+                    "object": "cancer cells"
+                },
+                {
+                    "subject": "HCELL",
+                    "predicate": "relates",
+                    "object": "E-/L-selectin"
+                }
+            ],
+            "entities": {
+                "CD44": "GENE_OR_GENE_PRODUCT",
+                "HCELL": "GENE_OR_GENE_PRODUCT",
+                "hematopoietic cell E-/L-selectin": "CELL",
+                "cancer cells": "CELL",
+                "tissues": "TISSUE"
+            }
+        },
+        "HWQLBSAa": {
+            "name": "The expression of specific CD44 isoforms, such as CD44v, has been associated with poor prognosis in various types of cancer, highlighting the potential of CD44 as a biomarker for disease diagnosis and treatment monitoring.",
+            "doc_id": "10.1186/s12014-018-9198-9",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CD44",
+                    "predicate": "associated_with",
+                    "object": "poor_prognosis"
+                },
+                {
+                    "subject": "CD44v",
+                    "predicate": "type_of",
+                    "object": "CD44_isoforms"
+                },
+                {
+                    "subject": "CD44",
+                    "predicate": "potential_biomarker_for",
+                    "object": "disease_diagnosis"
+                },
+                {
+                    "subject": "CD44",
+                    "predicate": "potential_biomarker_for",
+                    "object": "treatment_monitoring"
+                }
+            ],
+            "entities": {
+                "CD44": "GENE_OR_GENE_PRODUCT",
+                "CD44v": "GENE_OR_GENE_PRODUCT",
+                "cancer": "CANCER",
+                "disease": "CANCER"
+            }
+        },
+        "AQGHXkNP": {
+            "name": "The STn antigen is a biomarker that plays a role in the prognosis of bladder cancer, as its expression is associated with poor overall survival and disease-free survival rates.",
+            "doc_id": "10.1371/journal.pone.0141253",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "The STn antigen",
+                    "predicate": "is a",
+                    "object": "biomarker"
+                },
+                {
+                    "subject": "The STn antigen",
+                    "predicate": "plays a role in",
+                    "object": "prognosis of bladder cancer"
+                },
+                {
+                    "subject": "expression of The STn antigen",
+                    "predicate": "is associated with",
+                    "object": "poor overall survival"
+                },
+                {
+                    "subject": "expression of The STn antigen",
+                    "predicate": "is associated with",
+                    "object": "disease-free survival rates"
+                },
+                {
+                    "subject": "The STn antigen",
+                    "predicate": "relates",
+                    "object": "STn antigen"
+                },
+                {
+                    "subject": "The STn antigen",
+                    "predicate": "relates",
+                    "object": "expression of The STn antigen"
+                }
+            ],
+            "entities": {
+                "STn antigen": "GENE_OR_GENE_PRODUCT",
+                "bladder cancer": "CANCER"
+            }
+        },
+        "8i3lfQ7n": {
+            "name": "The expression of STn antigen is correlated with the activation of the PI3K/AKT signaling pathway, which is involved in cell proliferation, migration, and invasion, suggesting a potential therapeutic target for bladder cancer treatment.",
+            "doc_id": "10.1371/journal.pone.0141253",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "STn antigen",
+                    "predicate": "is correlated with",
+                    "object": "PI3K/AKT signaling pathway"
+                },
+                {
+                    "subject": "PI3K/AKT signaling pathway",
+                    "predicate": "is involved in",
+                    "object": "cell proliferation"
+                },
+                {
+                    "subject": "PI3K/AKT signaling pathway",
+                    "predicate": "is involved in",
+                    "object": "migration"
+                },
+                {
+                    "subject": "PI3K/AKT signaling pathway",
+                    "predicate": "is involved in",
+                    "object": "invasion"
+                },
+                {
+                    "subject": "STn antigen",
+                    "predicate": "suggests therapeutic target for",
+                    "object": "bladder cancer treatment"
+                },
+                {
+                    "subject": "bladder cancer treatment",
+                    "predicate": "relates",
+                    "object": "bladder cancer"
+                },
+                {
+                    "subject": "PI3K/AKT",
+                    "predicate": "relates",
+                    "object": "PI3K/AKT signaling pathway"
+                }
+            ],
+            "entities": {
+                "STn antigen": "GENE_OR_GENE_PRODUCT",
+                "PI3K/AKT": "GENE_OR_GENE_PRODUCT",
+                "cell": "CELL",
+                "bladder cancer": "CANCER"
+            }
+        },
+        "unVAZxJ0": {
+            "name": "The combination of STn antigen expression and p53 mutation status can be used to identify patients with high-risk bladder cancer, allowing for more personalized and effective treatment strategies.",
+            "doc_id": "10.1371/journal.pone.0141253",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "STn antigen expression",
+                    "predicate": "can be combined with",
+                    "object": "p53 mutation status"
+                },
+                {
+                    "subject": "combination of STn antigen expression and p53 mutation status",
+                    "predicate": "can be used to identify",
+                    "object": "patients with high-risk bladder cancer"
+                },
+                {
+                    "subject": "patients with high-risk bladder cancer",
+                    "predicate": "can receive",
+                    "object": "personalized and effective treatment strategies"
+                },
+                {
+                    "subject": "STn antigen",
+                    "predicate": "relates",
+                    "object": "STn antigen expression"
+                }
+            ],
+            "entities": {
+                "STn antigen": "GENE_OR_GENE_PRODUCT",
+                "p53": "GENE_OR_GENE_PRODUCT",
+                "patients": "ORGANISM",
+                "bladder cancer": "CANCER"
+            }
+        }
+    },
+    "documents": {
+        "10.1111/bju.12844": {
+            "doi": "10.1111/bju.12844",
+            "short_citation": "(Lima;2010-12-15)",
+            "long_citation": "Lima, et al., The role of functional polymorphisms in immune response genes as biomarkers of BCG Immunotherapy outcome in bladder cancer: Establishment of a predictive profile in a Southern Europe population 1, , 2010-12-15"
+        },
+        "10.18632/oncotarget.1626": {
+            "doi": "10.18632/oncotarget.1626",
+            "short_citation": "(Peixoto;2016-08-12)",
+            "long_citation": "Peixoto, et al., Hypoxia enhances the malignant nature of bladder cancer cells and concomitantly antagonizes protein O-glycosylation extension, , 2016-08-12"
+        },
+        "10.1186/s12014-018-9198-9": {
+            "doi": "10.1186/s12014-018-9198-9",
+            "short_citation": "(Azevedo;2017)",
+            "long_citation": "Azevedo, et al., CD44 glycoprotein in cancer: a molecular conundrum hampering clinical applications, , 2017"
+        },
+        "10.1371/journal.pone.0141253": {
+            "doi": "10.1371/journal.pone.0141253",
+            "short_citation": "(C\u00e9u Costa;2015-11-16)",
+            "long_citation": "C\u00e9u Costa, et al., Abnormal Protein Glycosylation and Activated PI3K/Akt/mTOR Pathway: Role in Bladder Cancer Prognosis and Targeted Therapeutics, , 2015-11-16"
+        }
+    },
+    "lang_info": {
+        "llama3.3:70b-instruct-q8_0/TfQ4z": {
+            "llm_tag": "llama3.3:70b-instruct-q8_0",
+            "ner_tag": "en_ner_bionlp13cg_md",
+            "vector_distance": "en_ner_bionlp13cg_md",
+            "prompt_template": "[BEGIN ARTICLE] {article} [END ARTICLE]\n[INSTRUCTIONS]\nIn the article above find at most 3 important strong positive or negative findings that are original results\nconfirming or disproving some previous studies about a biomarker and it's role in some disease risk, diagnosis, prognosis or treatment. \nDo include as much details as possible from the article. \nDo not include authors or their abbreviation that performed the study usually expressed by terms 'analyzed by ...', 'organized by ...'.\nInstead of 'the study revealed that (some content)', just output '(some content)'.\nDo not include findings that are just cited from another source. Do not include general findings without details.\nThe finding should be about relationship between biomarker and disease (risk, diagnosis, prognosis).\nList the findings in detailed sentences using vocabulary understandable for domain expert used in the article. Be as specific as possible, \ninstead of 'some' or 'certain' use numbers, specific objects or subjects from the article. \nReturn the list in a JSON array\nDo not include any other explanation or notes, just JSON array.\n",
+            "prompt_entities_template": "\nFollowing is the Entities and Sentence. In the following sentence generate knowledge graph tripplets with the following entities in the JSON format. \nOnly if really necessary, add other entities from the sentence, but otherwise use just the Entities. \nOutput only JSON and do not include any other explanation, notes or suggestion.\n\nEntities: {entities}\nSentence: {finding}\n"
+        }
+    }
+}

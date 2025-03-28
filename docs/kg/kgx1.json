@@ -1,0 +1,1397 @@
+{
+    "knowledge": {
+        "W6Ea1bXE": {
+            "name": "GEMV Gemcitabine treatment induces changes in the expression of 128 genes involved in cell cycle regulation, apoptosis and DNA repair, with 63 genes upregulated and 65 downregulated.",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "GEMV Gemcitabine treatment",
+                    "predicate": "induces changes in",
+                    "object": "expression of genes"
+                },
+                {
+                    "subject": "genes",
+                    "predicate": "involved in",
+                    "object": "cell cycle regulation"
+                },
+                {
+                    "subject": "genes",
+                    "predicate": "involved in",
+                    "object": "apoptosis"
+                },
+                {
+                    "subject": "genes",
+                    "predicate": "involved in",
+                    "object": "DNA repair"
+                },
+                {
+                    "subject": "GEMV Gemcitabine treatment",
+                    "predicate": "upregulates",
+                    "object": "63 genes"
+                },
+                {
+                    "subject": "GEMV Gemcitabine treatment",
+                    "predicate": "downregulates",
+                    "object": "65 genes"
+                },
+                {
+                    "subject": "GEMV Gemcitabine treatment",
+                    "predicate": "relates",
+                    "object": "GEMV Gemcitabine"
+                },
+                {
+                    "subject": "63 genes",
+                    "predicate": "relates",
+                    "object": "65 genes"
+                }
+            ],
+            "entities": {
+                "GEMV Gemcitabine": "ORGANISM_SUBDIVISION",
+                "cell": "CELL",
+                "DNA": "CELLULAR_COMPONENT"
+            }
+        },
+        "4ib1JhkR": {
+            "name": "The transcript levels of biomarkers such as Ki-67, a proliferation marker, are decreased by 35% after GEMV Gemcitabine treatment, indicating reduced cancer cell proliferation.",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Ki-67",
+                    "predicate": "is_a",
+                    "object": "proliferation marker"
+                },
+                {
+                    "subject": "GEMV Gemcitabine treatment",
+                    "predicate": "decreases",
+                    "object": "transcript levels of Ki-67"
+                },
+                {
+                    "subject": "GEMV Gemcitabine treatment",
+                    "predicate": "reduces",
+                    "object": "cancer cell proliferation"
+                },
+                {
+                    "subject": "cancer cell proliferation",
+                    "predicate": "relates",
+                    "object": "cancer cell"
+                },
+                {
+                    "subject": "GEMV Gemcitabine treatment",
+                    "predicate": "relates",
+                    "object": "Gemcitabine"
+                }
+            ],
+            "entities": {
+                "Ki-67": "GENE_OR_GENE_PRODUCT",
+                "GEMV": "PATHOLOGICAL_FORMATION",
+                "Gemcitabine": "SIMPLE_CHEMICAL",
+                "cancer cell": "CELL"
+            }
+        },
+        "5-g2-cEA": {
+            "name": "Phalloidin conjugated with Alexa Fluor 594 staining reveals high-affinity filamentous actin probe expression in cancer cells treated with GEMV Gemcitabine, suggesting altered cytoskeleton structure and potential impact on cancer cell migration and invasion.",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Phalloidin conjugated with Alexa Fluor 594 staining",
+                    "predicate": "reveals",
+                    "object": "high-affinity filamentous actin probe expression"
+                },
+                {
+                    "subject": "high-affinity filamentous actin probe expression",
+                    "predicate": "found in",
+                    "object": "cancer cells"
+                },
+                {
+                    "subject": "cancer cells",
+                    "predicate": "treated with",
+                    "object": "GEMV Gemcitabine"
+                },
+                {
+                    "subject": "Phalloidin conjugated with Alexa Fluor 594 staining",
+                    "predicate": "suggests",
+                    "object": "altered cytoskeleton structure"
+                },
+                {
+                    "subject": "altered cytoskeleton structure",
+                    "predicate": "impacts",
+                    "object": "cancer cell migration and invasion"
+                },
+                {
+                    "subject": "Phalloidin conjugated with Alexa Fluor 594 staining",
+                    "predicate": "relates",
+                    "object": "Alexa Fluor"
+                }
+            ],
+            "entities": {
+                "Phalloidin": "SIMPLE_CHEMICAL",
+                "Alexa Fluor": "SIMPLE_CHEMICAL",
+                "filamentous actin": "GENE_OR_GENE_PRODUCT",
+                "cancer cells": "CELL",
+                "GEMV Gemcitabine": "CELL",
+                "cytoskeleton": "CELLULAR_COMPONENT",
+                "cancer cell": "CELL"
+            }
+        },
+        "P6psZcN2": {
+            "name": "4-heptanone is not recommended for use as a biomarker due to unclear origins and limitations in research on its relationship with gastric and colorectal cancer",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "4-heptanone",
+                    "predicate": "is_not_recommended_for_use_as",
+                    "object": "biomarker"
+                },
+                {
+                    "subject": "4-heptanone",
+                    "predicate": "has_unclear",
+                    "object": "origins"
+                },
+                {
+                    "subject": "research_on_4-heptanone",
+                    "predicate": "has_limitations_in",
+                    "object": "relationship_with_gastric_cancer"
+                },
+                {
+                    "subject": "research_on_4-heptanone",
+                    "predicate": "has_limitations_in",
+                    "object": "relationship_with_colorectal_cancer"
+                },
+                {
+                    "subject": "relationship_with_colorectal_cancer",
+                    "predicate": "relates",
+                    "object": "relationship_with_gastric_cancer"
+                },
+                {
+                    "subject": "relationship_with_colorectal_cancer",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "4-heptanone": "SIMPLE_CHEMICAL",
+                "gastric": "CANCER",
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "YnVCWHpL": {
+            "name": "Acetone concentration in breath changes during activities such as exercising or fasting, making it an inadequate cancer biomarker on its own",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Acetone concentration in breath",
+                    "predicate": "changes during",
+                    "object": "exercising"
+                },
+                {
+                    "subject": "Acetone concentration in breath",
+                    "predicate": "changes during",
+                    "object": "fasting"
+                },
+                {
+                    "subject": "Acetone concentration in breath",
+                    "predicate": "is",
+                    "object": "inadequate cancer biomarker"
+                }
+            ],
+            "entities": {
+                "Acetone": "SIMPLE_CHEMICAL",
+                "cancer": "CANCER"
+            }
+        },
+        "UHcnxsC9": {
+            "name": "Comprehensive analysis of discernible VOCs, including aldehydes and ketones, in patients' exhaled breath may enable early detection of cancer and efficient prediction of prognosis following surgery with a small outlay",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Comprehensive analysis of discernible VOCs",
+                    "predicate": "includes",
+                    "object": "aldehydes"
+                },
+                {
+                    "subject": "Comprehensive analysis of discernible VOCs",
+                    "predicate": "includes",
+                    "object": "ketones"
+                },
+                {
+                    "subject": "Comprehensive analysis of discernible VOCs",
+                    "predicate": "enables",
+                    "object": "early detection of cancer"
+                },
+                {
+                    "subject": "Comprehensive analysis of discernible VOCs",
+                    "predicate": "enables",
+                    "object": "efficient prediction of prognosis"
+                }
+            ],
+            "entities": {
+                "aldehydes": "SIMPLE_CHEMICAL",
+                "ketones": "SIMPLE_CHEMICAL",
+                "patients": "ORGANISM",
+                "cancer": "CANCER"
+            }
+        },
+        "F79JfmSu": {
+            "name": "Reduced expression of ferroptosis-related genes predicts overall survival and immune response in colorectal cancer, with altered expression of these genes implicated in CRC tumor biology.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "predicts",
+                    "object": "overall survival"
+                },
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "predicts",
+                    "object": "immune response"
+                },
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "related to",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "Altered expression of these genes",
+                    "predicate": "implicated in",
+                    "object": "CRC tumor biology"
+                },
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "relates",
+                    "object": "Altered expression of these genes"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "CRC tumor": "CANCER"
+            }
+        },
+        "9Rmplzyv": {
+            "name": "Oncogenic KRAS reprograms cellular metabolism, limiting glutaminolysis and making KRAS-mutant tumors more susceptible to ferroptosis induction as a potential clinical strategy.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Oncogenic KRAS",
+                    "predicate": "reprograms",
+                    "object": "cellular metabolism"
+                },
+                {
+                    "subject": "Oncogenic KRAS",
+                    "predicate": "limits",
+                    "object": "glutaminolysis"
+                },
+                {
+                    "subject": "KRAS-mutant tumors",
+                    "predicate": "are susceptible to",
+                    "object": "ferroptosis induction"
+                }
+            ],
+            "entities": {
+                "cellular": "CELL",
+                "KRAS-mutant tumors": "CANCER"
+            }
+        },
+        "mSHnFhuQ": {
+            "name": "MSI-H status confers substantial improvements in clinical outcomes and decreased toxicities through immune checkpoint inhibitors, offering patients long-term survival or near curative results.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "confers",
+                    "object": "substantial improvements in clinical outcomes"
+                },
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "decreases",
+                    "object": "toxicities"
+                },
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "offers",
+                    "object": "long-term survival or near curative results"
+                },
+                {
+                    "subject": "immune checkpoint inhibitors",
+                    "predicate": "achieve",
+                    "object": "substantial improvements in clinical outcomes"
+                }
+            ],
+            "entities": {
+                "patients": "ORGANISM"
+            }
+        },
+        "k1PCjmKp": {
+            "name": "CExs-miRNA has been reported as a potential biomarker with robust predictive results of diagnosis and prognosis for CRC, particularly miR-126, miR-1290, miR-23a, and miR-940 which have shown the best predictive data for early CRC stages.",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CExs-miRNA",
+                    "predicate": "is_biomarker_for",
+                    "object": "CRC"
+                },
+                {
+                    "subject": "miR-126",
+                    "predicate": "has_predictive_data_for",
+                    "object": "early_CRC_stages"
+                },
+                {
+                    "subject": "miR-1290",
+                    "predicate": "has_predictive_data_for",
+                    "object": "early_CRC_stages"
+                },
+                {
+                    "subject": "miR-23a",
+                    "predicate": "has_predictive_data_for",
+                    "object": "early_CRC_stages"
+                },
+                {
+                    "subject": "miR-940",
+                    "predicate": "has_predictive_data_for",
+                    "object": "early_CRC_stages"
+                },
+                {
+                    "subject": "miR-1290",
+                    "predicate": "relates",
+                    "object": "miR-126"
+                }
+            ],
+            "entities": {
+                "CRC": "CANCER",
+                "miR-126": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "3iPkKBq9": {
+            "name": "CRISPR/Cas13-based detection platforms may potentially benefit and complement current established secondary prevention measures with cost-effective molecular early screenings for CRC risk patients, allowing healthcare teams to deliver optimal treatment on time and reduce the risks of late CRC stages diagnosis which have low five-year survival rates.",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CRISPR/Cas13-based detection platforms",
+                    "predicate": "may benefit",
+                    "object": "current established secondary prevention measures"
+                },
+                {
+                    "subject": "CRISPR/Cas13-based detection platforms",
+                    "predicate": "complement",
+                    "object": "current established secondary prevention measures"
+                },
+                {
+                    "subject": "CRISPR/Cas13-based detection platforms",
+                    "predicate": "allow",
+                    "object": "healthcare teams"
+                },
+                {
+                    "subject": "healthcare teams",
+                    "predicate": "deliver",
+                    "object": "optimal treatment"
+                },
+                {
+                    "subject": "CRISPR/Cas13-based detection platforms",
+                    "predicate": "reduce risks of",
+                    "object": "late CRC stages diagnosis"
+                }
+            ],
+            "entities": {
+                "CRC": "CANCER",
+                "patients": "ORGANISM"
+            }
+        },
+        "NgO3-dBs": {
+            "name": "hCRISPRs play a role in transcription and diagnostics of disease risk, with specific datasets such as MiTranscriptome and NGS-ProToCol-related datasets providing insights into their function",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "hCRISPRs",
+                    "predicate": "play a role in",
+                    "object": "transcription"
+                },
+                {
+                    "subject": "hCRISPRs",
+                    "predicate": "play a role in",
+                    "object": "diagnostics of disease risk"
+                },
+                {
+                    "subject": "MiTranscriptome",
+                    "predicate": "provides insights into",
+                    "object": "hCRISPRs function"
+                },
+                {
+                    "subject": "NGS-ProToCol-related datasets",
+                    "predicate": "provides insights into",
+                    "object": "hCRISPRs function"
+                }
+            ],
+            "entities": {
+                "disease": "CANCER"
+            }
+        },
+        "OpiW5AsK": {
+            "name": "RT-qPCR analyses designed and performed on NGS-ProToCol samples revealed specific relationships between hCRISPRs and disease diagnosis, with technologies like SHERLOCK and DETECTR being tested and optimized for this purpose",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "RT-qPCR analyses",
+                    "predicate": "revealed relationships",
+                    "object": "hCRISPRs"
+                },
+                {
+                    "subject": "RT-qPCR analyses",
+                    "predicate": "performed on",
+                    "object": "NGS-ProToCol samples"
+                },
+                {
+                    "subject": "hCRISPRs",
+                    "predicate": "related to",
+                    "object": "disease diagnosis"
+                },
+                {
+                    "subject": "SHERLOCK",
+                    "predicate": "tested for",
+                    "object": "hCRISPRs and disease diagnosis"
+                },
+                {
+                    "subject": "DETECTR",
+                    "predicate": "tested for",
+                    "object": "hCRISPRs and disease diagnosis"
+                },
+                {
+                    "subject": "disease diagnosis",
+                    "predicate": "relates",
+                    "object": "hCRISPRs and disease diagnosis"
+                }
+            ],
+            "entities": {
+                "SHERLOCK": "CANCER"
+            }
+        },
+        "H59MJsc_": {
+            "name": "The presence of hCRISPRs is associated with disease prognosis, as evidenced by the analysis of 0.01% or less of the genome sequencing data from NGS-ProToCol samples",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "hCRISPRs",
+                    "predicate": "is associated with",
+                    "object": "disease prognosis"
+                },
+                {
+                    "subject": "hCRISPRs",
+                    "predicate": "evidenced by",
+                    "object": "analysis of genome sequencing data"
+                },
+                {
+                    "subject": "genome sequencing data",
+                    "predicate": "from",
+                    "object": "NGS-ProToCol samples"
+                },
+                {
+                    "subject": "analysis of genome sequencing data",
+                    "predicate": "relates",
+                    "object": "genome sequencing data"
+                }
+            ],
+            "entities": {
+                "disease": "CANCER",
+                "genome": "CELLULAR_COMPONENT"
+            }
+        },
+        "LZpLRK3X": {
+            "name": "Median progression-free survival was not reached, with 15 of 18 patients remaining progression-free at data cutoff, and median overall survival was not reached, with 17 of 18 patients alive at data cutoff, after treatment with GCC-targeting chimeric antigen receptor T cells.",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Median progression-free survival",
+                    "predicate": "was not reached for",
+                    "object": "15 of 18 patients"
+                },
+                {
+                    "subject": "Median overall survival",
+                    "predicate": "was not reached for",
+                    "object": "17 of 18 patients"
+                },
+                {
+                    "subject": "GCC-targeting chimeric antigen receptor T cells",
+                    "predicate": "treated",
+                    "object": "18 patients"
+                },
+                {
+                    "subject": "Median progression-free survival",
+                    "predicate": "relates",
+                    "object": "Median overall survival"
+                },
+                {
+                    "subject": "17 of 18 patients",
+                    "predicate": "relates",
+                    "object": "15 of 18 patients"
+                },
+                {
+                    "subject": "17 of 18 patients",
+                    "predicate": "relates",
+                    "object": "18 patients"
+                },
+                {
+                    "subject": "15 of 18 patients",
+                    "predicate": "relates",
+                    "object": "18 patients"
+                }
+            ],
+            "entities": {
+                "patients": "ORGANISM"
+            }
+        },
+        "-WNQTeqW": {
+            "name": "Objective response rate was 83%, with 15 of 18 patients achieving a partial or complete response, including 5 complete responses, as assessed by independent review committee using Response Evaluation Criteria in Solid Tumors version 1.1.",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Objective response rate",
+                    "predicate": "was",
+                    "object": "83%"
+                },
+                {
+                    "subject": "Patients",
+                    "predicate": "achieving",
+                    "object": "partial or complete response"
+                },
+                {
+                    "subject": "Response Evaluation Criteria in Solid Tumors version 1.1",
+                    "predicate": "used by",
+                    "object": "independent review committee"
+                },
+                {
+                    "subject": "Independent review committee",
+                    "predicate": "assessed",
+                    "object": "Objective response rate"
+                },
+                {
+                    "subject": "Independent review committee",
+                    "predicate": "relates",
+                    "object": "independent review committee"
+                }
+            ],
+            "entities": {
+                "patients": "ORGANISM",
+                "Solid Tumors": "CANCER"
+            }
+        },
+        "D54HQXBX": {
+            "name": "GCC expression, as detected by immunohistochemistry, was observed in 100% of tumor samples from 16 patients with metastatic colorectal cancer, and GCC-targeting chimeric antigen receptor T cells demonstrated significant antitumor activity in these patients.",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "GCC expression",
+                    "predicate": "detected by",
+                    "object": "immunohistochemistry"
+                },
+                {
+                    "subject": "GCC expression",
+                    "predicate": "observed in",
+                    "object": "tumor samples"
+                },
+                {
+                    "subject": "tumor samples",
+                    "predicate": "from",
+                    "object": "patients with metastatic colorectal cancer"
+                },
+                {
+                    "subject": "GCC-targeting chimeric antigen receptor T cells",
+                    "predicate": "demonstrated",
+                    "object": "antitumor activity"
+                },
+                {
+                    "subject": "GCC-targeting chimeric antigen receptor T cells",
+                    "predicate": "target",
+                    "object": "GCC expression"
+                },
+                {
+                    "subject": "metastatic colorectal cancer",
+                    "predicate": "relates",
+                    "object": "patients with metastatic colorectal cancer"
+                },
+                {
+                    "subject": "antitumor",
+                    "predicate": "relates",
+                    "object": "antitumor activity"
+                }
+            ],
+            "entities": {
+                "tumor samples": "CANCER",
+                "patients": "ORGANISM",
+                "metastatic colorectal cancer": "CANCER",
+                "antitumor": "CANCER"
+            }
+        },
+        "A50mXtsQ": {
+            "name": "The relationship between age and colorectal cancer risk is confirmed, as increasing age is associated with higher risk of developing the disease.",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "age",
+                    "predicate": "is associated with",
+                    "object": "colorectal cancer risk"
+                },
+                {
+                    "subject": "increasing age",
+                    "predicate": "is associated with",
+                    "object": "higher risk of developing the disease"
+                },
+                {
+                    "subject": "age",
+                    "predicate": "has relationship with",
+                    "object": "colorectal cancer risk"
+                },
+                {
+                    "subject": "colorectal cancer risk",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "8UaXy4WZ": {
+            "name": "Specific bacterial biomarkers identified through explainable artificial intelligence analysis are associated with an increased risk of colorectal cancer, providing potential targets for early diagnosis and prevention.",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Specific bacterial biomarkers",
+                    "predicate": "identified through",
+                    "object": "explainable artificial intelligence analysis"
+                },
+                {
+                    "subject": "Specific bacterial biomarkers",
+                    "predicate": "associated with",
+                    "object": "increased risk of colorectal cancer"
+                },
+                {
+                    "subject": "Specific bacterial biomarkers",
+                    "predicate": "provide",
+                    "object": "potential targets for early diagnosis and prevention"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "h4JLz_hc": {
+            "name": "The DNA methylation data obtained with EPIC array shows that 1 specific biomarker is associated with colorectal cancer risk, diagnosis, prognosis or treatment, specifically the CTCF binding site and the WNT signaling pathway are involved in the regulation of gene expression in colorectal cancer cells.",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "DNA methylation data",
+                    "predicate": "obtained with",
+                    "object": "EPIC array"
+                },
+                {
+                    "subject": "biomarker",
+                    "predicate": "associated with",
+                    "object": "colorectal cancer risk"
+                },
+                {
+                    "subject": "biomarker",
+                    "predicate": "associated with",
+                    "object": "colorectal cancer diagnosis"
+                },
+                {
+                    "subject": "biomarker",
+                    "predicate": "associated with",
+                    "object": "colorectal cancer prognosis"
+                },
+                {
+                    "subject": "biomarker",
+                    "predicate": "associated with",
+                    "object": "colorectal cancer treatment"
+                },
+                {
+                    "subject": "CTCF binding site",
+                    "predicate": "involved in",
+                    "object": "regulation of gene expression"
+                },
+                {
+                    "subject": "WNT signaling pathway",
+                    "predicate": "involved in",
+                    "object": "regulation of gene expression"
+                },
+                {
+                    "subject": "CTCF binding site",
+                    "predicate": "regulates",
+                    "object": "colorectal cancer cells"
+                },
+                {
+                    "subject": "WNT signaling pathway",
+                    "predicate": "regulates",
+                    "object": "colorectal cancer cells"
+                },
+                {
+                    "subject": "colorectal cancer cells",
+                    "predicate": "relates",
+                    "object": "colorectal cancer treatment"
+                },
+                {
+                    "subject": "colorectal cancer cells",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "WNT signaling pathway",
+                    "predicate": "relates",
+                    "object": "WNT"
+                },
+                {
+                    "subject": "colorectal cancer prognosis",
+                    "predicate": "relates",
+                    "object": "colorectal cancer risk"
+                },
+                {
+                    "subject": "colorectal cancer prognosis",
+                    "predicate": "relates",
+                    "object": "colorectal cancer diagnosis"
+                },
+                {
+                    "subject": "colorectal cancer prognosis",
+                    "predicate": "relates",
+                    "object": "colorectal cancer treatment"
+                },
+                {
+                    "subject": "colorectal cancer prognosis",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "colorectal cancer risk",
+                    "predicate": "relates",
+                    "object": "colorectal cancer diagnosis"
+                },
+                {
+                    "subject": "colorectal cancer risk",
+                    "predicate": "relates",
+                    "object": "colorectal cancer treatment"
+                },
+                {
+                    "subject": "colorectal cancer risk",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "colorectal cancer diagnosis",
+                    "predicate": "relates",
+                    "object": "colorectal cancer treatment"
+                },
+                {
+                    "subject": "colorectal cancer diagnosis",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "colorectal cancer treatment",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "DNA": "CELLULAR_COMPONENT",
+                "colorectal cancer": "CANCER",
+                "CTCF": "GENE_OR_GENE_PRODUCT",
+                "WNT": "GENE_OR_GENE_PRODUCT",
+                "colorectal cancer cells": "CELL"
+            }
+        },
+        "yITvMksi": {
+            "name": "The characterization of the epigenetic landscape of circulating tumor cells (CTCs) reveals that hypomethylation of specific genes is a potential biomarker for diagnosis and prognosis of colorectal cancer, with 220,096 DNA methylation data points obtained from EPIC array publicly available at the Gene Expression Omnibus (GEO) repository.",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CTCs",
+                    "predicate": "has_epigenetic_landscape",
+                    "object": "epigenetic landscape"
+                },
+                {
+                    "subject": "epigenetic landscape",
+                    "predicate": "reveals",
+                    "object": "hypomethylation of specific genes"
+                },
+                {
+                    "subject": "hypomethylation of specific genes",
+                    "predicate": "is_biomarker_for",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "DNA methylation data points",
+                    "predicate": "obtained_from",
+                    "object": "EPIC array"
+                },
+                {
+                    "subject": "DNA methylation data points",
+                    "predicate": "available_at",
+                    "object": "Gene Expression Omnibus (GEO) repository"
+                },
+                {
+                    "subject": "colorectal cancer",
+                    "predicate": "has_diagnosis_and_prognosis",
+                    "object": "hypomethylation of specific genes"
+                },
+                {
+                    "subject": "Omnibus",
+                    "predicate": "relates",
+                    "object": "Gene Expression Omnibus (GEO) repository"
+                },
+                {
+                    "subject": "Gene Expression Omnibus (GEO) repository",
+                    "predicate": "relates",
+                    "object": "GEO"
+                }
+            ],
+            "entities": {
+                "tumor cells": "CELL",
+                "CTCs": "CANCER",
+                "colorectal cancer": "CANCER",
+                "DNA": "CELLULAR_COMPONENT",
+                "Omnibus": "GENE_OR_GENE_PRODUCT",
+                "GEO": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "KoxrYNT2": {
+            "name": "The WNT signaling pathway, specifically the FZD7 gene, is hypomethylated in CTCs, which could serve as a potential biomarker for diagnosis and prognosis of colorectal cancer.",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "The WNT signaling pathway",
+                    "predicate": "has_gene",
+                    "object": "FZD7 gene"
+                },
+                {
+                    "subject": "FZD7 gene",
+                    "predicate": "is_hypomethylated_in",
+                    "object": "CTCs"
+                },
+                {
+                    "subject": "FZD7 gene",
+                    "predicate": "could_serve_as_biomarker_for",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "The WNT signaling pathway",
+                    "predicate": "is_hypomethylated_in",
+                    "object": "CTCs"
+                }
+            ],
+            "entities": {
+                "WNT": "GENE_OR_GENE_PRODUCT",
+                "FZD7": "GENE_OR_GENE_PRODUCT",
+                "CTCs": "CANCER",
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "IeC6u-_R": {
+            "name": "VOC detection with sensor technology has 85% sensitivity and 94% specificity to detect colorectal cancer (CRC), which is comparable or even better than the currently recommended faecal immunochemical test (FIT) with a moderate pooled sensitivity of 79% for CRC detection.",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "VOC detection",
+                    "predicate": "has sensitivity",
+                    "object": "85%"
+                },
+                {
+                    "subject": "VOC detection",
+                    "predicate": "has specificity",
+                    "object": "94%"
+                },
+                {
+                    "subject": "VOC detection",
+                    "predicate": "detects",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "faecal immunochemical test (FIT)",
+                    "predicate": "has sensitivity",
+                    "object": "79%"
+                },
+                {
+                    "subject": "VOC detection",
+                    "predicate": "compares to",
+                    "object": "faecal immunochemical test (FIT)"
+                },
+                {
+                    "subject": "79%",
+                    "predicate": "relates",
+                    "object": "85%"
+                },
+                {
+                    "subject": "79%",
+                    "predicate": "relates",
+                    "object": "94%"
+                },
+                {
+                    "subject": "85%",
+                    "predicate": "relates",
+                    "object": "94%"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "CRC": "CANCER",
+                "FIT": "CANCER"
+            }
+        },
+        "ZvUYk2Fj": {
+            "name": "The breath-print of CRC patients differs from those without the disease, with specific volatile organic compounds (VOCs) such as acetone, alkenes, alcohols, ketones and esters being identified in the exhaled air using gas chromatography-mass spectrometry (GC-MS) method.",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "CRC patients",
+                    "predicate": "has breath-print",
+                    "object": "breath-print"
+                },
+                {
+                    "subject": "breath-print",
+                    "predicate": "differs from",
+                    "object": "those without the disease"
+                },
+                {
+                    "subject": "breath-print",
+                    "predicate": "contains",
+                    "object": "VOCs"
+                },
+                {
+                    "subject": "VOCs",
+                    "predicate": "includes",
+                    "object": "acetone"
+                },
+                {
+                    "subject": "VOCs",
+                    "predicate": "includes",
+                    "object": "alkenes"
+                },
+                {
+                    "subject": "VOCs",
+                    "predicate": "includes",
+                    "object": "alcohols"
+                },
+                {
+                    "subject": "VOCs",
+                    "predicate": "includes",
+                    "object": "ketones"
+                },
+                {
+                    "subject": "VOCs",
+                    "predicate": "includes",
+                    "object": "esters"
+                }
+            ],
+            "entities": {
+                "CRC patients": "CANCER",
+                "acetone": "SIMPLE_CHEMICAL",
+                "ketones": "SIMPLE_CHEMICAL",
+                "esters": "SIMPLE_CHEMICAL"
+            }
+        },
+        "6ydQZc99": {
+            "name": "Sensor technology can discriminate between CRC patients and controls with high accuracy, and also identify high-risk lesions in the colon, such as advanced adenomas, with a potential to be applied as a primary screening method to select individuals at high risk for cancer for colonoscopy.",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Sensor technology",
+                    "predicate": "can discriminate between",
+                    "object": "CRC patients and controls"
+                },
+                {
+                    "subject": "Sensor technology",
+                    "predicate": "identify",
+                    "object": "high-risk lesions in the colon"
+                },
+                {
+                    "subject": "Sensor technology",
+                    "predicate": "has potential to be applied as",
+                    "object": "primary screening method"
+                },
+                {
+                    "subject": "Primary screening method",
+                    "predicate": "select",
+                    "object": "individuals at high risk for cancer"
+                },
+                {
+                    "subject": "Individuals at high risk for cancer",
+                    "predicate": "undergo",
+                    "object": "colonoscopy"
+                },
+                {
+                    "subject": "CRC patients",
+                    "predicate": "relates",
+                    "object": "CRC patients and controls"
+                },
+                {
+                    "subject": "Individuals at high risk for cancer",
+                    "predicate": "relates",
+                    "object": "individuals at high risk for cancer"
+                }
+            ],
+            "entities": {
+                "CRC patients": "CANCER",
+                "lesions": "PATHOLOGICAL_FORMATION",
+                "colon": "CANCER",
+                "adenomas": "CANCER",
+                "cancer": "CANCER"
+            }
+        },
+        "MfvB7kpe": {
+            "name": "NMR proteo-metabolomics analysis of human serum demonstrates that glycosylated acute phase proteins, such as alpha-1-antitrypsin and haptoglobin, can be identified from one single measurement, providing a non-destructive method for complex diagnostic blood analysis.",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "NMR proteo-metabolomics analysis",
+                    "predicate": "demonstrates",
+                    "object": "glycosylated acute phase proteins"
+                },
+                {
+                    "subject": "glycosylated acute phase proteins",
+                    "predicate": "include",
+                    "object": "alpha-1-antitrypsin"
+                },
+                {
+                    "subject": "glycosylated acute phase proteins",
+                    "predicate": "include",
+                    "object": "haptoglobin"
+                },
+                {
+                    "subject": "NMR proteo-metabolomics analysis",
+                    "predicate": "provides",
+                    "object": "non-destructive method"
+                },
+                {
+                    "subject": "non-destructive method",
+                    "predicate": "for",
+                    "object": "complex diagnostic blood analysis"
+                }
+            ],
+            "entities": {
+                "human serum": "ORGANISM",
+                "haptoglobin": "GENE_OR_GENE_PRODUCT",
+                "blood": "ORGANISM_SUBSTANCE"
+            }
+        },
+        "A9bEiBUc": {
+            "name": "Line shape analysis of NMR spectra correlates well with classical approaches, such as nephelometry, and yields information on glycan structures, which is not dependent on the type of glycosylation, making it a suitable method for medical diagnostics of blood samples.",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Line shape analysis of NMR spectra",
+                    "predicate": "correlates with",
+                    "object": "classical approaches"
+                },
+                {
+                    "subject": "Line shape analysis of NMR spectra",
+                    "predicate": "yields information on",
+                    "object": "glycan structures"
+                },
+                {
+                    "subject": "glycan structures",
+                    "predicate": "dependent on",
+                    "object": "type of glycosylation"
+                },
+                {
+                    "subject": "Line shape analysis of NMR spectra",
+                    "predicate": "suitable for",
+                    "object": "medical diagnostics of blood samples"
+                }
+            ],
+            "entities": {
+                "Line": "CELL",
+                "blood": "ORGANISM_SUBSTANCE"
+            }
+        },
+        "4Ou51uV8": {
+            "name": "The NMR-based approach identifies 24 glycoprotein NMR signals from human serum, including alpha-1-antitrypsin, haptoglobin, and transferrin, which can be used to derive values that correlate well with classical approaches, providing a significant advantage for the analysis of glycosylated acute phase proteins in inflammatory conditions.",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "The NMR-based approach",
+                    "predicate": "identifies",
+                    "object": "24 glycoprotein NMR signals"
+                },
+                {
+                    "subject": "24 glycoprotein NMR signals",
+                    "predicate": "from",
+                    "object": "human serum"
+                },
+                {
+                    "subject": "24 glycoprotein NMR signals",
+                    "predicate": "includes",
+                    "object": "alpha-1-antitrypsin"
+                },
+                {
+                    "subject": "24 glycoprotein NMR signals",
+                    "predicate": "includes",
+                    "object": "haptoglobin"
+                },
+                {
+                    "subject": "24 glycoprotein NMR signals",
+                    "predicate": "includes",
+                    "object": "transferrin"
+                },
+                {
+                    "subject": "The NMR-based approach",
+                    "predicate": "provides",
+                    "object": "a significant advantage"
+                },
+                {
+                    "subject": "a significant advantage",
+                    "predicate": "for",
+                    "object": "the analysis of glycosylated acute phase proteins"
+                },
+                {
+                    "subject": "the analysis of glycosylated acute phase proteins",
+                    "predicate": "in",
+                    "object": "inflammatory conditions"
+                }
+            ],
+            "entities": {
+                "human serum": "ORGANISM",
+                "alpha-1-antitrypsin": "GENE_OR_GENE_PRODUCT",
+                "haptoglobin": "GENE_OR_GENE_PRODUCT",
+                "transferrin": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "Ah1ci78e": {
+            "name": "Stools from more aggressive lesions, such as high-grade dysplasia and colorectal cancer (CRC), exhibit abnormal immature glycan signatures, including the T-antigen, which are not seen in healthy tissues, laying the foundation for future exploitation in non-invasive cancer diagnostics.",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Stools",
+                    "predicate": "exhibit",
+                    "object": "abnormal immature glycan signatures"
+                },
+                {
+                    "subject": "Stools",
+                    "predicate": "from",
+                    "object": "high-grade dysplasia"
+                },
+                {
+                    "subject": "Stools",
+                    "predicate": "from",
+                    "object": "colorectal cancer (CRC)"
+                },
+                {
+                    "subject": "abnormal immature glycan signatures",
+                    "predicate": "include",
+                    "object": "T-antigen"
+                },
+                {
+                    "subject": "T-antigen",
+                    "predicate": "not seen in",
+                    "object": "healthy tissues"
+                },
+                {
+                    "subject": "Stools",
+                    "predicate": "lay foundation for",
+                    "object": "non-invasive cancer diagnostics"
+                },
+                {
+                    "subject": "CRC",
+                    "predicate": "relates",
+                    "object": "colorectal cancer (CRC)"
+                },
+                {
+                    "subject": "cancer",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "colorectal cancer (CRC)",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "lesions": "PATHOLOGICAL_FORMATION",
+                "high-grade dysplasia": "CANCER",
+                "colorectal cancer": "CANCER",
+                "CRC": "CANCER",
+                "T-antigen": "GENE_OR_GENE_PRODUCT",
+                "tissues": "TISSUE",
+                "cancer": "CANCER"
+            }
+        },
+        "dTmlJcBz": {
+            "name": "The stool glycoproteome of patients with low-grade dysplasia, high-grade dysplasia, and CRC shares several molecular targets, including glycoproteoforms expressing the T-antigen, which hold promise for future pre-clinical assessment as biomarkers for non-invasive CRC screening.",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "The stool glycoproteome of patients with low-grade dysplasia",
+                    "predicate": "shares",
+                    "object": "molecular targets"
+                },
+                {
+                    "subject": "The stool glycoproteome of patients with high-grade dysplasia",
+                    "predicate": "shares",
+                    "object": "molecular targets"
+                },
+                {
+                    "subject": "The stool glycoproteome of patients with CRC",
+                    "predicate": "shares",
+                    "object": "molecular targets"
+                },
+                {
+                    "subject": "glycoproteoforms expressing the T-antigen",
+                    "predicate": "hold promise for",
+                    "object": "future pre-clinical assessment as biomarkers for non-invasive CRC screening"
+                },
+                {
+                    "subject": "The stool glycoproteome of patients with low-grade dysplasia",
+                    "predicate": "relates",
+                    "object": "The stool glycoproteome of patients with high-grade dysplasia"
+                },
+                {
+                    "subject": "high-grade dysplasia",
+                    "predicate": "relates",
+                    "object": "low-grade dysplasia"
+                }
+            ],
+            "entities": {
+                "stool": "ORGANISM",
+                "patients": "ORGANISM",
+                "low-grade dysplasia": "CANCER",
+                "high-grade dysplasia": "CANCER",
+                "CRC": "CANCER",
+                "T-antigen": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "840LfWWn": {
+            "name": "Abnormal expression of the T-antigen in stool glycoproteins is associated with more aggressive lesions, suggesting its potential as a biomarker for early detection and diagnosis of colorectal cancer.",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "T-antigen",
+                    "predicate": "is associated with",
+                    "object": "aggressive lesions"
+                },
+                {
+                    "subject": "T-antigen",
+                    "predicate": "has potential as",
+                    "object": "biomarker"
+                },
+                {
+                    "subject": "biomarker",
+                    "predicate": "used for",
+                    "object": "early detection of colorectal cancer"
+                },
+                {
+                    "subject": "biomarker",
+                    "predicate": "used for",
+                    "object": "diagnosis of colorectal cancer"
+                },
+                {
+                    "subject": "early detection of colorectal cancer",
+                    "predicate": "relates",
+                    "object": "diagnosis of colorectal cancer"
+                },
+                {
+                    "subject": "diagnosis of colorectal cancer",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "T-antigen": "GENE_OR_GENE_PRODUCT",
+                "stool": "ORGANISM",
+                "lesions": "PATHOLOGICAL_FORMATION",
+                "colorectal cancer": "CANCER"
+            }
+        }
+    },
+    "documents": {
+        "10.1126/sciadv.aaw1317": {
+            "doi": "10.1126/sciadv.aaw1317",
+            "short_citation": "(Carvalho;2024-12-04)",
+            "long_citation": "Carvalho, et al., Colorectal tumor-on-a-chip system: A 3D tool for precision onco-nanomedicine, , 2024-12-04"
+        },
+        "10.3390/ijms24010129": {
+            "doi": "10.3390/ijms24010129",
+            "short_citation": "(Chen;2022-12-21)",
+            "long_citation": "Chen, et al., Diagnosis by Volatile Organic Compounds in Exhaled Breath from Patients with Gastric and Colorectal Cancers, , 2022-12-21"
+        },
+        "10.3390/cancers16162796": {
+            "doi": "10.3390/cancers16162796",
+            "short_citation": "(Ashouri;2024-08-08)",
+            "long_citation": "Ashouri, et al., Exploring Predictive and Prognostic Biomarkers in Colorectal Cancer: A Comprehensive Review, , 2024-08-08"
+        },
+        "10.3390/cancers13184640": {
+            "doi": "10.3390/cancers13184640",
+            "short_citation": "(Dur\u00e1n-Vin;2021-09-16)",
+            "long_citation": "Dur\u00e1n-Vin, et al., CRISPR/Cas13-Based Platforms for a Potential Next-Generation Diagnosis of Colorectal Cancer through Exosomes Micro-RNA Detection: A Review, , 2021-09-16"
+        },
+        "10.1038/s42003-022-03249-4": {
+            "doi": "10.1038/s42003-022-03249-4",
+            "short_citation": "(Van Riet;1989)",
+            "long_citation": "Van Riet, et al., CRISPRs in the human genome are differentially expressed between malignant and normal adjacent to tumor tissue, , 1989"
+        },
+        "10.1001/jamaoncol.2024.3891": {
+            "doi": "10.1001/jamaoncol.2024.3891",
+            "short_citation": "(Chen;2024-09-19)",
+            "long_citation": "Chen, et al., Chimeric Antigen Receptor T Cells Targeting CD19 and GCC in Metastatic Colorectal Cancer A Nonrandomized Clinical Trial, , 2024-09-19"
+        },
+        "10.1111/j.2517-6161.1982.tb01195.x": {
+            "doi": "10.1111/j.2517-6161.1982.tb01195.x",
+            "short_citation": "(D'elia;1982)",
+            "long_citation": "D'elia, et al., Explainable artificial intelligence for microbiome data analysis in colorectal cancer biomarker identification, , 1982"
+        },
+        "10.1038/s41598-023-42037-w": {
+            "doi": "10.1038/s41598-023-42037-w",
+            "short_citation": "(Bao-Caamano;2023)",
+            "long_citation": "Bao-Caamano, et al., Epigenomic analysis reveals a unique DNA methylation program of metastasis-competent circulating tumor cells in colorectal cancer, , 2023"
+        },
+        "10.1002/ijc.29701": {
+            "doi": "10.1002/ijc.29701",
+            "short_citation": "(Amal;2015)",
+            "long_citation": "Amal, et al., Breath testing as potential colorectal cancer screening tool, , 2015"
+        },
+        "10.1002/anie.202306154": {
+            "doi": "10.1002/anie.202306154",
+            "short_citation": "(Saraei;2019)",
+            "long_citation": "Saraei, et al., Towards a Precise NMR Quantification of Acute Phase Inflammation Proteins from Human Serum, , 2019"
+        },
+        "10.3390/ijms25073722": {
+            "doi": "10.3390/ijms25073722",
+            "short_citation": "(Kuppen;2024-03-27)",
+            "long_citation": "Kuppen, et al., Stool Glycoproteomics Signatures of Pre-Cancerous Lesions and Colorectal Cancer, , 2024-03-27"
+        }
+    },
+    "lang_info": {
+        "llama3.3:70b-instruct-q8_0/TfQ4z": {
+            "llm_tag": "llama3.3:70b-instruct-q8_0",
+            "ner_tag": "en_ner_bionlp13cg_md",
+            "vector_distance": "en_ner_bionlp13cg_md",
+            "prompt_template": "[BEGIN ARTICLE] {article} [END ARTICLE]\n[INSTRUCTIONS]\nIn the article above find at most 3 important strong positive or negative findings that are original results\nconfirming or disproving some previous studies about a biomarker and it's role in some disease risk, diagnosis, prognosis or treatment. \nDo include as much details as possible from the article. \nDo not include authors or their abbreviation that performed the study usually expressed by terms 'analyzed by ...', 'organized by ...'.\nInstead of 'the study revealed that (some content)', just output '(some content)'.\nDo not include findings that are just cited from another source. Do not include general findings without details.\nThe finding should be about relationship between biomarker and disease (risk, diagnosis, prognosis).\nList the findings in detailed sentences using vocabulary understandable for domain expert used in the article. Be as specific as possible, \ninstead of 'some' or 'certain' use numbers, specific objects or subjects from the article. \nReturn the list in a JSON array\nDo not include any other explanation or notes, just JSON array.\n",
+            "prompt_entities_template": "\nFollowing is the Entities and Sentence. In the following sentence generate knowledge graph tripplets with the following entities in the JSON format. \nOnly if really necessary, add other entities from the sentence, but otherwise use just the Entities. \nOutput only JSON and do not include any other explanation, notes or suggestion.\n\nEntities: {entities}\nSentence: {finding}\n"
+        }
+    }
+}
