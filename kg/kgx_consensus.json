@@ -1,0 +1,920 @@
+{
+    "knowledge": {
+        "s_WOZrRp": {
+            "name": "PVT1 is involved in chemoresistance to medications commonly used to treat colorectal cancer (CRC) and its relative stability against endogenous RNases may facilitate utilization as a biomarker.",
+            "doc_id": "10.48047/nq.2023.21.6.NQ23120",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "PVT1",
+                    "predicate": "is involved in",
+                    "object": "chemoresistance"
+                },
+                {
+                    "subject": "PVT1",
+                    "predicate": "has relative stability against",
+                    "object": "endogenous RNases"
+                },
+                {
+                    "subject": "PVT1",
+                    "predicate": "may facilitate utilization as",
+                    "object": "biomarker"
+                },
+                {
+                    "subject": "chemoresistance",
+                    "predicate": "is related to medications for",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "CRC": "CANCER",
+                "RNases": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "LLRAsel_": {
+            "name": "A five-gene methylation panel from cell-free circulating DNA in liquid biopsies could be used to predict overall and progression free survival in 182 patients with CRC.",
+            "doc_id": "10.48047/nq.2023.21.6.NQ23120",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "five-gene methylation panel",
+                    "predicate": "predicts",
+                    "object": "overall survival"
+                },
+                {
+                    "subject": "five-gene methylation panel",
+                    "predicate": "predicts",
+                    "object": "progression free survival"
+                },
+                {
+                    "subject": "five-gene methylation panel",
+                    "predicate": "is used in",
+                    "object": "liquid biopsies"
+                },
+                {
+                    "subject": "five-gene methylation panel",
+                    "predicate": "is from",
+                    "object": "cell-free circulating DNA"
+                },
+                {
+                    "subject": "five-gene methylation panel",
+                    "predicate": "is used for",
+                    "object": "CRC patients"
+                }
+            ],
+            "entities": {
+                "DNA": "CELLULAR_COMPONENT",
+                "biopsies": "CANCER",
+                "patients": "ORGANISM",
+                "CRC": "CANCER"
+            }
+        },
+        "zO5tWjSq": {
+            "name": "Analysis of mutations in cell-free circulating DNA has been used as a surrogate to evaluate treatment response in CRC.",
+            "doc_id": "10.48047/nq.2023.21.6.NQ23120",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Analysis of mutations",
+                    "predicate": "has been used as",
+                    "object": "surrogate"
+                },
+                {
+                    "subject": "surrogate",
+                    "predicate": "to evaluate",
+                    "object": "treatment response"
+                },
+                {
+                    "subject": "treatment response",
+                    "predicate": "in",
+                    "object": "CRC"
+                },
+                {
+                    "subject": "Analysis of mutations",
+                    "predicate": "in",
+                    "object": "cell-free circulating DNA"
+                }
+            ],
+            "entities": {
+                "DNA": "CELLULAR_COMPONENT",
+                "CRC": "CANCER"
+            }
+        },
+        "o-wYNqnG": {
+            "name": "Downregulation of testin is associated with a worse outcome and a shorter survival time in patients with glioblastoma, with reduced levels found in 89% of patients.",
+            "doc_id": "10.1007/5584_2020_506",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Downregulation of testin",
+                    "predicate": "is associated with",
+                    "object": "worse outcome"
+                },
+                {
+                    "subject": "Downregulation of testin",
+                    "predicate": "is associated with",
+                    "object": "shorter survival time"
+                },
+                {
+                    "subject": "Downregulation of testin",
+                    "predicate": "occurs in",
+                    "object": "patients with glioblastoma"
+                },
+                {
+                    "subject": "Reduced levels of testin",
+                    "predicate": "found in",
+                    "object": "89% of patients"
+                }
+            ],
+            "entities": {
+                "testin": "GENE_OR_GENE_PRODUCT",
+                "patients": "ORGANISM",
+                "glioblastoma": "CANCER"
+            }
+        },
+        "XNRMS2jf": {
+            "name": "Overexpression of testin reduces the colony formation efficiency, inhibits cell growth, and increases mRNA and protein expression of pro-apoptotic proteins in colorectal cancer cells.",
+            "doc_id": "10.1007/5584_2020_506",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Overexpression of testin",
+                    "predicate": "reduces",
+                    "object": "colony formation efficiency"
+                },
+                {
+                    "subject": "Overexpression of testin",
+                    "predicate": "inhibits",
+                    "object": "cell growth"
+                },
+                {
+                    "subject": "Overexpression of testin",
+                    "predicate": "increases",
+                    "object": "mRNA expression of pro-apoptotic proteins"
+                },
+                {
+                    "subject": "Overexpression of testin",
+                    "predicate": "increases",
+                    "object": "protein expression of pro-apoptotic proteins"
+                },
+                {
+                    "subject": "Overexpression of testin",
+                    "predicate": "affects",
+                    "object": "colorectal cancer cells"
+                },
+                {
+                    "subject": "mRNA expression of pro-apoptotic proteins",
+                    "predicate": "relates",
+                    "object": "protein expression of pro-apoptotic proteins"
+                }
+            ],
+            "entities": {
+                "testin": "GENE_OR_GENE_PRODUCT",
+                "cell": "CELL",
+                "colorectal cancer cells": "CELL"
+            }
+        },
+        "SX6l0VLj": {
+            "name": "Knockdown of nestin arrests the cell cycle at S phase and inhibits the proliferation and migration of colorectal cancer cells.",
+            "doc_id": "10.1007/5584_2020_506",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Knockdown of nestin",
+                    "predicate": "arrests",
+                    "object": "cell cycle"
+                },
+                {
+                    "subject": "Knockdown of nestin",
+                    "predicate": "inhibits",
+                    "object": "proliferation"
+                },
+                {
+                    "subject": "Knockdown of nestin",
+                    "predicate": "inhibits",
+                    "object": "migration"
+                },
+                {
+                    "subject": "cell cycle",
+                    "predicate": "at",
+                    "object": "S phase"
+                },
+                {
+                    "subject": "proliferation",
+                    "predicate": "of",
+                    "object": "colorectal cancer cells"
+                },
+                {
+                    "subject": "migration",
+                    "predicate": "of",
+                    "object": "colorectal cancer cells"
+                }
+            ],
+            "entities": {
+                "nestin": "GENE_OR_GENE_PRODUCT",
+                "cell": "CELL",
+                "colorectal cancer cells": "CELL"
+            }
+        },
+        "pwx0Lrsa": {
+            "name": "Methylated cfDNA and m5C methylation alteration in immune cells of the blood show promise as diagnostic markers for colorectal cancer (CRC) detection.",
+            "doc_id": "10.1080/1354750X.2023.2247185",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Methylated cfDNA",
+                    "predicate": "show promise as",
+                    "object": "diagnostic markers"
+                },
+                {
+                    "subject": "m5C methylation alteration",
+                    "predicate": "show promise as",
+                    "object": "diagnostic markers"
+                },
+                {
+                    "subject": "diagnostic markers",
+                    "predicate": "for detection of",
+                    "object": "colorectal cancer (CRC)"
+                },
+                {
+                    "subject": "CRC",
+                    "predicate": "relates",
+                    "object": "colorectal cancer (CRC)"
+                },
+                {
+                    "subject": "colorectal cancer (CRC)",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "cfDNA": "CELL",
+                "m5C": "SIMPLE_CHEMICAL",
+                "immune cells": "CELL",
+                "blood": "ORGANISM_SUBSTANCE",
+                "colorectal cancer": "CANCER",
+                "CRC": "CANCER"
+            }
+        },
+        "yBtKtzVk": {
+            "name": "DNA methylation markers like SFRP2 and SDC2, microRNAs including miR-1290, miR-506, and miR-4316, and serum and plasma markers such as NTS levels and U2 snRNA fragments have significant potential in enhancing CRC detection.",
+            "doc_id": "10.1080/1354750X.2023.2247185",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "DNA methylation markers",
+                    "predicate": "include",
+                    "object": "SFRP2"
+                },
+                {
+                    "subject": "DNA methylation markers",
+                    "predicate": "include",
+                    "object": "SDC2"
+                },
+                {
+                    "subject": "microRNAs",
+                    "predicate": "include",
+                    "object": "miR-1290"
+                },
+                {
+                    "subject": "microRNAs",
+                    "predicate": "include",
+                    "object": "miR-506"
+                },
+                {
+                    "subject": "microRNAs",
+                    "predicate": "include",
+                    "object": "miR-4316"
+                },
+                {
+                    "subject": "serum and plasma markers",
+                    "predicate": "include",
+                    "object": "NTS levels"
+                },
+                {
+                    "subject": "serum and plasma markers",
+                    "predicate": "include",
+                    "object": "U2 snRNA fragments"
+                },
+                {
+                    "subject": "DNA methylation markers",
+                    "predicate": "have potential in",
+                    "object": "CRC detection"
+                },
+                {
+                    "subject": "microRNAs",
+                    "predicate": "have potential in",
+                    "object": "CRC detection"
+                },
+                {
+                    "subject": "serum and plasma markers",
+                    "predicate": "have potential in",
+                    "object": "CRC detection"
+                },
+                {
+                    "subject": "miR-1290",
+                    "predicate": "relates",
+                    "object": "miR-506"
+                },
+                {
+                    "subject": "U2 snRNA fragments",
+                    "predicate": "relates",
+                    "object": "U2 snRNA"
+                }
+            ],
+            "entities": {
+                "DNA": "CELLULAR_COMPONENT",
+                "SFRP2": "GENE_OR_GENE_PRODUCT",
+                "SDC2": "GENE_OR_GENE_PRODUCT",
+                "serum": "ORGANISM_SUBSTANCE",
+                "plasma": "ORGANISM_SUBSTANCE",
+                "NTS": "MULTI_TISSUE_STRUCTURE",
+                "U2 snRNA": "GENE_OR_GENE_PRODUCT",
+                "CRC": "CANCER"
+            }
+        },
+        "xRhn23xa": {
+            "name": "Techniques involving extracellular vesicles (EVs) and lateral flow immunoassays (LFIA) exhibit potential for swift and effective CRC screening.",
+            "doc_id": "10.1080/1354750X.2023.2247185",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Techniques",
+                    "predicate": "involves",
+                    "object": "extracellular vesicles (EVs)"
+                },
+                {
+                    "subject": "Techniques",
+                    "predicate": "involves",
+                    "object": "lateral flow immunoassays (LFIA)"
+                },
+                {
+                    "subject": "Techniques",
+                    "predicate": "exhibit potential for",
+                    "object": "CRC screening"
+                }
+            ],
+            "entities": {
+                "extracellular vesicles": "CELLULAR_COMPONENT",
+                "EVs": "SIMPLE_CHEMICAL",
+                "lateral": "ORGANISM_SUBSTANCE",
+                "CRC": "CANCER"
+            }
+        },
+        "UQ7WukCJ": {
+            "name": "Exosomal miR-1231-3p is significantly elevated in the serum of patients with colorectal cancer and can serve as a potential non-invasive diagnostic biomarker for this disease.",
+            "doc_id": "10.1002/cam4.7117",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Exosomal miR-1231-3p",
+                    "predicate": "is elevated in",
+                    "object": "serum of patients with colorectal cancer"
+                },
+                {
+                    "subject": "Exosomal miR-1231-3p",
+                    "predicate": "can serve as",
+                    "object": "non-invasive diagnostic biomarker for colorectal cancer"
+                }
+            ],
+            "entities": {
+                "Exosomal": "CELLULAR_COMPONENT",
+                "serum": "ORGANISM_SUBSTANCE",
+                "patients": "ORGANISM",
+                "colorectal cancer": "CANCER",
+                "disease": "CANCER"
+            }
+        },
+        "EfgJ7odi": {
+            "name": "The expression level of exosomal miR-1231-3p is positively correlated with the tumor size, stage, and metastasis of colorectal cancer, indicating its potential role as a prognostic biomarker.",
+            "doc_id": "10.1002/cam4.7117",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "is positively correlated with",
+                    "object": "tumor size"
+                },
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "is positively correlated with",
+                    "object": "stage"
+                },
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "is positively correlated with",
+                    "object": "metastasis"
+                },
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "has potential role as",
+                    "object": "prognostic biomarker"
+                },
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "is associated with",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "exosomal": "CELLULAR_COMPONENT",
+                "tumor": "CANCER",
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "UvBYxR_D": {
+            "name": "The area under the receiver operating characteristic curve (AUC) for exosomal miR-1231-3p in distinguishing patients with colorectal cancer from healthy controls is 0.93, suggesting its high diagnostic accuracy.",
+            "doc_id": "10.1002/cam4.7117",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "has AUC",
+                    "object": "0.93"
+                },
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "distinguishes",
+                    "object": "colorectal cancer patients from healthy controls"
+                },
+                {
+                    "subject": "exosomal miR-1231-3p",
+                    "predicate": "has diagnostic accuracy",
+                    "object": "high"
+                }
+            ],
+            "entities": {
+                "exosomal": "CELLULAR_COMPONENT",
+                "patients": "ORGANISM",
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "F79JfmSu": {
+            "name": "Reduced expression of ferroptosis-related genes predicts overall survival and immune response in colorectal cancer, with altered expression of these genes implicated in CRC tumor biology.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "predicts",
+                    "object": "overall survival"
+                },
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "predicts",
+                    "object": "immune response"
+                },
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "related to",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "Altered expression of these genes",
+                    "predicate": "implicated in",
+                    "object": "CRC tumor biology"
+                },
+                {
+                    "subject": "Reduced expression of ferroptosis-related genes",
+                    "predicate": "relates",
+                    "object": "Altered expression of these genes"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "CRC tumor": "CANCER"
+            }
+        },
+        "9Rmplzyv": {
+            "name": "Oncogenic KRAS reprograms cellular metabolism, limiting glutaminolysis and making KRAS-mutant tumors more susceptible to ferroptosis induction as a potential clinical strategy.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Oncogenic KRAS",
+                    "predicate": "reprograms",
+                    "object": "cellular metabolism"
+                },
+                {
+                    "subject": "Oncogenic KRAS",
+                    "predicate": "limits",
+                    "object": "glutaminolysis"
+                },
+                {
+                    "subject": "KRAS-mutant tumors",
+                    "predicate": "are susceptible to",
+                    "object": "ferroptosis induction"
+                }
+            ],
+            "entities": {
+                "cellular": "CELL",
+                "KRAS-mutant tumors": "CANCER"
+            }
+        },
+        "mSHnFhuQ": {
+            "name": "MSI-H status confers substantial improvements in clinical outcomes and decreased toxicities through immune checkpoint inhibitors, offering patients long-term survival or near curative results.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "confers",
+                    "object": "substantial improvements in clinical outcomes"
+                },
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "decreases",
+                    "object": "toxicities"
+                },
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "offers",
+                    "object": "long-term survival or near curative results"
+                },
+                {
+                    "subject": "immune checkpoint inhibitors",
+                    "predicate": "achieve",
+                    "object": "substantial improvements in clinical outcomes"
+                }
+            ],
+            "entities": {
+                "patients": "ORGANISM"
+            }
+        },
+        "uy4R77qI": {
+            "name": "A combination of diagnostic techniques, including genetic and epigenetic biomarkers, can increase sensitivity for colorectal cancer screening, with a panel of biomarkers showing significant potential for noninvasive screening and diagnosing patients with CRC.",
+            "doc_id": "10.25122/jml-2023-0269",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "A combination of diagnostic techniques",
+                    "predicate": "includes",
+                    "object": "genetic biomarkers"
+                },
+                {
+                    "subject": "A combination of diagnostic techniques",
+                    "predicate": "includes",
+                    "object": "epigenetic biomarkers"
+                },
+                {
+                    "subject": "A combination of diagnostic techniques",
+                    "predicate": "increases sensitivity for",
+                    "object": "colorectal cancer screening"
+                },
+                {
+                    "subject": "panel of biomarkers",
+                    "predicate": "shows potential for",
+                    "object": "noninvasive screening"
+                },
+                {
+                    "subject": "panel of biomarkers",
+                    "predicate": "shows potential for",
+                    "object": "diagnosing patients with CRC"
+                },
+                {
+                    "subject": "colorectal cancer",
+                    "predicate": "relates",
+                    "object": "colorectal cancer screening"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "patients": "ORGANISM",
+                "CRC": "CANCER"
+            }
+        },
+        "PXPCtl9L": {
+            "name": "DNA methylation is better understood in terms of potential as a screening and diagnostic biomarker, with substantial advancements made, but numerous challenges remain to be addressed before these biomarkers can be effectively applied in clinical settings.",
+            "doc_id": "10.25122/jml-2023-0269",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "DNA methylation",
+                    "predicate": "is",
+                    "object": "biomarker"
+                },
+                {
+                    "subject": "DNA methylation",
+                    "predicate": "has potential as",
+                    "object": "screening biomarker"
+                },
+                {
+                    "subject": "DNA methylation",
+                    "predicate": "has potential as",
+                    "object": "diagnostic biomarker"
+                },
+                {
+                    "subject": "biomarkers",
+                    "predicate": "face challenges in",
+                    "object": "clinical settings"
+                }
+            ],
+            "entities": {
+                "DNA": "CELLULAR_COMPONENT"
+            }
+        },
+        "EVOUJZdH": {
+            "name": "A panel of biomarkers, rather than relying on a single biomarker, can enhance sensitivity and specificity for CRC diagnosis, circumventing the limitations posed by CRC heterogeneity, with a combination of biomarkers and existing methods, such as FIT, showing promise.",
+            "doc_id": "10.25122/jml-2023-0269",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "A panel of biomarkers",
+                    "predicate": "can enhance",
+                    "object": "sensitivity"
+                },
+                {
+                    "subject": "A panel of biomarkers",
+                    "predicate": "can enhance",
+                    "object": "specificity"
+                },
+                {
+                    "subject": "A panel of biomarkers",
+                    "predicate": "is used for",
+                    "object": "CRC diagnosis"
+                },
+                {
+                    "subject": "CRC heterogeneity",
+                    "predicate": "poses limitations on",
+                    "object": "A panel of biomarkers"
+                },
+                {
+                    "subject": "A combination of biomarkers",
+                    "predicate": "is combined with",
+                    "object": "existing methods"
+                },
+                {
+                    "subject": "A combination of biomarkers and existing methods",
+                    "predicate": "shows promise for",
+                    "object": "CRC diagnosis"
+                }
+            ],
+            "entities": {
+                "CRC": "CANCER",
+                "FIT": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "lNE_O6G5": {
+            "name": "53 articles that investigated risk-predictive or diagnostic biomarkers of colorectal cancer using blood samples collected in a pre-diagnostic, asymptomatic setting showed that very few potential biomarkers, except p53 autoantibodies, consistently performed well in more than one study.",
+            "doc_id": "10.3390/cancers13174406",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "53 articles",
+                    "predicate": "investigated",
+                    "object": "risk-predictive or diagnostic biomarkers"
+                },
+                {
+                    "subject": "risk-predictive or diagnostic biomarkers",
+                    "predicate": "of",
+                    "object": "colorectal cancer"
+                },
+                {
+                    "subject": "blood samples",
+                    "predicate": "collected in",
+                    "object": "pre-diagnostic, asymptomatic setting"
+                },
+                {
+                    "subject": "potential biomarkers",
+                    "predicate": "except",
+                    "object": "p53 autoantibodies"
+                },
+                {
+                    "subject": "p53 autoantibodies",
+                    "predicate": "consistently performed well in",
+                    "object": "more than one study"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "blood": "ORGANISM_SUBSTANCE",
+                "p53": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "xzQGE1-B": {
+            "name": "p53 autoantibodies consistently performed well, especially in combination with protein markers, which may warrant development as a supplement to current screening tests, such as FIT, in general colorectal cancer screening.",
+            "doc_id": "10.3390/cancers13174406",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "p53 autoantibodies",
+                    "predicate": "performed well in",
+                    "object": "general colorectal cancer screening"
+                },
+                {
+                    "subject": "p53 autoantibodies",
+                    "predicate": "combined with",
+                    "object": "protein markers"
+                },
+                {
+                    "subject": "p53 autoantibodies",
+                    "predicate": "may supplement",
+                    "object": "current screening tests"
+                },
+                {
+                    "subject": "p53 autoantibodies",
+                    "predicate": "alternative to",
+                    "object": "FIT"
+                },
+                {
+                    "subject": "general colorectal cancer screening",
+                    "predicate": "relates",
+                    "object": "colorectal cancer"
+                }
+            ],
+            "entities": {
+                "p53": "GENE_OR_GENE_PRODUCT",
+                "FIT": "GENE_OR_GENE_PRODUCT",
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "E6VH7HyP": {
+            "name": "panels of biomarkers, including p53 autoantibodies and protein markers, performed better than single markers in detecting early carcinomas or advanced adenomas, or aiding in the identification of high-risk individuals.",
+            "doc_id": "10.3390/cancers13174406",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "panels of biomarkers",
+                    "predicate": "include",
+                    "object": "p53 autoantibodies"
+                },
+                {
+                    "subject": "panels of biomarkers",
+                    "predicate": "include",
+                    "object": "protein markers"
+                },
+                {
+                    "subject": "panels of biomarkers",
+                    "predicate": "perform better than",
+                    "object": "single markers"
+                },
+                {
+                    "subject": "panels of biomarkers",
+                    "predicate": "detect",
+                    "object": "early carcinomas"
+                },
+                {
+                    "subject": "panels of biomarkers",
+                    "predicate": "detect",
+                    "object": "advanced adenomas"
+                },
+                {
+                    "subject": "panels of biomarkers",
+                    "predicate": "aid in identification of",
+                    "object": "high-risk individuals"
+                }
+            ],
+            "entities": {
+                "p53": "GENE_OR_GENE_PRODUCT",
+                "carcinomas": "CANCER",
+                "adenomas": "CANCER"
+            }
+        },
+        "9zOltEPK": {
+            "name": "Plasma hsa_circ_0006282 can be used as a novel biomarker in the progression of Colorectal Cancer (CRC) with a potential to be used as an early screening indicator in the detection of primary CRC.",
+            "doc_id": "10.1002/jcla.24147",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "Plasma hsa_circ_0006282",
+                    "predicate": "can be used as",
+                    "object": "novel biomarker"
+                },
+                {
+                    "subject": "Plasma hsa_circ_0006282",
+                    "predicate": "used in",
+                    "object": "Colorectal Cancer (CRC)"
+                },
+                {
+                    "subject": "Plasma hsa_circ_0006282",
+                    "predicate": "has potential for",
+                    "object": "early screening indicator"
+                },
+                {
+                    "subject": "Plasma hsa_circ_0006282",
+                    "predicate": "used in detection of",
+                    "object": "primary CRC"
+                },
+                {
+                    "subject": "Colorectal Cancer (CRC)",
+                    "predicate": "relates",
+                    "object": "Colorectal Cancer"
+                }
+            ],
+            "entities": {
+                "Plasma": "PATHOLOGICAL_FORMATION",
+                "Colorectal Cancer": "CANCER",
+                "CRC": "CANCER"
+            }
+        },
+        "mRuC04oJ": {
+            "name": "The expression level of plasma hsa_circ_0006282 has dynamically changed after surgery or recurrence, suggesting that this circRNA may have a real-time monitoring function.",
+            "doc_id": "10.1002/jcla.24147",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "hsa_circ_0006282",
+                    "predicate": "has_expression_level",
+                    "object": "plasma"
+                },
+                {
+                    "subject": "hsa_circ_0006282",
+                    "predicate": "dynamically_changed_after",
+                    "object": "surgery"
+                },
+                {
+                    "subject": "hsa_circ_0006282",
+                    "predicate": "dynamically_changed_after",
+                    "object": "recurrence"
+                },
+                {
+                    "subject": "hsa_circ_0006282",
+                    "predicate": "may_have_function",
+                    "object": "real-time monitoring function"
+                }
+            ],
+            "entities": {
+                "plasma": "ORGANISM_SUBSTANCE"
+            }
+        },
+        "ScSqOJTW": {
+            "name": "The differential expression of hsa_circ_0006282 in plasma samples of CRC and colitis patients showed that this biomarker could differentiate between CRC and colitis patients with an area under the receiver operating characteristic curve (AUC) not specified in the article.",
+            "doc_id": "10.1002/jcla.24147",
+            "llm_id": "llama3.3:70b-instruct-q8_0/TfQ4z",
+            "details": [
+                {
+                    "subject": "hsa_circ_0006282",
+                    "predicate": "is biomarker for",
+                    "object": "CRC"
+                },
+                {
+                    "subject": "hsa_circ_0006282",
+                    "predicate": "is biomarker for",
+                    "object": "colitis"
+                },
+                {
+                    "subject": "hsa_circ_0006282",
+                    "predicate": "differentiates between",
+                    "object": "CRC and colitis patients"
+                }
+            ],
+            "entities": {
+                "plasma samples": "CANCER",
+                "CRC": "CANCER",
+                "patients": "ORGANISM"
+            }
+        }
+    },
+    "documents": {
+        "10.48047/nq.2023.21.6.NQ23120": {
+            "doi": "10.48047/nq.2023.21.6.NQ23120",
+            "short_citation": "(Muheyuddeen;2019)",
+            "long_citation": "Muheyuddeen, et al., Biomarkers in Colorectal Cancer: Recent Investigation and Future Prospective, , 2019"
+        },
+        "10.1007/5584_2020_506": {
+            "doi": "10.1007/5584_2020_506",
+            "short_citation": "(Szyma\u0144ska-Chabowska;2005)",
+            "long_citation": "Szyma\u0144ska-Chabowska, et al., Chitinase 3-Like 1, Nestin, and Testin Proteins as Novel Biomarkers of Potential Clinical Use in Colorectal Cancer: A Review, , 2005"
+        },
+        "10.1080/1354750X.2023.2247185": {
+            "doi": "10.1080/1354750X.2023.2247185",
+            "short_citation": "(Maqbool;2023-09-12)",
+            "long_citation": "Maqbool, et al., Predictive biomarkers for colorectal cancer: a state-of-the-art systematic review, , 2023-09-12"
+        },
+        "10.1002/cam4.7117": {
+            "doi": "10.1002/cam4.7117",
+            "short_citation": "(Wu;2023)",
+            "long_citation": "Wu, et al., Exosomal miR-1470 is a diagnostic biomarker and promotes cell proliferation and metastasis in colorectal cancer, , 2023"
+        },
+        "10.3390/cancers16162796": {
+            "doi": "10.3390/cancers16162796",
+            "short_citation": "(Ashouri;2024-08-08)",
+            "long_citation": "Ashouri, et al., Exploring Predictive and Prognostic Biomarkers in Colorectal Cancer: A Comprehensive Review, , 2024-08-08"
+        },
+        "10.25122/jml-2023-0269": {
+            "doi": "10.25122/jml-2023-0269",
+            "short_citation": "(Annisa;2019)",
+            "long_citation": "Annisa, et al., Detecting colorectal cancer using genetic and epigenetic biomarkers: screening and diagnosis, , 2019"
+        },
+        "10.3390/cancers13174406": {
+            "doi": "10.3390/cancers13174406",
+            "short_citation": "(Harlid;2021-08-31)",
+            "long_citation": "Harlid, et al., Risk-Predictive and Diagnostic Biomarkers for Colorectal Cancer; a Systematic Review of Studies Using Pre-Diagnostic Blood Samples Collected in Prospective Cohorts and Screening Settings, , 2021-08-31"
+        },
+        "10.1002/jcla.24147": {
+            "doi": "10.1002/jcla.24147",
+            "short_citation": "(Mohammadi;2014)",
+            "long_citation": "Mohammadi, et al., Evaluation of plasma circ_0006282 as a novel diagnostic biomarker in colorectal cancer, , 2014"
+        }
+    },
+    "lang_info": {
+        "llama3.3:70b-instruct-q8_0/TfQ4z": {
+            "llm_tag": "llama3.3:70b-instruct-q8_0",
+            "ner_tag": "en_ner_bionlp13cg_md",
+            "vector_distance": "en_ner_bionlp13cg_md",
+            "prompt_template": "[BEGIN ARTICLE] {article} [END ARTICLE]\n[INSTRUCTIONS]\nIn the article above find at most 3 important strong positive or negative findings that are original results\nconfirming or disproving some previous studies about a biomarker and it's role in some disease risk, diagnosis, prognosis or treatment. \nDo include as much details as possible from the article. \nDo not include authors or their abbreviation that performed the study usually expressed by terms 'analyzed by ...', 'organized by ...'.\nInstead of 'the study revealed that (some content)', just output '(some content)'.\nDo not include findings that are just cited from another source. Do not include general findings without details.\nThe finding should be about relationship between biomarker and disease (risk, diagnosis, prognosis).\nList the findings in detailed sentences using vocabulary understandable for domain expert used in the article. Be as specific as possible, \ninstead of 'some' or 'certain' use numbers, specific objects or subjects from the article. \nReturn the list in a JSON array\nDo not include any other explanation or notes, just JSON array.\n",
+            "prompt_entities_template": "\nFollowing is the Entities and Sentence. In the following sentence generate knowledge graph tripplets with the following entities in the JSON format. \nOnly if really necessary, add other entities from the sentence, but otherwise use just the Entities. \nOutput only JSON and do not include any other explanation, notes or suggestion.\n\nEntities: {entities}\nSentence: {finding}\n"
+        }
+    }
+}

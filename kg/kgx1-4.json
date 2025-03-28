@@ -1,0 +1,634 @@
+{
+    "knowledge": {
+        "I--_1CBj": {
+            "name": "Hexone and 4-heptanone are not recommended for use as biomarkers due to their unclear origins.",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Hexone",
+                    "predicate": "are not recommended for",
+                    "object": "use as biomarkers"
+                },
+                {
+                    "subject": "4-heptanone",
+                    "predicate": "are not recommended for",
+                    "object": "use as biomarkers"
+                }
+            ],
+            "entities": {
+                "4-heptanone": "SIMPLE_CHEMICAL"
+            }
+        },
+        "-55s-TCw": {
+            "name": "Acetone is not an appropriate cancer biomarker because its concentration in breath changes during activities such as exercising or fasting.",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Acetone",
+                    "predicate": "is",
+                    "object": "not an appropriate cancer biomarker"
+                },
+                {
+                    "subject": "its concentration in breath",
+                    "predicate": "changes",
+                    "object": "during activities such as exercising or fasting"
+                }
+            ],
+            "entities": {
+                "Acetone": "SIMPLE_CHEMICAL",
+                "cancer": "CANCER"
+            }
+        },
+        "p8-7G1FC": {
+            "name": "MSI-H status confers substantial improvements in clinical outcomes and decreased toxicities through immune checkpoint inhibitors (ICI), offering patients long-term survival or near curative results.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "confers",
+                    "object": "substantial improvements in clinical outcomes"
+                },
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "confers",
+                    "object": "decreased toxicities through immune checkpoint inhibitors (ICI)"
+                },
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "offering",
+                    "object": "patients long-term survival"
+                },
+                {
+                    "subject": "MSI-H status",
+                    "predicate": "offering",
+                    "object": "near curative results"
+                }
+            ],
+            "entities": {
+                "ICI": "SIMPLE_CHEMICAL",
+                "patients": "ORGANISM"
+            }
+        },
+        "r4eoRaAj": {
+            "name": "BRAF V600E mutation, previously known for its negative prognostic value, is now predictive of the response to combined targeted BRAF/EGFR inhibition, doubling survival over standard treatments.",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "BRAF V600E mutation",
+                    "predicate": "known for",
+                    "object": "negative prognostic value"
+                },
+                {
+                    "subject": "BRAF V600E mutation",
+                    "predicate": "is",
+                    "object": "predictive of the response to combined targeted BRAF/EGFR inhibition"
+                },
+                {
+                    "subject": "BRAF V600E mutation",
+                    "predicate": "doubling",
+                    "object": "survival over standard treatments"
+                },
+                {
+                    "subject": "BRAF V600E mutation",
+                    "predicate": "relates",
+                    "object": "BRAF"
+                }
+            ],
+            "entities": {
+                "BRAF": "GENE_OR_GENE_PRODUCT",
+                "BRAF/EGFR": "CELL"
+            }
+        },
+        "XziyptL0": {
+            "name": "CExs-miRNA has been reported as a potential biomarker with robust predictive results for diagnosis and prognosis of colorectal cancer (CRC), regulating different carcinogenic physiological behaviors, including tumor progression and angiogenesis.",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "CExs-miRNA",
+                    "predicate": "has been reported as",
+                    "object": "potential biomarker"
+                },
+                {
+                    "subject": "CExs-miRNA",
+                    "predicate": "regulates",
+                    "object": "different carcinogenic physiological behaviors"
+                },
+                {
+                    "subject": "potential biomarker",
+                    "predicate": "has",
+                    "object": "robust predictive results for diagnosis and prognosis of colorectal cancer (CRC)"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "CRC": "CANCER",
+                "tumor": "CANCER"
+            }
+        },
+        "OB6_w0ap": {
+            "name": "A CEx-miRNAs panel including miR-126, miR-1290, miR-23a, and miR-940 has shown the best predictive data for early CRC stages, indicating their potential as biomarkers for early diagnosis and prognosis.",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "A CEx-miRNAs panel including miR-126, miR-1290, miR-23a, and miR-940",
+                    "predicate": "has shown",
+                    "object": "the best predictive data for early CRC stages"
+                },
+                {
+                    "subject": "A CEx-miRNAs panel including miR-126, miR-1290, miR-23a, and miR-940",
+                    "predicate": "indicating",
+                    "object": "their potential as biomarkers for early diagnosis and prognosis"
+                }
+            ],
+            "entities": {
+                "miR-126": "CANCER",
+                "miR-940": "SIMPLE_CHEMICAL",
+                "CRC": "CANCER"
+            }
+        },
+        "gGnrtDGi": {
+            "name": "CRISPR/Cas13-based detection platforms have demonstrated ultrasensitive technology that may deliver early point-of-care (POC) diagnosis and prognosis to CRC risk patients with affordable rates and swift turnaround times, allowing healthcare teams to provide optimal treatment on time and reduce the risks of late CRC stages diagnosis which have low five-year survival rates.",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "CRISPR/Cas13-based detection platforms",
+                    "predicate": "have demonstrated",
+                    "object": "ultrasensitive technology"
+                },
+                {
+                    "subject": "ultrasensitive technology",
+                    "predicate": "may deliver",
+                    "object": "early point-of-care (POC) diagnosis and prognosis"
+                },
+                {
+                    "subject": "early point-of-care (POC) diagnosis and prognosis",
+                    "predicate": "to",
+                    "object": "CRC risk patients"
+                },
+                {
+                    "subject": "CRC risk patients",
+                    "predicate": "with",
+                    "object": "affordable rates"
+                },
+                {
+                    "subject": "CRC risk patients",
+                    "predicate": "with",
+                    "object": "swift turnaround times"
+                },
+                {
+                    "subject": "healthcare teams",
+                    "predicate": "to provide",
+                    "object": "optimal treatment on time"
+                },
+                {
+                    "subject": "healthcare teams",
+                    "predicate": "to reduce",
+                    "object": "the risks of late CRC stages diagnosis"
+                },
+                {
+                    "subject": "late CRC stages diagnosis",
+                    "predicate": "have",
+                    "object": "low five-year survival rates"
+                },
+                {
+                    "subject": "late CRC stages diagnosis",
+                    "predicate": "relates",
+                    "object": "the risks of late CRC stages diagnosis"
+                }
+            ],
+            "entities": {
+                "CRC": "CANCER",
+                "patients": "ORGANISM"
+            }
+        },
+        "Vl4WmVcC": {
+            "name": "Explainable AI (XAI) techniques identified specific bacteria as potential biomarkers for colorectal cancer (CRC), enhancing the understanding of microbiome-disease interactions and improving diagnostic accuracy.",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Explainable AI (XAI) techniques",
+                    "predicate": "identified",
+                    "object": "specific bacteria"
+                },
+                {
+                    "subject": "specific bacteria",
+                    "predicate": "as",
+                    "object": "potential biomarkers for colorectal cancer (CRC)"
+                },
+                {
+                    "subject": "Explainable AI (XAI) techniques",
+                    "predicate": "enhancing",
+                    "object": "understanding of microbiome-disease interactions"
+                },
+                {
+                    "subject": "Explainable AI (XAI) techniques",
+                    "predicate": "improving",
+                    "object": "diagnostic accuracy"
+                }
+            ],
+            "entities": {
+                "colorectal cancer": "CANCER",
+                "CRC": "CANCER",
+                "microbiome-disease": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "FXCkwZDg": {
+            "name": "The analysis confirmed the role of certain gut microbiota in CRC risk, providing evidence that dysbiosis in the gut microbiome is a significant factor in the development and progression of colorectal cancer.",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "The analysis",
+                    "predicate": "confirmed",
+                    "object": "the role of certain gut microbiota"
+                },
+                {
+                    "subject": "certain gut microbiota",
+                    "predicate": "in",
+                    "object": "CRC risk"
+                },
+                {
+                    "subject": "The analysis",
+                    "predicate": "providing",
+                    "object": "evidence"
+                },
+                {
+                    "subject": "dysbiosis",
+                    "predicate": "in",
+                    "object": "the gut microbiome"
+                },
+                {
+                    "subject": "dysbiosis in the gut microbiome",
+                    "predicate": "is",
+                    "object": "a significant factor"
+                },
+                {
+                    "subject": "a significant factor",
+                    "predicate": "in",
+                    "object": "the development and progression of colorectal cancer"
+                },
+                {
+                    "subject": "dysbiosis in the gut microbiome",
+                    "predicate": "relates",
+                    "object": "the gut microbiome"
+                },
+                {
+                    "subject": "dysbiosis in the gut microbiome",
+                    "predicate": "relates",
+                    "object": "certain gut microbiota"
+                },
+                {
+                    "subject": "the gut microbiome",
+                    "predicate": "relates",
+                    "object": "certain gut microbiota"
+                }
+            ],
+            "entities": {
+                "gut": "ORGANISM_SUBDIVISION",
+                "CRC": "CANCER",
+                "colorectal cancer": "CANCER"
+            }
+        },
+        "gx0n6ZNX": {
+            "name": "Metastatic colorectal cancer patients exhibit a distinct DNA methylation profile in their circulating tumor cells compared to primary tumors, with 1428 differentially methylated CpG sites identified.",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Metastatic colorectal cancer patients",
+                    "predicate": "exhibit",
+                    "object": "distinct DNA methylation profile"
+                },
+                {
+                    "subject": "distinct DNA methylation profile",
+                    "predicate": "in",
+                    "object": "circulating tumor cells"
+                },
+                {
+                    "subject": "Metastatic colorectal cancer patients",
+                    "predicate": "compared to",
+                    "object": "primary tumors"
+                },
+                {
+                    "subject": "tumor cells",
+                    "predicate": "relates",
+                    "object": "circulating tumor cells"
+                }
+            ],
+            "entities": {
+                "Metastatic colorectal cancer patients": "CANCER",
+                "DNA": "CELLULAR_COMPONENT",
+                "tumor cells": "CELL",
+                "tumors": "CANCER"
+            }
+        },
+        "2jeNfw-4": {
+            "name": "The DNA methylation data obtained with EPIC array in this study are publicly available at the Gene Expression Omnibus (GEO) repository with the Accession Number GSE220096.",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "The DNA methylation data",
+                    "predicate": "obtained with",
+                    "object": "EPIC array"
+                },
+                {
+                    "subject": "The DNA methylation data",
+                    "predicate": "are available at",
+                    "object": "the Gene Expression Omnibus (GEO) repository"
+                },
+                {
+                    "subject": "The DNA methylation data",
+                    "predicate": "with the Accession Number",
+                    "object": "GSE220096"
+                },
+                {
+                    "subject": "the Gene Expression Omnibus (GEO) repository",
+                    "predicate": "relates",
+                    "object": "GEO"
+                },
+                {
+                    "subject": "the Gene Expression Omnibus (GEO) repository",
+                    "predicate": "relates",
+                    "object": "Omnibus"
+                }
+            ],
+            "entities": {
+                "DNA": "CELLULAR_COMPONENT",
+                "Omnibus": "GENE_OR_GENE_PRODUCT",
+                "GEO": "GENE_OR_GENE_PRODUCT"
+            }
+        },
+        "lBQC8At9": {
+            "name": "The breath-print of CRC patients differed from those without the disease, with sensor technology discriminating between CRC patients and controls with a high accuracy.",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "breath-print",
+                    "predicate": "differed from",
+                    "object": "those without the disease"
+                },
+                {
+                    "subject": "sensor technology",
+                    "predicate": "discriminating between",
+                    "object": "CRC patients and controls"
+                },
+                {
+                    "subject": "CRC patients",
+                    "predicate": "relates",
+                    "object": "CRC patients and controls"
+                }
+            ],
+            "entities": {
+                "CRC patients": "CANCER"
+            }
+        },
+        "j2zFtXS_": {
+            "name": "The sensor technology showed promising results in identifying high-risk lesions in the colon, specifically high-risk adenomas.",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "The sensor technology",
+                    "predicate": "showed",
+                    "object": "promising results"
+                },
+                {
+                    "subject": "promising results",
+                    "predicate": "in identifying",
+                    "object": "high-risk lesions in the colon"
+                },
+                {
+                    "subject": "high-risk lesions in the colon",
+                    "predicate": "specifically",
+                    "object": "high-risk adenomas"
+                }
+            ],
+            "entities": {
+                "lesions": "PATHOLOGICAL_FORMATION",
+                "colon": "ORGAN",
+                "adenomas": "CANCER"
+            }
+        },
+        "IcChpjNP": {
+            "name": "Albumin levels were significantly lower in patients with severe COVID-19 compared to those with mild disease, confirming albumin as a biomarker for COVID-19 severity.",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Albumin levels",
+                    "predicate": "were",
+                    "object": "significantly lower"
+                },
+                {
+                    "subject": "Albumin levels",
+                    "predicate": "were in",
+                    "object": "patients with severe COVID-19"
+                },
+                {
+                    "subject": "Albumin levels",
+                    "predicate": "compared to",
+                    "object": "those with mild disease"
+                },
+                {
+                    "subject": "Albumin levels",
+                    "predicate": "confirming",
+                    "object": "albumin as a biomarker for COVID-19 severity"
+                }
+            ],
+            "entities": {
+                "Albumin": "GENE_OR_GENE_PRODUCT",
+                "patients": "ORGANISM",
+                "albumin": "GENE_OR_GENE_PRODUCT",
+                "COVID-19": "SIMPLE_CHEMICAL"
+            }
+        },
+        "F8HQJsTA": {
+            "name": "Elevated levels of interleukin-6 (IL-6) were strongly associated with increased mortality in COVID-19 patients, supporting its role as a prognostic biomarker for disease outcome.",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Elevated levels of interleukin-6",
+                    "predicate": "were associated with",
+                    "object": "increased mortality"
+                },
+                {
+                    "subject": "Elevated levels of interleukin-6",
+                    "predicate": "supporting",
+                    "object": "its role as a prognostic biomarker for disease outcome"
+                }
+            ],
+            "entities": {
+                "interleukin-6": "GENE_OR_GENE_PRODUCT",
+                "IL-6": "GENE_OR_GENE_PRODUCT",
+                "patients": "ORGANISM",
+                "disease": "CANCER"
+            }
+        },
+        "w_zmc1I1": {
+            "name": "Decreased lymphocyte counts were observed in COVID-19 patients requiring intensive care, indicating lymphopenia as a marker for severe disease progression.",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Decreased lymphocyte counts",
+                    "predicate": "were observed",
+                    "object": "COVID-19 patients"
+                },
+                {
+                    "subject": "COVID-19 patients",
+                    "predicate": "requiring",
+                    "object": "intensive care"
+                },
+                {
+                    "subject": "Decreased lymphocyte counts",
+                    "predicate": "indicating",
+                    "object": "lymphopenia"
+                },
+                {
+                    "subject": "lymphopenia",
+                    "predicate": "as a marker for",
+                    "object": "severe disease progression"
+                },
+                {
+                    "subject": "patients",
+                    "predicate": "relates",
+                    "object": "COVID-19 patients"
+                }
+            ],
+            "entities": {
+                "lymphocyte": "CELL",
+                "patients": "ORGANISM",
+                "disease": "CANCER"
+            }
+        },
+        "7lIWRP7Y": {
+            "name": "Stools from more aggressive lesions exhibit abnormal immature glycan signatures not seen in healthy tissues.",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Stools",
+                    "predicate": "from",
+                    "object": "more aggressive lesions"
+                },
+                {
+                    "subject": "Stools from more aggressive lesions",
+                    "predicate": "exhibit",
+                    "object": "abnormal immature glycan signatures"
+                },
+                {
+                    "subject": "abnormal immature glycan signatures",
+                    "predicate": "not seen in",
+                    "object": "healthy tissues"
+                }
+            ],
+            "entities": {
+                "lesions": "PATHOLOGICAL_FORMATION",
+                "tissues": "TISSUE"
+            }
+        },
+        "yojACF0i": {
+            "name": "Several molecular targets shared by more aggressive non-cancerous lesions and cancer were identified, holding promise for future pre-clinical assessment.",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "mistral-large:123b-instruct-2411-q8_0/hRh68",
+            "details": [
+                {
+                    "subject": "Several molecular targets",
+                    "predicate": "shared by",
+                    "object": "more aggressive non-cancerous lesions"
+                },
+                {
+                    "subject": "Several molecular targets",
+                    "predicate": "shared by",
+                    "object": "cancer"
+                },
+                {
+                    "subject": "Several molecular targets",
+                    "predicate": "holding",
+                    "object": "promise"
+                }
+            ],
+            "entities": {
+                "non-cancerous lesions": "CANCER",
+                "cancer": "CANCER"
+            }
+        }
+    },
+    "documents": {
+        "10.1126/sciadv.aaw1317": {
+            "doi": "10.1126/sciadv.aaw1317",
+            "short_citation": "(Carvalho;2024-12-04)",
+            "long_citation": "Carvalho, et al., Colorectal tumor-on-a-chip system: A 3D tool for precision onco-nanomedicine, , 2024-12-04"
+        },
+        "10.3390/ijms24010129": {
+            "doi": "10.3390/ijms24010129",
+            "short_citation": "(Chen;2022-12-21)",
+            "long_citation": "Chen, et al., Diagnosis by Volatile Organic Compounds in Exhaled Breath from Patients with Gastric and Colorectal Cancers, , 2022-12-21"
+        },
+        "10.3390/cancers16162796": {
+            "doi": "10.3390/cancers16162796",
+            "short_citation": "(Ashouri;2024-08-08)",
+            "long_citation": "Ashouri, et al., Exploring Predictive and Prognostic Biomarkers in Colorectal Cancer: A Comprehensive Review, , 2024-08-08"
+        },
+        "10.3390/cancers13184640": {
+            "doi": "10.3390/cancers13184640",
+            "short_citation": "(Dur\u00e1n-Vin;2021-09-16)",
+            "long_citation": "Dur\u00e1n-Vin, et al., CRISPR/Cas13-Based Platforms for a Potential Next-Generation Diagnosis of Colorectal Cancer through Exosomes Micro-RNA Detection: A Review, , 2021-09-16"
+        },
+        "10.1038/s42003-022-03249-4": {
+            "doi": "10.1038/s42003-022-03249-4",
+            "short_citation": "(Van Riet;1989)",
+            "long_citation": "Van Riet, et al., CRISPRs in the human genome are differentially expressed between malignant and normal adjacent to tumor tissue, , 1989"
+        },
+        "10.1001/jamaoncol.2024.3891": {
+            "doi": "10.1001/jamaoncol.2024.3891",
+            "short_citation": "(Chen;2024-09-19)",
+            "long_citation": "Chen, et al., Chimeric Antigen Receptor T Cells Targeting CD19 and GCC in Metastatic Colorectal Cancer A Nonrandomized Clinical Trial, , 2024-09-19"
+        },
+        "10.1111/j.2517-6161.1982.tb01195.x": {
+            "doi": "10.1111/j.2517-6161.1982.tb01195.x",
+            "short_citation": "(D'elia;1982)",
+            "long_citation": "D'elia, et al., Explainable artificial intelligence for microbiome data analysis in colorectal cancer biomarker identification, , 1982"
+        },
+        "10.1038/s41598-023-42037-w": {
+            "doi": "10.1038/s41598-023-42037-w",
+            "short_citation": "(Bao-Caamano;2023)",
+            "long_citation": "Bao-Caamano, et al., Epigenomic analysis reveals a unique DNA methylation program of metastasis-competent circulating tumor cells in colorectal cancer, , 2023"
+        },
+        "10.1002/ijc.29701": {
+            "doi": "10.1002/ijc.29701",
+            "short_citation": "(Amal;2015)",
+            "long_citation": "Amal, et al., Breath testing as potential colorectal cancer screening tool, , 2015"
+        },
+        "10.1002/anie.202306154": {
+            "doi": "10.1002/anie.202306154",
+            "short_citation": "(Saraei;2019)",
+            "long_citation": "Saraei, et al., Towards a Precise NMR Quantification of Acute Phase Inflammation Proteins from Human Serum, , 2019"
+        },
+        "10.3390/ijms25073722": {
+            "doi": "10.3390/ijms25073722",
+            "short_citation": "(Kuppen;2024-03-27)",
+            "long_citation": "Kuppen, et al., Stool Glycoproteomics Signatures of Pre-Cancerous Lesions and Colorectal Cancer, , 2024-03-27"
+        }
+    },
+    "lang_info": {
+        "mistral-large:123b-instruct-2411-q8_0/hRh68": {
+            "llm_tag": "mistral-large:123b-instruct-2411-q8_0",
+            "ner_tag": "en_ner_bionlp13cg_md",
+            "vector_distance": "en_ner_bionlp13cg_md",
+            "prompt_template": "[BEGIN ARTICLE] {article} [END ARTICLE]\n[INSTRUCTIONS]\nIn the article above find at most 3 important strong positive or negative findings that are original results\nconfirming or disproving some previous studies about a biomarker and it's role in some disease risk, diagnosis, prognosis or treatment. \nDo include as much details as possible from the article. \nDo not include authors or their abbreviation that performed the study usually expressed by terms 'analyzed by ...', 'organized by ...'.\nInstead of 'the study revealed that (some content)', just output '(some content)'.\nDo not include findings that are just cited from another source. Do not include general findings without details.\nThe finding should be about relationship between biomarker and disease (risk, diagnosis, prognosis).\nList the findings in detailed sentences using vocabulary understandable for domain expert used in the article. Be as specific as possible, \ninstead of 'some' or 'certain' use numbers, specific objects or subjects from the article. \nReturn the list in a JSON array of strings in the format: '[\"finding1\",\"finding2\",\"finding3\"]'\nDo not add any other structure in JSON, just array of strings. Do not include any other explanation or notes, just array of strings in JSON.\n",
+            "prompt_entities_template": "\nFollowing is the Entities and Sentence. In the following sentence generate knowledge graph tripplets with the following entities in the JSON format. \nOnly if really necessary, add other entities from the sentence, but otherwise use just the Entities. \nOutput only JSON and do not include any other explanation, notes or suggestion. \nThe 'predicate' in tripplet should contain only verb itself and at most a preposition. \nThe 'subject' and 'object' in tripplet can contain substantive, adjective, number, adverbs and other.\n\nEntities: {entities}\nSentence: {finding}\n"
+        }
+    }
+}

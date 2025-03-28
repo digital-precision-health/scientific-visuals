@@ -1,0 +1,72 @@
+{"0": {
+    "doc": "Scientific Visuals Introduction",
+    "title": "Scientific Visuals - Introduction",
+    "content": "This site includes reusable web components to visualise scientific data. You may use the components static pages listed bellow. Or you may host the web components in your application. version: 0.1Note that the components are in heavy development stage thus some of the feature may not work or may change, while the static URL should remain . ",
+    "url": "/scientific-visuals/#scientific-visuals---introduction",
+    
+    "relUrl": "/#scientific-visuals---introduction"
+  },"1": {
+    "doc": "Scientific Visuals Introduction",
+    "title": "Usage",
+    "content": "The web components are deployed as static web pages. By default the visualise pregenerated demo data. In order to visualise them, use the form to use data on the web or upload your data from your computer. The following component’s static pages are available: . geochart . | Basic link: geochart | give url of your data: Generate URL . | and use/share the following to visualise it in world map: | and use/share the following to visualise it in Europe map: | . | . network graph . | Basic link: networkgraph | give url of your data: Generate URL . | and use/share the following link to visualise it in world map: | . | . ",
+    "url": "/scientific-visuals/#usage",
+    
+    "relUrl": "/#usage"
+  },"2": {
+    "doc": "Scientific Visuals Introduction",
+    "title": "Hosting on your own premises",
+    "content": "Web components are framework agnostic and can be used in HTML, Markdown (with enabled HTML tags) and web applications in the following way. | download local copy of sv-components.es.js | include the script module that defines behavior of the web component’s custom element: &lt;script src=\"sv-components.es.js\" type=\"module\"&gt;&lt;/script&gt; . | use the web components custom element in the HTML body in Markdown e.g.: | . Some HTML text &lt;p&gt;paragraph&lt;p&gt; And web component goes here: &lt;sv-geochart&gt;&lt;/sv-geochart&gt; . Complete minimal example: . &lt;!DOCTYPE html&gt; &lt;html lang=\"en\"&gt; &lt;head&gt; &lt;meta charset=\"UTF-8\"&gt; &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt; &lt;title&gt;Scientific Visuals Web Components demo&lt;/title&gt; &lt;script src=\"sv-components.es.js\" type=\"module\"&gt;&lt;/script&gt; &lt;link rel=\"stylesheet\" href=\"style.css\" /&gt; &lt;/head&gt; &lt;body&gt; &lt;sv-geochart&gt;&lt;/sv-geochart&gt; &lt;/body&gt; &lt;/html&gt; . The following components are available . | &lt;sv-geochart&gt;&lt;/sv-geochart&gt; Visualising data in geochart | &lt;sv-table&gt;&lt;/sv-table&gt; Data in an interactive table sheet | &lt;sv-network&gt;&lt;/sv-network&gt; Data visualised in a connected network graph | . ",
+    "url": "/scientific-visuals/#hosting-on-your-own-premises",
+    
+    "relUrl": "/#hosting-on-your-own-premises"
+  },"3": {
+    "doc": "Scientific Visuals Introduction",
+    "title": "Scientific Visuals Introduction",
+    "content": " ",
+    "url": "/scientific-visuals/",
+    
+    "relUrl": "/"
+  },"4": {
+    "doc": "sv-geochart",
+    "title": "sv-geochart",
+    "content": "Visualising geo chart. ",
+    "url": "/scientific-visuals/sv-geochart.html",
+    
+    "relUrl": "/sv-geochart.html"
+  },"5": {
+    "doc": "sv-geochart",
+    "title": "Usage",
+    "content": ". | Basic link: geochart | give url of your data: Generate URL . | and use/share the following to visualise it in world map: | and use/share the following to visualise it in Europe map: | . | . ",
+    "url": "/scientific-visuals/sv-geochart.html#usage",
+    
+    "relUrl": "/sv-geochart.html#usage"
+  },"6": {
+    "doc": "sv-geochart",
+    "title": "Hosting web component in HTML or web app",
+    "content": "Syntax: &lt;sv-geochart datasrc='' countriessrc='' continent=''&gt;&lt;/sv-geochart&gt; . Attributes: . | datasrc url of data to be visualised in the geochart. CSV data are expected, country per row. Default value g/National_Initiatives_Figure_Data.csv | countriessrc url of map coordinates to be visualised, e.g. map of countries. Default value g/countries-50m.json | continent continent to be focused during view. Default value world | . ",
+    "url": "/scientific-visuals/sv-geochart.html#hosting-web-component-in-html-or-web-app",
+    
+    "relUrl": "/sv-geochart.html#hosting-web-component-in-html-or-web-app"
+  },"7": {
+    "doc": "sv-network",
+    "title": "sv-network",
+    "content": "Visualising network graph. ",
+    "url": "/scientific-visuals/sv-network.html",
+    
+    "relUrl": "/sv-network.html"
+  },"8": {
+    "doc": "sv-network",
+    "title": "Usage",
+    "content": ". | Basic link: networkgraph | give url of your data: Generate URL . | and use/share the following link to visualise it: | . | . ",
+    "url": "/scientific-visuals/sv-network.html#usage",
+    
+    "relUrl": "/sv-network.html#usage"
+  },"9": {
+    "doc": "sv-network",
+    "title": "Hosting web component in HTML or web app",
+    "content": "Syntax: &lt;sv-network datasrc=''&gt;&lt;/sv-geochart&gt; . Attributes: . | datasrc url of data to be visualised in the geochart. TODO | . ",
+    "url": "/scientific-visuals/sv-network.html#hosting-web-component-in-html-or-web-app",
+    
+    "relUrl": "/sv-network.html#hosting-web-component-in-html-or-web-app"
+  }
+}

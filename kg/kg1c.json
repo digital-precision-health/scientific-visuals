@@ -1,0 +1,3161 @@
+{
+    "biomarkers": {
+        "RD-TmjmE": {
+            "name": "Wnt signaling pathway",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Wnt signaling pathway",
+                "type": "molecular pathway",
+                "description": "A group of signal transduction pathways made of proteins that pass signals into a cell through cell surface receptors",
+                "findings": "The Wnt signaling pathway is involved in the regulation of cell growth and differentiation, and its dysregulation has been implicated in colorectal cancer.",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Wnt signaling pathway",
+                        "predicate": "is involved in",
+                        "object": "regulation of cell growth and differentiation"
+                    }
+                ]
+            }
+        },
+        "ZslrgZ9e": {
+            "name": "DNA methylation",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "DNA methylation",
+                "type": "epigenetic modification",
+                "description": "A process by which methyl groups are added to the DNA molecule, typically resulting in gene silencing",
+                "findings": "DNA methylation data obtained with EPIC array in this study are publicly available at the Gene Expression Omnibus (GEO) repository.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "DNA methylation",
+                        "predicate": "is measured by",
+                        "object": "EPIC array"
+                    }
+                ]
+            }
+        },
+        "fF8-kyGr": {
+            "name": "CpG islands",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "CpG islands",
+                "type": "genomic region",
+                "description": "Regions of DNA where a cytosine nucleotide is followed by a guanine nucleotide, often found in promoter regions of genes",
+                "findings": "The study used EPIC array to measure DNA methylation at CpG islands.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "CpG islands",
+                        "predicate": "are measured by",
+                        "object": "EPIC array"
+                    }
+                ]
+            }
+        },
+        "Pcz0I_Aa": {
+            "name": "Wnt/\u03b2-catenin signaling pathway",
+            "doc_id": "10.1038/s41598-023-42037-w",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Wnt/\u03b2-catenin signaling pathway",
+                "type": "molecular pathway",
+                "description": "A specific branch of the Wnt signaling pathway that involves the protein \u03b2-catenin",
+                "findings": "The study suggests that targeting the Wnt/\u03b2-catenin signaling pathway may be a potential therapeutic strategy for colorectal cancer.",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Wnt/\u03b2-catenin signaling pathway",
+                        "predicate": "is targeted by",
+                        "object": "therapeutic strategies"
+                    }
+                ]
+            }
+        },
+        "Cf1m-a_g": {
+            "name": "Glycoproteins",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Glycoproteins",
+                "type": "Protein",
+                "description": "A protein that has carbohydrate chains (glycans) attached to it",
+                "findings": "Glycoproteins have variable glycosylation profiles which may interfere with antibody binding in nephelometric methods",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Glycoproteins",
+                        "predicate": "have",
+                        "object": "variable glycosylation profiles"
+                    },
+                    {
+                        "subject": "Glycoproteins",
+                        "predicate": "interfere with",
+                        "object": "antibody binding in nephelometric methods"
+                    }
+                ]
+            }
+        },
+        "Jr3myqZU": {
+            "name": "Alpha-1-acid glycoprotein",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Alpha-1-acid glycoprotein",
+                "type": "Protein",
+                "description": "An acute-phase protein that increases in response to systemic tissue injury or inflammation",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Alpha-1-acid glycoprotein",
+                        "predicate": "increases in response to",
+                        "object": "systemic tissue injury or inflammation"
+                    }
+                ]
+            }
+        },
+        "hHFgwKO1": {
+            "name": "Haptoglobin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Haptoglobin",
+                "type": "Protein",
+                "description": "A protein that binds free hemoglobin released from erythrocytes into the bloodstream",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Haptoglobin",
+                        "predicate": "binds",
+                        "object": "free hemoglobin"
+                    }
+                ]
+            }
+        },
+        "HS3xh4ST": {
+            "name": "Ceruloplasmin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Ceruloplasmin",
+                "type": "Protein",
+                "description": "A ferroxidase enzyme that contains copper and plays a role in iron metabolism",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Ceruloplasmin",
+                        "predicate": "plays a role in",
+                        "object": "iron metabolism"
+                    }
+                ]
+            }
+        },
+        "gncWiDi9": {
+            "name": "IgG",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "IgG",
+                "type": "Antibody",
+                "description": "A type of antibody that provides long-term immunity against infections",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "IgG",
+                        "predicate": "provides",
+                        "object": "long-term immunity against infections"
+                    }
+                ]
+            }
+        },
+        "eJbhx_6e": {
+            "name": "Alpha-2-macroglobulin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Alpha-2-macroglobulin",
+                "type": "Protein",
+                "description": "A protein that inhibits proteases and plays a role in immune response",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Alpha-2-macroglobulin",
+                        "predicate": "inhibits",
+                        "object": "proteases"
+                    }
+                ]
+            }
+        },
+        "e6Ch7iJB": {
+            "name": "Fibrinogen",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Fibrinogen",
+                "type": "Protein",
+                "description": "A glycoprotein that helps in blood clotting",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Fibrinogen",
+                        "predicate": "helps in",
+                        "object": "blood clotting"
+                    }
+                ]
+            }
+        },
+        "AfoUPBwh": {
+            "name": "Transferrin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Transferrin",
+                "type": "Protein",
+                "description": "A protein that binds iron and plays a role in iron metabolism",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Transferrin",
+                        "predicate": "binds",
+                        "object": "iron"
+                    }
+                ]
+            }
+        },
+        "RCWehwvw": {
+            "name": "Complement C3",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Complement C3",
+                "type": "Protein",
+                "description": "A protein that plays a central role in the complement system and immune response",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Complement C3",
+                        "predicate": "plays a role in",
+                        "object": "immune response"
+                    }
+                ]
+            }
+        },
+        "5NRibSVk": {
+            "name": "Alpha-1-antitrypsin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Alpha-1-antitrypsin",
+                "type": "Protein",
+                "description": "A protein that inhibits proteases and plays a role in protecting the lungs from damage",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Alpha-1-antitrypsin",
+                        "predicate": "inhibits",
+                        "object": "proteases"
+                    }
+                ]
+            }
+        },
+        "SdYHthjV": {
+            "name": "Hemopexin",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Hemopexin",
+                "type": "Protein",
+                "description": "A protein that binds heme and plays a role in protecting the body from oxidative damage",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Hemopexin",
+                        "predicate": "binds",
+                        "object": "heme"
+                    }
+                ]
+            }
+        },
+        "I0m3UNFn": {
+            "name": "C3a",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "C3a",
+                "type": "Protein fragment",
+                "description": "A fragment of the complement component C3 that plays a role in immune response",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "C3a",
+                        "predicate": "plays a role in",
+                        "object": "immune response"
+                    }
+                ]
+            }
+        },
+        "09L1IrqC": {
+            "name": "Glycans",
+            "doc_id": "10.1002/anie.202306154",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Glycans",
+                "type": "Carbohydrate",
+                "description": "A carbohydrate molecule that is attached to proteins or lipids",
+                "findings": "Glycans have variable structures which may affect the function of glycoproteins",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Glycans",
+                        "predicate": "have",
+                        "object": "variable structures"
+                    },
+                    {
+                        "subject": "Glycans",
+                        "predicate": "affect the function of",
+                        "object": "glycoproteins"
+                    }
+                ]
+            }
+        },
+        "V5NhJxd3": {
+            "name": "miR-126",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "miR-126",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression",
+                "findings": "Shown to have robust predictive results for diagnosis and prognosis of colorectal cancer",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-126",
+                        "predicate": "has",
+                        "object": "robust predictive results for diagnosis and prognosis of colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "33vLh9nj": {
+            "name": "miR-1290",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "miR-1290",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression",
+                "findings": "Shown to have robust predictive results for diagnosis and prognosis of colorectal cancer",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-1290",
+                        "predicate": "has",
+                        "object": "robust predictive results for diagnosis and prognosis of colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "p4hlhalU": {
+            "name": "miR-23a",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "miR-23a",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression",
+                "findings": "Included in a panel of microRNAs for early CRC stages diagnosis",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-23a",
+                        "predicate": "is included in",
+                        "object": "a panel of microRNAs for early CRC stages diagnosis"
+                    }
+                ]
+            }
+        },
+        "OjibSfAC": {
+            "name": "miR-940",
+            "doc_id": "10.3390/cancers13184640",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "miR-940",
+                "type": "microRNA",
+                "description": "A small non-coding RNA molecule involved in regulating gene expression",
+                "findings": "Included in a panel of microRNAs for early CRC stages diagnosis",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "miR-940",
+                        "predicate": "is included in",
+                        "object": "a panel of microRNAs for early CRC stages diagnosis"
+                    }
+                ]
+            }
+        },
+        "QzzCCfil": {
+            "name": "MSI-H",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MSI-H",
+                "type": "Microsatellite Instability",
+                "description": "A condition of genetic hypermutability that results from impaired DNA mismatch repair",
+                "findings": "MSI-H status confers substantial improvements in clinical outcomes and decreased toxicities through ICI",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "MSI-H",
+                        "predicate": "confers",
+                        "object": "substantial improvements in clinical outcomes"
+                    },
+                    {
+                        "subject": "MSI-H",
+                        "predicate": "decreases",
+                        "object": "toxicities through ICI"
+                    }
+                ]
+            }
+        },
+        "7wXWCL4C": {
+            "name": "RAS",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "RAS",
+                "type": "Gene mutation",
+                "description": "A family of genes that encode proteins with GTPase activity, involved in cellular signal transduction",
+                "findings": "The predictive capacity of RAS has necessitated a molecular-targeted approach in CRC",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "RAS",
+                        "predicate": "necessitates",
+                        "object": "molecular-targeted approach in CRC"
+                    }
+                ]
+            }
+        },
+        "NsgB8mLS": {
+            "name": "BRAF V600E",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "BRAF V600E",
+                "type": "Gene mutation",
+                "description": "A specific mutation in the BRAF gene that leads to the substitution of glutamic acid for valine at position 600",
+                "findings": "BRAF V600E had a negative prognostic value but is now predictive of the response to combined targeted BRAF/EGFR inhibition",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "BRAF V600E",
+                        "predicate": "predicts",
+                        "object": "response to combined targeted BRAF/EGFR inhibition"
+                    }
+                ]
+            }
+        },
+        "DzwE4KYX": {
+            "name": "HLA",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "HLA",
+                "type": "Human Leukocyte Antigen",
+                "description": "A group of genes that play a critical role in the immune system by coding for proteins responsible for the regulation of the immune response",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "HLA",
+                        "predicate": "regulates",
+                        "object": "immune response in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "31Q3DJs3": {
+            "name": "EGFR",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "EGFR",
+                "type": "Epidermal Growth Factor Receptor",
+                "description": "A protein that, in humans, is encoded by the EGFR gene and plays a critical role in cell division and proliferation",
+                "findings": "BRAF V600E is predictive of the response to combined targeted BRAF/EGFR inhibition",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "EGFR",
+                        "predicate": "inhibited by",
+                        "object": "combined targeted BRAF/EGFR inhibition"
+                    }
+                ]
+            }
+        },
+        "V5XTkNlC": {
+            "name": "MHC",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MHC",
+                "type": "Major Histocompatibility Complex",
+                "description": "A set of genes that play a critical role in the immune system by coding for proteins responsible for the regulation of the immune response",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MHC",
+                        "predicate": "regulates",
+                        "object": "immune response in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "_p1sIGgC": {
+            "name": "PD-L1",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "PD-L1",
+                "type": "Programmed Death-Ligand 1",
+                "description": "A protein that, in humans, is encoded by the CD274 gene and plays a critical role in regulating the immune response",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "PD-L1",
+                        "predicate": "regulates",
+                        "object": "immune response in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "Qvvi9yy1": {
+            "name": "TP53",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TP53",
+                "type": "Tumor Protein p53",
+                "description": "A protein that, in humans, is encoded by the TP53 gene and plays a critical role in regulating cell division and preventing cancer formation",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TP53",
+                        "predicate": "regulates",
+                        "object": "cell division in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "Lwln550v": {
+            "name": "KRAS",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "KRAS",
+                "type": "Kirsten Rat Sarcoma viral oncogene homolog",
+                "description": "A gene that encodes a protein with GTPase activity, involved in cellular signal transduction and tumorigenesis",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "KRAS",
+                        "predicate": "contributes to",
+                        "object": "tumorigenesis in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "8p4cfLBe": {
+            "name": "NRAS",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "NRAS",
+                "type": "Neuroblastoma RAS viral oncogene homolog",
+                "description": "A gene that encodes a protein with GTPase activity, involved in cellular signal transduction and tumorigenesis",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "NRAS",
+                        "predicate": "contributes to",
+                        "object": "tumorigenesis in colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "TI_M2LWV": {
+            "name": "BRAF",
+            "doc_id": "10.3390/cancers16162796",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "BRAF",
+                "type": "Gene mutation",
+                "description": "A gene that encodes a protein with kinase activity, involved in cellular signal transduction and tumorigenesis",
+                "findings": "BRAF V600E had a negative prognostic value but is now predictive of the response to combined targeted BRAF/EGFR inhibition",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "BRAF",
+                        "predicate": "predicts",
+                        "object": "response to combined targeted BRAF/EGFR inhibition"
+                    }
+                ]
+            }
+        },
+        "BlX3_06J": {
+            "name": "Caspase-3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Caspase-3",
+                "type": "Protein",
+                "description": "A protein that plays a key role in programmed cell death, also known as apoptosis",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Caspase-3",
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "aJh2rExZ": {
+            "name": "Ki-67",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Ki-67",
+                "type": "Protein",
+                "description": "A protein that is expressed in all active phases of the cell cycle, used as a marker for cell proliferation",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Ki-67",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "C-JSAdbQ": {
+            "name": "RAS",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "RAS",
+                "type": "Gene",
+                "description": "A gene that encodes a protein involved in cell signal transduction, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "RAS",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "pzM0Zw10": {
+            "name": "MMP-2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MMP-2",
+                "type": "Enzyme",
+                "description": "A matrix metalloproteinase involved in the breakdown of extracellular matrix, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MMP-2",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "A96ijB5R": {
+            "name": "Cyclin D1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Cyclin D1",
+                "type": "Protein",
+                "description": "A protein that regulates cell cycle progression, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Cyclin D1",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "muMhtNtm": {
+            "name": "p53",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "p53",
+                "type": "Protein",
+                "description": "A tumor suppressor protein that regulates cell cycle and apoptosis, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "p53",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "Y7tMSM0a": {
+            "name": "Bcl-2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Bcl-2",
+                "type": "Protein",
+                "description": "A protein that regulates apoptosis, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Bcl-2",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "U0VSaTns": {
+            "name": "MMP-9",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MMP-9",
+                "type": "Enzyme",
+                "description": "A matrix metalloproteinase involved in the breakdown of extracellular matrix, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MMP-9",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "X-aITyfY": {
+            "name": "VEGF",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "VEGF",
+                "type": "Protein",
+                "description": "A protein that regulates angiogenesis, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "VEGF",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "cagZhdF0": {
+            "name": "EGFR",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "EGFR",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "EGFR",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "hjY-KUEI": {
+            "name": "Cyclin B1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Cyclin B1",
+                "type": "Protein",
+                "description": "A protein that regulates cell cycle progression, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Cyclin B1",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "s2HGDydJ": {
+            "name": "p21",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "p21",
+                "type": "Protein",
+                "description": "A protein that regulates cell cycle progression, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "p21",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "P6ioEqEo": {
+            "name": "BAX",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "BAX",
+                "type": "Protein",
+                "description": "A protein that regulates apoptosis, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "BAX",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "ABdfQfIs": {
+            "name": "Caspase-8",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Caspase-8",
+                "type": "Protein",
+                "description": "A protein that plays a key role in programmed cell death, also known as apoptosis",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Caspase-8",
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "xJb_tkxo": {
+            "name": "Survivin",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Survivin",
+                "type": "Protein",
+                "description": "A protein that regulates apoptosis and cell division, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Survivin",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "vxcwe1O9": {
+            "name": "Cyclin E",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Cyclin E",
+                "type": "Protein",
+                "description": "A protein that regulates cell cycle progression, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Cyclin E",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "cwB2mwe1": {
+            "name": "CDK4",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "CDK4",
+                "type": "Protein",
+                "description": "A protein that regulates cell cycle progression, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "CDK4",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "N2oUjctK": {
+            "name": "p16",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "p16",
+                "type": "Protein",
+                "description": "A protein that regulates cell cycle progression, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "p16",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "MmNZgiNN": {
+            "name": "MMP-7",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MMP-7",
+                "type": "Enzyme",
+                "description": "A matrix metalloproteinase involved in the breakdown of extracellular matrix, often overexpressed in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MMP-7",
+                        "predicate": "is overexpressed in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "QPwT5HbP": {
+            "name": "TIMP-1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TIMP-1",
+                "type": "Protein",
+                "description": "A protein that regulates the activity of matrix metalloproteinases, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TIMP-1",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "VV3icp3f": {
+            "name": "KRAS",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "KRAS",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "KRAS",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "c2QLjXLw": {
+            "name": "BRAF",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "BRAF",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "BRAF",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "t2GBu485": {
+            "name": "PIK3CA",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "PIK3CA",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "PIK3CA",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "FFvnrzYu": {
+            "name": "PTEN",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "PTEN",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "PTEN",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "auxgo96p": {
+            "name": "TP53",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TP53",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TP53",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "V-RkW6il": {
+            "name": "SMAD4",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "SMAD4",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "SMAD4",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "yHvKLJ0l": {
+            "name": "APC",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "APC",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "APC",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "nnxN-ZFe": {
+            "name": "CTNNB1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "CTNNB1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "CTNNB1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "nnLudtQk": {
+            "name": "CDH1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "CDH1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "CDH1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "ENSUmbWp": {
+            "name": "VIM",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "VIM",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "VIM",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "fAjWl9S_": {
+            "name": "SNAI1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "SNAI1",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "SNAI1",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "s7oJELs7": {
+            "name": "TWIST1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TWIST1",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TWIST1",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "agsLkVxn": {
+            "name": "ZEB1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ZEB1",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ZEB1",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "g4ZNwtkG": {
+            "name": "ZEB2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ZEB2",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ZEB2",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "sd6ukUV1": {
+            "name": "FOXC1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "FOXC1",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "FOXC1",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "JQAw_CUb": {
+            "name": "FOXC2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "FOXC2",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often upregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "FOXC2",
+                        "predicate": "is upregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "ScQnCU-r": {
+            "name": "GATA3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "GATA3",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "GATA3",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "ijjQxKdU": {
+            "name": "GRHL2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "GRHL2",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "GRHL2",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "qKgCDMbk": {
+            "name": "OVOL1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "OVOL1",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "OVOL1",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "tGlckPX9": {
+            "name": "OVOL2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "OVOL2",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "OVOL2",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "tAS-O9OR": {
+            "name": "KLF4",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "KLF4",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "KLF4",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "uBURhLBM": {
+            "name": "KLF5",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "KLF5",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often downregulated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "KLF5",
+                        "predicate": "is downregulated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "v62roAMo": {
+            "name": "TGFBR2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TGFBR2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TGFBR2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "1_jGp6te": {
+            "name": "BMPR1A",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "BMPR1A",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "BMPR1A",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "WRMzEyuU": {
+            "name": "ACVR2A",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ACVR2A",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ACVR2A",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "UEPwHcEL": {
+            "name": "AMER1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "AMER1",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "AMER1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "bBqLEYAL": {
+            "name": "RNF43",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "RNF43",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "RNF43",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "KyOtMT6l": {
+            "name": "ZNRF3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ZNRF3",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ZNRF3",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "EIY7IS0b": {
+            "name": "RSPO2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "RSPO2",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "RSPO2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "eb7zJ8j5": {
+            "name": "RSPO3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "RSPO3",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "RSPO3",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "FOmzkYYx": {
+            "name": "LRP5",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "LRP5",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "LRP5",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "_VL0EHC6": {
+            "name": "LRP6",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "LRP6",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "LRP6",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "XULD1bmp": {
+            "name": "AXIN1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "AXIN1",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "AXIN1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "kYJV-jt1": {
+            "name": "AXIN2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "AXIN2",
+                "type": "Protein",
+                "description": "A protein that regulates cell adhesion, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "AXIN2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "yKPNZtDj": {
+            "name": "MUTYH",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MUTYH",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MUTYH",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "yUAo0TUw": {
+            "name": "POLE",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "POLE",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "POLE",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "SSfuiLxK": {
+            "name": "POLD1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "POLD1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "POLD1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "XQLEcEMF": {
+            "name": "NRAS",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "NRAS",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "NRAS",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "C5F0YBJs": {
+            "name": "FBXW7",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "FBXW7",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "FBXW7",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "y6i-zLPV": {
+            "name": "TCF7L2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TCF7L2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TCF7L2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "YaYq2454": {
+            "name": "ZNF521",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ZNF521",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ZNF521",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "xPbx4LDq": {
+            "name": "RHOA",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "RHOA",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "RHOA",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "RhBtESzQ": {
+            "name": "GNAS",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "GNAS",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "GNAS",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "B2ooZtZq": {
+            "name": "ERBB2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ERBB2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ERBB2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "dYGwrPfp": {
+            "name": "ERBB3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ERBB3",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ERBB3",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "s0x5rhlk": {
+            "name": "ERBB4",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ERBB4",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ERBB4",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "EldUZFvK": {
+            "name": "FGFR1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "FGFR1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "FGFR1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "6_Dz4z5U": {
+            "name": "FGFR2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "FGFR2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "FGFR2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "th41TaK3": {
+            "name": "FGFR3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "FGFR3",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "FGFR3",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "YEaN6aWL": {
+            "name": "PDGFRA",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "PDGFRA",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "PDGFRA",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "h1jxGJZL": {
+            "name": "PDGFRB",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "PDGFRB",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "PDGFRB",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "RCimFqYH": {
+            "name": "KIT",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "KIT",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "KIT",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "gSksMygW": {
+            "name": "MET",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MET",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MET",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "55DNnt3p": {
+            "name": "RET",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "RET",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "RET",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "kbXiP5T1": {
+            "name": "ALK",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ALK",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ALK",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "FszTY4oZ": {
+            "name": "ROS1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ROS1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ROS1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "efvlxXT-": {
+            "name": "NTRK1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "NTRK1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "NTRK1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "35jpfTbn": {
+            "name": "NTRK2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "NTRK2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "NTRK2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "bRA9j9kD": {
+            "name": "NTRK3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "NTRK3",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "NTRK3",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "GNhjbKWs": {
+            "name": "HRAS",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "HRAS",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "HRAS",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "ZE0CJ6zN": {
+            "name": "ZNF750",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ZNF750",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ZNF750",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "V4RAVdmp": {
+            "name": "ARID1A",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ARID1A",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ARID1A",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "bH-3qsOz": {
+            "name": "ARID2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ARID2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ARID2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "YDi_H0ZC": {
+            "name": "ATM",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "ATM",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "ATM",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "aioL2Mhh": {
+            "name": "BRCA1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "BRCA1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "BRCA1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "TxkMg7BU": {
+            "name": "BRCA2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "BRCA2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "BRCA2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "Z0PXs6zI": {
+            "name": "CHEK2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "CHEK2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "CHEK2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "XNjHVbEl": {
+            "name": "MLH1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MLH1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MLH1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "BYI64R_p": {
+            "name": "MSH2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MSH2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MSH2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "gX2jKp2h": {
+            "name": "MSH6",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MSH6",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MSH6",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "pfT-5khh": {
+            "name": "PMS2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "PMS2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "PMS2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "7NJl1hCT": {
+            "name": "STK11",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "STK11",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "STK11",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "FCiNZ5f8": {
+            "name": "TSC1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TSC1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TSC1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "U6wYXowM": {
+            "name": "TSC2",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "TSC2",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "TSC2",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "UoH1Fq-k": {
+            "name": "VHL",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "VHL",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "VHL",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "b-t5qJuY": {
+            "name": "EPCAM",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "EPCAM",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "EPCAM",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "zR_dRKB5": {
+            "name": "GREM1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "GREM1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "GREM1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "tsWCqQ9b": {
+            "name": "MLH3",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MLH3",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MLH3",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "TlD7wXo1": {
+            "name": "NTHL1",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "NTHL1",
+                "type": "Protein",
+                "description": "A protein that regulates cell signaling, often mutated in colorectal cancer",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "NTHL1",
+                        "predicate": "is mutated in",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "4WLEo4wL": {
+            "name": "MUTYH-associated polyposis",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "MUTYH-associated polyposis",
+                "type": "Disease",
+                "description": "A rare genetic disorder characterized by the development of multiple polyps in the colon and rectum, which can increase the risk of colorectal cancer.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "MUTYH-associated polyposis",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "dYInuKuY": {
+            "name": "Lynch syndrome",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Lynch syndrome",
+                "type": "Disease",
+                "description": "A genetic disorder that increases the risk of colorectal and other cancers.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Lynch syndrome",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "pIOGhagL": {
+            "name": "Familial adenomatous polyposis (FAP)",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Familial adenomatous polyposis (FAP)",
+                "type": "Disease",
+                "description": "A rare genetic disorder characterized by the development of hundreds to thousands of polyps in the colon and rectum, which can increase the risk of colorectal cancer.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Familial adenomatous polyposis (FAP)",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "KuiTOIxd": {
+            "name": "Peutz-Jeghers syndrome",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Peutz-Jeghers syndrome",
+                "type": "Disease",
+                "description": "A rare genetic disorder characterized by the development of polyps in the gastrointestinal tract and an increased risk of certain cancers, including colorectal cancer.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Peutz-Jeghers syndrome",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "CvDLgCKG": {
+            "name": "Juvenile polyposis syndrome",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Juvenile polyposis syndrome",
+                "type": "Disease",
+                "description": "A rare genetic disorder characterized by the development of polyps in the gastrointestinal tract, which can increase the risk of colorectal cancer.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Juvenile polyposis syndrome",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "xWA6xJ9K": {
+            "name": "Serrated polyposis syndrome",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Serrated polyposis syndrome",
+                "type": "Disease",
+                "description": "A rare genetic disorder characterized by the development of serrated polyps in the colon and rectum, which can increase the risk of colorectal cancer.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Serrated polyposis syndrome",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "qdavVTw3": {
+            "name": "Cowden syndrome",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Cowden syndrome",
+                "type": "Disease",
+                "description": "A rare genetic disorder characterized by the development of multiple hamartomas (benign tumors) in various organs, including the colon and rectum, which can increase the risk of colorectal cancer.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Cowden syndrome",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "ZlyrFsNB": {
+            "name": "Li-Fraumeni syndrome",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Li-Fraumeni syndrome",
+                "type": "Disease",
+                "description": "A rare genetic disorder that increases the risk of multiple types of cancer, including colorectal cancer.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Li-Fraumeni syndrome",
+                        "predicate": "increases the risk of",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "G4kACytY": {
+            "name": "Colorectal cancer",
+            "doc_id": "10.1126/sciadv.aaw1317",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Colorectal cancer",
+                "type": "Disease",
+                "description": "A type of cancer that affects the colon or rectum.",
+                "findings": "Not explicitly mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": []
+            }
+        },
+        "jDc7nRHO": {
+            "name": "Guanylate Cyclase-C",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Guanylate Cyclase-C",
+                "type": "Enzyme",
+                "description": "An enzyme that plays a crucial role in the regulation of intestinal fluid and electrolyte balance",
+                "findings": "Guanylate Cyclase-C immunohistochemistry data was performed and interpreted",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Guanylate Cyclase-C",
+                        "predicate": "was used for",
+                        "object": "immunohistochemistry data"
+                    }
+                ]
+            }
+        },
+        "cBmhhUgB": {
+            "name": "CD19",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "CD19",
+                "type": "Cell Surface Receptor",
+                "description": "A cell surface receptor that plays a crucial role in the activation and differentiation of B cells",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "CD19",
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "yyGKQ2uS": {
+            "name": "IFN-\u03b3",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "IFN-\u03b3",
+                "type": "Cytokine",
+                "description": "A cytokine that plays a crucial role in the immune response and inflammation",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "IFN-\u03b3",
+                        "predicate": "is involved in",
+                        "object": "colorectal cancer immunity"
+                    }
+                ]
+            }
+        },
+        "-pZbxRmx": {
+            "name": "IL-12",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "IL-12",
+                "type": "Cytokine",
+                "description": "A cytokine that plays a crucial role in the immune response and inflammation",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "IL-12",
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer treatment"
+                    }
+                ]
+            }
+        },
+        "2OFoefmR": {
+            "name": "PD-L1",
+            "doc_id": "10.1001/jamaoncol.2024.3891",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "PD-L1",
+                "type": "Cell Surface Protein",
+                "description": "A cell surface protein that plays a crucial role in the regulation of immune responses",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "PD-L1",
+                        "predicate": "is expressed in",
+                        "object": "colorectal cancer cells"
+                    }
+                ]
+            }
+        },
+        "F5uQjss4": {
+            "name": "hCRISPRs",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "hCRISPRs",
+                "type": "genetic biomarker",
+                "description": "a type of CRISPR-Cas system used for gene editing and transcriptional regulation",
+                "findings": "hCRISPRs are studied in the context of transcription and diagnostics",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "hCRISPRs",
+                        "predicate": "are studied in",
+                        "object": "transcription and diagnostics"
+                    }
+                ]
+            }
+        },
+        "XD3Yh_UV": {
+            "name": "CRISPR-Cas-related patents",
+            "doc_id": "10.1038/s42003-022-03249-4",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "CRISPR-Cas-related patents",
+                "type": "patent biomarker",
+                "description": "patents related to the CRISPR-Cas system",
+                "findings": "authors R.L., P.J.v.d.S., and C.S. are included as inventors on CRISPR-Cas-related patents",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "CRISPR-Cas-related patents",
+                        "predicate": "have authors",
+                        "object": "R.L., P.J.v.d.S., and C.S. as inventors"
+                    }
+                ]
+            }
+        },
+        "pekzjoUe": {
+            "name": "Acetone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Acetone",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A colorless, volatile, flammable liquid with a characteristic fruity odor",
+                "findings": "Acetone is considered an adequate cancer biomarker but its concentration in breath changes during activities such as exercising or fasting",
+                "notes": "Not recommended for use as biomarker due to changing concentrations",
+                "knowledge": [
+                    {
+                        "subject": "Acetone",
+                        "predicate": "is considered",
+                        "object": "an adequate cancer biomarker"
+                    },
+                    {
+                        "subject": "Acetone concentration",
+                        "predicate": "changes during",
+                        "object": "exercising or fasting"
+                    }
+                ]
+            }
+        },
+        "Qoqdgy4X": {
+            "name": "4-Heptanone",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "4-Heptanone",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "A colorless liquid with a fruity and slightly minty odor",
+                "findings": "The origin of 4-heptanone is unclear, which limits its use as a biomarker",
+                "notes": "Origin is unclear",
+                "knowledge": [
+                    {
+                        "subject": "4-Heptanone",
+                        "predicate": "has an unclear",
+                        "object": "origin"
+                    },
+                    {
+                        "subject": "4-Heptanone",
+                        "predicate": "is limited by its unclear origin as a",
+                        "object": "biomarker"
+                    }
+                ]
+            }
+        },
+        "IqBjaq8P": {
+            "name": "Hexanal",
+            "doc_id": "10.3390/ijms24010129",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Hexanal",
+                "type": "Volatile Organic Compound (VOC)",
+                "description": "An organic compound with a grassy and fruity odor",
+                "findings": "No specific findings mentioned in the article",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Hexanal",
+                        "predicate": "is related to",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "NxUghwU5": {
+            "name": "Microbiome",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Microbiome",
+                "type": "Biological marker",
+                "description": "A community of microorganisms living in a particular habitat, such as the human gut",
+                "findings": "The article studied the microbiome to identify biomarkers for colorectal cancer",
+                "notes": "generic knowledge",
+                "knowledge": [
+                    {
+                        "subject": "Microbiome",
+                        "predicate": "is associated with",
+                        "object": "colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "U-bS1_og": {
+            "name": "16S rRNA gene sequencing data",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "16S rRNA gene sequencing data",
+                "type": "Genetic marker",
+                "description": "A method used to identify and quantify microorganisms in a sample based on their genetic material",
+                "findings": "The article analyzed 16S rRNA gene sequencing data to identify biomarkers for colorectal cancer",
+                "notes": "publicly available datasets were used",
+                "knowledge": [
+                    {
+                        "subject": "16S rRNA gene sequencing data",
+                        "predicate": "was analyzed to identify",
+                        "object": "biomarkers for colorectal cancer"
+                    }
+                ]
+            }
+        },
+        "KgYFzH-N": {
+            "name": "XAI-for-Microbiome-Data-Analysis-in-CRC",
+            "doc_id": "10.1111/j.2517-6161.1982.tb01195.x",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "XAI-for-Microbiome-Data-Analysis-in-CRC",
+                "type": "Computational tool",
+                "description": "A computational tool used for analyzing microbiome data in the context of colorectal cancer",
+                "findings": "The article used XAI-for-Microbiome-Data-Analysis-in-CRC to analyze microbiome data",
+                "notes": "available on GitHub",
+                "knowledge": [
+                    {
+                        "subject": "XAI-for-Microbiome-Data-Analysis-in-CRC",
+                        "predicate": "was used to analyze",
+                        "object": "microbiome data"
+                    }
+                ]
+            }
+        },
+        "g3TTZYQo": {
+            "name": "Acetone",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Acetone",
+                "type": "Ketone",
+                "description": "A colorless, volatile liquid with a characteristic sweet odor, produced as a byproduct of lipid peroxidation and fatty acid oxidation",
+                "findings": "Acetone levels were found to be different in the breath of CRC patients compared to controls",
+                "notes": "Related to ketosis and lipid peroxidation",
+                "knowledge": [
+                    {
+                        "subject": "Acetone",
+                        "predicate": "is elevated in",
+                        "object": "CRC patients"
+                    },
+                    {
+                        "subject": "Acetone",
+                        "predicate": "is related to",
+                        "object": "ketosis"
+                    }
+                ]
+            }
+        },
+        "ECDYw3D4": {
+            "name": "Alkenes",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Alkenes",
+                "type": "Hydrocarbon",
+                "description": "A class of unsaturated hydrocarbons containing at least one carbon-to-carbon double bond",
+                "findings": "Alkenes were identified as VOCs in the breath of CRC patients, possibly related to oxidative stress",
+                "notes": "Originates from various biochemical processes",
+                "knowledge": [
+                    {
+                        "subject": "Alkenes",
+                        "predicate": "are emitted in",
+                        "object": "human breath"
+                    },
+                    {
+                        "subject": "Alkenes",
+                        "predicate": "are related to",
+                        "object": "oxidative stress"
+                    }
+                ]
+            }
+        },
+        "q1INu5mY": {
+            "name": "Esters",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Esters",
+                "type": "Organic compound",
+                "description": "A class of organic compounds derived from carboxylic acids and alcohols, often found in natural sources such as fats and fruits",
+                "findings": "Esters were identified as VOCs in the breath of CRC patients, possibly related to metabolic processes",
+                "notes": "Found in large amounts in natural sources",
+                "knowledge": [
+                    {
+                        "subject": "Esters",
+                        "predicate": "are found in",
+                        "object": "natural sources"
+                    },
+                    {
+                        "subject": "Esters",
+                        "predicate": "are related to",
+                        "object": "metabolic processes"
+                    }
+                ]
+            }
+        },
+        "yO0ObhHJ": {
+            "name": "Alcohols",
+            "doc_id": "10.1002/ijc.29701",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Alcohols",
+                "type": "Organic compound",
+                "description": "A class of organic compounds containing a hydroxyl group, often derived from food, beverages, and metabolism of hydrocarbons",
+                "findings": "Alcohols were identified as VOCs in the breath of CRC patients, possibly related to metabolic processes",
+                "notes": "Originates from various sources including food and metabolism",
+                "knowledge": [
+                    {
+                        "subject": "Alcohols",
+                        "predicate": "are derived from",
+                        "object": "food and beverages"
+                    },
+                    {
+                        "subject": "Alcohols",
+                        "predicate": "are related to",
+                        "object": "metabolic processes"
+                    }
+                ]
+            }
+        },
+        "NZjV6dEb": {
+            "name": "T-antigen",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "T-antigen",
+                "type": "glycan",
+                "description": "A type of carbohydrate molecule associated with cancer cells",
+                "findings": "Stools from more aggressive lesions may exhibit abnormal immature T-antigen signatures not seen in healthy tissues",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "T-antigen",
+                        "predicate": "exhibit",
+                        "object": "abnormal immature signatures"
+                    },
+                    {
+                        "subject": "T-antigen",
+                        "predicate": "associate",
+                        "object": "cancer cells"
+                    }
+                ]
+            }
+        },
+        "vFlwieB-": {
+            "name": "Core 1/T-antigen",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "Core 1/T-antigen",
+                "type": "glycoproteoform",
+                "description": "A specific type of glycosylation pattern associated with cancer",
+                "findings": "The stool glycoproteome from more aggressive lesions may exhibit Core 1/T-antigen signatures",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "Core 1/T-antigen",
+                        "predicate": "exhibit",
+                        "object": "signatures in stool glycoproteome"
+                    },
+                    {
+                        "subject": "Core 1/T-antigen",
+                        "predicate": "associate",
+                        "object": "cancer"
+                    }
+                ]
+            }
+        },
+        "m4lyIOsS": {
+            "name": "FIT",
+            "doc_id": "10.3390/ijms25073722",
+            "llm_id": "llama3.3:70b-instruct-q8_0/O3tpO",
+            "details": {
+                "name": "FIT",
+                "type": "protein biomarker",
+                "description": "Fecal immunochemical test for detecting blood in stool",
+                "findings": "Patients with negative FIT results need to be analyzed to fully disclose the potential of T-antigen and T-expressing glycoproteoforms as biomarkers",
+                "notes": "",
+                "knowledge": [
+                    {
+                        "subject": "FIT",
+                        "predicate": "detect",
+                        "object": "blood in stool"
+                    },
+                    {
+                        "subject": "FIT",
+                        "predicate": "need",
+                        "object": "analysis for negative results"
+                    }
+                ]
+            }
+        }
+    },
+    "documents": {
+        "10.1038/s41598-023-42037-w": {
+            "doi": "10.1038/s41598-023-42037-w",
+            "short_citation": "(Bao-Caamano;2023)",
+            "long_citation": "Bao-Caamano, et al., Epigenomic analysis reveals a unique DNA methylation program of metastasis-competent circulating tumor cells in colorectal cancer, , 2023"
+        },
+        "10.1002/anie.202306154": {
+            "doi": "10.1002/anie.202306154",
+            "short_citation": "(Saraei;2019)",
+            "long_citation": "Saraei, et al., Towards a Precise NMR Quantification of Acute Phase Inflammation Proteins from Human Serum, , 2019"
+        },
+        "10.3390/cancers13184640": {
+            "doi": "10.3390/cancers13184640",
+            "short_citation": "(Dur\u00e1n-Vin;2021-09-16)",
+            "long_citation": "Dur\u00e1n-Vin, et al., CRISPR/Cas13-Based Platforms for a Potential Next-Generation Diagnosis of Colorectal Cancer through Exosomes Micro-RNA Detection: A Review, , 2021-09-16"
+        },
+        "10.3390/cancers16162796": {
+            "doi": "10.3390/cancers16162796",
+            "short_citation": "(Ashouri;2024-08-08)",
+            "long_citation": "Ashouri, et al., Exploring Predictive and Prognostic Biomarkers in Colorectal Cancer: A Comprehensive Review, , 2024-08-08"
+        },
+        "10.1126/sciadv.aaw1317": {
+            "doi": "10.1126/sciadv.aaw1317",
+            "short_citation": "(Carvalho;2024-12-04)",
+            "long_citation": "Carvalho, et al., Colorectal tumor-on-a-chip system: A 3D tool for precision onco-nanomedicine, , 2024-12-04"
+        },
+        "10.1001/jamaoncol.2024.3891": {
+            "doi": "10.1001/jamaoncol.2024.3891",
+            "short_citation": "(Chen;2024-09-19)",
+            "long_citation": "Chen, et al., Chimeric Antigen Receptor T Cells Targeting CD19 and GCC in Metastatic Colorectal Cancer A Nonrandomized Clinical Trial, , 2024-09-19"
+        },
+        "10.1038/s42003-022-03249-4": {
+            "doi": "10.1038/s42003-022-03249-4",
+            "short_citation": "(Van Riet;1989)",
+            "long_citation": "Van Riet, et al., CRISPRs in the human genome are differentially expressed between malignant and normal adjacent to tumor tissue, , 1989"
+        },
+        "10.3390/ijms24010129": {
+            "doi": "10.3390/ijms24010129",
+            "short_citation": "(Chen;2022-12-21)",
+            "long_citation": "Chen, et al., Diagnosis by Volatile Organic Compounds in Exhaled Breath from Patients with Gastric and Colorectal Cancers, , 2022-12-21"
+        },
+        "10.1111/j.2517-6161.1982.tb01195.x": {
+            "doi": "10.1111/j.2517-6161.1982.tb01195.x",
+            "short_citation": "(D'elia;1982)",
+            "long_citation": "D'elia, et al., Explainable artificial intelligence for microbiome data analysis in colorectal cancer biomarker identification, , 1982"
+        },
+        "10.1002/ijc.29701": {
+            "doi": "10.1002/ijc.29701",
+            "short_citation": "(Amal;2015)",
+            "long_citation": "Amal, et al., Breath testing as potential colorectal cancer screening tool, , 2015"
+        },
+        "10.3390/ijms25073722": {
+            "doi": "10.3390/ijms25073722",
+            "short_citation": "(Kuppen;2024-03-27)",
+            "long_citation": "Kuppen, et al., Stool Glycoproteomics Signatures of Pre-Cancerous Lesions and Colorectal Cancer, , 2024-03-27"
+        }
+    },
+    "lang_info": {
+        "llama3.3:70b-instruct-q8_0/O3tpO": {
+            "llm_tag": "llama3.3:70b-instruct-q8_0",
+            "prompt_template": "[BEGIN ARTICLE]:<content></content>\n[END ARTICLE]\n\n[INSTRUCTIONS]\nGenerate list of biomarkers that are explicitly mentioned and studied in the article above. \nList only biomarkers that some findings or knowledge is in the article. \nFor each such biomarker extract name, type, description, notes and findings.\nFor findings, put the findings about the biomarker that are either referenced, result or discussed in the article.\nFor description, put general description of the biomarker, that description do not need \nto be in the article but should be descriptive.\nFor notes, put general notes about biomarker that are explicitly noted in the article besides findings. \nFor each finding generate a formal knowledge triplet separated to \"subject\",\"predicate\",\n\"object\" where \"subject\" is biomarker, \"predicate\" is verb from finding and \"object\" is an object\nfrom the finding.\nIf there is no knowledge in the article, generate a generic knowledge that relates to colorectal cancer and put single word 'generic knowledge' into the notes.\nReturn the response in strict JSON format with the following structure:\n\n[\n  { \"name\": \"biomarker name\",\"type\":\"biomarker type\",\"description\":\"biomarker description\",\"findings\":\"brief findings about biomarker in article as one sentence\",\"notes\":\"additional notes important to biomarker or 'generic'\", \"knowledge\":[{\"subject\":\"repeated biomarker name\",\"predicate\":\"verb that connects subject and object from findings\",\"object\":\"object that relates via predicate to the biomarker\" }],\n  { \"name\": \"biomarker2 name\",\"type\":\"biomarker2 type\",\"description\":\"biomarker2 description\",\"findings\":\"brief findings about biomarker2 in article as one sentence\",\"notes\":\"additional notes important to biomarker2 or 'generic'\", \"knowledge\":[{\"subject\":\"repeated biomarker2 name\",\"predicate\":\"verb that connects subject and object from findings\",\"object\":\"object that relates via predicate to the biomarker2\" }] }\n] \n\nEnsure there is no additional explanation, only return valid JSON.\n"
+        }
+    }
+}
